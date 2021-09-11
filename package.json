@@ -1,0 +1,24 @@
+{
+  "name": "monicabrowneweddings",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^11.1.0",
+    "next-seo": "^4.26.0",
+    "react": "17.0.1",
+    "react-dom": "^16.14.0",
+    "react-gtm-module": "^2.0.11",
+    "react-modal-video": "^1.2.6",
+    "react-player": "^2.9.0",
+    "sass": "^1.32.8",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}

@@ -1,0 +1,34 @@
+			<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+				<url>
+						<loc>https://monicabrowneweddings.com</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/about</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/wedding-services</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/testimonials</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/gallery</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/locations/annapolis</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/locations/bethesda</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/locations/silver-spring</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/locations/washington-dc</loc>
+				</url>
+				<url>
+						<loc>https://monicabrowneweddings.com/contact</loc>
+				</url>
+			</urlset>
+    )
+}

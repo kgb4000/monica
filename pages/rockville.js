@@ -14,9 +14,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'DC Wedding Planner | Monica Browne Weddings',
+    title: 'Rockville Wedding Planner | Monica Browne Weddings',
     description:
-      "Planning a wedding in Washington DC and don't know where to start? Let us help. We can help DC couples plan the wedding of your dreams",
+      "Planning a wedding in Rockville and don't know where to start? Let us help. We can help Rockville couples plan the wedding of your dreams",
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -40,8 +40,8 @@ export default function Home() {
         }}
       />
       <HeroSection
-        heroText="Wedding Planning For Washington Couples"
-        subText="We Create Beautiful Weddings For Busy Couples in Washington"
+        heroText="Wedding Planning For Couples in Rockville"
+        subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"
         buttonText="Book a Call"
         backgroundImage="../WebP-images/walking-down-aisle.webp"
         buttonLink={calendly}
@@ -50,16 +50,13 @@ export default function Home() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Washington DC</h1>
+            <h1 className="title">Wedding Planner in Rockville</h1>
             <p className="intro">
               Even though you may not know where to start planning your wedding,
               you can still have the wedding of your dreams. Monica Browne
               Weddings is here to help and guide you through the process. With
               our help and guidance, you will undoubtedly get the wedding you
               want and have time to do the other essential things in your life.
-              We work with couples in Dc, and throughout the Washington DC area
-              and are happy to bring your whatever vision you have for your
-              wedding, to life.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -72,9 +69,7 @@ export default function Home() {
           <div className="service-content">
             <div className="painpoints">
               <div className="painpoints--content">
-                <h2 className="title">
-                  Planning A Wedding Can Be Stressful And Frustrating
-                </h2>
+                <h2 className="title">Planning A Wedding Can Be A Lot</h2>
                 <PainPoints>
                   <li>Not knowing what you want and where to start planning</li>
                   <li>
@@ -110,8 +105,8 @@ export default function Home() {
             <Services>
               <div className="wedding-service">
                 <Image
-                  src="/WebP-images/bride-groom-night-photo-1.webp"
-                  alt="Bride and groom night photo"
+                  src="/WebP-images/bride-groom-happy.webp"
+                  alt="Happily Married Couple"
                   width="472"
                   height="708"
                 />
@@ -128,8 +123,8 @@ export default function Home() {
               </div>
               <div className="wedding-service">
                 <Image
-                  src="/WebP-images/bride-at-wedding.webp"
-                  alt="Bride with white flower bouguet"
+                  src="/WebP-images/wedding-flower-centerpiece-design.webp"
+                  alt="Wedding Floral Design"
                   width="472"
                   height="708"
                 />
@@ -148,7 +143,7 @@ export default function Home() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding in Washington DC Easier
+              We Make Planning Your Wedding In Rockville Simple
             </h2>
             <div>
               <Simple>
@@ -275,7 +270,7 @@ const Main = styled('div')`
 
 .center-text {
   max-width: 40rem;
-  padding: 2rem 0;
+  padding: 1rem 2rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -371,7 +366,7 @@ const Services = styled('div')`
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    grid-gap: 20px;
+    grid-gap: 10px;
     max-width: 100%;
     margin: 0 auto;
   }
@@ -405,7 +400,7 @@ const Gallery = styled('div')`
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    grid-gap: 20px;
+    grid-gap: 10px;
     max-width: 100%;
     margin: 0 auto;
   }

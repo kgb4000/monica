@@ -1,111 +1,104 @@
 import { useState } from 'react'
+import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 
-const calendly = "https://calendly.com/monica-17/monica-browne-weddings-call"
+const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 const Services = () => {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-		title: "Wedding Services | Monica Browne Weddings",
-		description: "Wedding Services from Monica Browne Weddings include Full Service Wedding Planning, Day-of Cordination, Wedding Decor, Flowers, and Floral Design.",
-		openGraph: {
-			type: "website",
-			locale: "en_US",
-			url: "https://monicabrowneweddings.com/services",
-			site_name: "Monica Browne Weddings",
-			image: "bride-with-flowers.jpg"
-		},
-	}
+    title: 'Wedding Services | Monica Browne Weddings',
+    description:
+      'Wedding Services from Monica Browne Weddings include Full Service Wedding Planning, Day-of Cordination, Wedding Decor, Flowers, and Floral Design.',
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      url: 'https://monicabrowneweddings.com/services',
+      site_name: 'Monica Browne Weddings',
+      image: 'bride-with-flowers.jpg',
+    },
+  }
   return (
     <>
-      <NextSeo {...SEO } />
-      <HeroSection 
-          heroText="Wedding Services"
-          subText="Services We Provide To Our Wonderful Couples"
-          buttonText="Book a Call"
-          backgroundImage="../WebP-images/black-red-wedding-decor.webp"
-          buttonLink={calendly}
-          backgroundHeight="100vh"
+      <NextSeo
+        {...SEO}
+        robotsProps={{
+          nosnippet: true,
+          notranslate: true,
+          noimageindex: true,
+          noarchive: true,
+          maxSnippet: -1,
+          maxImagePreview: 'none',
+          maxVideoPreview: -1,
+        }}
+      />
+      <HeroSection
+        heroText="Wedding Services"
+        subText="Services We Provide To Our Wonderful Couples"
+        buttonText="Book a Call"
+        backgroundImage="../WebP-images/black-red-wedding-decor.webp"
+        buttonLink={calendly}
+        backgroundHeight="100vh"
       />
       <Main>
-      <div className='container'>
-        <h2 className='title'>Our Services</h2>
-        <div className="content">
-          <div className='services-1'>
-            <img src='../WebP-images/happy-bride-and-groom.webp' alt="Happy bride and groom"/>
-            <h3 className='title'>Wedding Planning</h3>
-            <ServiceList>
-              <li>Budget development and management</li>
-              <li>Wedding theme development and design</li>
-              <li>Scheduling appointments and meetings</li>
-              <li>Meeting with wedding vendors</li>
-              <li>Wedding vendor contract and service aggreement review</li>
-              <li>Wedding rehearsal coordination and supervision</li>
-              <li>Wedding vendor contract and service agreement review</li>
-              <li>Plus more</li>
-            </ServiceList>
-            <div className='center'>
-              <a href={calendly}>
-								<Button>Book a call</Button>
-							</a>
+        <div className="container">
+          <h1 className="title">Our Services</h1>
+          <div className="content">
+            <div className="services-1">
+              <img
+                src="../WebP-images/happy-bride-and-groom.webp"
+                alt="Happy bride and groom"
+              />
+              <h3 className="title">Wedding Planning</h3>
+              <p>
+                We're proud to offer couples complete wedding planning services
+                or day-of coordination. Whatever you need, we're happy to create
+                a customized package that fits your needs. Give us a call to
+                learn more about our full-service or ala carte packages.
+              </p>
+              <Link href="/wedding-services/wedding-planning">
+                <a>Read more</a>
+              </Link>
             </div>
-          </div>
-          <div className='services-2'>
-            <img src='../WebP-images/tall-wedding-flowers-centerpiece.webp' alt="Wedding decorations"/>
-            <h3 className='title'>Wedding Decor</h3>
-            <ServiceList>
-              <li>Ceremony design</li>
-              <li>Reception design (tent, lighting, dancefloor, signage, etc)</li>
-              <li>Cocktail hour design</li>
-              <li>Seating charts</li>
-              <li>Lounge area design</li>
-              <li>Lighting design</li>
-              <li>Table design (tables, linens, chairs, centerpieces, napkins, placecards, glassware, etc)</li>
-              <li>Plus more</li>
-            </ServiceList>
-            <div className='center'>
-              <a href={calendly}>
-								<Button>Book a call</Button>
-							</a>
+            <div className="services-2">
+              <img
+                src="../WebP-images/tall-wedding-flowers-centerpiece.webp"
+                alt="Wedding decorations"
+              />
+              <h3 className="title">Wedding Decorations</h3>
+              <p>
+                In addition to wedding planning, and custom floral designs, we
+                are pleased to offer our couples wedding decor services.
+              </p>
             </div>
-          </div>
-          <div className='services-3'>
-            <img src='../WebP-images/wedding-flower-centerpiece-design.webp' alt="Wedding floral design"/>
-            <h3 className='title'>Wedding Flowers</h3>
-            <ServiceList>
-              <li>Flower recommendations (based on the season)</li>
-              <li>Custom floral designs</li>
-              <li>Table Centerpieces</li>
-              <li>Boutonnieres</li>
-              <li>Bouquets</li>
-              <li>Arch / Arbor with floral accents</li>
-              <li>Table design</li>
-              <li>Linen selection</li>
-              <li>Plus more</li>
-            </ServiceList>
-            <div className='center'>
-              <a href={calendly}>
-								<Button>Book a call</Button>
-							</a>
+            <div className="services-3">
+              <img
+                src="../WebP-images/wedding-flower-centerpiece-design.webp"
+                alt="Wedding floral design"
+              />
+              <h3 className="title">Wedding Flowers</h3>
+              <p>
+                Your local wedding planners and wedding florists at Monica
+                Browne Weddings are here to help. We offer a stunning range of
+                flowers for every aspect of your wedding. We will help you
+                choose designs around what you like while offering new wedding
+                flower ideas. If you need us to plan...
+              </p>
+              <Link href="/wedding-services/wedding-flowers">
+                <a>Read more</a>
+              </Link>
             </div>
           </div>
         </div>
-        <div className='center'>
-          <a href={calendly}>
-            <Button>Book a call</Button>
-          </a>
-        </div>
-      </div>
       </Main>
     </>
   )
 }
 
 const Main = styled.main`
-
   .content {
     text-align: left;
   }
@@ -114,7 +107,7 @@ const Main = styled.main`
     display: none;
   }
 
-  .btn {
+  .ipad-button {
     display: none;
   }
 
@@ -124,9 +117,7 @@ const Main = styled.main`
     margin-bottom: 2rem;
   }
 
-
   @media (min-width: 768px) {
-
     .content {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -142,7 +133,7 @@ const Main = styled.main`
     }
 
     .services-1 {
-    grid: 1 / 2;
+      grid: 1 / 2;
     }
 
     .services-2 {
@@ -159,34 +150,9 @@ const Main = styled.main`
       display: none;
     }
 
-    .outside-btn {
+    .ipad-button {
       display: block;
     }
-
-    
-  }
-
-`
-
-const ServiceList = styled('ul')`
-
-  .content {
-    text-align: left;
-  }
-
-  max-width: 15rem;
-  margin: 0 auto;
-
-  li {
-    font-size: 1.4rem;
-    font-weight: 100;
-  }
-
-  @media (min-width: 768px) {
-
-    display: grid;
-    grid-template-colums: repeat(4, 1fr);
-    max-width: 80%;
   }
 `
 

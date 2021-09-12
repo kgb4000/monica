@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
-
 import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -14,13 +12,13 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'DC Wedding Planner | Monica Browne Weddings',
+    title: 'Chevy Chase Wedding Planner | Monica Browne Weddings',
     description:
-      "Planning a wedding in Washington DC and don't know where to start? Let us help. We can help DC couples plan the wedding of your dreams",
+      "Are you a couple in Chevy Chase planning your wedding and need help? Don't stress. We at Monica Browne Weddings help couples plan the wedding of their dreams.",
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/washington-dc',
+      url: 'https://monicabrowneweddings.com/bethesda',
       site_name: 'Monica Browne Weddings',
       image: 'bride-with-flowers.jpg',
     },
@@ -40,8 +38,8 @@ export default function Home() {
         }}
       />
       <HeroSection
-        heroText="Wedding Planning For Washington Couples"
-        subText="We Create Beautiful Weddings For Busy Couples in Washington"
+        heroText="Wedding Planning For Chevy Chase Couples"
+        subText="We Help Couples in Chevy Chase Plan Their Dream Wedding"
         buttonText="Book a Call"
         backgroundImage="../WebP-images/walking-down-aisle.webp"
         buttonLink={calendly}
@@ -50,16 +48,14 @@ export default function Home() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Washington DC</h1>
+            <h1 className="title">Wedding Planner in Chevy Chase Maryland</h1>
             <p className="intro">
               Even though you may not know where to start planning your wedding,
               you can still have the wedding of your dreams. Monica Browne
-              Weddings is here to help and guide you through the process. With
-              our help and guidance, you will undoubtedly get the wedding you
-              want and have time to do the other essential things in your life.
-              We work with couples in Dc, and throughout the Washington DC area
-              and are happy to bring your whatever vision you have for your
-              wedding, to life.
+              Weddings is here to help couples in Bethesda through the planning
+              process. With our help and guidance, you will undoubtedly get the
+              wedding you want and have all the time to do the other important
+              things in your life.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -73,21 +69,17 @@ export default function Home() {
             <div className="painpoints">
               <div className="painpoints--content">
                 <h2 className="title">
-                  Planning A Wedding Can Be Stressful And Frustrating
+                  Planning A Wedding Can Be Overwhelming
                 </h2>
                 <PainPoints>
-                  <li>Not knowing what you want and where to start planning</li>
+                  <li>Not knowing what you want and where to start</li>
+                  <li>Information overload from corporate wedding blogs</li>
                   <li>
-                    Information overload from big wedding websites and blogs
-                  </li>
-                  <li>
-                    Having to trust vendors that you don't know with the most
+                    Having to trust people that you don't know with the most
                     important day of your life
                   </li>
-                  <li>
-                    Setting up a timeline, guest lodging, ans seating charts
-                  </li>
-                  <li>Budgeting and managing your wedding</li>
+                  <li>Worrying about out of town guests</li>
+                  <li>You still have a busy life</li>
                   <li>Relying on friends that may not come through</li>
                   <li>Dealing with new Covid-19 protocols</li>
                 </PainPoints>
@@ -109,29 +101,23 @@ export default function Home() {
             <h2 className="title">Our Services</h2>
             <Services>
               <div className="wedding-service">
-                <Image
-                  src="/WebP-images/bride-groom-night-photo-1.webp"
-                  alt="Bride and groom night photo"
-                  width="472"
-                  height="708"
+                <img
+                  src="../WebP-images/bride-groom-happy.webp"
+                  alt="Happily Married Couple"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
-                <Image
-                  src="/WebP-images/wedding-table-setting.webp"
+                <img
+                  src="../WebP-images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
-                  width="472"
-                  height="708"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
-                <Image
-                  src="/WebP-images/bride-at-wedding.webp"
-                  alt="Bride with white flower bouguet"
-                  width="472"
-                  height="708"
+                <img
+                  src="../WebP-images/wedding-flower-centerpiece-design.webp"
+                  alt="Wedding Floral Design"
                 />
                 <h3 className="title">Wedding Flowers</h3>
               </div>
@@ -148,28 +134,19 @@ export default function Home() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding in Washington DC Easier
+              We Make Planning Your Wedding in Bethesda Easier
             </h2>
             <div>
               <Simple>
                 <li>
-                  <h4>Talk To Monica</h4>
-                  <p>
-                    Book your first call with Monica and see how she can help
-                    you plan your wedding.
-                  </p>
+                  Schedule your call with Monica and see how she can help plan
+                  your wedding
                 </li>
                 <li>
-                  <h4>Create A Budget</h4>
-                  <p>
-                    Work out your budget and start planning your wedding
-                    details.
-                  </p>
+                  Work together with Monica on your budget and sort out the
+                  details for your ceremony and reception
                 </li>
-                <li>
-                  <h4>Enjoy Your Wedding Day</h4>
-                  <p>Just enjoy your wedding day and cherish the moment.</p>
-                </li>
+                <li>Enjoy your wedding day with no worries and no stress</li>
               </Simple>
             </div>
             <h3 className="center-text">
@@ -215,14 +192,12 @@ export default function Home() {
           <div className="content">
             <h2 className="title">Testimonials</h2>
             <Testimonial>
-              It has been 5 years and I still have family and friends tell me
-              how beautiful my wedding day was. I could not have been more
-              pleased at their work. They listened to all my wants and carried
-              them out exactly how I asked them to. They were nice,
-              understanding and very easy to work with. They kept me on track
-              and made the experience enjoyable.
+              I am soooo indecisive when it comes to almost anything! Monica was
+              super patient and extremely helpful in making my vision come to
+              life! I am so thankful for her creative ability and
+              professionalism! THANK YOU!!
             </Testimonial>
-            <TestimonialAuthor>Katrina</TestimonialAuthor>
+            <TestimonialAuthor>Aleta</TestimonialAuthor>
             <div className="center">
               <Link href="/testimonials">
                 <a>
@@ -235,24 +210,15 @@ export default function Home() {
         <section className="gallery container">
           <h2 className="title">Gallery</h2>
           <Gallery>
-            <Image
-              src="/WebP-images/bride-with-flowers.webp"
+            <img
+              src="../WebP-images/bride-with-flowers.webp"
               alt="Bride with flowers"
-              width="472"
-              height="708"
             />
-            <Image
-              src="/WebP-images/bride-groom-happy.webp"
+            <img
+              src="../WebP-images/bride-groom-happy.webp"
               alt="Bride and Groom"
-              width="472"
-              height="708"
             />
-            <Image
-              src="/WebP-images/wedding-cake.webp"
-              alt="Bride and Groom"
-              width="472"
-              height="708"
-            />
+            <img src="../WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
             <Link href="/gallery">
@@ -275,7 +241,7 @@ const Main = styled('div')`
 
 .center-text {
   max-width: 40rem;
-  padding: 2rem 0;
+  padding: 1rem 2rem;
   text-align: center;
   margin: 0 auto;
 }

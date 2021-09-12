@@ -1,0 +1,44 @@
+import styled from 'styled-components'
+
+const Simple = styled('ul')`
+  max-width: 40rem;
+  margin: 0 auto;
+  counter-reset: li;
+
+  li {
+    padding-left: 3.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+    list-style-type: none;
+    font-weight: 200;
+
+    @media (min-width:768px) {
+      padding-left: 5rem;
+    }
+
+    ::before {
+      counter-increment: li;
+      content: counter(li);
+      color: #fff;
+      font-size: 1rem;
+      background: #000;
+      line-height: 35px;
+      width: 35px;
+      height: 35px;
+      border-radius: 100%;
+      display: inline-block;
+      text-align: center;
+      left: 0px;
+      position: absolute;
+      top:  -0.3rem;
+      border: 1px solid #000;
+      font-weight: 200;
+
+      @media (min-width: 768px) {
+
+        top:  0.5rem;
+      }
+  }
+`
+
+export default Simple

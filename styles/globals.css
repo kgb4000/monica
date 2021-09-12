@@ -10,38 +10,13 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #2d3436;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    color: #101010;
-    background-color: #F7F9FC;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1500px;
-  padding: 1rem 1.2rem;
-  background-color:#fff;
-}
-
-.footer-container {
-  margin: 0 auto;
-  max-width: 1500px;
-  background-color:#dfe6e9;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-h1,
-h2,
-h3 {
-  font-family: minerva-modern, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #2d3436;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #101010;
+  background-color: #f7f9fc;
 }
 
 a {
@@ -49,55 +24,11 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-}
-
-h3.center-text {
-  font-size: 1.2rem;
-}
-
-@media (min-width: 768px) {
-  h3.center-text {
-    font-size: 1.6rem;
-  }
-}
-
-p,
-li {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-p,
-ul li {
-  font-weight: 200;
-  margin-bottom: 1rem;;
-}
-
-@media (min-width: 768px) {
-  .content p,
-  ul li  {
-    font-weight: 200;
-    font-size: 1.6rem;
-    line-height: 1.8;
-  }
+.container {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 1rem 2rem;
+  background-color: #fff;
 }
 
 img {
@@ -108,10 +39,78 @@ section {
   margin: 2rem 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: minerva-modern, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+h4 {
+  font-weight: 700;
+}
 
 @media (min-width: 768px) {
-  .content {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+h3.center-text {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  h3.center-text {
+    font-size: 1.6rem;
+  }
+}
+
+p,
+li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+p,
+ul li {
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  p,
+  ul li {
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.8;
   }
 }
 
@@ -123,14 +122,15 @@ section {
 
 @media (min-width: 768px) {
   h1.title {
-    margin: 5rem auto;
+    margin-top: 3rem auto;
+    max-width: 40rem;
     font-size: 3rem;
   }
 
   h2.title {
-    margin: 4rem auto;
-    max-width: 50rem;
-    font-size: 3rem;;
+    margin-top: 3rem auto;
+    max-width: 40rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -140,7 +140,12 @@ section {
 }
 
 .video-section {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.53)), url('/WebP-images/kiss-at-wedding.webp');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.53)
+    ),
+    url('/WebP-images/kiss-at-wedding.webp');
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -163,7 +168,7 @@ section {
 
 .player-wrapper {
   position: relative;
-  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 }
 
 .react-player {
@@ -172,9 +177,8 @@ section {
   left: 0;
 }
 
-
-
-
-
-
-
+.footer-container {
+  margin: 0 auto;
+  max-width: 1500px;
+  background-color: #dfe6e9;
+}

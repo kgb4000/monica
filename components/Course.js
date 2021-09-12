@@ -5,8 +5,11 @@ import Button from '../components/Button'
 const Course = () => {
   return (
     <PopUp>
-      <div className='container'>
-        <h3>Learn the 5 Mistakes Couples Make When Planning Their Wedding and How To Avoid Them</h3>
+      <div className="container">
+        <h3>
+          Learn the 5 Mistakes Couples Make When Planning Their Wedding and How
+          To Avoid Them
+        </h3>
         <p>In his 5 part video series, you will learn:</p>
         <ul>
           <li>Why you need a budget!</li>
@@ -17,7 +20,7 @@ const Course = () => {
         </ul>
         <h3>Sign up now fro FREE!</h3>
         <form>
-          <input type='email' placeholder='Email' />
+          <input type="email" placeholder="Email" />
           <Button>I want to know</Button>
           <Button>I don't want to know</Button>
         </form>
@@ -27,7 +30,6 @@ const Course = () => {
 }
 
 const PopUp = styled('div')`
-
   display: flex;
   justify-content: center;
   align-content: center;

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
@@ -42,7 +41,7 @@ export default function Home() {
         heroText="Wedding Planning For Annapolis Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Annapolis"
         buttonText="Book a Call"
-        backgroundImage="../WebP-images/walking-down-aisle.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_60/v1631499014/walking-down-aisle_1_skgfet.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -115,29 +114,25 @@ export default function Home() {
             <h2 className="title">Our Services</h2>
             <Services>
               <div className="wedding-service">
-                <Image
-                  src="/WebP-images/bride-groom-happy.webp"
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495885/happy-bride-and-groom_bwyebx.webp"
                   alt="Happily Married Couple"
-                  width="472"
-                  height="708"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
-                <Image
-                  src="/WebP-images/wedding-table-setting.webp"
-                  alt="Wedding Decor and Design"
-                  width="472"
-                  height="708"
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-with-flowers_xahpez.webp"
+                  alt="Wedding Decorations and Design"
+                  rel="noreferrer"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
-                <Image
-                  src="/WebP-images/wedding-flower-centerpiece-design.webp"
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
                   alt="Wedding Floral Design"
-                  width="472"
-                  height="708"
+                  rel="noreferrer"
                 />
                 <h3 className="title">Wedding Flowers</h3>
               </div>
@@ -251,23 +246,20 @@ export default function Home() {
         <section className="gallery container">
           <h2 className="title">Gallery</h2>
           <Gallery>
-            <Image
-              src="/WebP-images/beautiful-bride-flowers.webp"
+            <img
+              src="https://res.cloudinary.com/browne-company/image/upload/v1631495883/beautiful-bride-flowers_ho8plu.webp"
               alt="Bride with flowers"
-              width="472"
-              height="708"
+              rel="noreferrer"
             />
-            <Image
-              src="/WebP-images/bride-groom-happy.webp"
+            <img
+              src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-groom-happy_xr217b.webp"
               alt="Bride and Groom"
-              width="472"
-              height="708"
+              rel="noreferrer"
             />
-            <Image
-              src="/WebP-images/tall-wedding-flowers-centerpiece.webp"
+            <img
+              src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
               alt="Wedding table centerpiece"
-              width="472"
-              height="708"
+              rel="noreferrer"
             />
           </Gallery>
           <div className="center">

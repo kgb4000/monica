@@ -40,7 +40,7 @@ const About = () => {
         heroText="About us"
         subText="Wedding Planner | Day-of Coordinator"
         buttonText="Book a Call"
-        backgroundImage="../WebP-images/monica-browne-wedding-planner.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
         buttonLink={calendly}
         backgroundHeight="80vh"
       />
@@ -102,7 +102,7 @@ const About = () => {
             <h1 className="title"> About Monica</h1>
             <Team className="team">
               <img
-                src="../WebP-images/monica-browne-wedding-planner.webp"
+                src="https://res.cloudinary.com/browne-company/image/upload/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
                 className="about-img"
                 alt="Monica browne Wedding Planner"
                 title="Monica Browne Wedding Planner"

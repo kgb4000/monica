@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
@@ -100,29 +99,23 @@ export default function Home() {
             <h2 className="title">Our Services</h2>
             <Services>
               <div className="wedding-service">
-                <Image
+                <img
                   src="/WebP-images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
-                  width="472"
-                  height="708"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
-                <Image
+                <img
                   src="/WebP-images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
-                  width="472"
-                  height="708"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
-                <Image
+                <img
                   src="/WebP-images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
-                  width="472"
-                  height="708"
                 />
                 <h3 className="title">Wedding Flowers</h3>
               </div>
@@ -226,24 +219,15 @@ export default function Home() {
         <section className="gallery container">
           <h2 className="title">Gallery</h2>
           <Gallery>
-            <Image
+            <img
               src="/WebP-images/bride-with-flowers.webp"
               alt="Bride with flowers"
-              width="472"
-              height="708"
             />
-            <Image
+            <img
               src="/WebP-images/bride-groom-happy.webp"
               alt="Bride and Groom"
-              width="472"
-              height="708"
             />
-            <Image
-              src="/WebP-images/wedding-cake.webp"
-              alt="Bride and Groom"
-              width="472"
-              height="708"
-            />
+            <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
             <Link href="/gallery">

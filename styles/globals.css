@@ -145,7 +145,7 @@ ul li {
       rgba(245, 246, 252, 0.52),
       rgba(117, 19, 93, 0.53)
     ),
-    url('/WebP-images/kiss-at-wedding.webp');
+    url('https://res.cloudinary.com/browne-company/image/upload/v1631495885/kiss-at-wedding_hdbrht.webp');
   background-size: cover;
   background-position: center;
   height: 60vh;

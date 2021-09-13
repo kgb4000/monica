@@ -107,21 +107,21 @@ export default function Home() {
             <Services>
               <div className="wedding-service">
                 <img
-                  src="../WebP-images/bride-groom-happy.webp"
+                  src="/WebP-images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="../WebP-images/wedding-table-setting.webp"
+                  src="/WebP-images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="../WebP-images/wedding-flower-centerpiece-design.webp"
+                  src="/WebP-images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
                 />
                 <h3 className="title">Wedding Flowers</h3>
@@ -225,14 +225,14 @@ export default function Home() {
           <h2 className="title">Gallery</h2>
           <Gallery>
             <img
-              src="../WebP-images/bride-with-flowers.webp"
+              src="/WebP-images/bride-with-flowers.webp"
               alt="Bride with flowers"
             />
             <img
-              src="../WebP-images/bride-groom-happy.webp"
+              src="/WebP-images/bride-groom-happy.webp"
               alt="Bride and Groom"
             />
-            <img src="../WebP-images/wedding-cake.webp" alt="Bride and Groom" />
+            <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
             <Link href="/gallery">

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import img from 'next/image'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'

@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
-import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'

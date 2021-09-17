@@ -21,9 +21,22 @@ export const getStaticProps = async () => {
 }
 
 export default function Blog({ data }) {
+  const SEO = {
+    title: 'Blog | Monica Browne Weddings',
+    description:
+      'Blog for Monica Browne Weddings. Helping couples navigate wedding planning.',
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      url: 'https://monicabrowneweddings.com/blog',
+      site_name: 'Monica Browne Weddings',
+      image: post.coverImage.url,
+    },
+  }
   return (
     <div>
       <NextSeo
+        {...SEO}
         robotsProps={{
           nosnippet: true,
           notranslate: true,

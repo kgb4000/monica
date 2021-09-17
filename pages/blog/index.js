@@ -132,7 +132,7 @@ const Main = styled('div')`
   @media (min-width: 768px) {
     .content {
       display: flex;
-      max-width: 60rem;
+      max-width: 80rem;
       margin: 0 auto;
     }
     .blog-posts {
@@ -175,22 +175,75 @@ const Main = styled('div')`
       }
 
       p {
+        font-size: 1rem;
         font-weight: 0.6rem;
       }
     }
   }
-`
 
-const WhiteButton = styled(Button)`
-  border: #fff;
-  color: #fff;
-  background-color: transparent;
-  border: 2px solid #fff;
-  font-weight: bold;
+  @media (min-width: 900px) {
+    .blog-post {
+      .blog-info {
+        width: 50%;
 
-  :hover {
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
+        p {
+          font-size: 0.6rem;
+        }
+      }
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0.1rem 0;
+      }
+    }
+
+    .sidebar {
+      width: 20%;
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 0.6rem;
+      }
+  }
+
+  @media (min-width: 1440px) {
+    .blog-post {
+
+      .blog-img {
+        width: 50%;
+        margin-right: 5%;
+      }
+
+      .blog-info {
+        width: 50%;
+
+        p {
+          font-size: 0.6rem;
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0.1rem 0;
+      }
+    }
+
+    .sidebar {
+      width: 20%;
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 0.6rem;
+      }
   }
 `

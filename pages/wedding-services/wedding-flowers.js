@@ -216,7 +216,7 @@ export default function Home() {
               what we can to help. It always amazes us how kind and generous our
               clients are with their feedback and experiences. See our gallery
               of wedding photos from some of our happy couples{' '}
-              <Link href="/gallery">
+              <Link href="/wedding-gallery">
                 <a>here</a>
               </Link>
               . Read testimonials from some of our valued clients{' '}

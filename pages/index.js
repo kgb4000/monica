@@ -3,13 +3,24 @@ import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
-
 import { NextSeo } from 'next-seo'
+import { getPosts } from '../lib/data'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+export const getStaticProps = async () => {
+  const data = await getPosts()
+
+  return {
+    props: {
+      data,
+    },
+  }
+}
+
+export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   return (
     <div>
@@ -28,19 +39,20 @@ export default function Home() {
         heroText="Wedding Planning For Busy Maryland & DC Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland & DC"
         buttonText="Book a Call"
-        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/v1631495883/bride-groom-serious-love_i9lo4u.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495883/bride-groom-serious-love_i9lo4u.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner</h1>
+            <h1 className="title">Monica Browne Weddings</h1>
             <p className="intro">
               Many busy couples getting married nowadays struggle to find the
               time to plan the wedding they want. We at Monica Browne Weddings
-              can help you plan the wedding of your dreams and leave you with
-              more time for your busy schedule.
+              help couples in Maryland and Washington DC, plan the wedding of
+              their dreams, leaving them with more time for their busy
+              schedules.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -82,44 +94,9 @@ export default function Home() {
           </div>
         </section>
         <section className="container">
-          <div className="content">
-            <h2 className="title">Our Services</h2>
-            <Services>
-              <div className="wedding-service">
-                <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-groom-happy_xr217b.webp"
-                  alt="Happily Married Couple"
-                />
-                <h3 className="title">Wedding Planning</h3>
-              </div>
-              <div className="wedding-service">
-                <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-decor_f3daqm.webp"
-                  alt="Wedding Decor and Design"
-                />
-                <h3 className="title">Wedding Decorations</h3>
-              </div>
-              <div className="wedding-service">
-                <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
-                  alt="Wedding Floral Design"
-                />
-                <h3 className="title">Wedding Flowers</h3>
-              </div>
-            </Services>
-            <div className="center">
-              <Link href="/wedding-services">
-                <a>
-                  <Button>More Services</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section>
-        <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding In Maryland & DC Simple{' '}
+              Monica Browne Weddings Makes Planning Simple
             </h2>
             <div>
               <Simple>
@@ -153,6 +130,42 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="container">
+          <div className="content">
+            <h2 className="title">Our Services</h2>
+            <Services>
+              <div className="wedding-service">
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-groom-happy_xr217b.webp"
+                  alt="Happily Married Couple"
+                />
+                <h3 className="title">Wedding Planning</h3>
+              </div>
+              <div className="wedding-service">
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-decor_f3daqm.webp"
+                  alt="Wedding Decor and Design"
+                />
+                <h3 className="title">Wedding Decorations</h3>
+              </div>
+              <div className="wedding-service">
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
+                  alt="Wedding Floral Design"
+                />
+                <h3 className="title">Wedding Flowers</h3>
+              </div>
+            </Services>
+            <div className="center">
+              <Link href="/wedding-services">
+                <a>
+                  <Button>More Services</Button>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <section className="container">
           <div className="content">
             <h2 className="title">
@@ -201,24 +214,60 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="container">
+          <div className="blog-content">
+            <h2 className="title">Monica's Blog</h2>
+            <div className="blog-posts">
+              {data.posts.map((post) => (
+                <div key={post.slug}>
+                  <Link href={`/blog/${post.slug}`}>
+                    <a>
+                      <div className="blog-post">
+                        <img className="blog-img" src={post.coverImage.url} />
+                        <div className="blog-info">
+                          <p>
+                            {new Date(post.date).toLocaleDateString('en-us', {
+                              year: 'numeric',
+                              month: 'short',
+                              day: 'numeric',
+                            })}
+                          </p>
+                          <h3>{post.title}</h3>
+                          <p>Read more</p>
+                        </div>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+              ))}
+            </div>
+            <div className="center">
+              <Link href="/blog">
+                <a>
+                  <Button>Read More Posts</Button>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </section>
         <section className="gallery container">
           <h2 className="title">Gallery</h2>
           <Gallery>
             <img
-              src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-with-flowers_xahpez.webp"
+              src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-with-flowers_xahpez.webp"
               alt="Bride with flowers"
             />
             <img
-              src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-groom-happy_xr217b.webp"
+              src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-groom-happy_xr217b.webp"
               alt="Bride and Groom"
             />
             <img
-              src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-cake_jukdnu.webp"
+              src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-cake_jukdnu.webp"
               alt="Bride and Groom"
             />
           </Gallery>
           <div className="center">
-            <Link href="/gallery">
+            <Link href="/wedding-gallery">
               <a>
                 <Button>See More Pictures</Button>
               </a>
@@ -246,14 +295,47 @@ const Main = styled('div')`
     padding-bottom: 4rem;
   }
 
+  .blog-info {
+    margin-top: 1rem;
+  }
+
   @media (min-width: 768px) {
     .content {
       display: block;
       margin: 0 auto;
 
       .intro {
-        max-width: 40rem;
+        max-width: 60rem;
         margin: 0 auto;
+      }
+    }
+
+    .blog-post {
+      display: flex;
+      margin-bottom: 2rem;
+      margin-right: 2rem;
+      max-width: 60rem;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      align-items: center;
+
+      .blog-img {
+        width: 45%;
+        margin-right: 5%;
+      }
+
+      .blog-info {
+        margin-top: 0;
+        width: 50%;
+        text-align: left;
+        p {
+          font-size: 0.6rem;
+        }
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
       }
     }
 
@@ -275,6 +357,12 @@ const Main = styled('div')`
         margin: 0 auto;
       }
     }
+
+    @media (min-width: 1440px) {
+       .blog-info h3 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
   }
 `
 
@@ -380,16 +468,4 @@ const Gallery = styled('div')`
     max-width: 100%;
     margin: 0 auto;
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 40rem;
-  margin: 0 auto;
-  margin-top: 2rem;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: 200;
 `

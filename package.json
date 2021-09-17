@@ -8,6 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.3.0",
+    "graphql": "^15.5.3",
+    "graphql-request": "^3.5.0",
     "next": "^11.1.0",
     "next-seo": "^4.26.0",
     "react": "17.0.1",

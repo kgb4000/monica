@@ -3,6 +3,7 @@ import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
@@ -41,7 +42,7 @@ export default function Home() {
         heroText="Wedding Planning For Annapolis Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Annapolis"
         buttonText="Book a Call"
-        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_60/v1631499014/walking-down-aisle_1_skgfet.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -53,8 +54,9 @@ export default function Home() {
               You can have the wedding of your dreams, even if you do not have
               the time to plan it. Monica Browne Weddings is here to help guide
               you through the wedding planning process and leave you more time
-              in your busy schedule. We work with couples in Annapolis, and
-              throughout the Waghtington DC area.
+              for your busy schedule. We work with couples in Annapolis, and
+              throughout the Washington DC area to help make our couples dream
+              wedding to reality.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -149,7 +151,7 @@ export default function Home() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding in Annapolis Simple
+              We Make Wedding Planning For Annapolis Couples Simple
             </h2>
             <div>
               <Simple>
@@ -263,7 +265,7 @@ export default function Home() {
             />
           </Gallery>
           <div className="center">
-            <Link href="/gallery">
+            <Link href="/wedding-gallery">
               <a>
                 <Button>See More Pictures</Button>
               </a>
@@ -298,10 +300,6 @@ const Main = styled('div')`
       display: block;
       margin: 0 auto;
 
-      .intro {
-        max-width: 40rem;
-        margin: 0 auto;
-      }
     }
 
     .service-content {
@@ -417,16 +415,4 @@ const Gallery = styled('div')`
     max-width: 100%;
     margin: 0 auto;
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 40rem;
-  margin: 0 auto;
-  margin-top: 2rem;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: 200;
 `

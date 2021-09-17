@@ -38,7 +38,7 @@ const Services = () => {
         heroText="Wedding Services"
         subText="Services We Provide To Our Wonderful Couples"
         buttonText="Book a Call"
-        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/v1631495889/wedding-table-setting_opiqqu.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495889/wedding-table-setting_opiqqu.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -48,7 +48,7 @@ const Services = () => {
           <div className="content">
             <div className="services-1">
               <img
-                src="https://res.cloudinary.com/browne-company/image/upload/v1631495885/happy-bride-and-groom_bwyebx.webp"
+                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495885/happy-bride-and-groom_bwyebx.webp"
                 alt="Happy bride and groom"
               />
               <h3 className="title">Wedding Planning</h3>
@@ -64,7 +64,7 @@ const Services = () => {
             </div>
             <div className="services-2">
               <img
-                src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
+                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
                 alt="Wedding decorations"
               />
               <h3 className="title">Wedding Decorations</h3>
@@ -75,7 +75,7 @@ const Services = () => {
             </div>
             <div className="services-3">
               <img
-                src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
+                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
                 alt="Wedding floral design"
               />
               <h3 className="title">Wedding Flowers</h3>

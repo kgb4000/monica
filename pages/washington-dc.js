@@ -239,7 +239,7 @@ export default function Home() {
             <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
-            <Link href="/gallery">
+            <Link href="/wedding-gallery">
               <a>
                 <Button>See More Pictures</Button>
               </a>
@@ -274,10 +274,6 @@ const Main = styled('div')`
       display: block;
       margin: 0 auto;
 
-      .intro {
-        max-width: 40rem;
-        margin: 0 auto;
-      }
     }
 
     .service-content {

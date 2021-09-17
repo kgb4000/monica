@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
@@ -15,7 +14,7 @@ const About = () => {
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/about',
+      url: 'https://monicabrowneweddings.com/about-wedding-planner',
       site_name: 'Monica Browne Weddings',
       image: 'bride-with-flowers.jpg',
       description:
@@ -38,9 +37,9 @@ const About = () => {
       />
       <HeroSection
         heroText="About us"
-        subText="Wedding Planner | Day-of Coordinator"
+        subText="Monica Browne Weddings"
         buttonText="Book a Call"
-        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
         buttonLink={calendly}
         backgroundHeight="80vh"
       />
@@ -48,9 +47,9 @@ const About = () => {
         <section className="container">
           <div className="content">
             <h1 className="title" itemProp="name">
-              Wedding Planner | Monica Browne Weddings
+              Monica Browne Weddings
             </h1>
-            <p itemProp="description">
+            <p className="intro" itemProp="description">
               Monica Browne Weddings is a{' '}
               <Link href="/wedding-services/wedding-planning">
                 <a>wedding planning</a>
@@ -102,7 +101,7 @@ const About = () => {
             <h1 className="title"> About Monica</h1>
             <Team className="team">
               <img
-                src="https://res.cloudinary.com/browne-company/image/upload/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
+                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
                 className="about-img"
                 alt="Monica browne Wedding Planner"
                 title="Monica Browne Wedding Planner"

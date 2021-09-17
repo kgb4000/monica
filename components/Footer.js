@@ -11,12 +11,12 @@ const Footer = () => {
           <h3>Monica Browne Weddings</h3>
           <p>
             Monica Browne Weddings is a wedding planning company in Maryland
-            serving all couples in Maryland, DC, and Northern Virginia. We offer
-            Full Service and Partial Wedding Planning services, as well as
-            providing Day-of Coordination, Wedding Decorations, and Custom
-            Wedding Flowers Design Services. If you are a busy couple and need
-            help planning your wedding, or if you just need some help and
-            guidance, please don't hesitate to reach out to us. You can{' '}
+            serving all couples in Maryland and Washington DC. We offer Full
+            Service and Partial Wedding Planning services, as well as providing
+            Day-of Coordination, Wedding Decoration, and Custom Wedding Flowers
+            Design Services. If you are a busy couple and need help planning
+            your wedding, or if you just need some help and guidance, please
+            don't hesitate to reach out to us. You can{' '}
             <a href={calendly}>book a call</a> with us whenever you're ready.
           </p>
           {/* meet.google.com/ife-bxtw-kgn */}
@@ -78,6 +78,18 @@ const Footer = () => {
                   <Link href="/wedding-services" passHref>
                     <a>Wedding Services</a>
                   </Link>
+                  <ul className="ul-footer">
+                    <li>
+                      <Link href="/wedding-services/wedding-planning" passHref>
+                        <a>Wedding Planning</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/wedding-services/wedding-flowers" passHref>
+                        <a>Wedding Flowers</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link href="/wedding-gallery" passHref>
@@ -89,11 +101,11 @@ const Footer = () => {
                     <a>Testimonials</a>
                   </Link>
                 </li>
-                {/* <li>
-									<Link href='/faq'>
-										<a>FAQ</a>
-									</Link>
-								</li> */}
+                <li>
+                  <Link href="/blog" passHref>
+                    <a>Blog</a>
+                  </Link>
+                </li>
                 <li>
                   <Link href="/contact" passHref>
                     <a>Contact us</a>
@@ -268,7 +280,7 @@ const FooterMenu = styled('div')`
     }
   }
 
-  @media (min-width: 768px) {
+  li @media (min-width: 768px) {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
   }

@@ -70,7 +70,12 @@ export default function Home() {
               <div className="painpoints--content">
                 <h2 className="title">Planning A Wedding Takes A Lot</h2>
                 <PainPoints>
-                  <li>Time searching for the right wedding venue</li>
+                  <li>
+                    Time searching for the right{' '}
+                    <Link href="https://tpc.com/potomac/weddings/">
+                      <a target="_blank">wedding venue</a>
+                    </Link>
+                  </li>
                   <li>Time reading and reviewing vendor contracts</li>
                   <li>Time Creating and managing your wedding budget</li>
                   <li>Time finding reliable wedding vendors</li>
@@ -79,7 +84,12 @@ export default function Home() {
                     Time creating your wedding timeline, seating charts, and
                     sending out invitations
                   </li>
-                  <li>Navigating new Covid-19 protocols</li>
+                  <li>
+                    Navigating new{' '}
+                    <Link href="https://health.clevelandclinic.org/love-during-a-pandemic-how-to-plan-a-wedding-during-covid-19/">
+                      <a target="_blank">Covid-19 protocols</a>
+                    </Link>
+                  </li>
                 </PainPoints>
               </div>
             </div>
@@ -230,7 +240,7 @@ export default function Home() {
             <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
-            <Link href="/gallery">
+            <Link href="/wedding-gallery">
               <a>
                 <Button>See More Pictures</Button>
               </a>
@@ -265,10 +275,6 @@ const Main = styled('div')`
       display: block;
       margin: 0 auto;
 
-      .intro {
-        max-width: 40rem;
-        margin: 0 auto;
-      }
     }
 
     .service-content {

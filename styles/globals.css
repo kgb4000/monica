@@ -27,8 +27,14 @@ a {
 .container {
   margin: 0 auto;
   max-width: 1500px;
-  padding: 1rem 2rem;
+  padding: 2rem 1.2rem;
   background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
 }
 
 img {
@@ -55,7 +61,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin: 1rem 0;
 }
 
@@ -66,6 +72,20 @@ h3 {
 
 h4 {
   font-weight: 700;
+}
+
+.intro {
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
 }
 
 @media (min-width: 768px) {
@@ -79,6 +99,20 @@ h4 {
 
   h3 {
     font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 }
 
@@ -109,8 +143,6 @@ ul li {
   p,
   ul li {
     font-weight: 200;
-    font-size: 1.5rem;
-    line-height: 1.8;
   }
 }
 
@@ -134,6 +166,55 @@ ul li {
   }
 }
 
+@media (min-width: 1440px) {
+  h1.title {
+    margin-top: 3rem auto;
+    max-width: 60rem;
+    font-size: 3.5rem;
+  }
+
+  h2.title {
+    margin-top: 3rem auto;
+    max-width: 50rem;
+    font-size: 3rem;
+  }
+
+  h3 {
+    margin-top: 3rem auto;
+    max-width: 50rem;
+    font-size: 2.5rem;
+  }
+
+  p,
+  li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+.blog-posts li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.blog-posts h3 {
+  font-size: 1.4rem;
+  text-align: left;
+  margin: 1rem 0;
+  color: #101010;
+}
+
+.blog-posts p {
+  font-size: 0.8rem;
+}
+
+.blog-posts a {
+  color: #101010;
+}
+
 .service-container {
   margin: 0 auto;
   padding: 0 1.2rem;
@@ -145,10 +226,10 @@ ul li {
       rgba(245, 246, 252, 0.52),
       rgba(117, 19, 93, 0.53)
     ),
-    url('https://res.cloudinary.com/browne-company/image/upload/v1631495885/kiss-at-wedding_hdbrht.webp');
+    url('https://res.cloudinary.com/browne-company/image/upload/c_scale,w_1000/q_auto/f_auto/v1631495885/kiss-at-wedding_hdbrht.webp');
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,16 +247,16 @@ ul li {
   text-align: center;
 }
 
-.player-wrapper {
+/* .player-wrapper {
   position: relative;
-  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  padding-top: 56.25%; 
 }
 
 .react-player {
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 .footer-container {
   margin: 0 auto;

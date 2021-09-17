@@ -18,9 +18,11 @@ const HeroSection = ({
         <div className="content">
           <h2 className="heroText">{heroText}</h2>
           <p>{subText}</p>
-          <a href={buttonLink}>
-            <WhiteButton>{buttonText}</WhiteButton>
-          </a>
+          {buttonText && (
+            <a href={buttonLink}>
+              <WhiteButton>{buttonText}</WhiteButton>
+            </a>
+          )}
         </div>
       </Hero>
     </>
@@ -46,8 +48,6 @@ const Hero = styled('div')`
   max-width: 1500px;
 
   @media only screen and (min-device-width: 360px) {
-    height: 100vh;
-
     h2 {
       font-weight: 700;
       margin-bottom: 1rem;
@@ -100,7 +100,7 @@ const WhiteButton = styled(Button)`
 
   @media (min-width: 768px) {
     padding: 0.8rem 1.8rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 `
 

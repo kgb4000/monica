@@ -3,6 +3,7 @@ import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
@@ -144,21 +145,38 @@ export default function Home() {
             <div>
               <Simple>
                 <li>
-                  Schedule your call with Monica and see how she can help plan
-                  your wedding
+                  <h4>Talk To Monica</h4>
+                  <p>
+                    Schedule your call with Monica and see how she can help plan
+                    your wedding
+                  </p>
                 </li>
                 <li>
-                  Work together with Monica on your budget and sort out the
-                  details for your ceremony and reception
+                  <h4>Plan & Budget</h4>
+                  <p>
+                    Let Monica help you plan your budget and work on the details
+                    for your ceremony and reception and even{' '}
+                    <a
+                      href="https://www.hyatt.com/en-US/hotel/maryland/hyatt-regency-bethesda/bethe/rooms"
+                      target="_blank"
+                    >
+                      hotel reservations
+                    </a>{' '}
+                    for your guests
+                  </p>
                 </li>
                 <li>
-                  Enjoy your wedding day with no worries and{' '}
-                  <a
-                    href="https://www.marthastewart.com/7925839/wedding-planner-top-tips-stressed-out-brides"
-                    target="_blank"
-                  >
-                    no stress
-                  </a>
+                  <h4>Enjoy Your Special Day</h4>
+                  <p>
+                    Enjoy your wedding day with no worries,{' '}
+                    <a
+                      href="https://www.theknot.com/content/signs-youre-stressed-out"
+                      target="_blank"
+                    >
+                      no stress
+                    </a>
+                    , and no problems. We'll take care of everything for you.
+                  </p>
                 </li>
               </Simple>
             </div>
@@ -234,7 +252,7 @@ export default function Home() {
             <img src="../WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
-            <Link href="/gallery">
+            <Link href="/wedding-gallery">
               <a>
                 <Button>See More Pictures</Button>
               </a>
@@ -269,10 +287,6 @@ const Main = styled('div')`
       display: block;
       margin: 0 auto;
 
-      .intro {
-        max-width: 40rem;
-        margin: 0 auto;
-      }
     }
 
     .service-content {
@@ -388,16 +402,4 @@ const Gallery = styled('div')`
     max-width: 100%;
     margin: 0 auto;
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 40rem;
-  margin: 0 auto;
-  margin-top: 2rem;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: 200;
 `

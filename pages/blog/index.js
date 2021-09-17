@@ -30,7 +30,7 @@ export default function Blog({ data }) {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/blog',
       site_name: 'Monica Browne Weddings',
-      image: post.coverImage.url,
+      image: 'bride-with-flowers.jpg',
     },
   }
   return (

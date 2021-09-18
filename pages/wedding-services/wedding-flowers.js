@@ -227,7 +227,7 @@ export default function Home() {
               </Link>
               . Also, see our{' '}
               <a
-                href="https://www.google.com/search?client=firefox-b-1-d&q=monicabrowneweddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,, "
+                href="https://www.google.com/search?client=firefox-b-1-d&q=monicabrowneweddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
                 target="_blank"
               >
                 5-star reviews

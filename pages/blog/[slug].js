@@ -35,8 +35,8 @@ export default function Blog({ post, data }) {
   const SEO = {
     title: post.title,
     description: post.description,
-    url: `https://monicabrowneweddings.com/${post.slug}`,
-    canonical: `https://monicabrowneweddings.com/${post.slug}`,
+    url: `https://monicabrowneweddings.com/blog/${post.slug}`,
+    canonical: `https://monicabrowneweddings.com/blog/${post.slug}`,
     openGraph: {
       type: 'article',
       article: {
@@ -52,7 +52,7 @@ export default function Blog({ post, data }) {
         },
       ],
       locale: 'en_US',
-      url: `https://monicabrowneweddings.com/${post.slug}`,
+      url: `https://monicabrowneweddings.com/blog/${post.slug}`,
       site_name: 'Monica Browne Weddings',
       image: post.coverImage.url,
     },
@@ -62,7 +62,7 @@ export default function Blog({ post, data }) {
   return (
     <>
       <ArticleJsonLd
-        url={`https://monicabrowneweddings.com/${post.slug}`}
+        url={`https://monicabrowneweddings.com/blog/${post.slug}`}
         title={post.title}
         images={[post.coverImage.url]}
         datePublished={post.date}

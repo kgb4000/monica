@@ -14,11 +14,12 @@ export default function Home() {
     title: 'Custom Wedding Flower Design MD DC | Monica Browne Weddings',
     description:
       'The most stunning wedding flowers design services for your dream wedding. 5 star customer reviews. Effortless and affordable. Book a 15min call today.',
-    canonical: 'https://monicabrowneweddings.com/wedding-flowers',
+    canonical:
+      'https://monicabrowneweddings.com/wedding-services/wedding-flowers',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/wedding-flowers',
+      url: 'https://monicabrowneweddings.com/wedding-services/wedding-flowers',
       site_name: 'Monica Browne Weddings',
       image: 'bride-with-flowers.jpg',
     },

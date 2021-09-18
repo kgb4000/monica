@@ -113,18 +113,7 @@ const Contact = () => {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Main className="container">
         <div className="content">
           <h1 className="title">Contact Monica</h1>

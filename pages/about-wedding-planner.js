@@ -24,18 +24,7 @@ const About = () => {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="About us"
         subText="Monica Browne Weddings"

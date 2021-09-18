@@ -27,18 +27,7 @@ export default function Home() {
   }
   return (
     <div>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Wedding Planning For Couples in Rockville"
         subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"

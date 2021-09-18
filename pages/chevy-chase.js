@@ -26,18 +26,7 @@ export default function Home() {
   }
   return (
     <div>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Wedding Planning For Chevy Chase Couples"
         subText="We Help Couples in Chevy Chase Plan Their Dream Wedding"

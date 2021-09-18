@@ -10,6 +10,7 @@ const Testimonials = () => {
     title: 'Testimonials | Monica Browne Weddings',
     description:
       'These are just some of the testimonials that we received from our happily married couples.',
+    canonical: 'https://monicabrowneweddings.com/testimonials',
     openGraph: {
       type: 'website',
       locale: 'en_US',

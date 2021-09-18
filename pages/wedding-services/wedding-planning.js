@@ -12,6 +12,7 @@ export default function Home() {
     title: 'Full-Service Wedding Planning | Monica Browne Weddings',
     description:
       "Monica Browne Weddings provides wedding planning services in DC &  Maryland. Don't stress over your big day. Let us do the planning. Call us for a consultation",
+    canonical: 'https://monicabrowneweddings.com/wedding-planning',
     openGraph: {
       type: 'website',
       locale: 'en_US',

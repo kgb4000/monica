@@ -26,10 +26,8 @@ export default function Home({ data }) {
     <div>
       <NextSeo
         robotsProps={{
-          nosnippet: true,
           notranslate: true,
           noimageindex: true,
-          noarchive: true,
           maxSnippet: -1,
           maxImagePreview: 'none',
           maxVideoPreview: -1,
@@ -223,7 +221,11 @@ export default function Home({ data }) {
                   <Link href={`/blog/${post.slug}`}>
                     <a>
                       <div className="blog-post">
-                        <img className="blog-img" src={post.coverImage.url} />
+                        <img
+                          className="blog-img"
+                          src={post.coverImage.url}
+                          alt={post.title}
+                        />
                         <div className="blog-info">
                           <p>
                             {new Date(post.date).toLocaleDateString('en-us', {

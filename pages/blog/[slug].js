@@ -4,6 +4,7 @@ import { getPost, getPosts, getPostsSlugs } from '../../lib/data'
 import HeroSection from '../../components/HeroSection'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo } from 'next-seo'
+import { ArticleJsonLd } from 'next-seo'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -34,8 +35,22 @@ export default function Blog({ post, data }) {
   const SEO = {
     title: post.title,
     description: post.description,
+    url: `https://monicabrowneweddings.com/${post.slug}`,
+    canonical: `https://monicabrowneweddings.com/${post.slug}`,
     openGraph: {
-      type: 'website',
+      type: 'article',
+      article: {
+        publishedTime: post.date,
+        authors: [`https://www.example.com/authors/@${post.author.name}`],
+      },
+      images: [
+        {
+          url: post.coverImage.url,
+          width: post.coverImage.width,
+          height: post.coverImage.height,
+          alt: post.title,
+        },
+      ],
       locale: 'en_US',
       url: `https://monicabrowneweddings.com/${post.slug}`,
       site_name: 'Monica Browne Weddings',
@@ -46,7 +61,22 @@ export default function Blog({ post, data }) {
   console.log(data)
   return (
     <>
-      <NextSeo {...SEO} />
+      <ArticleJsonLd
+        url={`https://monicabrowneweddings.com/${post.slug}`}
+        title={post.title}
+        images={[post.coverImage.url]}
+        datePublished={post.date}
+        authorName={[post.author.name]}
+        description={post.description}
+      />
+      <NextSeo
+        {...SEO}
+        robotsProps={{
+          notranslate: true,
+          maxSnippet: -1,
+          maxImagePreview: 'none',
+        }}
+      />
       <HeroSection
         heroText={post.title}
         backgroundImage={post.coverImage.url}
@@ -59,7 +89,12 @@ export default function Blog({ post, data }) {
             <div className="author-info">
               <Link href="/about-wedding-planner">
                 <a>
-                  <img src={post.author.image.url} className="author-img" />
+                  <img
+                    src={post.author.image.url}
+                    className="author-img"
+                    alt={post.author.name}
+                    title={post.author.name}
+                  />
                 </a>
               </Link>
               <Link href="/about-wedding-planner">
@@ -85,7 +120,11 @@ export default function Blog({ post, data }) {
                   <Link href={`/blog/${post.slug}`}>
                     <a>
                       <div className="blog-post">
-                        <img src={post.coverImage.url} />
+                        <img
+                          src={post.coverImage.url}
+                          alt={post.title}
+                          title={post.title}
+                        />
                         <h3>{post.title}</h3>
                       </div>
                     </a>

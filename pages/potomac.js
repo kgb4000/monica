@@ -3,6 +3,7 @@ import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 
@@ -16,6 +17,7 @@ export default function Home() {
     title: 'Potomac Wedding Planner | Monica Browne Weddings',
     description:
       "Planning a wedding in Potomac and don't know where to start? Let us help. We can help Potomac couples plan the wedding of your dreams",
+    canonical: 'https://monicabrowneweddings.com/potomac',
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -84,12 +86,7 @@ export default function Home() {
                     Time creating your wedding timeline, seating charts, and
                     sending out invitations
                   </li>
-                  <li>
-                    Navigating new{' '}
-                    <Link href="https://health.clevelandclinic.org/love-during-a-pandemic-how-to-plan-a-wedding-during-covid-19/">
-                      <a target="_blank">Covid-19 protocols</a>
-                    </Link>
-                  </li>
+                  <li>Navigating new Covid-19 protocols</li>
                 </PainPoints>
               </div>
             </div>
@@ -390,16 +387,4 @@ const Gallery = styled('div')`
     max-width: 100%;
     margin: 0 auto;
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 40rem;
-  margin: 0 auto;
-  margin-top: 2rem;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: 200;
 `

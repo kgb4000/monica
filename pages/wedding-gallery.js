@@ -8,7 +8,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 const Gallery = () => {
   const SEO = {
     title: 'Wedding Gallery | Monica Browne Weddings',
-    description: 'Check out our wedding gallery of our happy couples',
+    description:
+      'At Monica Browne Weddings we love helping couples plan their weddings. Check out our wedding gallery with our happy clients.',
+    canonical: 'https://monicabrowneweddings.com/wedding-gallery',
     openGraph: {
       type: 'website',
       locale: 'en_US',

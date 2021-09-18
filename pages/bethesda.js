@@ -16,6 +16,7 @@ export default function Home() {
     title: 'Bethesda Wedding Planner | Monica Browne Weddings',
     description:
       "Are you a couple in Bethesda planning your wedding and need help? Don't. We are Monica Browne Weddings and we can help you plan the wedding of your dreams. Call us.",
+    canonical: 'https://monicabrowneweddings.com/bethesda',
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -108,21 +109,21 @@ export default function Home() {
             <Services>
               <div className="wedding-service">
                 <img
-                  src="../WebP-images/bride-groom-happy.webp"
+                  src="/WebP-images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="../WebP-images/wedding-table-setting.webp"
+                  src="/WebP-images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="../WebP-images/wedding-flower-centerpiece-design.webp"
+                  src="/WebP-images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
                 />
                 <h3 className="title">Wedding Flowers</h3>
@@ -168,14 +169,8 @@ export default function Home() {
                 <li>
                   <h4>Enjoy Your Special Day</h4>
                   <p>
-                    Enjoy your wedding day with no worries,{' '}
-                    <a
-                      href="https://www.theknot.com/content/signs-youre-stressed-out"
-                      target="_blank"
-                    >
-                      no stress
-                    </a>
-                    , and no problems. We'll take care of everything for you.
+                    Enjoy your wedding day with no worries, no stress, and no
+                    problems. We'll take care of everything for you.
                   </p>
                 </li>
               </Simple>
@@ -242,14 +237,14 @@ export default function Home() {
           <h2 className="title">Gallery</h2>
           <Gallery>
             <img
-              src="../WebP-images/bride-with-flowers.webp"
+              src="/WebP-images/bride-with-flowers.webp"
               alt="Bride with flowers"
             />
             <img
-              src="../WebP-images/bride-groom-happy.webp"
+              src="/WebP-images/bride-groom-happy.webp"
               alt="Bride and Groom"
             />
-            <img src="../WebP-images/wedding-cake.webp" alt="Bride and Groom" />
+            <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery">

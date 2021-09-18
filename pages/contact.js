@@ -102,6 +102,7 @@ const Contact = () => {
     title: 'Contact | Monica Browne Weddings',
     description:
       "If you're a busy couple planning your wedding and you think you may need help, please contact us.",
+    canonical: 'https://monicabrowneweddings.com/contact',
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -126,7 +127,7 @@ const Contact = () => {
       />
       <Main className="container">
         <div className="content">
-          <h1 className="title">Monica Browne Weddings</h1>
+          <h1 className="title">Contact Monica</h1>
           <p>
             Call{' '}
             <a itemProp="telephone" href="tel:240-665-3350">
@@ -139,7 +140,6 @@ const Contact = () => {
               monica@monicabrowneweddings.com
             </a>
           </p>
-          <h3 className="title">Contact us</h3>
           <ContactForm>
             <img
               src="../WebP-images/bride-with-flowers.webp"

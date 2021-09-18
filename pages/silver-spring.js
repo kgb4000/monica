@@ -16,6 +16,7 @@ export default function Home() {
     title: 'Silver Spring Wedding Planner | Monica Browne Weddings',
     description:
       'Are you a couple from Silver Spring planning your wedding? Let us help. We can help couples in Silver Spring plan the wedding of your dreams',
+    canonical: 'https://monicabrowneweddings.com/silver-spring',
     openGraph: {
       type: 'website',
       locale: 'en_US',

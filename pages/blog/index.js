@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import HeroSection from '../../components/HeroSection'
 import Button from '../../components/Button'
 import { NextSeo } from 'next-seo'
+import { BlogJsonLd } from 'next-seo'
 import { getPosts } from '../../lib/data'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -25,6 +26,7 @@ export default function Blog({ data }) {
     title: 'Blog | Monica Browne Weddings',
     description:
       'Blog for Monica Browne Weddings. Helping couples navigate wedding planning.',
+    canonical: 'https://monicabrowneweddings.com/blog',
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -35,16 +37,20 @@ export default function Blog({ data }) {
   }
   return (
     <div>
+      <BlogJsonLd
+        url="https://monicabrowneweddings.com/blog"
+        title="Monica's Blog"
+        images={[
+          'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631813345/bride-glasses_pzaoov.webp',
+        ]}
+        authorName="Monica Browne"
+        description="My blog for engaged couples."
+      />
       <NextSeo
         {...SEO}
         robotsProps={{
-          nosnippet: true,
           notranslate: true,
-          noimageindex: true,
-          noarchive: true,
           maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
         }}
       />
       <HeroSection
@@ -65,7 +71,12 @@ export default function Blog({ data }) {
                   <Link href={`/blog/${post.slug}`}>
                     <a>
                       <div className="blog-post">
-                        <img className="blog-img" src={post.coverImage.url} />
+                        <img
+                          className="blog-img"
+                          src={post.coverImage.url}
+                          alt={post.title}
+                          title={post.title}
+                        />
                         <div className="blog-info">
                           <p>
                             {new Date(post.date).toLocaleDateString('en-us', {
@@ -84,7 +95,13 @@ export default function Blog({ data }) {
               ))}
             </div>
             <div className="sidebar">
-              <img src={Monica} />
+              {data.posts.slice(0, 1).map((post) => (
+                <img
+                  src={Monica}
+                  alt={post.author.name}
+                  title={post.author.name}
+                />
+              ))}
               <p>
                 Hi, I'm Monica with{' '}
                 <Link href="/">

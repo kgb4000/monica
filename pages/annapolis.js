@@ -16,6 +16,7 @@ export default function Home() {
     title: 'Annapolis Wedding Planner | Monica Browne Weddings',
     description:
       "Planning a wedding in Annapolis and don't know where to start? Let us help. We can help you plan the wedding of your dreams",
+    canonical: 'https://monicabrowneweddings.com/annapolis',
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -82,14 +83,8 @@ export default function Home() {
                 </h2>
                 <PainPoints>
                   <li>
-                    Time looking on Pinterest and{' '}
-                    <a
-                      href="https://www.marthastewart.com/7969107/how-much-time-goes-into-planning-wedding"
-                      target="_blank"
-                    >
-                      MarhtaStewart.com
-                    </a>{' '}
-                    for ideas and inspiration
+                    Time looking on Pinterest and MarhtaStewart.com for ideas
+                    and inspiration
                   </li>
                   <li>Time finding the right vendors</li>
                   <li>Time reading and reveiwing contracts</li>

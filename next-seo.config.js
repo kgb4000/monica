@@ -1,7 +1,8 @@
 export default {
   title: 'Wedding Planner | Monica Browne Weddings',
   description:
-    'If you are a busy couple and still want to have a dream wedding, Monica Browne Weddings can help. We help couples with wedding planning, wedding decorations and creative floral designs.',
+    'If you are a busy couple and still want to have a dream wedding, Monica Browne Weddings can help. We help couples with wedding planning, wedding decorations and wedding flowers designs.',
+  canonical: 'https://monicabrowneweddings.com',
   openGraph: {
     type: 'website',
     locale: 'en_US',

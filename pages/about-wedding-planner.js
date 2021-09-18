@@ -11,6 +11,7 @@ const About = () => {
     title: 'About Wedding Planner | Monica Browne Weddings',
     description:
       'Monica Browne Weddings is a wedding planning company dedicated to hepling busy couples plan their dream wedding.',
+    canonical: 'https://monicabrowneweddings.com/about-wedding-planner',
     openGraph: {
       type: 'website',
       locale: 'en_US',
@@ -47,7 +48,7 @@ const About = () => {
         <section className="container">
           <div className="content">
             <h1 className="title" itemProp="name">
-              Monica Browne Weddings
+              About Monica Browne Weddings
             </h1>
             <p className="intro" itemProp="description">
               Monica Browne Weddings is a{' '}
@@ -98,7 +99,7 @@ const About = () => {
         </section>
         <section className="container">
           <div className="content">
-            <h1 className="title"> About Monica</h1>
+            <h2 className="title"> About Monica</h2>
             <Team className="team">
               <img
                 src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"

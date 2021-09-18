@@ -15,6 +15,7 @@ export default function Home() {
     title: 'Chevy Chase Wedding Planner | Monica Browne Weddings',
     description:
       "Are you a couple in Chevy Chase planning your wedding and need help? Don't stress. We at Monica Browne Weddings help couples plan the wedding of their dreams.",
+    canonical: 'https://monicabrowneweddings.com/chevy-chase',
     openGraph: {
       type: 'website',
       locale: 'en_US',

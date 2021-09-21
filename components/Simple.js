@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 const Simple = styled('ul')`
-  max-width: 40rem;
-  margin: 0 auto;
+  margin: 3rem auto;
   counter-reset: li;
 
   li {
@@ -22,21 +21,19 @@ const Simple = styled('ul')`
       color: #fff;
       font-size: 1rem;
       background: #000;
-      line-height: 35px;
-      width: 35px;
-      height: 35px;
+      line-height: 30px;
+      width: 30px;
+      height: 30px;
       border-radius: 100%;
       display: inline-block;
       text-align: center;
       left: 0px;
       position: absolute;
-      top:  -0.3rem;
+      top:  -0.01rem;
       border: 1px solid #000;
       font-weight: 200;
 
       @media (min-width: 768px) {
-
-        top:  0.5rem;
       }
   }
 `

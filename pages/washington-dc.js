@@ -15,14 +15,14 @@ export default function Home() {
   const SEO = {
     title: 'DC Wedding Planner | Monica Browne Weddings',
     description:
-      "Planning a wedding in Washington DC and don't know where to start? Let us help. We can help DC couples plan the wedding of your dreams",
+      'Looking for a wedding planner in DC because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
     canonical: 'https://monicabrowneweddings.com/washington-dc',
     openGraph: {
       type: 'website',
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/washington-dc',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      image: '/bride-with-flowers.webp',
     },
   }
   return (

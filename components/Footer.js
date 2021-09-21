@@ -89,6 +89,14 @@ const Footer = () => {
                         <a>Wedding Flowers</a>
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        href="/wedding-services/wedding-decorations"
+                        passHref
+                      >
+                        <a>Wedding Decorations</a>
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -268,6 +276,11 @@ const FooterMenu = styled('div')`
   }
 
   margin: 2rem 0;
+
+  ul .ul-footer {
+    color red;
+    margin-left: 0.5rem;
+  }
 
   li {
     list-style-type: none;

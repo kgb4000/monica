@@ -11,17 +11,17 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+export default function Potomac() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Potomac Wedding Planner | Monica Browne Weddings',
     description:
-      "Planning a wedding in Potomac and don't know where to start? Let us help. We can help Potomac couples plan the wedding of your dreams",
+      'Looking for a wedding planner in Potomac because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
     canonical: 'https://monicabrowneweddings.com/potomac',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/washington-dc',
+      url: 'https://monicabrowneweddings.com/potomac',
       site_name: 'Monica Browne Weddings',
       image: 'bride-with-flowers.jpg',
     },
@@ -166,7 +166,7 @@ export default function Home() {
         <section className="container">
           <div className="content">
             <h2 className="title">
-              Watch This Beautiful Wedding Video From One Of Our Happy Couples
+              Watch This Wedding Video From One Of Our Favorite Couples
             </h2>
             <section className="video-section">
               <ModalVideo

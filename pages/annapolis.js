@@ -15,7 +15,7 @@ export default function Home() {
   const SEO = {
     title: 'Annapolis Wedding Planner | Monica Browne Weddings',
     description:
-      "Planning a wedding in Annapolis and don't know where to start? Let us help. We can help you plan the wedding of your dreams",
+      'Looking for a wedding planner in Annapolis because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
     canonical: 'https://monicabrowneweddings.com/annapolis',
     openGraph: {
       type: 'website',

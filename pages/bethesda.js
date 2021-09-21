@@ -15,7 +15,7 @@ export default function Home() {
   const SEO = {
     title: 'Bethesda Wedding Planner | Monica Browne Weddings',
     description:
-      "Are you a couple in Bethesda planning your wedding and need help? Don't. We are Monica Browne Weddings and we can help you plan the wedding of your dreams. Call us.",
+      'Looking for a wedding planner in Bethesda because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
     canonical: 'https://monicabrowneweddings.com/bethesda',
     openGraph: {
       type: 'website',
@@ -130,7 +130,7 @@ export default function Home() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding in Bethesda Easier
+              We Make Planning Wedding For Bethesda Couples Easier
             </h2>
             <div>
               <Simple>

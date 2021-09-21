@@ -14,12 +14,12 @@ export default function Home() {
   const SEO = {
     title: 'Chevy Chase Wedding Planner | Monica Browne Weddings',
     description:
-      "Are you a couple in Chevy Chase planning your wedding and need help? Don't stress. We at Monica Browne Weddings help couples plan the wedding of their dreams.",
+      'Looking for a wedding planner in Chevy Chase because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
     canonical: 'https://monicabrowneweddings.com/chevy-chase',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/bethesda',
+      url: 'https://monicabrowneweddings.com/chevy-chase',
       site_name: 'Monica Browne Weddings',
       image: 'bride-with-flowers.jpg',
     },
@@ -124,19 +124,22 @@ export default function Home() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding in Bethesda Easier
+              We Make Wedding Planning in Chevy Chase... Easier
             </h2>
             <div>
               <Simple>
                 <li>
                   Schedule your call with Monica and see how she can help plan
-                  your wedding
+                  your wedding.
                 </li>
                 <li>
-                  Work together with Monica on your budget and sort out the
-                  details for your ceremony and reception
+                  Monica will work with you to determine your budget and sort
+                  out the details for your ceremony and reception.
                 </li>
-                <li>Enjoy your wedding day with no worries and no stress</li>
+                <li>
+                  Enjoy your wedding day. Everything else is taken car of for
+                  you.
+                </li>
               </Simple>
             </div>
             <h3 className="center-text">

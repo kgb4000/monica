@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import Link from 'next/link'
-import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../../components/HeroSection'
 import Button from '../../components/Button'
@@ -8,8 +6,7 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
-  const [isOpen, setOpen] = useState(false)
+export default function WeddingFlowers() {
   const SEO = {
     title: 'Custom Wedding Flower Design MD DC | Monica Browne Weddings',
     description:

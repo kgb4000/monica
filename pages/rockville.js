@@ -10,17 +10,17 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+export default function Rockville() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Rockville Wedding Planner | Monica Browne Weddings',
     description:
-      "Planning a wedding in Rockville and don't know where to start? Let us help. We can help Rockville couples plan the wedding of your dreams",
+      'Looking for a wedding planner in Rockville because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
     canonical: 'https://monicabrowneweddings.com/rockville',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/washington-dc',
+      url: 'https://monicabrowneweddings.com/rockville',
       site_name: 'Monica Browne Weddings',
       image: 'bride-with-flowers.jpg',
     },

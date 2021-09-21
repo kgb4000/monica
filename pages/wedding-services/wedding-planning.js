@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../../components/HeroSection'
@@ -7,7 +6,7 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+export default function WeddingPlanning() {
   const SEO = {
     title: 'Full-Service Wedding Planning | Monica Browne Weddings',
     description:

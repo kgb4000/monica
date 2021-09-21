@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-const About = () => {
+export default function About() {
   const SEO = {
     title: 'About Wedding Planner | Monica Browne Weddings',
     description:
@@ -58,7 +58,7 @@ const About = () => {
         </section>
         <section className="container">
           <div className="service-content">
-            <h2 className="title">How We Can Help You</h2>
+            <h2 className="title">How We Can Help You Planning</h2>
             <PainPoints>
               <ul>
                 <li>Helping you get your budget together and managing it</li>
@@ -168,7 +168,7 @@ const Main = styled('div')`
 
 const PainPoints = styled('ul')`
   ul {
-    max-width: 20rem;
+    max-width: 25rem;
     margin: 0 auto;
     text-align: left;
   }
@@ -212,4 +212,3 @@ const Team = styled('div')`
     text-decoration: underline;
   }
 `
-export default About

@@ -8,8 +8,7 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function WeddingDecorations() {
   const SEO = {
-    title:
-      'Best Wedding Decorators in Manryland and DC | Monica Brown Weddings',
+    title: 'Wedding Decorators in Maryland & DC | Monica Brown Weddings',
     description:
       'If you are looking for the best wedding decorators in Maryland or DC, to create your dream wedding, contact Monica Brown Weddings.',
     canonical:

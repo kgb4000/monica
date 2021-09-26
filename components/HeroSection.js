@@ -62,8 +62,7 @@ const Hero = styled('div')`
 
   @media (min-width: 768px) {
     h2 {
-      font-size: 3rem;
-      font-weight: 700;
+      font-size: 5rem;
     }
 
     p {
@@ -84,8 +83,8 @@ const WhiteButton = styled(Button)`
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
-  font-size: 0.7rem;
-  padding: 0.8rem 1.4rem;
+  font-size: 0.8rem;
+  padding: 1.2rem 1.4rem;
   margin: 1rem 0;
 
   :hover {
@@ -99,8 +98,8 @@ const WhiteButton = styled(Button)`
   }
 
   @media (min-width: 768px) {
-    padding: 0.8rem 1.8rem;
-    font-size: 0.8rem;
+    padding: 1.4rem 1.6rem;
+    font-size: 1rem;
   }
 `
 

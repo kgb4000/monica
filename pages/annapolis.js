@@ -1,12 +1,14 @@
+import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import Link from 'next/link'
-import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
+
+const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -22,7 +24,14 @@ export default function Home() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/annapolis',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -31,7 +40,7 @@ export default function Home() {
       <HeroSection
         heroText="Wedding Planning For Annapolis Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Annapolis"
-        buttonText="Book a Call"
+        buttonText="Book A Video Call"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -50,7 +59,7 @@ export default function Home() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a video call</Button>
               </a>
             </div>
           </div>
@@ -103,6 +112,8 @@ export default function Home() {
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/v1631495885/happy-bride-and-groom_bwyebx.webp"
                   alt="Happily Married Couple"
+                  rel="noreferrer"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
@@ -111,6 +122,7 @@ export default function Home() {
                   src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-with-flowers_xahpez.webp"
                   alt="Wedding Decorations and Design"
                   rel="noreferrer"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
@@ -119,8 +131,9 @@ export default function Home() {
                   src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
                   alt="Wedding Floral Design"
                   rel="noreferrer"
+                  loading="lazy"
                 />
-                <h3 className="title">Wedding Flowers</h3>
+                <h3 className="title">Wedding Floral Design</h3>
               </div>
             </Services>
             <div className="center">
@@ -236,16 +249,19 @@ export default function Home() {
               src="https://res.cloudinary.com/browne-company/image/upload/v1631495883/beautiful-bride-flowers_ho8plu.webp"
               alt="Bride with flowers"
               rel="noreferrer"
+              loading="lazy"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-groom-happy_xr217b.webp"
               alt="Bride and Groom"
               rel="noreferrer"
+              loading="lazy"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
               alt="Wedding table centerpiece"
               rel="noreferrer"
+              loading="lazy"
             />
           </Gallery>
           <div className="center">

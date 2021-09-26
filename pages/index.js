@@ -1,12 +1,14 @@
+import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import Link from 'next/link'
-import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 import { getPosts } from '../lib/data'
+
+const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -34,9 +36,9 @@ export default function Home({ data }) {
         }}
       />
       <HeroSection
-        heroText="Wedding Planning For Busy Maryland & DC Couples"
-        subText="We Create Beautiful Weddings For Busy Couples in Maryland & DC"
-        buttonText="Book a Call"
+        heroText="Wedding Planning For Busy Maryland Couples"
+        subText="We Create Beautiful Weddings For Busy Couples in Maryland"
+        buttonText="Book A Video Call"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495883/bride-groom-serious-love_i9lo4u.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -44,24 +46,25 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Monica Browne Weddings</h1>
+            <h1 className="title">Maryland Wedding Planner</h1>
             <p className="intro">
               Many busy couples getting married nowadays struggle to find the
               time to plan the wedding they want. We at Monica Browne Weddings
-              help couples in Maryland and Washington DC, plan the wedding of
-              their dreams, leaving them with more time for their busy
-              schedules.
+              help couples in Maryland, plan the wedding of their dreams,
+              leaving them with more time for their busy schedules. We take the
+              stress out of the process, so you don't have to worry about
+              anything, except making history.
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a 15 min call</Button>
+                <Button>Book a video call</Button>
               </a>
             </div>
           </div>
         </section>
         <section className="container">
           <h2 className="title">
-            Planning A Wedding Can Really Take A Lot Of Time
+            Planning A Wedding Can Really Take A Lot Of Time & Energy
           </h2>
           <div className="service-content">
             <div className="painpoints">
@@ -94,12 +97,12 @@ export default function Home({ data }) {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              Monica Browne Weddings Makes Planning Simple
+              Monica Makes Wedding Planning Simple For Maryland Couples
             </h2>
             <div>
               <Simple>
                 <li>
-                  <h4>Talk To Monica</h4>
+                  <h4>Call Monica</h4>
                   <p>
                     Talk with Monica and see how she can help you plan your
                     wedding.
@@ -123,7 +126,7 @@ export default function Home({ data }) {
             </h3>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a 15 min call</Button>
+                <Button>Book A Video Call</Button>
               </a>
             </div>
           </div>
@@ -136,6 +139,7 @@ export default function Home({ data }) {
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-groom-happy_xr217b.webp"
                   alt="Happily Married Couple"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
@@ -143,15 +147,17 @@ export default function Home({ data }) {
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-decor_f3daqm.webp"
                   alt="Wedding Decor and Design"
+                  loading="lazy"
                 />
-                <h3 className="title">Wedding Decorations</h3>
+                <h3 className="title">Wedding Decoration</h3>
               </div>
               <div className="wedding-service">
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
                   alt="Wedding Floral Design"
+                  loading="lazy"
                 />
-                <h3 className="title">Wedding Flowers</h3>
+                <h3 className="title">Wedding Floral Design</h3>
               </div>
             </Services>
             <div className="center">
@@ -214,7 +220,7 @@ export default function Home({ data }) {
         </section>
         <section className="container">
           <div className="blog-content">
-            <h2 className="title">Monica's Blog</h2>
+            <h2 className="title">Latest Posts From Our Blog</h2>
             <div className="blog-posts">
               {data.posts.map((post) => (
                 <div key={post.slug}>
@@ -225,6 +231,7 @@ export default function Home({ data }) {
                           className="blog-img"
                           src={post.coverImage.url}
                           alt={post.title}
+                          loading="lazy"
                         />
                         <div className="blog-info">
                           <p>
@@ -253,19 +260,22 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="gallery container">
-          <h2 className="title">Gallery</h2>
+          <h2 className="title">Our Gallery</h2>
           <Gallery>
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-with-flowers_xahpez.webp"
               alt="Bride with flowers"
+              loading="lazy"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-groom-happy_xr217b.webp"
               alt="Bride and Groom"
+              loading="lazy"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-cake_jukdnu.webp"
               alt="Bride and Groom"
+              loading="lazy"
             />
           </Gallery>
           <div className="center">

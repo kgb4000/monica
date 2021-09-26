@@ -64,6 +64,10 @@ const Header = styled('div')`
   z-index: 1000;
   position: relative;
 
+  a {
+    text-decoration: none;
+  }
+
   .logo {
     font-size: 1rem;
     max-width: 300px;

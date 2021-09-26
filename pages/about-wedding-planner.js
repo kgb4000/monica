@@ -17,7 +17,14 @@ export default function About() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/about-wedding-planner',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp',
+          width: 1500,
+          height: 1000,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
       description:
         'We are a wedding planning company dedicated to making sure that you enjoy planning your wedding.',
     },
@@ -58,7 +65,7 @@ export default function About() {
         </section>
         <section className="container">
           <div className="service-content">
-            <h2 className="title">How We Can Help You Planning</h2>
+            <h2 className="title">How We Can Help You</h2>
             <PainPoints>
               <ul>
                 <li>Helping you get your budget together and managing it</li>
@@ -95,6 +102,7 @@ export default function About() {
                 className="about-img"
                 alt="Monica browne Wedding Planner"
                 title="Monica Browne Wedding Planner"
+                loading="lazy"
               />
               <h2 className="title">Monica Browne</h2>
               <p>

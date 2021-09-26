@@ -1,5 +1,0 @@
-customHeaders:
-  - pattern: '**/*'
-    headers:
-      - key: 'Cache-Control'
-        value: 'max-age=60, stale-while-revalidate=60'

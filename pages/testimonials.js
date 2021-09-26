@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -16,7 +17,14 @@ const Testimonials = () => {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/testimonials',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -25,7 +33,7 @@ const Testimonials = () => {
       <HeroSection
         heroText="Testimonials"
         subText="From Happy Clients"
-        backgroundImage="../WebP-images/wedding-planner.webp"
+        backgroundImage="/images/wedding-planner.webp"
         buttonText="Book a Call"
         buttonLink={calendly}
         backgroundHeight="80vh"
@@ -131,18 +139,5 @@ const Testimonials = () => {
 const Main = styled('div')`
   @media (min-width: 768px) {
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 50rem;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  font-weight: 900;
-  font-size: 1rem;
 `
 export default Testimonials

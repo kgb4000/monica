@@ -18,7 +18,14 @@ export default function WeddingDecorations() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/wedding-services/wedding-decorations',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://monicabrowneweddings.com/public/images/wedding-reception-decor.webp',
+          width: 4000,
+          height: 2667,
+          alt: 'Wedding decorations by Monica Browne Weddings.',
+        },
+      ],
     },
   }
   return (
@@ -37,16 +44,16 @@ export default function WeddingDecorations() {
       />
       <HeroSection
         heroText="Wedding Decorations"
-        subText="The Best Custom Wedding Flowers Design Service In Maryland &amp; DC"
+        subText="The Best Wedding Decorators and Design Service In Maryland &amp; DC"
         buttonText="Book a Call"
-        backgroundImage="../WebP-images/wedding-reception-decor.webp"
+        backgroundImage="/images/wedding-reception-decor.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Best Wedding Decorators in Maryland and Washington DC</h1>
+            <h1>Top Wedding Decorators in Maryland and Washington DC</h1>
             <p>
               If you are looking for the best wedding decorators in Maryland or
               Washington DC., to make the environment look beautiful at your
@@ -75,19 +82,29 @@ export default function WeddingDecorations() {
             <p>
               Monica Browne Weddings is a wedding planning and decoration
               service in Maryland that serves couples in both Maryland and
-              Washington, DC. Locations we cover include Annapolis, MD,
-              Bethesda, MD, Chevy Chase, MD, Potomac, MD, Rockville, MD, Silver
-              Spring, MD, and Washington, DC. We offer partial wedding planning
-              services and full services along with customized flowers design
-              services, wedding decoration services, and more. We know how
-              hectic it can be when you’re busy with everyday life activities
-              while trying to plan a wedding at the same time. Just contact us
-              to book a call and we will help. Even if you only need guidance,
-              reach out to us. We help take the struggle out of planning your
-              wedding decorations so you could spend your time on other
-              important things.
+              Washington, DC. Locations in Maryland we cover include:
             </p>
-
+            <Locations>
+              <li>Annapolis</li>
+              <li>Bowie</li>
+              <li>Bethesda</li>
+              <li>Chevy Chase</li>
+              <li>Crofton</li>
+              <li>Davidsonville</li>
+              <li>Rockville</li>
+              <li>Silver Spring</li>
+              <li>Potomac</li>
+            </Locations>
+            <p>
+              We offer partial wedding planning services and full services along
+              with customized flowers design services, wedding decoration
+              services, and more. We know how hectic it can be when you’re busy
+              with everyday life activities while trying to plan a wedding at
+              the same time. Just contact us to book a call and we will help.
+              Even if you only need guidance, reach out to us. We help take the
+              struggle out of planning your wedding decorations so you could
+              spend your time on other important things.
+            </p>
             <h2>Main Benefits of Hiring A Wedding Decorator</h2>
             <p>
               How many people actually have the time, creativity, and motivation
@@ -101,7 +118,6 @@ export default function WeddingDecorations() {
               wedding decorator to handle all the decorative details for you.
               Here are the main benefits of hiring a wedding decorator:
             </p>
-
             <ol>
               <li>
                 <h3>Hand The Decorations Over To A Professional</h3>
@@ -150,16 +166,7 @@ export default function WeddingDecorations() {
                   display for one price.
                 </p>
               </li>
-              <li>
-                <h3>Obtaining The Decorations</h3>
-                <p>
-                  Once you know how you want to decorate for your wedding, there
-                  is also the question of getting all the decorations you need
-                  for an affordable price. A full-service wedding decorations
-                  agency can help provide everything needed for a beautiful
-                  display for one price.
-                </p>
-              </li>
+
               <li>
                 <h3>Setting Up</h3>
                 <p>
@@ -172,7 +179,6 @@ export default function WeddingDecorations() {
                 </p>
               </li>
             </ol>
-
             <h2>How To Get Started</h2>
             <Simple>
               <li>
@@ -191,20 +197,17 @@ export default function WeddingDecorations() {
                 <p>Enjoy your beautiful day and congratulations!  </p>
               </li>
             </Simple>
-
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>
               </a>
             </div>
-
             <h2>What Our Clients Have To Say About Our Services</h2>
             <p>
               The clients we were fortunate enough to work with loved what we
               did to the place and you will too. You can view some testimonials
               right on our website.
             </p>
-
             <h2>Pricing For Wedding Decorations</h2>
             <p>
               There are several factors that have to do with determining how
@@ -220,7 +223,6 @@ export default function WeddingDecorations() {
               the complexity of the decorations and how elaborate they may be or
               how hard it is to find them.
             </p>
-
             <h2>Let Us Help Decorate For Your Special Day</h2>
             <p>
               Planning a wedding can get quite expensive, considering all the
@@ -270,47 +272,6 @@ const FloralDesigns = styled('ul')`
   padding: 0 2rem;
 `
 
-// const Simple = styled('ul')`
-//   margin-left: 2rem
-//   font-size: 1.2rem;
-//   counter-reset: li;
-
-//   li {
-//     padding-left: 3.5rem;
-//     margin-bottom: 2rem;
-//     position: relative;
-//     list-style-type: none;
-//     font-weight: 200;
-
-//     @media (min-width:768px) {
-//       padding-left: 5rem;
-//     }
-
-//     ::before {
-//       counter-increment: li;
-//       content: counter(li);
-//       color: #fff;
-//       font-size: 1rem;
-//       background: #000;
-//       line-height: 35px;
-//       width: 35px;
-//       height: 35px;
-//       border-radius: 100%;
-//       display: inline-block;
-//       text-align: center;
-//       left: 0px;
-//       position: absolute;
-//       top:  -0.3rem;
-//       border: 1px solid #000;
-//       font-weight: 200;
-
-//       @media (min-width: 768px) {
-
-//         top:  0.1rem;
-//         line-height: 50px;
-//         width: 50px;
-//         height: 50px;
-//         font-size: 1.2rem;
-//       }
-//   }
-// `
+const Locations = styled('ul')`
+  padding: 0 2rem;
+`

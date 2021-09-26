@@ -1,12 +1,14 @@
+import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import Link from 'next/link'
-import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
+
+import ModalVideo from 'react-modal-video'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -22,7 +24,14 @@ export default function Home() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/bethesda',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -31,8 +40,8 @@ export default function Home() {
       <HeroSection
         heroText="Wedding Planning For Bethesda Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Bethesda"
-        buttonText="Book a Call"
-        backgroundImage="../WebP-images/newly-married-couple.webp"
+        buttonText="Book a video call"
+        backgroundImage="/images/newly-married-couple.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -50,7 +59,7 @@ export default function Home() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a video call</Button>
               </a>
             </div>
           </div>
@@ -98,24 +107,27 @@ export default function Home() {
             <Services>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/bride-groom-happy.webp"
+                  src="/images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/wedding-table-setting.webp"
+                  src="/images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/wedding-flower-centerpiece-design.webp"
+                  src="/images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
+                  loading="lazy"
                 />
-                <h3 className="title">Wedding Flowers</h3>
+                <h3 className="title">Wedding Floral Design</h3>
               </div>
             </Services>
             <div className="center">
@@ -223,17 +235,23 @@ export default function Home() {
           </div>
         </section>
         <section className="gallery container">
-          <h2 className="title">Gallery</h2>
+          <h2 className="title">Our Gallery</h2>
           <Gallery>
             <img
-              src="/WebP-images/bride-with-flowers.webp"
+              src="/images/bride-with-flowers.webp"
               alt="Bride with flowers"
+              loading="lazy"
             />
             <img
-              src="/WebP-images/bride-groom-happy.webp"
+              src="/images/bride-groom-happy.webp"
               alt="Bride and Groom"
+              loading="lazy"
             />
-            <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
+            <img
+              src="/images/wedding-cake.webp"
+              alt="Wedding cake picture"
+              loading="lazy"
+            />
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery">

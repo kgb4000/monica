@@ -5,10 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link
-            rel="stylesheet"
-            href="https://use.typekit.net/uit2xfg.css"
-          ></link>
+          <link rel="stylesheet" href="https://use.typekit.net/uit2xfg.css" />
         </Head>
         <body>
           <Main />

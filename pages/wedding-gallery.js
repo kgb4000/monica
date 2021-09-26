@@ -16,7 +16,14 @@ const Gallery = () => {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/wedding-gallery',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -37,7 +44,7 @@ const Gallery = () => {
         heroText="Wedding Gallery"
         subText="Pictures From Our Happily Married Couples"
         buttonText="Book a Call"
-        backgroundImage="../WebP-images/bride-groom-night-photo.webp"
+        backgroundImage="/images/bride-groom-night-photo.webp"
         alt="Bride and Groom Night Photo"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -47,120 +54,143 @@ const Gallery = () => {
         <Photos>
           {/* Natallie's wedding */}
           <img
-            src="../WebP-images/flowers-in-pavillion.webp"
+            src="/images/flowers-in-pavillion.webp"
             className="grid-item-1"
             alt="Flowers in pavillion"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-bride.webp"
+            src="/images/wedding-bride.webp"
             className="grid-item-2"
             alt="Wedding bride"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-table-setting-with-flowers.webp"
+            src="/images/wedding-table-setting-with-flowers.webp"
             className="grid-item-3"
             alt="Wedding table setting with flowers"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/kiss-at-wedding.webp"
+            src="/images/kiss-at-wedding.webp"
             className="grid-item-4"
             alt="Wedding table setting with flowers"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/reserved-wedding-table.webp"
+            src="/images/reserved-wedding-table.webp"
             className="grid-item-5"
             alt="Reserved wedding table"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/flowers-and-bride-shoes.webp"
+            src="/images/flowers-and-bride-shoes.webp"
             className="grid-item-6"
             alt="Flowers and bride shoes"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/walking-down-aisle.webp"
+            src="/images/walking-down-aisle.webp"
             className="grid-item-8"
             alt="Walking down aisle"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/happy-bride.webp"
+            src="/images/happy-bride.webp"
             className="grid-item-9"
             alt="Wedding table setting with flowers"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-ceremony.webp"
+            src="/images/wedding-ceremony.webp"
             className="grid-item-10"
             alt="Wedding ceremony"
+            loading="lazy"
           />
           {/* Thurston's wedding */}
           <img
-            src="../WebP-images/bride-groom-happy.webp"
+            src="/images/bride-groom-happy.webp"
             className="grid-item-11"
             alt="Happy bride and groom"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/black-red-wedding-decor.webp"
+            src="/images/black-red-wedding-decor.webp"
             className="grid-item-13"
             alt="Wedding flowers on table"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/reserved-wedding-table.webp"
+            src="/images/reserved-wedding-table.webp"
             className="grid-item-17"
             alt="Reserved wedding table"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/black-red-wedding-decor.webp"
+            src="/images/black-red-wedding-decor.webp"
             className="grid-item-18"
             alt="Wedding table setting with flowers"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/bride-at-wedding.webp"
+            src="/images/bride-at-wedding.webp"
             className="grid-item-19"
             alt="Bride at Wedding"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/tall-wedding-flowers-centerpiece.webp"
+            src="/images/tall-wedding-flowers-centerpiece.webp"
             className="grid-item-20"
             alt="Tall Wedding Flower Centerpiece"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/tea-lights.webp"
+            src="/images/tea-lights.webp"
             className="grid-item-21"
             alt="Wedding Walk Way Decor With Tea Lights"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/indoor-wedding-ceremony.webp"
+            src="/images/indoor-wedding-ceremony.webp"
             className="grid-item-22"
             alt="Indoor Wedding Cermony"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/black-grooms-men.webp"
+            src="/images/black-grooms-men.webp"
             className="grid-item-23"
             alt="Black Grooms Men"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-reception-table.webp"
+            src="/images/wedding-reception-table.webp"
             className="grid-item-24"
             alt="Wedding Reception Table"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-reception-tables.webp"
+            src="/images/wedding-reception-tables.webp"
             className="grid-item-25"
             alt="Wedding Reception Tables"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-reception-table-decor.webp"
+            src="/images/wedding-reception-table-decor.webp"
             className="grid-item-26"
             alt="Wedding Reception Table Decor"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/wedding-reception-decor.webp"
+            src="/images/wedding-reception-decor.webp"
             className="grid-item-27"
             alt="Wedding Reception Decor"
+            loading="lazy"
           />
           <img
-            src="../WebP-images/bride-groom-serious-love.webp"
+            src="/images/bride-groom-serious-love.webp"
             className="grid-item-28"
             alt="Bride and Groom"
+            loading="lazy"
           />
         </Photos>
         <div className="center">

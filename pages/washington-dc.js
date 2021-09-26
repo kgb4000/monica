@@ -1,12 +1,14 @@
+import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import Link from 'next/link'
-import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
-
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import { NextSeo } from 'next-seo'
+
+const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -22,7 +24,14 @@ export default function Home() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/washington-dc',
       site_name: 'Monica Browne Weddings',
-      image: '/bride-with-flowers.webp',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -40,17 +49,17 @@ export default function Home() {
         }}
       />
       <HeroSection
-        heroText="Wedding Planning For Washington Couples"
-        subText="We Create Beautiful Weddings For Busy Couples in Washington"
-        buttonText="Book a Call"
-        backgroundImage="../WebP-images/walking-down-aisle.webp"
+        heroText="Wedding Planning For Washington DC Couples"
+        subText="We Create Beautiful Weddings For Busy Couples in Washington DC"
+        buttonText="Book a video call"
+        backgroundImage="/images/walking-down-aisle.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Washington DC</h1>
+            <h1 className="title">DC Wedding Planner</h1>
             <p className="intro">
               Even though you may not know where to start planning your wedding,
               you can still have the wedding of your dreams. Monica Browne
@@ -63,7 +72,7 @@ export default function Home() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a video call</Button>
               </a>
             </div>
           </div>
@@ -73,10 +82,10 @@ export default function Home() {
             <div className="painpoints">
               <div className="painpoints--content">
                 <h2 className="title">
-                  Planning A Wedding Can Be Stressful And Frustrating
+                  Wedding Planning can be Stressful and Really Frustrating
                 </h2>
                 <PainPoints>
-                  <li>Not knowing what you want and where to start planning</li>
+                  <li>Not knowing what you want and where to start</li>
                   <li>
                     Information overload from big wedding websites and blogs
                   </li>
@@ -110,22 +119,25 @@ export default function Home() {
             <Services>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/bride-groom-night-photo-1.webp"
+                  src="/images/bride-groom-night-photo-1.webp"
                   alt="Bride and groom night photo"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/wedding-table-setting.webp"
+                  src="/images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/bride-at-wedding.webp"
+                  src="/images/bride-at-wedding.webp"
                   alt="Bride with white flower bouguet"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Flowers</h3>
               </div>
@@ -142,7 +154,7 @@ export default function Home() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding in Washington DC Easier
+              We Make Wedding Planning for DC Couples Much Easier
             </h2>
             <div>
               <Simple>
@@ -227,17 +239,23 @@ export default function Home() {
           </div>
         </section>
         <section className="gallery container">
-          <h2 className="title">Gallery</h2>
+          <h2 className="title">Our Gallery</h2>
           <Gallery>
             <img
-              src="/WebP-images/bride-with-flowers.webp"
+              src="/images/bride-with-flowers.webp"
               alt="Bride with flowers"
+              loading="lazy"
             />
             <img
-              src="/WebP-images/bride-groom-happy.webp"
+              src="/images/bride-groom-happy.webp"
               alt="Bride and Groom"
+              loading="lazy"
             />
-            <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
+            <img
+              src="/images/wedding-cake.webp"
+              alt="Bride and Groom"
+              loading="lazy"
+            />
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery">
@@ -390,16 +408,4 @@ const Gallery = styled('div')`
     max-width: 100%;
     margin: 0 auto;
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 40rem;
-  margin: 0 auto;
-  margin-top: 2rem;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: 200;
 `

@@ -1,14 +1,22 @@
 import styled from 'styled-components'
 
 export const Testimonial = styled('p')`
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   max-width: 60rem;
   margin: 0 auto;
   margin-top: 2rem;
 
+  @media (min-width: 768px) {
+      font-size: 1.4rem;
+      line-height: 1.8;
+      margin-top: 5rem;
+    }
+  }
+
   @media (min-width: 1440px) {
       font-size: 1.6rem;
       line-height: 1.8;
+      margin-top: 5rem;
     }
   }
 `

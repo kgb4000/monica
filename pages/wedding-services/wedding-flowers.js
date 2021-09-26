@@ -18,7 +18,14 @@ export default function WeddingFlowers() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/wedding-services/wedding-flowers',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -39,7 +46,7 @@ export default function WeddingFlowers() {
         heroText="Wedding Flowers Design"
         subText="The Best Custom Wedding Flowers Design Service In Maryland &amp; DC"
         buttonText="Book a Call"
-        backgroundImage="../WebP-images/wedding-reception-decor.webp"
+        backgroundImage="/images/wedding-reception-decor.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />

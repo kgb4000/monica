@@ -1,13 +1,14 @@
+import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import Link from 'next/link'
-import ModalVideo from 'react-modal-video'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
-
 import { NextSeo } from 'next-seo'
+
+const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -23,7 +24,14 @@ export default function Potomac() {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/potomac',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://monicabrowneweddings.com/public/WebP-images/walking-down-aisle.webp',
+          width: 1000,
+          height: 1500,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
@@ -32,7 +40,7 @@ export default function Potomac() {
       <HeroSection
         heroText="Wedding Planning For Couples in Potomac"
         subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"
-        buttonText="Book a Call"
+        buttonText="Book a video call"
         backgroundImage="../WebP-images/walking-down-aisle.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -50,7 +58,7 @@ export default function Potomac() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a video call</Button>
               </a>
             </div>
           </div>
@@ -98,6 +106,7 @@ export default function Potomac() {
                 <img
                   src="/WebP-images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
@@ -105,6 +114,7 @@ export default function Potomac() {
                 <img
                   src="/WebP-images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
+                  loading="lazy"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
@@ -112,8 +122,9 @@ export default function Potomac() {
                 <img
                   src="/WebP-images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
+                  loading="lazy"
                 />
-                <h3 className="title">Wedding Flowers</h3>
+                <h3 className="title">Wedding Floral Design</h3>
               </div>
             </Services>
             <div className="center">
@@ -218,12 +229,18 @@ export default function Potomac() {
             <img
               src="/WebP-images/bride-with-flowers.webp"
               alt="Bride with flowers"
+              loading="lazy"
             />
             <img
               src="/WebP-images/bride-groom-happy.webp"
               alt="Bride and Groom"
+              loading="lazy"
             />
-            <img src="/WebP-images/wedding-cake.webp" alt="Bride and Groom" />
+            <img
+              src="/WebP-images/wedding-cake.webp"
+              alt="Wedding cake picture"
+              loading="lazy"
+            />
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery">

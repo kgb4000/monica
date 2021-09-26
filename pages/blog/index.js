@@ -23,7 +23,7 @@ export const getStaticProps = async () => {
 
 export default function Blog({ data }) {
   const SEO = {
-    title: 'Blog | Monica Browne Weddings',
+    title: "Monica's Wedding Blog | Monica Browne Weddings",
     description:
       'Blog for Monica Browne Weddings. Helping couples navigate wedding planning.',
     canonical: 'https://monicabrowneweddings.com/blog',
@@ -32,14 +32,21 @@ export default function Blog({ data }) {
       locale: 'en_US',
       url: 'https://monicabrowneweddings.com/blog',
       site_name: 'Monica Browne Weddings',
-      image: 'bride-with-flowers.jpg',
+      images: [
+        {
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
+          alt: 'Couple just married, walking down the aisle.',
+        },
+      ],
     },
   }
   return (
     <div>
       <BlogJsonLd
         url="https://monicabrowneweddings.com/blog"
-        title="Monica's Blog"
+        title="Monica's Wedding Blog"
         images={[
           'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631813345/bride-glasses_pzaoov.webp',
         ]}
@@ -54,7 +61,7 @@ export default function Blog({ data }) {
         }}
       />
       <HeroSection
-        heroText="Blog"
+        heroText="Monica's Blog"
         subText="My blog for engaged couples"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631813345/bride-glasses_pzaoov.webp"
         buttonText="Let's talk"
@@ -63,7 +70,7 @@ export default function Blog({ data }) {
       />
       <section className="container">
         <Main>
-          <h1 className="title">Monica's Blog</h1>
+          <h1 className="title">Thoughts & Ideas from Monica</h1>
           <div className="content">
             <div className="blog-posts">
               {data.posts.map((post) => (
@@ -76,6 +83,7 @@ export default function Blog({ data }) {
                           src={post.coverImage.url}
                           alt={post.title}
                           title={post.title}
+                          loading="lazy"
                         />
                         <div className="blog-info">
                           <p>
@@ -108,12 +116,12 @@ export default function Blog({ data }) {
                   <a>Monica Browne Weddings</a>
                 </Link>
                 . I help busy couples in Maryland and DC plan their dream
-                weddings. If you're a busy couple and need help planning your
-                wedding, let's talk.
+                wedding. If you're a busy couple and need help planning your
+                wedding, please don't hesitiate to reach out to me.
               </p>
               <div className="center">
                 <a href={calendly}>
-                  <Button>Book a call</Button>
+                  <Button>Book a video call</Button>
                 </a>
               </div>
             </div>
@@ -139,7 +147,7 @@ const Main = styled('div')`
     margin-right: 1rem;
   }
 
-  .authoer-name {
+  .author-name {
     margin-right: 1rem;
   }
 
@@ -202,6 +210,7 @@ const Main = styled('div')`
 
       img {
         max-width: 100%;
+        margin-bottom: 2rem;
       }
 
       p {

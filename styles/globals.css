@@ -19,9 +19,16 @@ body {
   background-color: #f7f9fc;
 }
 
+@font-face {
+  font-family: 'Palyfair_Display';
+  src: url('/fonts/Palyfair_Display/Palyfair_Display-Black.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+}
+
 a {
   color: #a29bfe;
-  text-decoration: none;
 }
 
 .container {
@@ -49,10 +56,12 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: minerva-modern, sans-serif;
+  /* font-family: minerva-modern, sans-serif; */
+  font-family: 'Playfair Display', serif;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 2px;
+  font-display: optional;
 }
 
 h1 {
@@ -92,7 +101,7 @@ h4 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 1.7rem 0;
   }
 
@@ -146,7 +155,11 @@ ul li {
 .title {
   text-align: center;
   margin: 2rem auto;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+
+.blog-posts a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

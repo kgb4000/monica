@@ -13,7 +13,7 @@ const Footer = () => {
             Monica Browne Weddings is a wedding planning company in Maryland
             serving all couples in Maryland and Washington DC. We offer Full
             Service and Partial Wedding Planning services, as well as providing
-            Day-of Coordination, Wedding Decoration, and Custom Wedding Flowers
+            Day-of Coordination, Wedding Decoration, and Custom Wedding Floral
             Design Services. If you are a busy couple and need help planning
             your wedding, or if you just need some help and guidance, please
             don't hesitate to reach out to us. You can{' '}
@@ -94,7 +94,7 @@ const Footer = () => {
                         href="/wedding-services/wedding-decorations"
                         passHref
                       >
-                        <a>Wedding Decorations</a>
+                        <a>Wedding Decoration</a>
                       </Link>
                     </li>
                   </ul>
@@ -166,7 +166,7 @@ const Footer = () => {
           <FooterContact>
             <h3>Contact</h3>
             <p>
-              <a href={calendly}>Book A Call</a>
+              <a href={calendly}>Book A Video Call</a>
             </p>
             <p>
               <a href="mailto:monica@monicabrowneweddings.com" itemProp="email">
@@ -199,6 +199,7 @@ const Footer = () => {
 const FooterFoot = styled.footer`
   a {
     color: inherit;
+    text-decoration: none;
   }
 
   h3 {

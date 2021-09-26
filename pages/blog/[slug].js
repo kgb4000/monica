@@ -5,6 +5,12 @@ import HeroSection from '../../components/HeroSection'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo } from 'next-seo'
 import { ArticleJsonLd } from 'next-seo'
+import {
+  EmailShareButton,
+  FacebookShareButton,
+  TwitterShareButton,
+} from 'react-share'
+import { EmailIcon, FacebookIcon, TwitterIcon } from 'react-share'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -54,7 +60,6 @@ export default function Blog({ post, data }) {
       locale: 'en_US',
       url: `https://monicabrowneweddings.com/blog/${post.slug}`,
       site_name: 'Monica Browne Weddings',
-      image: post.coverImage.url,
     },
   }
 
@@ -77,11 +82,11 @@ export default function Blog({ post, data }) {
           maxImagePreview: 'none',
         }}
       />
-      <HeroSection
+      {/* <HeroSection
         heroText={post.title}
         backgroundImage={post.coverImage.url}
-        backgroundHeight="100vh"
-      />
+        backgroundHeight="50vh"
+      /> */}
       <Main>
         <div className="container">
           <div className="content">
@@ -99,7 +104,7 @@ export default function Blog({ post, data }) {
               </Link>
               <Link href="/about-wedding-planner">
                 <a>
-                  <span className="authoer-name">{post.author.name}</span>
+                  <span className="author-name">{post.author.name}</span>
                 </a>
               </Link>
               <span>
@@ -109,6 +114,30 @@ export default function Blog({ post, data }) {
                   day: 'numeric',
                 })}
               </span>
+            </div>
+            <p className="share-text">Be a dear and share:</p>
+            <div className="share-btns">
+              <div className="facebook-btn">
+                <FacebookShareButton
+                  url={`https://monicabrowneweddings.com/blog/${post.slug}`}
+                >
+                  <FacebookIcon size={35} round={true} />
+                </FacebookShareButton>
+              </div>
+              <div className="twitter-btn">
+                <TwitterShareButton
+                  url={`https://monicabrowneweddings.com/blog/${post.slug}`}
+                >
+                  <TwitterIcon size={35} round={true} />
+                </TwitterShareButton>
+              </div>
+              <div className="email-btn">
+                <EmailShareButton
+                  url={`https://monicabrowneweddings.com/blog/${post.slug}`}
+                >
+                  <EmailIcon size={35} round={true} />
+                </EmailShareButton>
+              </div>
             </div>
             <RichText content={post.content.json} />
           </div>
@@ -148,9 +177,33 @@ const Main = styled.main`
   .author-info {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 0.8rem;
     font-weight: 100;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .share-btns {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    .share-text {
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+
+  .facebook-btn {
+    margin: 0 0.5rem;
+  }
+  .email-btn {
+    margin: 0 0.5rem;
   }
   .author-img {
     border: 3px solid #a29bfe;
@@ -159,7 +212,7 @@ const Main = styled.main`
     margin-right: 1rem;
   }
 
-  .authoer-name {
+  .author-name {
     margin-right: 1rem;
   }
 
@@ -168,13 +221,19 @@ const Main = styled.main`
     align-items: center;
 
     img {
-      width: 10rem;
-      margin-right: 1rem;
+      width: 45%;
+      margin-right: 5%;
     }
 
     h3 {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       width: 50%;
+    }
+  }
+
+  .blog-posts {
+    a {
+      text-decoration: none;
     }
   }
 
@@ -182,6 +241,10 @@ const Main = styled.main`
     .content {
       max-width: 60rem;
       margin: 0 auto;
+    }
+
+    .author-info {
+      font-size: 1rem;
     }
 
     .blog-posts {

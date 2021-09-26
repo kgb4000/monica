@@ -103,6 +103,7 @@ const NavButton = styled(Button)`
   border: 1px solid a29bfe;
   color: #fff;
   font-size: 0.6rem;
+  font-weight: 700;
   border-radius: 10px;
   padding: 0.6rem 1rem;
 

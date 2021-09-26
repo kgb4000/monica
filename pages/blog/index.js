@@ -121,7 +121,7 @@ export default function Blog({ data }) {
               </p>
               <div className="center">
                 <a href={calendly}>
-                  <Button>Book a video call</Button>
+                  <Button>Book a call</Button>
                 </a>
               </div>
             </div>
@@ -254,7 +254,7 @@ const Main = styled('div')`
     .blog-post {
 
       .blog-img {
-        width: 50%;
+        width: 45%;
         margin-right: 5%;
       }
 

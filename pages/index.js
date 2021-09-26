@@ -182,6 +182,7 @@ export default function Home({ data }) {
                 isOpen={isOpen}
                 url="https://natashaweddingvideo.s3.amazonaws.com/wedding-video.mp4"
                 allowFullScreen={true}
+                autoplay={true}
                 onClose={() => setOpen(false)}
               />
               <WhiteButton

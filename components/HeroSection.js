@@ -86,6 +86,7 @@ const WhiteButton = styled(Button)`
   font-size: 0.8rem;
   padding: 1.2rem 1.4rem;
   margin: 1rem 0;
+  font-weight: 700;
 
   :hover {
     color: #000;

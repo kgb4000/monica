@@ -44,7 +44,7 @@ const Gallery = () => {
         heroText="Wedding Gallery"
         subText="Pictures From Our Happily Married Couples"
         buttonText="Book a Call"
-        backgroundImage="/images/bride-groom-night-photo.webp"
+        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495883/bride-groom-serious-love_i9lo4u.webp"
         alt="Bride and Groom Night Photo"
         buttonLink={calendly}
         backgroundHeight="100vh"

@@ -52,7 +52,7 @@ export default function Home() {
         heroText="Wedding Planning For Washington DC Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Washington DC"
         buttonText="Book a video call"
-        backgroundImage="/images/walking-down-aisle.webp"
+        backgroundImage="/images/bride-at-wedding.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -61,14 +61,12 @@ export default function Home() {
           <div className="content">
             <h1 className="title">DC Wedding Planner</h1>
             <p className="intro">
-              Even though you may not know where to start planning your wedding,
-              you can still have the wedding of your dreams. Monica Browne
-              Weddings is here to help and guide you through the process. With
-              our help and guidance, you will undoubtedly get the wedding you
+              Even though you may not know where to start, a DC wedding planner
+              like Monica Browne Weddings can help plan the wedding you want.
+              With our help and guidance, you will certainly get the wedding you
               want and have time to do the other essential things in your life.
-              We work with couples in Dc, and throughout the Washington DC area
-              and are happy to bring your whatever vision you have for your
-              wedding, to life.
+              We work with couples in DC, and throughout the DC metropolitan
+              area, and are happy to help bring your wedding to life.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -79,24 +77,28 @@ export default function Home() {
         </section>
         <section className="container">
           <div className="service-content">
+            <h2 className="title">
+              Wedding Planning can be Stressful and Really Frustrating
+            </h2>
             <div className="painpoints">
+              <img
+                src="images/dc-wedding-planner.webp"
+                alt="dc-wedding-planner-monica-browne"
+              />
               <div className="painpoints--content">
-                <h2 className="title">
-                  Wedding Planning can be Stressful and Really Frustrating
-                </h2>
                 <PainPoints>
                   <li>Not knowing what you want and where to start</li>
                   <li>
                     Information overload from big wedding websites and blogs
                   </li>
                   <li>
-                    Having to trust vendors that you don't know with the most
-                    important day of your life
+                    Having to trust friends that may not come through for you
                   </li>
                   <li>
-                    Setting up a timeline, guest lodging, ans seating charts
+                    Setting up hotels for your guests, seating charts for your
+                    reception, and scheduling tasting with the caterer, plus
+                    more
                   </li>
-                  <li>Budgeting and managing your wedding</li>
                   <li>Relying on friends that may not come through</li>
                   <li>Dealing with new Covid-19 protocols</li>
                 </PainPoints>
@@ -104,8 +106,8 @@ export default function Home() {
             </div>
           </div>
           <h3 className="center-text">
-            Book a 15 minute call with us and see how we can help you plan your
-            dream wedding
+            Book a 15 minute call with us and see how we can help you save time
+            and plan your dream wedding
           </h3>
           <div className="center">
             <a href={calendly}>
@@ -113,6 +115,7 @@ export default function Home() {
             </a>
           </div>
         </section>
+
         <section className="container">
           <div className="content">
             <h2 className="title">Our Services</h2>
@@ -283,8 +286,32 @@ const Main = styled('div')`
   margin: 0 auto;
 }
 
-  .gallery {
-    padding-bottom: 4rem;
+.gallery {
+  padding-bottom: 4rem;
+}
+
+.painpoints img {
+  display: block;
+  margin: 0 auto;
+}
+
+  @media (min-width: 768px) {
+
+    .painpoints {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 1100px;
+      margin: 0 auto;
+      justify-content: flex-end;
+      justify-items: end;
+      grid-gap: 20px;
+      margin-bottom: 2rem;
+      align-items: center;
+
+      img {
+        margin-bottom: 1rem;
+      }
+    }
   }
 
   @media (min-width: 768px) {
@@ -323,6 +350,17 @@ const Main = styled('div')`
         margin: 0 auto;
       }
     }
+
+    @media (min-width: 1000px) {
+       .blog-info h3 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+
+      .painpoints {
+        align-items: center;
+      }
+    }
   }
 
 `
@@ -351,6 +389,11 @@ const PainPoints = styled('ul')`
     max-width: 100%;
     margin-left: 2rem;
   }
+
+  @media (min-width: 1000px) {
+    li {
+      font-size: 1.4rem;
+    }
 `
 
 const Services = styled('div')`

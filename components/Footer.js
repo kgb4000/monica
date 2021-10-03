@@ -3,6 +3,24 @@ import styled from 'styled-components'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
+const cities = [
+  { title: 'Maryland', path: '/' },
+  { title: 'Annapolis', path: '/annapolis' },
+  { title: 'Bethesda', path: '/bethesda' },
+  { title: 'Bowie', path: '/bowie' },
+  { title: 'Chevy Chase', path: '/chevy-chase' },
+  { title: 'Crofton', path: '/crofton' },
+  { title: 'Davidsonville', path: '/davidsonville' },
+  { title: 'Glenn Dale', path: '/glenn-dale' },
+  { title: 'Mitchellville', path: '/mitchellville' },
+  { title: 'Potomac', path: '/potomac' },
+  { title: 'Rockville', path: '/rockville' },
+  { title: 'Severna Park', path: '/severna-park' },
+  { title: 'Silver Spring', path: '/silver-spring' },
+  { title: 'Washington DC', path: '/washington-dc' },
+  { title: 'Woodmore', path: '/woodmore' },
+]
+
 const Footer = () => {
   return (
     <>
@@ -11,15 +29,23 @@ const Footer = () => {
           <h3>Monica Browne Weddings</h3>
           <p>
             Monica Browne Weddings is a wedding planning company in Maryland
-            serving all couples in Maryland and Washington DC. We offer Full
-            Service and Partial Wedding Planning services, as well as providing
-            Day-of Coordination, Wedding Decoration, and Custom Wedding Floral
-            Design Services. If you are a busy couple and need help planning
-            your wedding, or if you just need some help and guidance, please
-            don't hesitate to reach out to us. You can{' '}
-            <a href={calendly}>book a call</a> with us whenever you're ready.
+            serving all couples in Maryland and DC. We offer Full Service and
+            Partial Wedding Planning services, as well as providing Day-of
+            Coordination, Wedding Decoration, and Custom Wedding Floral Design
+            Services. If you are a busy couple and need help planning your
+            wedding, or if you just need some help and guidance, please don't
+            hesitate to reach out to us. You can book a call with us when you
+            are ready.
           </p>
-          {/* meet.google.com/ife-bxtw-kgn */}
+          {/* <p>
+            {cities.map((city) =>
+              router.pathname === city.path ? (
+                `Monica Browne Weddings is a wedding planning company in Maryland serving all couples in ${city.title}. We offer Full Service and Partial Wedding Planning services, as well as providing Day-of Coordination, Wedding Decoration, and Custom Wedding Floral Design Services. If you are a busy couple and need help planning your wedding, or if you just need some help and guidance, please don't hesitate to reach out to us. You can book a call with us when you are ready.`
+              ) : (
+                <p>Yo</p>
+              )
+            )}
+          </p> */}
         </Decription>
         <FooterFoot>
           <FooterHours>

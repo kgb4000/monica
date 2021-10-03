@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
+import BlogPosts from '../components/BlogPosts'
 import { NextSeo } from 'next-seo'
 import { getPosts } from '../lib/data'
 
@@ -39,7 +40,7 @@ export default function Home({ data }) {
         heroText="Wedding Planning For Busy Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         buttonText="Book A Video Call"
-        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495883/bride-groom-serious-love_i9lo4u.webp"
+        backgroundImage="/images/bride-groom-night-photo.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -63,11 +64,15 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="container">
-          <h2 className="title">
-            Planning A Wedding Can Really Take A Lot Of Time & Energy
-          </h2>
           <div className="service-content">
+            <h2 className="title">
+              Planning A Wedding Can Really Take A Lot Of Time & Energy
+            </h2>
             <div className="painpoints">
+              <img
+                src="images/maryland-wedding-planner.webp"
+                alt="maryland-wedding-planner"
+              />
               <div className="painpoints--content">
                 <PainPoints>
                   <li>Time finding reliable wedding vendors</li>
@@ -85,8 +90,8 @@ export default function Home({ data }) {
             </div>
           </div>
           <h3 className="center-text">
-            Book a 15-minute call with us and see how we can help you plan your
-            dream wedding
+            Book a 15 minute call with us and see how we can help you save time
+            and plan your dream wedding
           </h3>
           <div className="center">
             <a href={calendly}>
@@ -219,47 +224,7 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        <section className="container">
-          <div className="blog-content">
-            <h2 className="title">Latest Posts From Our Blog</h2>
-            <div className="blog-posts">
-              {data.posts.map((post) => (
-                <div key={post.slug}>
-                  <Link href={`/blog/${post.slug}`}>
-                    <a>
-                      <div className="blog-post">
-                        <img
-                          className="blog-img"
-                          src={post.coverImage.url}
-                          alt={post.title}
-                          loading="lazy"
-                        />
-                        <div className="blog-info">
-                          <p>
-                            {new Date(post.date).toLocaleDateString('en-us', {
-                              year: 'numeric',
-                              month: 'short',
-                              day: 'numeric',
-                            })}
-                          </p>
-                          <h3>{post.title}</h3>
-                          <p>Read more</p>
-                        </div>
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-              ))}
-            </div>
-            <div className="center">
-              <Link href="/blog">
-                <a>
-                  <Button>Read More Posts</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section>
+        <BlogPosts data={data} />
         <section className="gallery container">
           <h2 className="title">Our Gallery</h2>
           <Gallery>
@@ -312,6 +277,13 @@ const Main = styled('div')`
     margin-top: 1rem;
   }
 
+  .painpoints img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+
   @media (min-width: 768px) {
     .content {
       display: block;
@@ -320,6 +292,21 @@ const Main = styled('div')`
       .intro {
         max-width: 60rem;
         margin: 0 auto;
+      }
+    }
+
+    .painpoints {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 1100px;
+      margin: 0 auto;
+      justify-content: flex-end;
+      justify-items: end;
+      grid-gap: 20px;
+      margin-bottom: 2rem;
+
+      img {
+        margin-bottom: 1rem;
       }
     }
 
@@ -356,7 +343,7 @@ const Main = styled('div')`
     margin: 0 auto;
     text-aling: left;
 
-    @media (min-width: 768px) {
+   
       img {
         display: block;
       }
@@ -369,18 +356,28 @@ const Main = styled('div')`
         max-width: 40rem;
         margin: 0 auto;
       }
-    }
+    
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1000px) {
        .blog-info h3 {
         font-size: 2rem;
         font-weight: 500;
       }
-  }
+
+      .painpoints {
+        align-items: center;
+      }
+    }
 `
 
 const PainPoints = styled('ul')`
   padding: 0 2rem;
+
+  @media (min-width: 1000px) {
+    li {
+      font-size: 1.6rem;
+    }
+  }
 `
 
 const Simple = styled('ul')`

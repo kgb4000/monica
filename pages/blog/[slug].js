@@ -139,7 +139,21 @@ export default function Blog({ post, data }) {
                 </EmailShareButton>
               </div>
             </div>
-            <RichText content={post.content.json} />
+            <RichText
+              content={post.content.json}
+              // renders={{
+              //   img: ({ src, altText, height, width }) => (
+              //     <Img
+              //       loader={GraphCMSImageLoader}
+              //       src={post.coverImage.url}
+              //       alt={post.title}
+              //       height={post.coverImage.height}
+              //       width={post.coverImage.width}
+              //       objectFit="cover"
+              //     />
+              //   ),
+              // }}
+            />
           </div>
           <div className="content">
             <div className="blog-posts">
@@ -221,13 +235,13 @@ const Main = styled.main`
     align-items: center;
 
     img {
-      width: 45%;
+      width: 25%;
       margin-right: 5%;
     }
 
     h3 {
-      font-size: 0.8rem;
-      width: 50%;
+      font-size: 1rem;
+      width: 40%;
     }
   }
 
@@ -251,7 +265,7 @@ const Main = styled.main`
       margin-top: 2rem;
 
       h3 {
-        font-size: 1rem;
+        font-size: 1.6rem;
       }
     }
   }

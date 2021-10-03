@@ -26,7 +26,7 @@ export default function Potomac() {
       site_name: 'Monica Browne Weddings',
       images: [
         {
-          url: 'https://monicabrowneweddings.com/public/WebP-images/walking-down-aisle.webp',
+          url: 'https://monicabrowneweddings.com/public/images/walking-down-aisle.webp',
           width: 1000,
           height: 1500,
           alt: 'Couple just married, walking down the aisle.',
@@ -41,7 +41,7 @@ export default function Potomac() {
         heroText="Wedding Planning For Couples in Potomac"
         subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"
         buttonText="Book a video call"
-        backgroundImage="../WebP-images/walking-down-aisle.webp"
+        backgroundImage="/images/walking-down-aisle.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -104,7 +104,7 @@ export default function Potomac() {
             <Services>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/bride-groom-happy.webp"
+                  src="/images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
                   loading="lazy"
                 />
@@ -112,7 +112,7 @@ export default function Potomac() {
               </div>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/wedding-table-setting.webp"
+                  src="/images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
                   loading="lazy"
                 />
@@ -120,7 +120,7 @@ export default function Potomac() {
               </div>
               <div className="wedding-service">
                 <img
-                  src="/WebP-images/wedding-flower-centerpiece-design.webp"
+                  src="/images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
                   loading="lazy"
                 />
@@ -227,17 +227,17 @@ export default function Potomac() {
           <h2 className="title">Gallery</h2>
           <Gallery>
             <img
-              src="/WebP-images/bride-with-flowers.webp"
+              src="/images/bride-with-flowers.webp"
               alt="Bride with flowers"
               loading="lazy"
             />
             <img
-              src="/WebP-images/bride-groom-happy.webp"
+              src="/images/bride-groom-happy.webp"
               alt="Bride and Groom"
               loading="lazy"
             />
             <img
-              src="/WebP-images/wedding-cake.webp"
+              src="/images/wedding-cake.webp"
               alt="Wedding cake picture"
               loading="lazy"
             />
@@ -278,6 +278,10 @@ const Main = styled('div')`
       display: block;
       margin: 0 auto;
 
+      .intro {
+        max-width: 60rem;
+        margin: 0 auto;
+      }
     }
 
     .service-content {

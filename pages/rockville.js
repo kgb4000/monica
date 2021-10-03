@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
+import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
@@ -40,20 +41,21 @@ export default function Rockville() {
         heroText="Wedding Planning For Couples in Rockville"
         subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"
         buttonText="Book a video call"
-        backgroundImage="/images/walking-down-aisle.webp"
+        backgroundImage="/images/wedding-venue-in-maryland.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Rockville Maryland</h1>
+            <h1 className="title">Rockville Wedding Planner</h1>
             <p className="intro">
               Even though you may not know where to start planning your wedding,
-              you can still have the wedding of your dreams. Monica Browne
-              Weddings is here to help and guide you through the process. With
-              our help and guidance, you will undoubtedly get the wedding you
-              want and have time to do the other essential things in your life.
+              a Rockville wedding planner can help you have the wedding of your
+              dreams. Monica Browne Weddings is here to help and guide you
+              through the process. With our help and guidance, you will
+              undoubtedly get the wedding you want and have time to do the other
+              essential things in your life.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -66,7 +68,9 @@ export default function Rockville() {
           <div className="service-content">
             <div className="painpoints">
               <div className="painpoints--content">
-                <h2 className="title">Planning A Wedding Can Be A Lot</h2>
+                <h2 className="title">
+                  Planning A Wedding Can Be A Lot of Work
+                </h2>
                 <PainPoints>
                   <li>Not knowing what you want and where to start planning</li>
                   <li>
@@ -110,7 +114,7 @@ export default function Rockville() {
               </div>
               <div className="wedding-service">
                 <img
-                  src="/images/wedding-table-setting.webp"
+                  src="/images/maryland-wedding-planner.webp"
                   alt="Wedding Decor and Design"
                   loading="lazy"
                 />
@@ -277,7 +281,7 @@ const Main = styled('div')`
       margin: 0 auto;
 
       .intro {
-        max-width: 40rem;
+        max-width: 60rem;
         margin: 0 auto;
       }
     }
@@ -395,16 +399,4 @@ const Gallery = styled('div')`
     max-width: 100%;
     margin: 0 auto;
   }
-`
-
-const Testimonial = styled('p')`
-  max-width: 40rem;
-  margin: 0 auto;
-  margin-top: 2rem;
-`
-
-const TestimonialAuthor = styled('p')`
-  text-align: center;
-  margin-top: 2rem;
-  font-weight: 200;
 `

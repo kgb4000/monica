@@ -49,12 +49,11 @@ export default function Home({ data }) {
           <div className="content">
             <h1 className="title">Maryland Wedding Planner</h1>
             <p className="intro">
-              Many busy couples getting married nowadays struggle to find the
-              time to plan the wedding they want. We at Monica Browne Weddings
-              help couples in Maryland, plan the wedding of their dreams,
-              leaving them with more time for their busy schedules. We take the
-              stress out of the process, so you don't have to worry about
-              anything, except making history.
+              Monica Browne Weddings is a Maryland wedding planner here to help
+              couples plan their dream wedding. We take the stress out of the
+              wedding planning process, so you don't have to worry about
+              anything. We want help you make this a wonderful experience, and
+              an experience you both will cherish.
             </p>
             <div className="center">
               <a href={calendly}>

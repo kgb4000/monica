@@ -84,6 +84,8 @@ export default function Blog({ data }) {
                           alt={post.title}
                           title={post.title}
                           loading="lazy"
+                          width={post.coverImage.width}
+                          height={post.coverImage.height}
                         />
                         <div className="blog-info">
                           <p>

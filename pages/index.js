@@ -72,6 +72,8 @@ export default function Home({ data }) {
               <img
                 src="images/maryland-wedding-planner.webp"
                 alt="maryland-wedding-planner"
+                loading="lazy"
+                width="472px"
               />
               <div className="painpoints--content">
                 <PainPoints>
@@ -142,7 +144,11 @@ export default function Home({ data }) {
             <Services>
               <div className="wedding-service">
                 <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-groom-happy_xr217b.webp"
+                  srcSet="images/bride-groom-311w.webp 480w,
+                            images/bride-groom-472w.webp 800w"
+                  sizes="(max-width: 480px) 480px,
+                            800px"
+                  src="images/bride-groom-472w.webp"
                   alt="Happily Married Couple"
                   loading="lazy"
                 />
@@ -150,16 +156,24 @@ export default function Home({ data }) {
               </div>
               <div className="wedding-service">
                 <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-decor_f3daqm.webp"
-                  alt="Wedding Decor and Design"
+                  srcSet="images/wedding-table-setting-design-311w.webp 480w,
+                            images/wedding-table-setting-design-472w.webp 800w"
+                  sizes="(max-width: 480px) 480px,
+                            800px"
+                  src="images/wedding-table-setting-design-472w.webp"
+                  alt="Wedding table setting design"
                   loading="lazy"
                 />
                 <h3 className="title">Wedding Decoration</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
-                  alt="Wedding Floral Design"
+                  srcSet="images/wedding-floral-design-472.webp 480w,
+                            images/wedding-floral-design-472.webp 800w"
+                  sizes="(max-width: 480px) 480px,
+                            800px"
+                  src="images/wedding-floral-design-472.webp.webp"
+                  alt="Wedding table setting design"
                   loading="lazy"
                 />
                 <h3 className="title">Wedding Floral Design</h3>
@@ -234,8 +248,12 @@ export default function Home({ data }) {
               loading="lazy"
             />
             <img
-              src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-groom-happy_xr217b.webp"
-              alt="Bride and Groom"
+              srcSet="images/bride-groom-311w.webp 480w,
+                            images/bride-groom-472w.webp 800w"
+              sizes="(max-width: 480px) 480px,
+                            800px"
+              src="images/bride-groom-472w.webp"
+              alt="Happily Married Couple"
               loading="lazy"
             />
             <img

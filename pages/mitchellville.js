@@ -8,6 +8,8 @@ import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
 
+import PainSection from '../components/PainSection'
+
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -39,7 +41,7 @@ export default function Potomac() {
       <NextSeo {...SEO} />
       <HeroSection
         heroText="Wedding Planning For Couples in Mitchellville"
-        subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"
+        subText="We Create Beautiful Weddings For Busy Couples in Mitchellville Maryland"
         buttonText="Book a video call"
         backgroundImage="/images/walking-down-aisle.webp"
         buttonLink={calendly}
@@ -64,39 +66,17 @@ export default function Potomac() {
           </div>
         </section>
         <section className="container">
-          <div className="service-content">
-            <div className="painpoints">
-              <div className="painpoints--content">
-                <h2 className="title">Planning A Wedding Takes A Lot</h2>
-                <PainPoints>
-                  <li>
-                    Time searching for the right{' '}
-                    <Link href="https://tpc.com/potomac/weddings/">
-                      <a target="_blank">wedding venue</a>
-                    </Link>
-                  </li>
-                  <li>Time reading and reviewing vendor contracts</li>
-                  <li>Time Creating and managing your wedding budget</li>
-                  <li>Time finding reliable wedding vendors</li>
-                  <li>Keeping organized and making timely decisions</li>
-                  <li>
-                    Time creating your wedding timeline, seating charts, and
-                    sending out invitations
-                  </li>
-                  <li>Navigating new Covid-19 protocols</li>
-                </PainPoints>
-              </div>
-            </div>
-          </div>
-          <h3 className="center-text">
-            Book a 15 minute call with us and see how we can help you plan your
-            dream wedding
-          </h3>
-          <div className="center">
-            <a href={calendly}>
-              <Button>Book a 15 min call</Button>
-            </a>
-          </div>
+          <PainSection
+            title="Planning A Wedding Can Start to Stress You Out"
+            src="/images/wedding-floral-design-472.webp"
+            pain1="Time finding reliable wedding vendors"
+            pain2="Time searching for the right wedding venue"
+            pain3="Time reading and reviewing vendor contracts"
+            pain4="Time Creating and managing your wedding budget"
+            pain5="Time creating your wedding timeline, seating charts, and
+                    arranging hotels for guests"
+            pain6="Navigating new Covid-19 protocols"
+          />
         </section>
         <section className="container">
           <div className="content">

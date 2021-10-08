@@ -73,7 +73,8 @@ export default function Home({ data }) {
                 src="images/maryland-wedding-planner-472w.webp"
                 alt="Maryland wedding planner"
                 loading="lazy"
-                width="472px"
+                width="472"
+                height="708"
               />
               <div className="painpoints--content">
                 <PainPoints>
@@ -151,6 +152,8 @@ export default function Home({ data }) {
                   src="images/bride-groom-472w.webp"
                   alt="Happily Married Couple"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
@@ -163,6 +166,8 @@ export default function Home({ data }) {
                   src="images/wedding-table-setting-design-472w.webp"
                   alt="Wedding table setting design"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Decoration</h3>
               </div>
@@ -175,6 +180,8 @@ export default function Home({ data }) {
                   src="images/wedding-floral-design-472.webp.webp"
                   alt="Wedding table setting design"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Floral Design</h3>
               </div>
@@ -246,6 +253,8 @@ export default function Home({ data }) {
               src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-with-flowers_xahpez.webp"
               alt="Bride with flowers"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               srcSet="images/bride-groom-311w.webp 480w,
@@ -255,11 +264,15 @@ export default function Home({ data }) {
               src="images/bride-groom-472w.webp"
               alt="Happily Married Couple"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-cake_jukdnu.webp"
               alt="Bride and Groom"
               loading="lazy"
+              width="472"
+              height="708"
             />
           </Gallery>
           <div className="center">
@@ -301,7 +314,6 @@ const Main = styled('div')`
     margin-bottom: 1rem;
   }
 
-
   @media (min-width: 768px) {
     .content {
       display: block;
@@ -322,70 +334,41 @@ const Main = styled('div')`
       justify-items: end;
       grid-gap: 20px;
       margin-bottom: 2rem;
+      align-items: center;
 
       img {
         margin-bottom: 1rem;
       }
     }
+  }
 
-    .blog-post {
-      display: flex;
-      margin-bottom: 2rem;
-      margin-right: 2rem;
-      max-width: 60rem;
-      margin: 0 auto;
-      margin-bottom: 2rem;
-      align-items: center;
+  display: block;
+  margin: 0 auto;
+  text-aling: left;
 
-      .blog-img {
-        width: 45%;
-        margin-right: 5%;
-      }
-
-      .blog-info {
-        margin-top: 0;
-        width: 50%;
-        text-align: left;
-        p {
-          font-size: 0.6rem;
-        }
-      }
-
-      h3 {
-        font-size: 1.5rem;
-        font-weight: 500;
-      }
-    }
-
+  img {
     display: block;
+  }
+
+  h2 {
+    margin: 4rem auto;
+  }
+
+  ul {
+    max-width: 40rem;
     margin: 0 auto;
-    text-aling: left;
+  }
 
-   
-      img {
-        display: block;
-      }
-
-      h2 {
-        margin: 4rem auto;
-      }
-
-      ul {
-        max-width: 40rem;
-        margin: 0 auto;
-      }
-    
-
-    @media (min-width: 1000px) {
-       .blog-info h3 {
-        font-size: 2rem;
-        font-weight: 500;
-      }
-
-      .painpoints {
-        align-items: center;
-      }
+  @media (min-width: 1000px) {
+    .blog-info h3 {
+      font-size: 2rem;
+      font-weight: 500;
     }
+
+    .painpoints {
+      align-items: center;
+    }
+  }
 `
 
 const PainPoints = styled('ul')`

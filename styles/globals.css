@@ -15,7 +15,6 @@ body {
   color: #2d3436;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  color: #101010;
   background-color: #f7f9fc;
 }
 
@@ -38,6 +37,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -139,7 +139,7 @@ ul li {
 @media (min-width: 768px) {
   p,
   ul li {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 200;
   }
 }

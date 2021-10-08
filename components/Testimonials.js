@@ -7,18 +7,12 @@ export const Testimonial = styled('p')`
   margin-top: 2rem;
 
   @media (min-width: 768px) {
-      font-size: 1.4rem;
-      line-height: 1.8;
-      margin-top: 5rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
       font-size: 1.6rem;
       line-height: 1.8;
       margin-top: 5rem;
     }
   }
+
 `
 
 export const TestimonialAuthor = styled('p')`

@@ -139,7 +139,7 @@ ul li {
 @media (min-width: 768px) {
   p,
   ul li {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 200;
   }
 }

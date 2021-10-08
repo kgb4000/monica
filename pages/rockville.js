@@ -109,14 +109,18 @@ export default function Rockville() {
                   src="/images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
               <div className="wedding-service">
                 <img
-                  src="/images/maryland-wedding-planner.webp"
+                  src="/images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
@@ -125,6 +129,8 @@ export default function Rockville() {
                   src="/images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Floral Design</h3>
               </div>
@@ -232,16 +238,22 @@ export default function Rockville() {
               src="/images/bride-with-flowers.webp"
               alt="Bride with flowers"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="/images/bride-groom-happy.webp"
               alt="Bride and Groom"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="/images/wedding-cake.webp"
               alt="Bride and Groom"
               loading="lazy"
+              width="472"
+              height="708"
             />
           </Gallery>
           <div className="center">

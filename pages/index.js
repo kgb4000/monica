@@ -70,8 +70,8 @@ export default function Home({ data }) {
             </h2>
             <div className="painpoints">
               <img
-                src="images/maryland-wedding-planner.webp"
-                alt="maryland-wedding-planner"
+                src="images/maryland-wedding-planner-472w.webp"
+                alt="Maryland wedding planner"
                 loading="lazy"
                 width="472px"
               />

@@ -57,7 +57,6 @@ const Header = styled('div')`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.8rem;
   z-index: 1000;
   height: 70px;
   background: rgba(162, 155, 254, 0.45);
@@ -73,7 +72,7 @@ const Header = styled('div')`
     max-width: 300px;
     font-weight: 700;
     color: #fff;
-    font-family: minerva-modern, sans-serif;
+    font-family: 'Playfair Display', serif;
   }
 
   @media (min-width: 768px) {
@@ -104,11 +103,9 @@ const NavButton = styled(Button)`
   color: #fff;
   font-size: 0.6rem;
   font-weight: 700;
-  border-radius: 10px;
-  padding: 0.6rem 1rem;
 
   @media (min-width: 768px) {
-    padding: 0.5rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     font-size: 1rem;
   }
 `

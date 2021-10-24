@@ -134,10 +134,13 @@ export default function About() {
                 planning industry goes back to when I was a little girl and
                 witnessed fabulous events put on by my parents and grandparents.
                 From there, that desire grew into me working with wonderful
-                clients like you. Over this past decade and a half, I've shared
-                heartfelt memories and created bonds with clients that will last
-                a lifetime. I am excited and looking forward to hearing more
-                about your vision and working with you too.{' '}
+                clients like you.
+              </p>
+              <p>
+                Over this past decade and a half, I've shared heartfelt memories
+                and created bonds with clients that will last a lifetime. I am
+                excited and looking forward to hearing more about your vision
+                and working with you too.{' '}
                 <a href={calendly} className="underline">
                   Book a call
                 </a>{' '}

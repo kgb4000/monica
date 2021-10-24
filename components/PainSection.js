@@ -7,6 +7,8 @@ export default function PainSection({
   title,
   src,
   alt,
+  width,
+  height,
   pain1,
   pain2,
   pain3,
@@ -19,7 +21,13 @@ export default function PainSection({
       <Service>
         <h2 className="title">{title}</h2>
         <Painpoint>
-          <img src={src} alt={alt} loading="lazy" />
+          <img
+            src={src}
+            alt={alt}
+            loading="lazy"
+            width={width}
+            height={height}
+          />
           <div className="painpoints--content">
             <PainPoints>
               <li>{pain1}</li>

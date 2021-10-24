@@ -28,14 +28,14 @@ const Footer = () => {
         <Decription>
           <h3>Monica Browne Weddings</h3>
           <p>
-            Monica Browne Weddings is a wedding planning company in Maryland
-            serving all couples in Maryland and DC. We offer Full Service and
-            Partial Wedding Planning services, as well as providing Day-of
-            Coordination, Wedding Decoration, and Custom Wedding Floral Design
-            Services. If you are a busy couple and need help planning your
-            wedding, or if you just need some help and guidance, please don't
-            hesitate to reach out to us. You can book a call with us when you
-            are ready.
+            Monica Browne Weddings is one of the best wedding planners in
+            Maryland, also serving couples in DC, and Northern Virginia. We
+            offer full service event planning, partial service event planning,
+            day of coordination, event design, and floral design services. If
+            you are a busy couple and need help from one of the top shelf
+            wedding planners, or if you just need some help and guidance, please
+            don't hesitate to reach out to us.You can book a call with us when
+            you are ready.
           </p>
           {/* <p>
             {cities.map((city) =>

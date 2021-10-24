@@ -37,7 +37,7 @@ export default function Home({ data }) {
         }}
       />
       <HeroSection
-        heroText="Wedding Planning For Busy Maryland Couples"
+        heroText="Wedding Planning For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         buttonText="Book A Video Call"
         backgroundImage="/images/bride-groom-night-photo.webp"
@@ -49,12 +49,32 @@ export default function Home({ data }) {
           <div className="content">
             <h1 className="title">Maryland Wedding Planner</h1>
             <p className="intro">
-              Monica Browne Weddings is a Maryland wedding planner here to help
-              couples plan their dream wedding. We take the stress out of the
-              wedding planning process, so you don't have to worry about
-              anything. We want help you make this a wonderful experience, and
-              an experience you both will cherish.
+              Monica Browne Weddings is a wedding planner and event design
+              company based in Bowie Maryland. We provide full service wedding
+              planning and partial service wedding planning. We're here to help
+              you plan your dream wedding and enjoy your big day.
             </p>
+            <p className="intro">
+              We take the stress out of the wedding planning process, so you
+              don't have to worry about anything. We help you make the planning
+              process a wonderful experience, and an memory you both can share
+              for the rest of your lives.
+            </p>
+            <p className="intro">
+              As one of the top Maryland wedding planners, our job is to guide
+              you through the wedding planning process. Planning your wedding
+              should be fun, but often times can become stressful, leaving some
+              couples frustrated and tired. That's where we can help.
+            </p>
+            <p className="intro">
+              We guide you through the process with helpful tips, suggestions
+              and our vetted professional services. We save you time and money
+              with our 15 years of experience as wedding planners in Maryland.
+            </p>
+            <h3 className="center-text">
+              Book a 15 minute call with us and see how we can help you plan
+              your dream wedding
+            </h3>
             <div className="center">
               <a href={calendly}>
                 <Button>Book a video call</Button>
@@ -65,7 +85,7 @@ export default function Home({ data }) {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              Planning A Wedding Can Really Take A Lot Of Time & Energy
+              Planning Your Wedding Can Take a Lot of Time & Energy
             </h2>
             <div className="painpoints">
               <img
@@ -77,16 +97,18 @@ export default function Home({ data }) {
               />
               <div className="painpoints--content">
                 <PainPoints>
-                  <li>Time finding reliable wedding vendors</li>
+                  <li>
+                    Time finding a reliable wedding planner and other vendors
+                  </li>
                   <li>Time searching for the right wedding venue</li>
                   <li>Time reading and reviewing vendor contracts</li>
-                  <li>Time Creating and managing your wedding budget</li>
+                  <li>Time creating and managing your wedding budget</li>
                   <li>Keeping organized and making timely decisions</li>
                   <li>
                     Time creating your wedding timeline, seating charts, and
                     arranging hotels for guests
                   </li>
-                  <li>Navigating new Covid-19 protocols</li>
+                  <li>Navigating new Covid-19 protocols for Maryland events</li>
                 </PainPoints>
               </div>
             </div>
@@ -289,7 +311,6 @@ export default function Home({ data }) {
 
 const Main = styled('div')`
   .content {
-    text-align: center;
   }
 
   .center-text {
@@ -320,7 +341,7 @@ const Main = styled('div')`
 
       .intro {
         max-width: 60rem;
-        margin: 0 auto;
+        margin: 1rem auto;
       }
     }
 

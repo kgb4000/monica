@@ -65,19 +65,17 @@ export default function Potomac() {
             </div>
           </div>
         </section>
-        <section className="container">
-          <PainSection
-            title="Planning A Wedding Can Start to Stress You Out"
-            src="/images/wedding-floral-design-472.webp"
-            pain1="Time finding reliable wedding vendors"
-            pain2="Time searching for the right wedding venue"
-            pain3="Time reading and reviewing vendor contracts"
-            pain4="Time Creating and managing your wedding budget"
-            pain5="Time creating your wedding timeline, seating charts, and
+        <PainSection
+          title="Planning A Wedding Can Start to Stress You Out"
+          src="/images/wedding-floral-design-472.webp"
+          pain1="Time finding reliable wedding vendors"
+          pain2="Time searching for the right wedding venue"
+          pain3="Time reading and reviewing vendor contracts"
+          pain4="Time Creating and managing your wedding budget"
+          pain5="Time creating your wedding timeline, seating charts, and
                     arranging hotels for guests"
-            pain6="Navigating new Covid-19 protocols"
-          />
-        </section>
+          pain6="Navigating new Covid-19 protocols"
+        />
         <section className="container">
           <div className="content">
             <h2 className="title">Our Services</h2>

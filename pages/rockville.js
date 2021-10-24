@@ -7,6 +7,7 @@ import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
+import PainSection from '../components/PainSection'
 
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
@@ -64,7 +65,21 @@ export default function Rockville() {
             </div>
           </div>
         </section>
-        <section className="container">
+        <PainSection
+          title="Planning A Wedding Can Start to Stress You Out"
+          src="/images/rockville-wedding-planner-bride-smiling.webp"
+          width="472"
+          height="708"
+          pain1="Not knowing what you want and where to start planning"
+          pain2="Time searching for the right wedding venue"
+          pain3="Having to trust vendors that you don't know with the most
+                    important day of your life"
+          pain4="Setting up a timeline, guest lodging, ans seating charts"
+          pain5="Time creating your wedding timeline, seating charts, and
+                    arranging hotels for guests"
+          pain6="Relying on friends that may not come through"
+        />
+        {/* <section className="container">
           <div className="service-content">
             <div className="painpoints">
               <div className="painpoints--content">
@@ -74,7 +89,7 @@ export default function Rockville() {
                 <PainPoints>
                   <li>Not knowing what you want and where to start planning</li>
                   <li>
-                    Information overload from big wedding websites and blogs
+                    Time searching for the right wedding venue
                   </li>
                   <li>
                     Having to trust vendors that you don't know with the most
@@ -99,7 +114,7 @@ export default function Rockville() {
               <Button>Book a 15 min call</Button>
             </a>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div className="content">
             <h2 className="title">Our Services</h2>

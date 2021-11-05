@@ -10,6 +10,8 @@ import Simple from '../components/Simple'
 import BlogPosts from '../components/BlogPosts'
 import { getPosts } from '../lib/data'
 
+import PainSection from '../components/PainSection'
+
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -29,7 +31,7 @@ export default function Home({ data }) {
   const SEO = {
     title: 'Annapolis Wedding Planner | Monica Browne Weddings',
     description:
-      'Get help from an Annapolis wedding planner and plan the wedding you want. Monica Browne Weddings can help you plan the beautiful wedding than you want. Call us.',
+      'Get an Annapolis wedding planner to plan the wedding of your dreams. Monica Browne Weddings can help you plan the wedding you really want. Call us.',
     canonical: 'https://monicabrowneweddings.com/annapolis',
     openGraph: {
       type: 'website',
@@ -52,7 +54,7 @@ export default function Home({ data }) {
       <HeroSection
         heroText="Wedding Planning For Annapolis Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Annapolis"
-        buttonText="Book A Video Call"
+        buttonText="Book A Call"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -60,64 +62,70 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Annapolis Wedding Planner</h1>
+            <h1 className="title">Wedding Planner Annapolis</h1>
             <p className="intro">
-              Annapolis wedding planner Monica Browne is here to help you plan
-              your wedding. We can help you with planning, choosing flowers and
-              decorations, and with creating your budget. We work with couples
-              in Annapolis and throughout Maryland to help make our couples
-              dream wedding come true.
+              Monica Browne Weddings is a wedding planning company providing
+              full-service planning, partial planning, and day-of coordination
+              services in Annapolis, Maryland.
             </p>
+            <p className="intro">
+              We are professional wedding planners to help you plan one of the
+              most memorable events of your life.
+            </p>
+            <p className="intro">
+              As a wedding planning company, we guide you through the wedding
+              planning process and help take the frustration and stress out of
+              wedding planning.
+            </p>
+            <p className="intro">
+              As a professional wedding coordinator and event planner, Monica
+              will manage your entire wedding day and ensure your special day
+              goes off without a hitch. If there are any unexpected problems,
+              you will not have to worry, because we'll take care of everything.
+            </p>
+            <p className="intro">
+              We are experts in event management and event planning with over 15
+              years of experience as wedding and event planners in the wedding
+              industry.
+            </p>
+            <p className="intro">
+              You tell us your vision, and we'll take care of all the details of
+              your big day.
+            </p>
+            <p className="intro">
+              Many couples trust us to bring their wedding dreams to life, and
+              we do. We always do our best to create enchanting, unique, and fun
+              events. As one of the top Annapolis wedding planners, you can
+              count on us to be there from the beginning of the planning process
+              to the end to make sure your big day is beautiful and stress-free.
+            </p>
+            <h3 className="center-text">
+              Book a 15 minute call with Monica and see how she can help as your
+              wedding planner in Annapolis
+            </h3>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a video call</Button>
+                <Button>Book a call</Button>
               </a>
             </div>
           </div>
         </section>
-        <section className="container">
-          <div className="service-content">
-            {/* <div className='player-wrapper'>
-              <ReactPlayer
-                className='react-player'
-                url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-                width='100%'
-                height='100%'
-              />
-            </div> */}
-            <div className="painpoints">
-              <div className="painpoints--content">
-                <h2 className="title">
-                  Planning Your Wedding Can Cost You A Lot of Time
-                </h2>
-                <PainPoints>
-                  <li>
-                    Time looking on Pinterest and MarhtaStewart.com for ideas
-                    and inspiration
-                  </li>
-                  <li>Time finding the right vendors</li>
-                  <li>Time reading and reveiwing contracts</li>
-                  <li>Time creating your wedding timeline</li>
-                  <li>Making timely decisions and staying organized</li>
-                  <li>Time sending out wedding invitations</li>
-                  <li>Figuring out new Covid-19 protocols</li>
-                </PainPoints>
-              </div>
-            </div>
-          </div>
-          <h3 className="center-text">
-            Book a 15 minute call with us and see how we can help you save time
-            and plan your dream wedding
-          </h3>
-          <div className="center">
-            <a href={calendly}>
-              <Button>Book a call</Button>
-            </a>
-          </div>
-        </section>
+        <PainSection
+          title="Wedding Planning Can Cost You A Lot of Time"
+          src="/images/wedding-floral-design-472.webp"
+          alt="Flowers designed by Annapolis wedding planner Monica Browne"
+          width="472"
+          height="708"
+          pain1="Time looking on for the best wedding vendors in Annapolis"
+          pain2="Time finding a wedding planner and wedding coordinator"
+          pain3="Time trying to plan a wedding, something you never done before"
+          pain4="Time looking for a venue and finding vendors"
+          pain5="Time finding the right event planning company "
+          pain6="Figuring out new Covid-19 protocols for events in Annapolis Maryland"
+        />
         <section className="container">
           <div className="content">
-            <h2 className="title">Our Services</h2>
+            <h2 className="title">Our Wedding Services</h2>
             <Services>
               <div className="wedding-service">
                 <img
@@ -194,8 +202,8 @@ export default function Home({ data }) {
               </Simple>
             </div>
             <h3 className="center-text">
-              Book a 15 minute call with us and see how we can help you save
-              time plannning your dream wedding
+              Book a 15 minute call with Monica and see how she can help as your
+              wedding planner in Annapolis
             </h3>
             <div className="center">
               <a href={calendly}>
@@ -291,9 +299,6 @@ export default function Home({ data }) {
 
 const Main = styled('div')`
 
-.content {
-  text-align: center;
-}
 
 .center-text {
   max-width: 40rem;

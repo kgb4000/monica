@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import { LocalBusinessJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -24,18 +25,109 @@ const cities = [
 const Footer = () => {
   return (
     <>
+      <LocalBusinessJsonLd
+        type="LocalBusiness"
+        id="http://monicabrowneweddings.com"
+        name="Monica Browne Weddings"
+        description="Monica Browne Weddings is one of the best wedding planners in
+            Maryland, also serving couples in DC and surrounding areas. We offer
+            full service event planning, partial service event planning, day of
+            coordination, event design, and floral design services. If you are a
+            busy couple and need help from one of the top shelf wedding
+            planners, or if you just need some help and guidance, please don't
+            hesitate to reach out to us.You can book a call with us anytime."
+        url="http://monicabrowneweddings.com"
+        telephone="+12406653350"
+        address={{
+          addressLocality: 'Bowie',
+          addressRegion: 'MD',
+          postalCode: '20720',
+          addressCountry: 'US',
+        }}
+        geo={{
+          latitude: '39.013313',
+          longitude: '-76.776924',
+        }}
+        images={[
+          'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495884/bride-with-flowers_xahpez.webp',
+          'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-cake_jukdnu.webp',
+        ]}
+        openingHours={[
+          {
+            opens: '09:00',
+            closes: '17:00',
+            dayOfWeek: [
+              'Monday',
+              'Tuesday',
+              'Wednesday',
+              'Thursday',
+              'Friday',
+              'Saturday',
+            ],
+          },
+        ]}
+        rating={{
+          ratingValue: '5',
+          ratingCount: '12',
+        }}
+        review={[
+          {
+            author: 'Diane',
+            name: 'Bride testimonial',
+            reviewBody:
+              'Working with Monica as my wedding planner was one of the best decisions I made. At the time, I lived in Philadelphia while I was planning for my wedding in Washington DC. With Monica’s expertise and experience with wedding planning, I was left stress free on my wedding day. Each month, Monica sent me monthly “to-do lists“ to ensure I remained on task. Thanks to Monica, I was able to find vendors to fit my budget. Once vendors were hired for my big day, Monica remained in constant communication with them to ensure everyone was on the same page. Even though I was no Bridezilla, I definitely had my moments. Through those moments, Monica remained professional at all times and was able to get me back on track. I would definitely recommend Monica’s services to any bride I meet. I am looking forward to working with her in the future when my sister gets married!',
+            reviewRating: {
+              ratingValue: '5',
+            },
+          },
+          {
+            author: 'Donna McIntyre',
+            name: 'Bride testimonial',
+            reviewBody:
+              'I met Monica in Summer 2008, while I served as a Bridesmaid for my best friend’s wedding. She was able to communicate the wishes of the Bride & Groom, so that things would run smoothly. She comes highly recommended by not only my friend, but to others & has a GREAT Vendor List. Overall, she has a great demeanor & is a pleasure to work with.',
+            reviewRating: {
+              ratingValue: '5',
+            },
+          },
+          {
+            author: 'Katrina Edmonds',
+            name: 'Bride testimonial',
+            reviewBody:
+              'I am so thankful that I used Monica Browne Weddings for my rooftop wedding in the summer of 2010. It has been 5 years and I still have family and friends tell me how beautiful my wedding day was. I could not have been more pleased at their work. They listened to all my wants and carried them out exactly how I asked them to. They were nice, understanding and very easy to work with. They kept me on track and made the experience enjoyable. I am very particular and I like to be involved in everything however, I was able to let go and have them handle everything. I was not disappointed at all and my day turned out perfect. I could go on and on. I would recommend them over and over again.',
+            reviewRating: {
+              ratingValue: '5',
+            },
+          },
+        ]}
+        areaServed={[
+          {
+            geoMidpoint: {
+              latitude: '38.89511',
+              longitude: '-77.03637',
+            },
+            geoRadius: '1000',
+          },
+          {
+            geoMidpoint: {
+              latitude: '38.978443',
+              longitude: '-76.492180',
+            },
+            geoRadius: '1000',
+          },
+        ]}
+      />
       <div className="footer-container">
         <Decription>
           <h3>Monica Browne Weddings</h3>
           <p>
             Monica Browne Weddings is one of the best wedding planners in
-            Maryland, also serving couples in DC, and Northern Virginia. We
-            offer full service event planning, partial service event planning,
-            day of coordination, event design, and floral design services. If
-            you are a busy couple and need help from one of the top shelf
-            wedding planners, or if you just need some help and guidance, please
-            don't hesitate to reach out to us.You can book a call with us when
-            you are ready.
+            Maryland, also serving couples in DC and surrounding areas. We offer
+            full service event planning, partial service event planning, day of
+            coordination, event design, and floral design services. If you are a
+            busy couple and need help from one of the top shelf wedding
+            planners, or if you just need some help and guidance, please don't
+            hesitate to reach out to us.You can book a call with us anytime.
           </p>
           {/* <p>
             {cities.map((city) =>
@@ -51,39 +143,25 @@ const Footer = () => {
           <FooterHours>
             <h3>Hours</h3>
             <div className="office-hours">
-              <span itemProp="openingHours" content="Mo 09:00-17:00">
-                Monday: 9:00am - 5:00pm
-              </span>
+              <span>Monday: 9:00am - 5:00pm</span>
             </div>
             <div className="office-hours">
-              <span itemProp="openingHours" content="Tu 09:00-17:00">
-                Tuesday: 9:00am - 5:00pm
-              </span>
+              <span>Tuesday: 9:00am - 5:00pm</span>
             </div>
             <div className="office-hours">
-              <span itemProp="openingHours" content="We 09:00-17:00">
-                Wednesday: 9:00am - 5:00pm
-              </span>
+              <span>Wednesday: 9:00am - 5:00pm</span>
             </div>
             <div className="office-hours">
-              <span itemProp="openingHours" content="Th 09:00-17:00">
-                Thursday: 9:00am - 5:00pm
-              </span>
+              <span>Thursday: 9:00am - 5:00pm</span>
             </div>
             <div className="office-hours">
-              <span itemProp="openingHours" content="Fr 09:00-17:00">
-                Friday: 9:00am - 5:00pm
-              </span>
+              <span>Friday: 9:00am - 5:00pm</span>
             </div>
             <div className="office-hours">
-              <span itemProp="openingHours" content="Sa 09:00-17:00">
-                Saturday: 9:00am - 5:00pm
-              </span>
+              <span>Saturday: 9:00am - 5:00pm</span>
             </div>
             <div className="office-hours">
-              <span itemProp="openingHours" content="Closed">
-                Sunday: Closed
-              </span>
+              <span>Sunday: Closed</span>
             </div>
           </FooterHours>
           <FooterMenu>
@@ -192,25 +270,19 @@ const Footer = () => {
           <FooterContact>
             <h3>Contact</h3>
             <p>
-              <a href={calendly}>Book A Video Call</a>
+              <a href={calendly}>Book A Call</a>
             </p>
             <p>
               <a href="mailto:monica@monicabrowneweddings.com" itemProp="email">
-                Email us
+                Email Monica Browne Weddings
               </a>
             </p>
             <p>
-              <a itemProp="telephone" href="tel:240-665-3350">
-                Call (240) 665-3350
-              </a>
+              <a>Call (240) 665-3350</a>
             </p>
-            <p
-              itemProp="address"
-              itemScope
-              itemType="https://schema.org/PostalAddress"
-            >
-              <span itemProp="addressLocality">Bowie, MD</span>
-              <span itemProp="postalCode"> 20720</span>
+            <p>
+              <span>Bowie, MD</span>
+              <span> 20720</span>
             </p>
           </FooterContact>
         </FooterFoot>

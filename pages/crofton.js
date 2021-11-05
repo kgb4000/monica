@@ -40,7 +40,7 @@ export default function Rockville() {
       <HeroSection
         heroText="Wedding Planning For Couples in Crofton"
         subText="We Create Beautiful Weddings For Busy Couples in Crofton Maryland"
-        buttonText="Book a video call"
+        buttonText="Book a call"
         backgroundImage="/images/walking-down-aisle.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -48,7 +48,7 @@ export default function Rockville() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Crofton Maryland</h1>
+            <h1 className="title">Crofton Wedding Planner</h1>
             <p className="intro">
               Even though you may not know where to start planning your wedding,
               you can still have the wedding of your dreams. Monica Browne

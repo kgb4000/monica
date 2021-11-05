@@ -1,7 +1,7 @@
 export default {
-  title: 'Maryland Wedding Planner | Monica Browne Weddings',
+  title: 'Maryland Wedding Planner Helping You Plan The Wedding of Your Dreams',
   description:
-    'We are wedding Maryland wedding planners that help couples plan the wedding of their dreams. Need a wedding planner to help you? Book a call today.',
+    'Monica is a Top Maryland wedding planner helping couples plan their dream wedding. Need help planning your wedding? Book a call today to get started.',
   canonical: 'https://monicabrowneweddings.com',
   openGraph: {
     type: 'website',

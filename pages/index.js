@@ -39,7 +39,7 @@ export default function Home({ data }) {
       <HeroSection
         heroText="Wedding Planning For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
-        buttonText="Book A Video Call"
+        buttonText="Book A Call"
         backgroundImage="/images/bride-groom-night-photo.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -50,34 +50,55 @@ export default function Home({ data }) {
             <h1 className="title">Maryland Wedding Planner</h1>
             <p className="intro">
               Monica Browne Weddings is a wedding planner and event design
-              company based in Bowie Maryland. We provide full service wedding
-              planning and partial service wedding planning. We're here to help
-              you plan your dream wedding and enjoy your big day.
+              company based in Bowie Maryland.
             </p>
             <p className="intro">
-              We take the stress out of the wedding planning process, so you
-              don't have to worry about anything. We help you make the planning
-              process a wonderful experience, and an memory you both can share
-              for the rest of your lives.
+              We provide full service wedding planning, partial service wedding
+              planning, and day of wedding coordination.
             </p>
             <p className="intro">
-              As one of the top Maryland wedding planners, our job is to guide
-              you through the wedding planning process. Planning your wedding
-              should be fun, but often times can become stressful, leaving some
-              couples frustrated and tired. That's where we can help.
+              We help guide you with style and decor ideas, selecting other
+              vendors, ceremony design, and of course, the celebration at the
+              end.
+            </p>
+            <p className="intro">
+              We take the stress out of the <b>wedding planning process</b>, so
+              you don't have to worry about anything.
+            </p>
+            <p className="intro">
+              We help you make the planning process a fun experience, not a
+              stressful one.{' '}
+            </p>
+            <p className="intro">
+              Your wedding event must be an event that you'll cherish for the
+              rest of your life, and as your event planner, that is our goal.
+            </p>
+            <p className="intro">
+              As one of the top Maryland wedding planners and event planners,
+              our job is to guide you through the wedding planning process.
+            </p>
+            <p className="intro">
+              Planning your wedding should be fun, but often times can become
+              stressful, leaving some couples frustrated and tired. That's where
+              we can help.
             </p>
             <p className="intro">
               We guide you through the process with helpful tips, suggestions
-              and our vetted professional services. We save you time and money
-              with our 15 years of experience as wedding planners in Maryland.
+              and our vetted professional services, which also save you time and
+              money.
+            </p>
+            <p className="intro">
+              With our 15 years of experience as wedding planners in Maryland we
+              are definitely one of the top wedding planners in Maryland that
+              can truly bring your vision to life.
             </p>
             <h3 className="center-text">
-              Book a 15 minute call with us and see how we can help you plan
-              your dream wedding
+              Book a 15 minute call with us and see how we can help you as your
+              wedding planner
             </h3>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a video call</Button>
+                <Button>Book a call</Button>
               </a>
             </div>
           </div>
@@ -85,7 +106,7 @@ export default function Home({ data }) {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              Planning Your Wedding Can Take a Lot of Time & Energy
+              Wedding Planning Can Cost a Lot of Time & Energy
             </h2>
             <div className="painpoints">
               <img
@@ -114,12 +135,12 @@ export default function Home({ data }) {
             </div>
           </div>
           <h3 className="center-text">
-            Book a 15 minute call with us and see how we can help you save time
-            and plan your dream wedding
+            Book a 15 minute call with Monica and see how she can help you as
+            your wedding planner
           </h3>
           <div className="center">
             <a href={calendly}>
-              <Button>Book a 15 min call</Button>
+              <Button>Book a call</Button>
             </a>
           </div>
         </section>
@@ -133,36 +154,38 @@ export default function Home({ data }) {
                 <li>
                   <h4>Call Monica</h4>
                   <p>
-                    Talk with Monica and see how she can help you plan your
-                    wedding.
+                    Talk with Monica and see how her wedding planning company
+                    can help you with full service, partial service, or day of
+                    coordination, and bring your vision to life.
                   </p>
                 </li>
                 <li>
                   <h4>Create Your Budget</h4>
                   <p>
-                    Work out a budget and start planning your wedding details.
+                    Work out a budget and start planning your wedding details,
+                    like decor, ceremony details, reception details.
                   </p>
                 </li>
                 <li>
                   <h4>Enjoy Your Special Day</h4>
-                  <p>Enjoy your wedding day and cherish the moment.</p>
+                  <p>Enjoy cherish the moment and enjoy the big day.</p>
                 </li>
               </Simple>
             </div>
             <h3 className="center-text">
-              Book a 15-minute call with us and see how we can help you plan
-              your dream wedding
+              Book a 15 minute call with Monica and see how she can help you as
+              your wedding planner
             </h3>
             <div className="center">
               <a href={calendly}>
-                <Button>Book A Video Call</Button>
+                <Button>Book A Call</Button>
               </a>
             </div>
           </div>
         </section>
         <section className="container">
           <div className="content">
-            <h2 className="title">Our Services</h2>
+            <h2 className="title">Our Wedding Services</h2>
             <Services>
               <div className="wedding-service">
                 <img
@@ -368,10 +391,11 @@ const Main = styled('div')`
 
   img {
     display: block;
+    margin: 0 auto;
   }
 
   h2 {
-    margin: 4rem auto;
+    margin: 1.5rem auto;
   }
 
   ul {

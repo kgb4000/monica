@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
+import PainSection from '../components/PainSection'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
 
@@ -63,40 +64,17 @@ export default function Rockville() {
             </div>
           </div>
         </section>
-        <section className="container">
-          <div className="service-content">
-            <div className="painpoints">
-              <div className="painpoints--content">
-                <h2 className="title">Planning A Wedding Can Be A Lot</h2>
-                <PainPoints>
-                  <li>Not knowing what you want and where to start planning</li>
-                  <li>
-                    Information overload from big wedding websites and blogs
-                  </li>
-                  <li>
-                    Having to trust vendors that you don't know with the most
-                    important day of your life
-                  </li>
-                  <li>
-                    Setting up a timeline, guest lodging, ans seating charts
-                  </li>
-                  <li>Budgeting and managing your wedding</li>
-                  <li>Relying on friends that may not come through</li>
-                  <li>Dealing with new Covid-19 protocols</li>
-                </PainPoints>
-              </div>
-            </div>
-          </div>
-          <h3 className="center-text">
-            Book a 15 minute call with us and see how we can help you plan your
-            dream wedding
-          </h3>
-          <div className="center">
-            <a href={calendly}>
-              <Button>Book a 15 min call</Button>
-            </a>
-          </div>
-        </section>
+        <PainSection
+          title="Planning A Wedding Can Start to Stress You Out"
+          src="/images/wedding-floral-design-472.webp"
+          pain1="Not knowing what you want and where to start planning"
+          pain2="Information overload from big wedding websites and blogs"
+          pain3="Having to trust vendors that you don't know with the most
+                    important day of your life"
+          pain4="Setting up a timeline, guest lodging, ans seating charts"
+          pain5="Budgeting and managing your wedding"
+          pain6="Dealing with new Covid-19 protocols"
+        />
         <section className="container">
           <div className="content">
             <h2 className="title">Our Services</h2>

@@ -46,12 +46,12 @@ export default function Blog({ data }) {
     <div>
       <BlogJsonLd
         url="https://monicabrowneweddings.com/blog"
-        title="Monica's Wedding Blog"
+        title="Thoughts & Ideas from Monica"
         images={[
           'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631813345/bride-glasses_pzaoov.webp',
         ]}
         authorName="Monica Browne"
-        description="My blog for engaged couples."
+        description="My blog for busy couples that want to have ."
       />
       <NextSeo
         {...SEO}

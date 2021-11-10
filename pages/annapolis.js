@@ -31,7 +31,7 @@ export default function Home({ data }) {
   const SEO = {
     title: 'Annapolis Wedding Planner | Monica Browne Weddings',
     description:
-      'Get an Annapolis wedding planner to plan the wedding of your dreams. Monica Browne Weddings can help you plan the wedding you really want. Call us.',
+      'As a top wedding planner in Annapolis, we give the best services to our clients including planning and coordination for any wedding. Call (240) 665-3350 today!',
     canonical: 'https://monicabrowneweddings.com/annapolis',
     openGraph: {
       type: 'website',

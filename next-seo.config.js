@@ -1,7 +1,7 @@
 export default {
-  title: 'Maryland Wedding Planner Helping You Plan The Wedding of Your Dreams',
+  title: 'Maryland Wedding Planner | Monica Browne Weddings',
   description:
-    'Monica is a Top Maryland wedding planner helping couples plan their dream wedding. Need help planning your wedding? Book a call today to get started.',
+    'A top-rated wedding planner in Maryland, Monica Browne Weddings is here to help you plan your dream wedding. Call 240-665-3350 for more information!',
   canonical: 'https://monicabrowneweddings.com',
   openGraph: {
     type: 'website',

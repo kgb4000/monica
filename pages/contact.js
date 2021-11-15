@@ -19,7 +19,6 @@ const Contact = () => {
     phone: '',
     service: '',
     date: '',
-    budget: '',
     message: '',
   })
 
@@ -52,9 +51,7 @@ const Contact = () => {
         firstName: '',
         email: '',
         phone: '',
-        service: '',
         date: '',
-        budget: '',
         message: '',
       })
     } else {
@@ -82,9 +79,7 @@ const Contact = () => {
       senderName: inputs.name,
       senderEmail: inputs.email,
       senderPhone: inputs.phone,
-      senderService: inputs.service,
       senderDate: inputs.date,
-      senderBudget: inputs.budget,
       message: inputs.message,
     })
 
@@ -125,23 +120,19 @@ const Contact = () => {
         <div className="content">
           <h1 className="title">Contact Monica</h1>
           <p>
-            Call{' '}
+            Call:{' '}
             <a itemProp="telephone" href="tel:240-665-3350">
               (240) 665-3350
             </a>
           </p>
           <p>
-            Email{' '}
+            Email:{' '}
             <a href="mailto:monica@monicabrowneweddings.com" itemProp="email">
               monica@monicabrowneweddings.com
             </a>
           </p>
+          <h2 className="title">Send Monica a Message</h2>
           <ContactForm>
-            <img
-              src="/images/bride-with-flowers.webp"
-              alt="Bride with flowers"
-              loading="lazy"
-            />
             <Form onSubmit={handleOnSubmit}>
               <label htmlFor="firstName">Hello my name is *</label>
               <input
@@ -169,15 +160,6 @@ const Contact = () => {
                 onChange={handleOnChange}
                 required
               />
-              <label htmlFor="service">I need a *</label>
-              <input
-                id="service"
-                type="text"
-                placeholder="Wedding planner"
-                value={inputs.service}
-                onChange={handleOnChange}
-                required
-              />
               <label htmlFor="date">The day of my event is *</label>
               <input
                 id="date"
@@ -187,15 +169,7 @@ const Contact = () => {
                 onChange={handleOnChange}
                 required
               />
-              <label htmlFor="budget">My budget is *</label>
-              <input
-                id="budget"
-                type="text"
-                placeholder="Your budget"
-                value={inputs.budget}
-                onChange={handleOnChange}
-                required
-              />
+
               <label htmlFor="message">Message *</label>
               <textarea
                 id="message"
@@ -231,7 +205,8 @@ const Contact = () => {
 
 const Main = styled('div')`
   .content {
-    text-align: left;
+    max-width: 40rem;
+    margin: 0 auto;
   }
 
   p {

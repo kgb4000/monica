@@ -73,10 +73,10 @@ const Footer = () => {
         }}
         review={[
           {
-            author: 'Diane',
+            author: 'Teresa Thomas',
             name: 'Bride testimonial',
             reviewBody:
-              'Working with Monica as my wedding planner was one of the best decisions I made. At the time, I lived in Philadelphia while I was planning for my wedding in Washington DC. With Monica’s expertise and experience with wedding planning, I was left stress free on my wedding day. Each month, Monica sent me monthly “to-do lists“ to ensure I remained on task. Thanks to Monica, I was able to find vendors to fit my budget. Once vendors were hired for my big day, Monica remained in constant communication with them to ensure everyone was on the same page. Even though I was no Bridezilla, I definitely had my moments. Through those moments, Monica remained professional at all times and was able to get me back on track. I would definitely recommend Monica’s services to any bride I meet. I am looking forward to working with her in the future when my sister gets married!',
+              'Choosing Monica Browne Weddings to meet my needs during one of the most important events in my life was a decision that hosts no regrets. True professionalism, at its best! While planning a wedding can be very stressful and hectic, my experience with Monica Browne Weddings was definitely one that was fun and exciting! All tasks were completed in a very organized manner and with so many things to accomplish, such organization was very important. Monica Browne Weddings also referred me to many vendors that were equally very professional. As a result, my wedding day was truly all that I had dreamed it to be and more! It was at last the vivid reality of all of the planning and decision making done in the prior months. I am so thankful for the memories I now have to cherish for a lifetime. Monica Browne Weddings……..I can’t thank you enough!',
             reviewRating: {
               ratingValue: '5',
             },
@@ -124,10 +124,11 @@ const Footer = () => {
             Monica Browne Weddings is one of the best wedding planners in
             Maryland, also serving couples in DC and surrounding areas. We offer
             full service event planning, partial service event planning, day of
-            coordination, event design, and floral design services. If you are a
-            busy couple and need help from one of the top shelf wedding
-            planners, or if you just need some help and guidance, please don't
-            hesitate to reach out to us.You can book a call with us anytime.
+            wedding coordination, event design, and floral design services. If
+            you are a busy couple and need help from one of the top shelf
+            wedding planners, or if you just need some help and guidance, please
+            don't hesitate to reach out to us.You can book a call with us
+            anytime.
           </p>
           {/* <p>
             {cities.map((city) =>
@@ -199,6 +200,11 @@ const Footer = () => {
                         passHref
                       >
                         <a>Wedding Decoration</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/day-of-wedding-coordinator" passHref>
+                        <a>Day of Wedding Coordinator</a>
                       </Link>
                     </li>
                   </ul>

@@ -112,6 +112,27 @@ const Services = () => {
                 </Link>
               </div>
             </div>
+            <div className="services">
+              <img
+                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
+                alt="Wedding decorations"
+                loading="lazy"
+              />
+              <div className="service-info">
+                <h3 className="title">Day of Wedding Coordination</h3>
+                <p>
+                  When you have everything else planned and you just need
+                  someone to help you coordinate eveything on the day of your
+                  wedding, call Monica browne Weddings. With Monica Browne
+                  Weddings there as your day of wedding coordinator, you will
+                  not have to worry about anything, because everything has
+                  already been taken care of...
+                </p>
+                <Link href="/day-of-wedding-coordinator">
+                  <a>Read more</a>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </Main>

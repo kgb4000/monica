@@ -53,19 +53,16 @@ export default function WeddingPlanning() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>
-              Full-Service and Professional Wedding Planning in DC & Maryland
-            </h1>
+            <h1>Full-Service Wedding Planning</h1>
             <p>
               Monica Browne Weddings offers wedding planning services for
-              couples in Maryland. Planning a wedding can be time-consuming,
-              especially when you already have a busy life. Let us take some of
-              the stress off of you so you can focus on enjoying your special
-              day. Whether you just need help and guidance or a wedding planner
-              to take over the entirety of planning, we're here to ensure your
-              wedding is an enjoyable and memorable experience.
+              couples in Maryland and DC. Planning a wedding can be
+              time-consuming, especially when you already have a busy life. Let
+              us take some of the stress off of you so you can focus on enjoying
+              your special day. Whether you just need help and guidance or a
+              wedding planner to take over the entirety of planning, we're here
+              to ensure your wedding is an enjoyable and memorable experience.
             </p>
-
             <h2>We'll Make Your Wedding a Day You'll Never Forget</h2>
             <p>
               The team at Monica Browne Weddings specializes in designing,
@@ -107,10 +104,14 @@ export default function WeddingPlanning() {
 
             <h2>Our Wedding Planning Services </h2>
             <p>
-              We're proud to offer couples complete wedding planning services or
-              day-of coordination. Whatever you need, we're happy to create a
-              customized package that fits your needs. Give us a call to learn
-              more about our full-service or ala carte packages.
+              We're proud to offer couples complete wedding planning services
+              and{' '}
+              <Link href="/day-of-wedding-coordinator">
+                <a>day-of coordination</a>
+              </Link>
+              . Whatever you need, we're happy to create a customized package
+              that fits your needs. Give us a call to learn more about our
+              full-service or ala carte packages.
             </p>
 
             <h3>Budget Development and Management</h3>
@@ -232,9 +233,12 @@ export default function WeddingPlanning() {
             </p>
 
             <p>
-              Our wedding planning services include one lead coordinator and two
-              event assistants. You can feel confident that every aspect of your
-              wedding will be handled flawlessly.{' '}
+              Our wedding planning services include one lead{' '}
+              <Link href="/day-of-wedding-coordinator">
+                <a>coordinator</a>
+              </Link>{' '}
+              and two event assistants. You can feel confident that every aspect
+              of your wedding will be handled flawlessly.{' '}
             </p>
 
             <h3>Why Choose Monica Browne Weddings?</h3>

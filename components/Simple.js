@@ -29,7 +29,7 @@ const Simple = styled('ul')`
       text-align: center;
       left: 0px;
       position: absolute;
-      top:  -0.01rem;
+      top:  -0.001rem;
       border: 1px solid #000;
       font-weight: 200;
 

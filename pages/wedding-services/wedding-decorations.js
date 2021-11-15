@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../../components/HeroSection'
 import Button from '../../components/Button'
@@ -205,23 +206,38 @@ export default function WeddingDecorations() {
             <h2>What Our Clients Have To Say About Our Services</h2>
             <p>
               The clients we were fortunate enough to work with loved what we
-              did to the place and you will too. You can view some testimonials
+              did to the place and you will too. You can view some{' '}
+              <Link href="/testimonials">
+                <a>testimonials</a>
+              </Link>{' '}
               right on our website.
             </p>
             <h2>Pricing For Wedding Decorations</h2>
             <p>
               There are several factors that have to do with determining how
               much a wedding ceremony decorator will charge you for your
-              professional wedding decorations. Your location is one of the
-              things that will be considered. For example, a wedding in a
-              high-income area will cost more than in a low-income area and the
-              cost also depends on how far your decorator will have to travel.
-              The number of guests attending and the size of the venue will also
-              be factored in. Another thing to be included in the price is how
-              much work it will take to pull your display off and the items
-              required as well. There are also other things to consider such as
-              the complexity of the decorations and how elaborate they may be or
-              how hard it is to find them.
+              professional wedding decorations.{' '}
+              <ol>
+                <li>
+                  <h3>Location</h3>
+                  Your location is one of the things that will be considered.
+                  For example, a wedding in a high-income area will cost more
+                  than in a low-income area and the cost also depends on how far
+                  your decorator will have to travel.
+                </li>
+                <li>
+                  <h3>Number of Guests</h3>
+                  The number of guests attending and the size of the venue will
+                  also be factored in. Another thing to be included in the price
+                  is how much work it will take to pull your display off and the
+                  items required as well.
+                </li>
+                <li>
+                  <h3>Complexity of Decorations</h3>
+                  The complexity of the decorations you want, how elaborate they
+                  may be, and how hard it would be to find them.
+                </li>
+              </ol>
             </p>
             <h2>Let Us Help Decorate For Your Special Day</h2>
             <p>
@@ -262,14 +278,11 @@ const Main = styled('div')`
     }
   }
 
+  ul,
   ol {
     margin: 2rem 0;
     margin-left: 2rem;
   }
-`
-
-const FloralDesigns = styled('ul')`
-  padding: 0 2rem;
 `
 
 const Locations = styled('ul')`

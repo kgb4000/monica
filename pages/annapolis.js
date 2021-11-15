@@ -65,7 +65,10 @@ export default function Home({ data }) {
             <h1 className="title">Wedding Planner Annapolis</h1>
             <p className="intro">
               Monica Browne Weddings is a wedding planning company providing
-              full-service planning, partial planning, and day-of coordination
+              full-service planning, partial planning, and{' '}
+              <Link href="/day-of-wedding-coordinator">
+                <a>day-of coordination</a>
+              </Link>{' '}
               services in Annapolis, Maryland.
             </p>
             <p className="intro">
@@ -99,10 +102,12 @@ export default function Home({ data }) {
               count on us to be there from the beginning of the planning process
               to the end to make sure your big day is beautiful and stress-free.
             </p>
-            <h3 className="center-text">
-              Book a 15 minute call with Monica and see how she can help as your
-              wedding planner in Annapolis
-            </h3>
+            <p className="intro center-text">
+              <b>
+                Book a 15 minute call with Monica and see how she can help as
+                your wedding planner in Annapolis
+              </b>
+            </p>
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>
@@ -201,10 +206,12 @@ export default function Home({ data }) {
                 </li>
               </Simple>
             </div>
-            <h3 className="center-text">
-              Book a 15 minute call with Monica and see how she can help as your
-              wedding planner in Annapolis
-            </h3>
+            <p className="intro center-text">
+              <b>
+                Book a 15 minute call with Monica and see how she can help as
+                your wedding planner in Annapolis
+              </b>
+            </p>
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>

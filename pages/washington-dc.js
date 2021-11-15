@@ -92,7 +92,7 @@ export default function Home() {
               <div className="painpoints--content">
                 <PainPoints>
                   <li>
-                    Not knowing where to start teh wedding planning process
+                    Not knowing where to start the wedding planning process
                   </li>
                   <li>
                     Information overload from big wedding websites and blogs

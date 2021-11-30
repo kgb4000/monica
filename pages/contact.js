@@ -75,7 +75,7 @@ const Contact = () => {
       'https://eekybmqof6.execute-api.us-east-1.amazonaws.com/prod/weddings-contact-form'
 
     const body = JSON.stringify({
-      firstName: inputs.name,
+      firstName: inputs.firstName,
       email: inputs.email,
       phone: inputs.phone,
       date: inputs.date,

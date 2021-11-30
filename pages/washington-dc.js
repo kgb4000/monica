@@ -60,14 +60,77 @@ export default function Home() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">DC Wedding Planner</h1>
+            <h1 className="title">Washington DC Wedding Planner</h1>
             <p className="intro">
-              A DC wedding planner like Monica Browne Weddings can help you plan
-              the wedding you always dreamed about. With our help and guidance,
-              you will certainly get the wedding you want and have time to do
-              the other essential things in your life. We work with couples in
-              DC, and throughout the DC metropolitan area, and are happy to help
-              bring your wedding to life.
+              Monica Browne Weddings is a DC and Maryland wedding planner
+              helping DC couples with wedding and event planning.
+            </p>
+            <p className="intro">
+              As a wedding planning company, we specialize in making planning
+              your wedding simple and easy, and we also make sure the process is
+              an enjoyable experience.
+            </p>
+            <p className="intro">
+              <b>It should be.</b>
+            </p>
+            <p className="intro">
+              We help make sure your special day goes off without a hitch and
+              that you and your guest are happy and celebrate this momentous
+              occasion.
+            </p>
+            <p className="intro">
+              We can take care of your entire event, from planning and design,
+              coordination, or any element of your wedding that you're
+              interested in, like flowers or decor.
+            </p>
+            <p className="intro">
+              We offer full-service wedding planning & coordination to couples
+              who prefer a coordinator to take care of all the details.
+            </p>
+            <p className="intro">
+              Or{' '}
+              <Link href="/day-of-wedding-coordinator">
+                <a>day-of wedding coordinator</a>
+              </Link>{' '}
+              services for those couples that want to plan their wedding
+              themselves but want someone to manage and facilitate the event.
+            </p>
+            <p className="intro">
+              Do you want a Bohemian-style wedding with flower crowns and
+              oversized floral bouquets?
+            </p>
+            <p className="intro">
+              Or a traditional wedding with high-end linens in a classic
+              ballroom setting, or you want a rustic wedding with rustic tables
+              and chairs in an old warehouse setting.
+            </p>
+            <p className="intro">
+              Monica Browne Weddings can help bring your vision to fruition.
+            </p>
+            <p className="intro">
+              We have helped many couples make their wedding everything they
+              ever wanted and help make it a day they will never forget.
+            </p>
+            <p className="intro">
+              Check out what{' '}
+              <a
+                href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
+                target="_blank"
+              >
+                some of our clients said about us on Google
+              </a>
+              .
+            </p>
+            <p className="intro">
+              For over 15 years, we have been helping couples with wedding and
+              event planning. Our expertise has made us one of the best event
+              planning companies in Washington DC, Maryland, and Virginia.
+            </p>
+            <p className="intro">Work with us and you'll see why.</p>
+            <p className="intro">
+              If you are looking to find out more about how we can help you with
+              your wedding plans, please book a call so we can get started
+              today!
             </p>
             <div className="center">
               <a href={calendly}>
@@ -101,19 +164,19 @@ export default function Home() {
                     Having to trust friends that may not come through for you
                   </li>
                   <li>
-                    Setting up hotels for your guests, seating charts for your
-                    reception, and scheduling tasting with the caterer, plus
+                    Setting up your wedding timeline, seating charts for your
+                    reception, scheduling tasting with the caterer, plus much
                     more
                   </li>
-                  <li>Relying on friends that may not come through</li>
-                  <li>New Covid-19 protocols in Washington DC</li>
+                  <li>Trying to find the best wedding vendors</li>
+                  <li>New Covid-19 protocols in DC</li>
                 </PainPoints>
               </div>
             </div>
           </div>
           <h3 className="center-text">
             Book a 15 minute call with Monica and see how she can help you as
-            your DC wedding planner
+            your wedding planner
           </h3>
           <div className="center">
             <a href={calendly}>
@@ -144,7 +207,7 @@ export default function Home() {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Wedding Decorations</h3>
+                <h3 className="title">Wedding Decor</h3>
               </div>
               <div className="wedding-service">
                 <img
@@ -154,7 +217,7 @@ export default function Home() {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Wedding Flowers</h3>
+                <h3 className="title">Floral Design</h3>
               </div>
             </Services>
             <div className="center">
@@ -176,27 +239,28 @@ export default function Home() {
                 <li>
                   <h4>Talk To Monica</h4>
                   <p>
-                    Talk with Monica and see how her wedding planning company
-                    can make the wedding planning process less stressful.
+                    Talk with Monica and see show she can help you as your
+                    wedding planner and make wedding planning enjoyable, and
+                    less stressful for you and your fiance.
                   </p>
                 </li>
                 <li>
-                  <h4>Create A Budget</h4>
+                  <h4>Start Planning and Design</h4>
                   <p>
-                    Work out your budget and start planning your wedding
-                    details, like wedding decor, ceremony details, reception
-                    details, and finding your wedding venue.
+                    Work out your budget and start planning your wedding details
+                    like wedding decor, ceremony details, reception details, and
+                    finding your wedding venue.
                   </p>
                 </li>
                 <li>
-                  <h4>Enjoy Your Wedding Day</h4>
-                  <p>Cherish the moment and enjoy your special day.</p>
+                  <h4>Enjoy Your Wedding</h4>
+                  <p>Cherish the moment and enjoy your big day.</p>
                 </li>
               </Simple>
             </div>
             <h3 className="center-text">
-              Book a 15 minute call with Monica and see how she can help you as
-              your DC wedding planner
+              Book a 15 minute call with Monica and see how she can help with
+              weddings and events.
             </h3>
             <div className="center">
               <a href={calendly}>
@@ -287,10 +351,6 @@ export default function Home() {
 }
 
 const Main = styled('div')`
-
-.content {
-  text-align: center;
-}
 
 .center-text {
   max-width: 40rem;

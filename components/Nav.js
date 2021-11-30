@@ -58,7 +58,7 @@ const Header = styled('div')`
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  height: 70px;
+  height: 100px;
   background: rgba(162, 155, 254, 0.45);
   z-index: 1000;
   position: relative;

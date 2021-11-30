@@ -73,7 +73,7 @@ const Painpoint = styled.div`
     align-items: center;
 
     img {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
 `

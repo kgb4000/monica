@@ -128,10 +128,10 @@ export default function DayOfWeddingCoordinator() {
             <h2>What is a Day of Wedding Coordinator?</h2>
             <p>
               A day of wedding coordinator is a professional responsible for
-              managing your entire wedding on the day of your wedding, and
-              helping you finalize the details weeks leading up to the big
-              event. They are the point of contact for all you wedding vendors,
-              and they oversee every critical detail of your wedding like:
+              managing your entire wedding day and helping you finalize the
+              details weeks leading up to the big event. They are the point of
+              contact for all you wedding vendors, and they oversee every
+              critical detail of your wedding like:
             </p>
             <ul>
               <li>
@@ -147,7 +147,7 @@ export default function DayOfWeddingCoordinator() {
                 of the venue
               </li>
               <li>
-                What time the florist arrives and set up the floral decorations
+                What time the florist arrives and sets up the floral decorations
               </li>
             </ul>
             <div className="center">
@@ -157,10 +157,13 @@ export default function DayOfWeddingCoordinator() {
             </div>
             <h2>What Does a Day of Wedding Coordinator Do?</h2>
             <p>
-              Unlike a full-service wedding planner, a day of wedding
-              coordinator is there to manage your wedding day when the day
-              arrives. They do not help you plan your wedding like wedding
-              planners.
+              Unlike a{' '}
+              <Link href="/wedding-services/wedding-planning">
+                <a>full-service wedding planner</a>
+              </Link>{' '}
+              , a day of wedding coordinator is there to manage your wedding day
+              when the day arrives. They do not help you plan your wedding like
+              wedding planners.
             </p>
             <p>
               A wedding planner will help you plan your wedding from start to
@@ -189,17 +192,14 @@ export default function DayOfWeddingCoordinator() {
               <li>Coordinate the big day</li>
             </ul>
             <p>
-              <Link href="/wedding-services/wedding-planning">
-                <a>Full-service wedding planning</a>
-              </Link>{' '}
-              is an excellent service for busy couples who don't have the time
-              to plan their wedding or need a professional wedding planner to do
-              most of the work.
+              Full-service wedding planning is an excellent service for busy
+              couples who don't have the time to plan their wedding or need a
+              professional wedding planner to do most of the work.
             </p>
             <p>
-              A day of wedding coordinator will help you coordinate your wedding
-              day after you have secured your vendors, selected your venue, and
-              signed all your vendor contracts.
+              A day of wedding coordinator will manage your wedding after you
+              have secured your vendors, selected your venue, and signed all
+              your vendor contracts.
             </p>
             <p>A day of coordinator will:</p>
             <ul>
@@ -220,7 +220,7 @@ export default function DayOfWeddingCoordinator() {
             <p>
               A good day of wedding coordinator will still make sure you didn't
               forget anything while planning your wedding. They will review your
-              contracts and make sure that every detail .
+              contracts and make sure that every detail.
             </p>
             <p>
               On the day of your wedding, your wedding coordinator will be the

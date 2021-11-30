@@ -68,20 +68,26 @@ export default function Home() {
             <p className="intro">
               As a wedding planning company, we specialize in making planning
               your wedding simple and easy, and we also make sure the process is
-              an enjoyable experience.
+              not stressful.
             </p>
             <p className="intro">
-              <b>It should be.</b>
+              <b>It should not be.</b>
             </p>
             <p className="intro">
-              We help make sure your special day goes off without a hitch and
-              that you and your guest are happy and celebrate this momentous
-              occasion.
+              We help plan every detail and make sure your special day goes off
+              without a hitch.
+            </p>
+            <p className="intro">
+              <b>
+                In the end, our goal is to make sure that you and your guest are
+                happy, and that you have fun celebrating this momentous
+                occasion.
+              </b>
             </p>
             <p className="intro">
               We can take care of your entire event, from planning and design,
               coordination, or any element of your wedding that you're
-              interested in, like flowers or decor.
+              interested in, like selecting flowers or decor.
             </p>
             <p className="intro">
               We offer full-service wedding planning & coordination to couples
@@ -112,14 +118,14 @@ export default function Home() {
               ever wanted and help make it a day they will never forget.
             </p>
             <p className="intro">
-              Check out what{' '}
+              Check out some of our{' '}
               <a
                 href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
                 target="_blank"
               >
-                some of our clients said about us on Google
-              </a>
-              .
+                reviews
+              </a>{' '}
+              on Google.
             </p>
             <p className="intro">
               For over 15 years, we have been helping couples with wedding and

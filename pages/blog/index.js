@@ -142,6 +142,14 @@ const Main = styled('div')`
     font-size: 0.8rem;
     font-weight: 100;
   }
+
+  img {
+    margin-bottom: 1rem;
+  }
+  
+  .blog-info p {
+    text-decoration: underline;
+  }
   .author-img {
     border: 3px solid #a29bfe;
     border-radius: 50%;
@@ -202,7 +210,7 @@ const Main = styled('div')`
       }
 
       h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 500;
       }
     }

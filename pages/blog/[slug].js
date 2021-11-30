@@ -82,11 +82,11 @@ export default function Blog({ post, data }) {
           maxImagePreview: 'none',
         }}
       />
-      {/* <HeroSection
-        heroText={post.title}
+      <HeroSection
+        heroText="Blog Post"
         backgroundImage={post.coverImage.url}
-        backgroundHeight="50vh"
-      /> */}
+        backgroundHeight="70vh"
+      />
       <Main>
         <div className="container">
           <div className="content">
@@ -157,7 +157,7 @@ export default function Blog({ post, data }) {
           </div>
           <div className="content">
             <div className="blog-posts">
-              <h2>More posts you may like</h2>
+              <h2>More posts you may like:</h2>
               {data.posts.slice(0, 3).map((post) => (
                 <li key={post.slug}>
                   <Link href={`/blog/${post.slug}`}>
@@ -235,13 +235,14 @@ const Main = styled.main`
     align-items: center;
 
     img {
-      width: 25%;
+      width: 50%;
+      margin: 0;
       margin-right: 5%;
     }
 
     h3 {
       font-size: 1rem;
-      width: 40%;
+      width: 45%;
     }
   }
 

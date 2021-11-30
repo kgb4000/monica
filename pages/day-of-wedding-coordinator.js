@@ -197,8 +197,8 @@ export default function DayOfWeddingCoordinator() {
               professional wedding planner to do most of the work.
             </p>
             <p>
-              A day of wedding coordinator will manage your wedding after you
-              have secured your vendors, selected your venue, and signed all
+              A <b>day of wedding coordinator</b> will manage your wedding after
+              you have secured your vendors, selected your venue, and signed all
               your vendor contracts.
             </p>
             <p>A day of coordinator will:</p>

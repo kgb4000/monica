@@ -17,7 +17,6 @@ const Contact = () => {
     firstName: '',
     email: '',
     phone: '',
-    service: '',
     date: '',
     message: '',
   })
@@ -76,10 +75,10 @@ const Contact = () => {
       'https://eekybmqof6.execute-api.us-east-1.amazonaws.com/prod/weddings-contact-form'
 
     const body = JSON.stringify({
-      senderName: inputs.name,
-      senderEmail: inputs.email,
-      senderPhone: inputs.phone,
-      senderDate: inputs.date,
+      firstName: inputs.name,
+      email: inputs.email,
+      phone: inputs.phone,
+      date: inputs.date,
       message: inputs.message,
     })
 
@@ -219,25 +218,6 @@ const Main = styled('div')`
 
 const ContactForm = styled('div')`
   max-width: 100%;
-
-  img {
-    display: none;
-  }
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (min-width: 1140px) {
-    img {
-      display: block;
-    }
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    grid-gap: 30px;
-  }
-
   margin-bottom: 2em;
 `
 

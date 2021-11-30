@@ -54,7 +54,10 @@ export default function Home({ data }) {
             </p>
             <p className="intro">
               We provide full service wedding planning, partial service wedding
-              planning, and day of wedding coordination.
+              planning, and{' '}
+              <Link href="/day-of-wedding-coordinator">
+                <a>day-of wedding coordination.</a>
+              </Link>{' '}
             </p>
             <p className="intro">
               We help guide you with style and decor ideas, selecting other
@@ -79,9 +82,9 @@ export default function Home({ data }) {
             </p>
             <p className="intro">
               Planning your wedding should be fun, but often times can become
-              stressful, leaving some couples frustrated and tired. That's where
-              we can help.
+              stressful, leaving some couples frustrated and tired.
             </p>
+            <p className="intro">That's where we can help.</p>
             <p className="intro">
               We guide you through the process with helpful tips, suggestions
               and our vetted professional services, which also save you time and
@@ -91,6 +94,16 @@ export default function Home({ data }) {
               With our 15 years of experience as wedding planners in Maryland we
               are definitely one of the top wedding planners in Maryland that
               can truly bring your vision to life.
+            </p>
+            <p className="intro">
+              Check out some of our{' '}
+              <a
+                href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
+                target="_blank"
+              >
+                5-star reviews
+              </a>{' '}
+              on Google.
             </p>
             <h3 className="center-text">
               Book a 15 minute call with us and see how we can help you as your

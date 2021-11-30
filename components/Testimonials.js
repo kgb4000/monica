@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Testimonial = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   max-width: 60rem;
   margin: 0 auto;
   margin-top: 2rem;
@@ -15,8 +15,9 @@ export const Testimonial = styled.p`
 
 `
 
-export const TestimonialAuthor = styled('p')`
+export const TestimonialAuthor = styled('div')`
+  font-size: 1.6rem;
   text-align: center;
   margin-top: 2rem;
-  font-weight: 200;
+  font-weight: 700;
 `

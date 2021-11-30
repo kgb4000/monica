@@ -68,7 +68,7 @@ const Header = styled('div')`
   }
 
   .logo {
-    font-size: 1rem;
+    font-size: 1.4rem;
     max-width: 300px;
     font-weight: 700;
     color: #fff;

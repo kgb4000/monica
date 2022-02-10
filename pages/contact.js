@@ -136,7 +136,7 @@ const Contact = () => {
               <label htmlFor="firstName">Hello my name is *</label>
               <input
                 id="firstName"
-                type="firstName"
+                type="text"
                 onChange={handleOnChange}
                 required
                 value={inputs.firstName}

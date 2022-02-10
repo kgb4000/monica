@@ -240,7 +240,7 @@ export default function Home({ data }) {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Wedding Floral Design</h3>
+                <h3 className="title">Floral & Event Design</h3>
               </div>
             </Services>
             <div className="center">

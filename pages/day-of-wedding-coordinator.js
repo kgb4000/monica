@@ -12,7 +12,7 @@ export default function DayOfWeddingCoordinator() {
     title:
       'Day of Wedding Coordinator in Maryland and DC | Monica Browne Weddings',
     description:
-      'Monica Browne Weddings is proud to be a day of wedding coordinator for couples who want a stress-free and fun wedding day. Call (240) 665-3350 today!',
+      'Monica Browne Weddings is proud to be a day of wedding coordinator for couples who want a stress-free and fun wedding day. Contact us today!',
     canonical: 'https://monicabrowneweddings.com/day-of-wedding-coordinator',
     openGraph: {
       type: 'website',

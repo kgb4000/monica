@@ -126,7 +126,7 @@ h3.center-text {
 p,
 li {
   font-size: 1.4rem;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 p,
@@ -156,7 +156,7 @@ ul li {
 @media (min-width: 768px) {
   h1.title {
     margin-top: 3rem auto;
-    max-width: 40rem;
+    max-width: 50rem;
     font-size: 3rem;
   }
 

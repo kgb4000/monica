@@ -42,8 +42,8 @@ export default function PainSection({
       </Service>
       <p className="intro center-text">
         <b>
-          Book a 15 minute call with Monica and see how she can help as your
-          wedding planner in Annapolis
+          Book a 15-minute call with us and see how we can help you plan your
+          wedding day
         </b>
       </p>
       <div className="center">

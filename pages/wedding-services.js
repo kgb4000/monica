@@ -99,7 +99,7 @@ const Services = () => {
                 loading="lazy"
               />
               <div className="service-info">
-                <h3 className="title">Wedding Floral Design</h3>
+                <h3 className="title">Floral & Event Design</h3>
                 <p>
                   Your local wedding planners and wedding florists at Monica
                   Browne Weddings are here to help. We offer a stunning range of

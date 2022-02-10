@@ -31,12 +31,12 @@ export default function Home({ data }) {
   const SEO = {
     title: 'Annapolis Wedding Planner | Monica Browne Weddings',
     description:
-      'As a top wedding planner in Annapolis, we give the best services to our clients including planning and coordination for any wedding. Call (240) 665-3350 today!',
-    canonical: 'https://monicabrowneweddings.com/annapolis',
+      'As a top wedding planner in Annapolis, we give the best services to our clients including planning and coordination for any wedding. Contact us today!',
+    canonical: 'https://monicabrowneweddings.com/annapolis-wedding-planner',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/annapolis',
+      url: 'https://monicabrowneweddings.com/annapolis-wedding-planner',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -52,8 +52,8 @@ export default function Home({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Planning For Annapolis Couples"
-        subText="We Create Beautiful Weddings For Busy Couples in Annapolis"
+        heroText="Wedding Planning For Couples in Annapolis MD"
+        subText="We Create Beautiful Weddings For Couples in Annapolis MD"
         buttonText="Book A Call"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp"
         buttonLink={calendly}
@@ -62,50 +62,62 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner Annapolis</h1>
+            <h1 className="title">Wedding Planner Annapolis MD</h1>
             <p className="intro">
-              Monica Browne Weddings is a wedding planning company providing
-              full-service planning, partial planning, and{' '}
+              When planning a wedding, you often look to other people for
+              advice. The best place to start is to find the best Annapolis
+              wedding planners.
+            </p>
+            <p className="intro">
+              Monica Browne Weddings is a Maryland wedding planning company
+              providing{' '}
+              <Link href="/wedding-services/wedding-planning">
+                <a>full-service planning</a>
+              </Link>{' '}
+              , partial planning, and{' '}
               <Link href="/day-of-wedding-coordinator">
                 <a>day-of coordination</a>
               </Link>{' '}
-              services in Annapolis, Maryland.
+              services in Annapolis, MD.
             </p>
             <p className="intro">
               We are professional wedding planners to help you plan one of the
-              most memorable events of your life.
+              most memorable events.
             </p>
             <p className="intro">
-              As a wedding planning company, we guide you through the wedding
-              planning process and help take the frustration and stress out of
-              wedding planning.
+              We help guide you through the planning process and help alleviate
+              the frustration and stress of wedding planning.
             </p>
             <p className="intro">
               As a professional wedding coordinator and event planner, Monica
-              will manage your entire wedding day and ensure your special day
+              and her team will manage your entire wedding day and make sure it
               goes off without a hitch. If there are any unexpected problems,
-              you will not have to worry, because we'll take care of everything.
+              you will not have to worry, because we have already taken care of
+              them.
             </p>
             <p className="intro">
-              We are experts in event management and event planning with over 15
-              years of experience as wedding and event planners in the wedding
-              industry.
-            </p>
-            <p className="intro">
-              You tell us your vision, and we'll take care of all the details of
-              your big day.
+              We are experts at event management and creating enchanting events
+              with over 15 years of experience in wedding and event management.
+              You tell us your vision, and we'll take care of all the details.
             </p>
             <p className="intro">
               Many couples trust us to bring their wedding dreams to life, and
-              we do. We always do our best to create enchanting, unique, and fun
+              we do.
+            </p>
+            <p className="intro">
+              We always do our best to create enchanting, unique, and fun
               events. As one of the top Annapolis wedding planners, you can
               count on us to be there from the beginning of the planning process
-              to the end to make sure your big day is beautiful and stress-free.
+              to the end.
+            </p>
+            <p className="intro">
+              We stay with you to make sure your big day is beautiful and
+              stress-free.
             </p>
             <p className="intro center-text">
               <b>
-                Book a 15 minute call with Monica and see how she can help as
-                your wedding planner in Annapolis
+                Book a 15 minute call with us and see how we can help as your
+                Annapolis wedding planner
               </b>
             </p>
             <div className="center">
@@ -121,12 +133,12 @@ export default function Home({ data }) {
           alt="Flowers designed by Annapolis wedding planner Monica Browne"
           width="472"
           height="708"
-          pain1="Time looking on for the best wedding vendors in Annapolis"
-          pain2="Time finding a wedding planner and wedding coordinator"
-          pain3="Time trying to plan a wedding, something you never done before"
-          pain4="Time looking for a venue and finding vendors"
-          pain5="Time finding the right event planning company "
-          pain6="Figuring out new Covid-19 protocols for events in Annapolis Maryland"
+          pain1="Time looking on for the best wedding vendors"
+          pain2="Time finding the right wedding planner and coordinator"
+          pain3="Time trying to plan and style a wedding, something you've never done before"
+          pain4="Time looking for a venue"
+          pain5="Making timely decisions and staying organized"
+          pain6="Figuring out new Covid-19 protocols for events in Annapolis MD"
         />
         <section className="container">
           <div className="content">
@@ -157,7 +169,7 @@ export default function Home({ data }) {
                   rel="noreferrer"
                   loading="lazy"
                 />
-                <h3 className="title">Wedding Floral Design</h3>
+                <h3 className="title">Floral & Event Design</h3>
               </div>
             </Services>
             <div className="center">
@@ -179,37 +191,32 @@ export default function Home({ data }) {
                 <li>
                   <h4>Talk To Monica</h4>
                   <p>
-                    Schedule your call with Monica and see how she can help plan
-                    your wedding
+                    Schedule your call with Monica and see how she can help with
+                    full-service planning, partial service, or event management.
                   </p>
                 </li>
                 <li>
                   <h4>Plan & Budget</h4>
                   <p>
-                    Let Monica help you plan your budget and work on the details
-                    for your ceremony and reception and even{' '}
-                    <a
-                      href="https://www.graduatehotels.com/annapolis/"
-                      target="_blank"
-                    >
-                      hotel reservations
-                    </a>{' '}
-                    for your guests
+                    Let Monica help you with the planning process, your budget,
+                    finding reputable vendors, and help style your entire event,
+                    including the ceremony and reception.
                   </p>
                 </li>
                 <li>
                   <h4>Enjoy Your Special Day</h4>
                   <p>
-                    Enjoy your wedding day with no worries, no stress, and no
-                    problems. We'll take care of everything for you.
+                    Enjoy your wedding day with no worries, no stress, and
+                    problems. We'll take care of your event coordination and the
+                    details so your day is stress-free.
                   </p>
                 </li>
               </Simple>
             </div>
             <p className="intro center-text">
               <b>
-                Book a 15 minute call with Monica and see how she can help as
-                your wedding planner in Annapolis
+                Book a 15-minute call with Monica and see how she can help plan
+                your wedding
               </b>
             </p>
             <div className="center">
@@ -252,11 +259,11 @@ export default function Home({ data }) {
             <h2 className="title">Testimonials</h2>
             <Testimonial>
               I am so thankful that I used Monica Browne Weddings for my rooftop
-              wedding in the summer of 2010. It has been 5 years and I still
+              wedding in the summer of 2010. It has been 5 years, and I still
               have family and friends tell me how beautiful my wedding day was.
-              I could not have been more pleased at their work. They listened to
-              all my wants and carried them out exactly how I asked them to.
-              They were nice, understanding and very easy to work with...
+              I could not have been more pleased with their work. They listened
+              to all my wants and carried them out exactly how I asked them to.
+              They were friendly, understanding, and effortless to work with...
             </Testimonial>
             <TestimonialAuthor>Katrina</TestimonialAuthor>
             <div className="center">

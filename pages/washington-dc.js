@@ -18,7 +18,7 @@ export default function Home() {
     title:
       'DC Wedding Planner creating dream weddings for couples in Washington DC.',
     description:
-      'Monica Browne Weddings is a premier wedding planner in DC specializing in helping you plan the most important day of your life. Call us at (240) 665-3350 today!',
+      'Monica Browne Weddings is a premier wedding planner in DC specializing in helping you plan the most important day of your life. Call us today!',
     canonical: 'https://monicabrowneweddings.com/washington-dc',
     openGraph: {
       type: 'website',

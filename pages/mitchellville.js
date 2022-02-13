@@ -68,6 +68,7 @@ export default function Potomac() {
         <PainSection
           title="Planning A Wedding Can Start to Stress You Out"
           src="/images/wedding-floral-design-472.webp"
+          alt="Planning A Wedding Can Start to Stress You Out"
           pain1="Time finding reliable wedding vendors"
           pain2="Time searching for the right wedding venue"
           pain3="Time reading and reviewing vendor contracts"

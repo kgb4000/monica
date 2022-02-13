@@ -67,6 +67,9 @@ export default function Rockville() {
         <PainSection
           title="Planning A Wedding Can Start to Stress You Out"
           src="/images/wedding-floral-design-472.webp"
+          alt="Planning A Wedding Can Start to Stress You Out"
+          width="472"
+          height="708"
           pain1="Not knowing what you want and where to start planning"
           pain2="Information overload from big wedding websites and blogs"
           pain3="Having to trust vendors that you don't know with the most

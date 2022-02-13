@@ -114,12 +114,10 @@ export default function Home({ data }) {
               We stay with you to make sure your big day is beautiful and
               stress-free.
             </p>
-            <p className="intro center-text">
-              <b>
-                Book a 15 minute call with us and see how we can help as your
-                Annapolis wedding planner
-              </b>
-            </p>
+            <h3 className="center-text">
+              Book a 15 minute call with us and see how we can help as your
+              Annapolis wedding planner
+            </h3>
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>
@@ -213,12 +211,10 @@ export default function Home({ data }) {
                 </li>
               </Simple>
             </div>
-            <p className="intro center-text">
-              <b>
-                Book a 15-minute call with Monica and see how she can help plan
-                your wedding
-              </b>
-            </p>
+            <h3 className="center-text">
+              Book a 15 minute call with us and see how we can help as your
+              Annapolis wedding planner
+            </h3>
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>

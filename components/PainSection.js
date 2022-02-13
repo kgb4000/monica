@@ -40,12 +40,10 @@ export default function PainSection({
           </div>
         </Painpoint>
       </Service>
-      <p className="intro center-text">
-        <b>
-          Book a 15-minute call with us and see how we can help you plan your
-          wedding day
-        </b>
-      </p>
+      <h3 className="center-text">
+        Book a 15-minute call with us and see how we can help you plan your
+        wedding day
+      </h3>
       <div className="center">
         <a href={calendly}>
           <Button>Book a 15 min call</Button>

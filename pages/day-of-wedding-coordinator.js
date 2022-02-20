@@ -422,7 +422,7 @@ export default function DayOfWeddingCoordinator() {
               </a>
             </div>
             <h2>FAQ</h2>
-            <h3>When Should I Consider Hiring a Day-of Coordinator?</h3>
+            <h3>Why Should I Consider Hiring a Day-of Coordinator?</h3>
             <p>
               You should consider hiring a day-of wedding coordinator if you're
               on a budget.

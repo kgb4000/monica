@@ -59,7 +59,7 @@ const Services = () => {
                 loading="lazy"
               />
               <div className="service-info">
-                <h3 className="title">Wedding Planning</h3>
+                <h3 className="title">Full-Service Wedding Planning</h3>
                 <p>
                   We're proud to offer couples complete wedding planning
                   services or day-of coordination. Whatever you need, we're

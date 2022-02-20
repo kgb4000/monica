@@ -133,7 +133,7 @@ const Footer = () => {
                           href="/wedding-services/full-service-wedding-planning"
                           passHref
                         >
-                          <a>Wedding Planning</a>
+                          <a>Full Service Planning</a>
                         </Link>
                       </li>
                       <li>

@@ -10,7 +10,7 @@ export default function WeddingPlanning() {
   const SEO = {
     title: 'Full-Service Wedding Planning | Monica Browne Weddings',
     description:
-      "Monica Browne Weddings provides wedding planning services in DC &  Maryland. Don't stress over your big day. Let us do the planning. Call us for a consultation",
+      "Monica Browne Weddings provides full-service wedding planning in Maryland and DC. Don't stress over your big day. Let us help you. Call us today!",
     canonical:
       'https://monicabrowneweddings.com/wedding-services/wedding-planning',
     openGraph: {
@@ -32,7 +32,7 @@ export default function WeddingPlanning() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Full-Service Wedding Planning"
+        heroText="Full-Service Wedding Planning for Busy Couples"
         subText="Full-service wedding planning for couples in Maryland & DC"
         buttonText="Book a Call"
         backgroundImage="/images/wedding-reception-decor.webp"
@@ -62,35 +62,37 @@ export default function WeddingPlanning() {
               Annapolis, Bethesda, Chevy Chase, Rockville, Silver Spring, and
               other Washington DC areas.
             </p>
+            <section>
+              <div className="service-content get-started">
+                <h2>How To Get Started</h2>
+                <Simple>
+                  <li>
+                    <h4>Talk To Monica</h4>
+                    <p>
+                      Book a call with us to discuss how we can help you plan
+                      your wedding.
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Create Your Budget</h4>
+                    <p>
+                      Determine your budget and start finalizing your wedding
+                      details.{' '}
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Enjoy Your Wedding Day</h4>
+                    <p>Enjoy your wedding day and cherish the moment!</p>
+                  </li>
+                </Simple>
 
-            <h2>How To Get Started</h2>
-            <Simple>
-              <li>
-                <h4>Talk To Monica</h4>
-                <p>
-                  Book a call with us to discuss how we can help you plan your
-                  wedding.
-                </p>
-              </li>
-              <li>
-                <h4>Create Your Budget</h4>
-                <p>
-                  Determine your budget and start finalizing your wedding
-                  details.{' '}
-                </p>
-              </li>
-              <li>
-                <h4>Enjoy Your Wedding Day</h4>
-                <p>Enjoy your wedding day and cherish the moment!</p>
-              </li>
-            </Simple>
-
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
-              </a>
-            </div>
-
+                <div className="center">
+                  <a href={calendly}>
+                    <Button>Book a call</Button>
+                  </a>
+                </div>
+              </div>
+            </section>
             <h2>Our Wedding Planning Services </h2>
             <p>
               We're proud to offer couples complete wedding planning services
@@ -116,14 +118,17 @@ export default function WeddingPlanning() {
 
             <h3>Theme and Decor Development and Design</h3>
             <p>
-              Determining the theme and decor of your wedding is one of the most
-              fun and exciting parts of wedding planning. We'll discuss all of
-              the ideas and visions you have for your wedding, melding them
-              together into a truly unique theme that represents you and your
-              partner. We also work on ceremony style development. Different
-              cultures and religions have various traditions when it comes to
-              wedding ceremonies. We'll ensure that your traditions are
-              reflected in your ceremony.
+              Determining the{' '}
+              <Link href="/wedding-decoration-services">
+                <a>theme and decor</a>
+              </Link>
+              of your wedding is one of the most fun and exciting parts of
+              wedding planning. We'll discuss all of the ideas and visions you
+              have for your wedding, melding them together into a truly unique
+              theme that represents you and your partner. We also work on
+              ceremony style development. Different cultures and religions have
+              various traditions when it comes to wedding ceremonies. We'll
+              ensure that your traditions are reflected in your ceremony.
             </p>
 
             <h3>Ceremony and Reception Site Selection Assitance</h3>
@@ -276,7 +281,7 @@ export default function WeddingPlanning() {
                 <Button>Book a call</Button>
               </a>
             </div>
-            <h2>FAQ</h2>
+            {/* <h2>FAQ</h2>
             <h3>Why Should I Choose Full Service Planning?</h3>
             <p>
               You should choose full-service planning if you don't have the
@@ -289,13 +294,14 @@ export default function WeddingPlanning() {
             </p>
             <h3>Why Should I Choose Partial Planning?</h3>
             <p>
-              You can choose partial planning if you want ot plan some parts of
+              You can choose partial planning if you want to plan some parts of
               your wedding.{' '}
             </p>
             <p>
               Maybe you've selected your venue, but need to find a licenced
               caterer and make sure they are insured.
             </p>
+            <h3>What is the Cost of Full-Service Planning?</h3> */}
           </div>
         </section>
       </Main>

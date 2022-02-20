@@ -12,12 +12,12 @@ const Footer = () => {
         id="http://monicabrowneweddings.com"
         name="Monica Browne Weddings"
         description="Monica Browne Weddings is one of the best wedding planners in
-            Maryland, also serving couples in DC and surrounding areas. We offer
-            full service event planning, partial service event planning, day of
+            Maryland, serving couples in DC and Northern Virginia. We offer
+            full-service event planning, partial service event planning, day-of
             coordination, event design, and floral design services. If you are a
-            busy couple and need help from one of the top shelf wedding
-            planners, or if you just need some help and guidance, please don't
-            hesitate to reach out to us.You can book a call with us anytime."
+            busy couple and need help, or if you need some help and guidance,
+            please don't hesitate to reach out to us. You can book a call with
+            us when you are ready."
         url="http://monicabrowneweddings.com"
         telephone="+12406653350"
         address={{
@@ -77,10 +77,10 @@ const Footer = () => {
             Monica Browne Weddings is one of the best wedding planners in
             Maryland, serving couples in DC and Northern Virginia. We offer
             full-service event planning, partial service event planning, day-of
-            coordination, event design, and floral design services. If you are a
-            busy couple and need help, or if you need some help and guidance,
-            please don't hesitate to reach out to us. You can book a call with
-            us when you are ready.
+            coordination, wedding decroation services, and floral design
+            services. If you are a busy couple and need help, or if you need
+            some help and guidance, please don't hesitate to reach out to us.
+            You can book a call with us when you are ready.
           </p>
         </Decription>
         <FooterFoot>
@@ -138,11 +138,8 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="/wedding-services/wedding-decorations"
-                        passHref
-                      >
-                        <a>Wedding Decoration</a>
+                      <Link href="/wedding-decoration-services" passHref>
+                        <a>Wedding Decorations</a>
                       </Link>
                     </li>
                     <li>
@@ -179,7 +176,7 @@ const Footer = () => {
             <h3>Locations</h3>
             <ul>
               <li>
-                <Link href="/annapolis" passHref>
+                <Link href="/wedding-planner-annapolis-md" passHref>
                   <a>Annapolis, MD</a>
                 </Link>
               </li>
@@ -209,7 +206,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/washington-dc" passHref>
+                <Link href="/wedding-planner-washington-dc" passHref>
                   <a>Washington, DC</a>
                 </Link>
               </li>

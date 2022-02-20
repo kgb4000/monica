@@ -40,7 +40,7 @@ export default function Home({ data }) {
         heroText="Wedding Planning For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         buttonText="Book A Call"
-        backgroundImage="/images/bride-groom-night-photo.webp"
+        backgroundImage="/images/bride-groom-night-photo.jpg"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -226,7 +226,7 @@ export default function Home({ data }) {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Wedding Decoration</h3>
+                <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
                 <img

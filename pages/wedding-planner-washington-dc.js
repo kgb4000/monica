@@ -15,15 +15,14 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title:
-      'DC Wedding Planner creating dream weddings for couples in Washington DC.',
+    title: 'Wedding Planner in Washington DC | Monica Browne Weddings.',
     description:
       'Monica Browne Weddings is a premier wedding planner in DC specializing in helping you plan the most important day of your life. Call us today!',
-    canonical: 'https://monicabrowneweddings.com/washington-dc',
+    canonical: 'https://monicabrowneweddings.com/wedding-planner-washington-dc',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/washington-dc',
+      url: 'https://monicabrowneweddings.com/wedding-planner-washington-dc',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -37,18 +36,7 @@ export default function Home() {
   }
   return (
     <div>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Wedding Planning for Washington DC Couples"
         subText="We Create Beautiful Weddings For Busy Couples in DC"
@@ -60,10 +48,10 @@ export default function Home() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Washington DC Wedding Planner</h1>
+            <h1 className="title">Wedding Planner Washington DC</h1>
             <p className="intro">
-              Monica Browne Weddings is a DC and Maryland wedding planner
-              helping DC couples with wedding and event planning.
+              Monica Browne Weddings is a wedding planner helping Washington DC
+              couples with wedding and event planning.
             </p>
             <p className="intro">
               As a wedding planning company, we specialize in making planning
@@ -213,7 +201,7 @@ export default function Home() {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Wedding Decor</h3>
+                <h3 className="title">Wedding Decorations</h3>
               </div>
               <div className="wedding-service">
                 <img

@@ -30,18 +30,7 @@ export default function WeddingPlanning() {
   }
   return (
     <div>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Full-Service Wedding Planning"
         subText="Full-service wedding planning for couples in Maryland & DC"

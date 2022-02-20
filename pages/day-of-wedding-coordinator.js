@@ -31,18 +31,7 @@ export default function DayOfWeddingCoordinator() {
   }
   return (
     <div>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Day of Wedding Coordinator Services"
         subText="When You Need a Day of Wedding Coordinator Just For Your Wedding Day."
@@ -72,7 +61,7 @@ export default function DayOfWeddingCoordinator() {
               <li>confirm the tables and chairs from your rental company</li>
               <li>
                 your{' '}
-                <Link href="/wedding-services/wedding-decorations">
+                <Link href="/wedding-decoration-services">
                   <a>decorations</a>
                 </Link>{' '}
               </li>
@@ -158,7 +147,7 @@ export default function DayOfWeddingCoordinator() {
             <h2>What Does a Day of Wedding Coordinator Do?</h2>
             <p>
               Unlike a{' '}
-              <Link href="/wedding-services/wedding-planning">
+              <Link href="/wedding-services/full-service-wedding-planning">
                 <a>full-service wedding planner</a>
               </Link>{' '}
               , a day of wedding coordinator is there to manage your wedding day

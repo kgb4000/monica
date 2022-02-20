@@ -67,7 +67,7 @@ const Services = () => {
                   Give us a call to learn more about our full-service or ala
                   carte packages.
                 </p>
-                <Link href="/wedding-services/wedding-planning">
+                <Link href="/wedding-services/full-service-wedding-planning">
                   <a>Read more</a>
                 </Link>
               </div>
@@ -79,15 +79,15 @@ const Services = () => {
                 loading="lazy"
               />
               <div className="service-info">
-                <h3 className="title">Wedding Decorations</h3>
+                <h3 className="title">Wedding Decoration Services</h3>
                 <p>
-                  How your event is designed matters, as the vision of the
-                  environment will last a lifetime for you and your guests. With
-                  Monica Browne Weddings there as your reception decorator, no
-                  stone will be unturned. We can transform any venue into a
-                  beautiful place with gorgeous floral designs...
+                  The overall look of your wedding will last a lifetime for you
+                  and your guests. With Monica Browne Weddings there as your
+                  reception decorator, no stone will be unturned. We can
+                  transform any venue into a beautiful place with gorgeous
+                  floral designs...
                 </p>
-                <Link href="/wedding-services/wedding-decorations">
+                <Link href="/wedding-decoration-services">
                   <a>Read more</a>
                 </Link>
               </div>

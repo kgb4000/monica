@@ -135,14 +135,6 @@ ul li {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-  p,
-  ul li {
-    font-size: 1.2rem;
-    font-weight: 200;
-  }
-}
-
 .title {
   text-align: center;
   margin: 2rem auto;

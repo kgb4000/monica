@@ -5,6 +5,8 @@ export const Testimonial = styled.p`
   max-width: 60rem;
   margin: 0 auto;
   margin-top: 2rem;
+  background-color: #f5f6fa;
+padding: 5rem;
 
   @media (min-width: 768px) {
       font-size: 1.6rem;

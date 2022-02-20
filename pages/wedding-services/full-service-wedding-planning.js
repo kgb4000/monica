@@ -271,12 +271,31 @@ export default function WeddingPlanning() {
               </a>{' '}
               on Google here.
             </p>
-
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>
               </a>
             </div>
+            <h2>FAQ</h2>
+            <h3>Why Should I Choose Full Service Planning?</h3>
+            <p>
+              You should choose full-service planning if you don't have the
+              time, or you don't know where to start.
+            </p>
+            <p>
+              You could be an extremely busy person and you want a nice wedding,
+              but you just don't have the time and you know you will need some
+              help.
+            </p>
+            <h3>Why Should I Choose Partial Planning?</h3>
+            <p>
+              You can choose partial planning if you want ot plan some parts of
+              your wedding.{' '}
+            </p>
+            <p>
+              Maybe you've selected your venue, but need to find a licenced
+              caterer and make sure they are insured.
+            </p>
           </div>
         </section>
       </Main>

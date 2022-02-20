@@ -35,13 +35,14 @@ const PictureBox = ({
 const Picture = styled.div`
   .picture-box-img {
     margin: 0.5rem auto;
+    width: 100%;
   }
 
   @media (min-width: 768px) {
     display: flex;
 
     img {
-      width: 99%;
+      width: 100%;
       margin: 0.5rem auto;
     }
     .left {

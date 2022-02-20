@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 import Simple from '../components/Simple'
+import PictureBox from '../components/picture-box'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -53,24 +54,24 @@ export default function DayOfWeddingCoordinator() {
             </p>
             <p>When you have hired all your wedding vendors yourself like:</p>
             <ul>
-              <li>the DJ </li>
-              <li>the caterer</li>
-              <li>the photographer</li>
-              <li>the videographer</li>
-              <li>secured the wedding venue</li>
-              <li>confirm the tables and chairs from your rental company</li>
+              <li>The DJ </li>
+              <li>The caterer</li>
+              <li>The photographer</li>
+              <li>The videographer</li>
+              <li>Secured the wedding venue</li>
+              <li>Confirm the tables and chairs from your rental company</li>
               <li>
-                your{' '}
+                Your{' '}
                 <Link href="/wedding-decoration-services">
-                  <a>decorations</a>
+                  <a>wedding decorations</a>
                 </Link>{' '}
               </li>
-              <li>your dance floor</li>
-              <li>the wedding florist</li>
-              <li>your hair-stylist and makeup pro</li>
-              <li>secured your wedding cake</li>
-              <li>the officiant</li>
-              <li>your getaway car (limo) driver</li>
+              <li>Your dance floor</li>
+              <li>The wedding florist</li>
+              <li>Your hair-stylist and makeup pro</li>
+              <li>Secured your wedding cake</li>
+              <li>The officiant</li>
+              <li>Your getaway car (limo) driver</li>
             </ul>
             <p>
               As a bride or groom, you don't want to be the person coordinating
@@ -88,31 +89,43 @@ export default function DayOfWeddingCoordinator() {
               </li>
               <li>To ensure that everything else gets executed properly</li>
             </ul>
-            <h2>How To Get Started</h2>
-            <Simple>
-              <li>
-                <h4>Talk To Monica</h4>
-                <p>
-                  Book a call with Monica to discuss how she can help as your
-                  day of coordinator.
-                </p>
-              </li>
-              <li>
-                <h4>Give Us Your Info</h4>
-                <p>
-                  Let us create a detailed timeline for you, contact your
-                  vendors, and oversee every detail of your event.
-                </p>
-              </li>
-              <li>
-                <h4>Enjoy Your Wedding Day</h4>
-                <p>Enjoy your wedding and cherish the moment!</p>
-              </li>
-            </Simple>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
-              </a>
+            <PictureBox
+              Image1="images/tea-lights.webp"
+              alt1="Tea lights for wedding ailse"
+              width1="472"
+              height1="708"
+              Image2="images/wedding-cake.webp"
+              alt2="Browne wedding cake"
+              width2="472"
+              height2="708"
+            />
+            <div className="get-started">
+              <h2>How To Get Started</h2>
+              <Simple>
+                <li>
+                  <h4>Talk To Monica</h4>
+                  <p>
+                    Book a call with Monica to discuss how she can help as your
+                    day of coordinator.
+                  </p>
+                </li>
+                <li>
+                  <h4>Give Us Your Info</h4>
+                  <p>
+                    Let us create a detailed timeline for you, contact your
+                    vendors, and oversee every detail of your event.
+                  </p>
+                </li>
+                <li>
+                  <h4>Enjoy Your Wedding Day</h4>
+                  <p>Enjoy your wedding and cherish the moment!</p>
+                </li>
+              </Simple>
+              <div className="center">
+                <a href={calendly}>
+                  <Button>Book a call</Button>
+                </a>
+              </div>
             </div>
             <h2>What is a Day of Wedding Coordinator?</h2>
             <p>
@@ -146,13 +159,10 @@ export default function DayOfWeddingCoordinator() {
             </div>
             <h2>What Does a Day of Wedding Coordinator Do?</h2>
             <p>
-              Unlike a{' '}
-              <Link href="/wedding-services/full-service-wedding-planning">
-                <a>full-service wedding planner</a>
-              </Link>{' '}
-              , a day of wedding coordinator is there to manage your wedding day
-              when the day arrives. They do not help you plan your wedding like
-              wedding planners.
+              Unlike a full service wedding planner, a day of wedding
+              coordinator is there to manage your wedding day when the day
+              arrives. They do not help you plan your wedding like wedding
+              planners.
             </p>
             <p>
               A wedding planner will help you plan your wedding from start to
@@ -180,10 +190,14 @@ export default function DayOfWeddingCoordinator() {
               <li>Prepare a detailed timeline of your special event</li>
               <li>Coordinate the big day</li>
             </ul>
+
             <p>
-              Full-service wedding planning is an excellent service for busy
-              couples who don't have the time to plan their wedding or need a
-              professional wedding planner to do most of the work.
+              <Link href="/wedding-services/full-service-wedding-planning">
+                <a>Full-service planning</a>
+              </Link>{' '}
+              is an excellent service for busy couples who don't have the time
+              to plan their wedding or need a professional wedding planner to do
+              most of the work.
             </p>
             <p>
               A <b>day of wedding coordinator</b> will manage your wedding after
@@ -213,7 +227,7 @@ export default function DayOfWeddingCoordinator() {
             </p>
             <p>
               On the day of your wedding, your wedding coordinator will be the
-              first to call you and make sure you are ready for the big day.{' '}
+              first to call you and make sure you are ready for the big day.
             </p>
             <p>
               They will be the first person to arrive at the ceremony venue or
@@ -225,6 +239,12 @@ export default function DayOfWeddingCoordinator() {
                 <Button>Book a call</Button>
               </a>
             </div>
+            <img
+              src="images/happy-wedding-couple.webp"
+              alt="Newly married couple"
+              width="1000"
+              heiight="667"
+            />
             <h2>Is a Day of Wedding Coordinator Worth It?</h2>
             <p>Yes</p>
             <p>
@@ -309,6 +329,16 @@ export default function DayOfWeddingCoordinator() {
                 <Button>Book a call</Button>
               </a>
             </div>
+            <PictureBox
+              Image1="images/happy-bride-and-groom.webp"
+              alt1="Happy married couple on their wedding day."
+              width1="472"
+              height1="708"
+              Image2="images/wedding-decor.webp"
+              alt2="Weeding decor by Monica Browne Weddings."
+              width2="472"
+              height1="708"
+            />
             <h2>When To Hire a Day of Wedding Coordinator?</h2>
             <p>
               The best time to hire a day of wedding coordinator is between six
@@ -385,6 +415,42 @@ export default function DayOfWeddingCoordinator() {
               We are excited to work with you and want to help make this the
               best day of your life. Give us a call or click the button below to
               book a call.
+            </p>
+            <div className="center">
+              <a href={calendly}>
+                <Button>Book a call</Button>
+              </a>
+            </div>
+            <h2>FAQ</h2>
+            <h3>When Should I Consider Hiring a Day-of Coordinator?</h3>
+            <p>
+              You should consider hiring a day-of wedding coordinator if you're
+              on a budget.
+            </p>
+            <p>
+              If you want to do most of the planning yourself and find your
+              wedding venue and vendors on your own but still want to enjoy your
+              wedding day without worrying about anything, consider hiring
+              Monica Browne Weddings.
+            </p>
+            <h3>What is the Cost of a Day-of Coordinator?</h3>
+            <p>
+              The cost of day-of coordination for your wedding depends on many
+              factors. I know you've read many blogs that say the national
+              average is between <strong>$800 and $4000</strong>, but it's hard
+              to give the cost for our services when we don't know all the
+              details of your wedding.
+            </p>
+            <p>
+              If you've done all the planning already and we don't have to do
+              anything but show up and run your event, that's one thing, but it
+              never happens. There's always something that needs to be addressed
+              or was missed when planning.
+            </p>
+            <p>
+              {' '}
+              So to get the cost for day-of coordination services, please give
+              us a call. We'll give you your custom day-of-service price.
             </p>
             <div className="center">
               <a href={calendly}>

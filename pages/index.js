@@ -50,14 +50,15 @@ export default function Home({ data }) {
             <h1 className="title">Maryland Wedding Planner</h1>
             <p className="intro">
               Monica Browne Weddings is a wedding planner and event design
-              company based in Bowie Maryland.
+              company based in Bowie, Maryland.
             </p>
             <p className="intro">
               We provide full service wedding planning, partial service wedding
               planning, and{' '}
               <Link href="/day-of-wedding-coordinator">
-                <a>day-of wedding coordination.</a>
+                <a>day-of wedding coordination</a>
               </Link>{' '}
+              services.
             </p>
             <p className="intro">
               We help guide you with style and decor ideas, selecting other
@@ -158,7 +159,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="container">
-          <div className="service-content">
+          <div className="service-content get-started">
             <h2 className="title">
               Monica Makes Wedding Planning Simple For Maryland Couples
             </h2>
@@ -234,7 +235,7 @@ export default function Home({ data }) {
                             images/wedding-floral-design-472.webp 800w"
                   sizes="(max-width: 480px) 480px,
                             800px"
-                  src="images/wedding-floral-design-472.webp.webp"
+                  src="images/wedding-floral-design-472.webp"
                   alt="Wedding table setting design"
                   loading="lazy"
                   width="472"
@@ -381,6 +382,34 @@ const Main = styled('div')`
       }
     }
 
+    .service-content {
+
+      img {
+        display: none;
+      }
+
+      display: block;
+      max-width: 60rem;
+      margin: 0 auto;
+      text-aling: left;
+
+      @media (min-width: 768px) {
+
+        img {
+        display: block;
+      }
+
+
+      h2 {
+        margin: 4rem auto;
+      }
+
+      ul {
+        max-width: 40rem;
+        margin: 0 auto;
+      }
+    }
+
     .painpoints {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -469,7 +498,7 @@ const Simple = styled('ul')`
       text-align: center;
       left: 0px;
       position: absolute;
-      top:  -0.3rem;
+      top: 0.2rem;
       border: 1px solid #000;
       font-weight: 200;
 

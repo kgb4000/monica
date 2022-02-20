@@ -12,23 +12,23 @@ const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Potomac() {
+export default function Rockville() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Potomac Wedding Planner | Monica Browne Weddings',
+    title: 'Crofton Wedding Planner | Monica Browne Weddings',
     description:
-      'Looking for a wedding planner in Potomac because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
-    canonical: 'https://monicabrowneweddings.com/potomac',
+      'Looking for a wedding planner in Crofton because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
+    canonical: 'https://monicabrowneweddings.com/crofton',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/potomac',
+      url: 'https://monicabrowneweddings.com/crofton',
       site_name: 'Monica Browne Weddings',
       images: [
         {
-          url: 'https://monicabrowneweddings.com/public/images/walking-down-aisle.webp',
-          width: 1000,
-          height: 1500,
+          url: 'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp',
+          width: 3961,
+          height: 2641,
           alt: 'Couple just married, walking down the aisle.',
         },
       ],
@@ -38,9 +38,9 @@ export default function Potomac() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Planning For Couples in Potomac"
-        subText="We Create Beautiful Weddings For Busy Couples in Rockville Maryland"
-        buttonText="Book a video call"
+        heroText="Wedding Planning For Couples in Crofton"
+        subText="We Create Beautiful Weddings For Busy Couples in Crofton Maryland"
+        buttonText="Book a call"
         backgroundImage="/images/walking-down-aisle.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -48,7 +48,7 @@ export default function Potomac() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Potomac Wedding Planner</h1>
+            <h1 className="title">Wedding Planner Crofton MD</h1>
             <p className="intro">
               Even though you may not know where to start planning your wedding,
               you can still have the wedding of your dreams. Monica Browne
@@ -58,7 +58,7 @@ export default function Potomac() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a video call</Button>
+                <Button>Book a call</Button>
               </a>
             </div>
           </div>
@@ -67,23 +67,22 @@ export default function Potomac() {
           <div className="service-content">
             <div className="painpoints">
               <div className="painpoints--content">
-                <h2 className="title">Planning A Wedding Takes A Lot</h2>
+                <h2 className="title">Planning A Wedding Can Be A Lot</h2>
                 <PainPoints>
+                  <li>Not knowing what you want and where to start planning</li>
                   <li>
-                    Time searching for the right{' '}
-                    <Link href="https://tpc.com/potomac/weddings/">
-                      <a target="_blank">wedding venue</a>
-                    </Link>
+                    Information overload from big wedding websites and blogs
                   </li>
-                  <li>Time reading and reviewing vendor contracts</li>
-                  <li>Time Creating and managing your wedding budget</li>
-                  <li>Time finding reliable wedding vendors</li>
-                  <li>Keeping organized and making timely decisions</li>
                   <li>
-                    Time creating your wedding timeline, seating charts, and
-                    sending out invitations
+                    Having to trust vendors that you don't know with the most
+                    important day of your life
                   </li>
-                  <li>Navigating new Covid-19 protocols</li>
+                  <li>
+                    Setting up a timeline, guest lodging, ans seating charts
+                  </li>
+                  <li>Budgeting and managing your wedding</li>
+                  <li>Relying on friends that may not come through</li>
+                  <li>Dealing with new Covid-19 protocols</li>
                 </PainPoints>
               </div>
             </div>
@@ -107,6 +106,8 @@ export default function Potomac() {
                   src="/images/bride-groom-happy.webp"
                   alt="Happily Married Couple"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
@@ -115,6 +116,8 @@ export default function Potomac() {
                   src="/images/wedding-table-setting.webp"
                   alt="Wedding Decor and Design"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
@@ -123,6 +126,8 @@ export default function Potomac() {
                   src="/images/wedding-flower-centerpiece-design.webp"
                   alt="Wedding Floral Design"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Floral Design</h3>
               </div>
@@ -139,15 +144,15 @@ export default function Potomac() {
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              We Make Planning Your Wedding For Potomac Couples Easier
+              We Make Wedding Planning For Crofton Couples Easy
             </h2>
             <div>
               <Simple>
                 <li>
                   <h4>Talk To Monica</h4>
                   <p>
-                    Call and talk with Monica and see how she can help you plan
-                    everything.
+                    Book your first call with Monica and see how she can help
+                    you plan your wedding.
                   </p>
                 </li>
                 <li>
@@ -177,7 +182,7 @@ export default function Potomac() {
         <section className="container">
           <div className="content">
             <h2 className="title">
-              Watch This Wedding Video From One Of Our Favorite Couples
+              Watch This Beautiful Wedding Video From One Of Our Happy Couples
             </h2>
             <section className="video-section">
               <ModalVideo
@@ -224,22 +229,28 @@ export default function Potomac() {
           </div>
         </section>
         <section className="gallery container">
-          <h2 className="title">Gallery</h2>
+          <h2 className="title">Our Gallery</h2>
           <Gallery>
             <img
               src="/images/bride-with-flowers.webp"
               alt="Bride with flowers"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="/images/bride-groom-happy.webp"
               alt="Bride and Groom"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="/images/wedding-cake.webp"
-              alt="Wedding cake picture"
+              alt="Bride and Groom"
               loading="lazy"
+              width="472"
+              height="708"
             />
           </Gallery>
           <div className="center">
@@ -274,7 +285,7 @@ const Main = styled('div')`
 
   @media (min-width: 768px) {
 
-    .content {
+        .content {
       display: block;
       margin: 0 auto;
 

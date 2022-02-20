@@ -83,6 +83,15 @@ h4 {
   font-size: 1.2rem;
 }
 
+.get-started {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #f5f6fa;
+}
+
+.get-started h2 {
+  text-align: center;
+}
 @media (min-width: 768px) {
   .intro {
     font-size: 1.4rem;
@@ -163,19 +172,19 @@ ul li {
   h1.title {
     margin-top: 3rem auto;
     max-width: 60rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
-  h2.title {
+  h2 {
     margin-top: 3rem auto;
     max-width: 50rem;
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   h3 {
     margin-top: 3rem auto;
     max-width: 50rem;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   p,

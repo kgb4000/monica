@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 import Simple from '../components/Simple'
+import PictureBox from '../components/picture-box'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -45,14 +46,16 @@ export default function WeddingDecorations() {
             <h1>Wedding Decoration Services</h1>
             <p>
               If you're looking to add decorations and need a professional
-              wedding decorator near you for your special day, then contact
-              Monica Browne Weddings.
+              wedding decorator near you, then contact Monica Browne Weddings.
             </p>
             <p>
-              Monica Browne Weddings is a Maryland wedding planning company
-              specializing in wedding decorations. They have been in the wedding
-              industry for over 15 years, creating beautiful and stylish events
-              for modern busy couples in Maryland and DC.
+              <Link href="/">
+                <a>Monica Browne Weddings</a>
+              </Link>{' '}
+              is a Maryland wedding planning company specializing in wedding
+              decorations. They have been in the wedding industry for over 15
+              years, creating beautiful and stylish events for modern busy
+              couples in Maryland and DC.
             </p>
             <div className="center">
               <a href={calendly}>
@@ -145,10 +148,15 @@ export default function WeddingDecorations() {
               and exhausting for someone who has never done this type of work
               before. Here are the main benefits of hiring a wedding decorator:
             </p>
-            <img
-              src="/images/dc-wedding-planner.webp"
-              alt="Gold tree wedding centerpiece"
-              loading="lazy"
+            <PictureBox
+              Image1="images/dc-wedding-planner.webp"
+              alt1="Gold tree wedding centerpiece"
+              width="472"
+              height="708"
+              Image2="/images/tall-wedding-flowers-centerpiece.webp"
+              alt="Tall wedding flowers centerpiece"
+              width="472"
+              height="708"
             />
             <ol>
               <li>
@@ -248,64 +256,46 @@ export default function WeddingDecorations() {
                 <Button>Book a call</Button>
               </a>
             </div>
-            <img
-              src="/images/maryland-wedding-planner-472w.webp"
-              alt="Gold tree wedding centerpiece"
-              loading="lazy"
+            <PictureBox
+              Image1="images/beautiful-bride-flowers.webp"
+              alt1="Bride holding beutiful flowers"
+              width="472"
+              height="708"
+              Image2="/images/maryland-wedding-planner-472w.webp"
+              alt="Tall wedding flowers centerpiece"
+              width="472"
+              height="708"
             />
-            <h2>How To Get Started</h2>
-            <Simple>
-              <li>
-                <h4>Contact Us</h4>
-                <p>Talk to Monica about your ideas for wedding decor.</p>
-              </li>
-              <li>
-                <h4>Create Your Budget</h4>
-                <p>
-                  Work out your wedding decorations budget and plan the details
-                </p>
-              </li>
-              <li>
-                <h4>Enjoy Your Wedding</h4>
-                <p>
-                  We'll set up and break down everything. You just enjoy your
-                  big day.
-                </p>
-              </li>
-            </Simple>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
-              </a>
-            </div>
-
-            {/* <h2>Pricing For Wedding Decorations</h2>
-            <p>
-              There are several factors that have to do with determining how
-              much a wedding ceremony decorator will charge you for your
-              professional wedding decorations.
-            </p>
-            <ol>
-              <li>
-                <h3>Location</h3>
-                Your location is one of the things that will be considered. For
-                example, a wedding in a high-income area will cost more than in
-                a low-income area and the cost also depends on how far your
-                decorator will have to travel.
-              </li>
-              <li>
-                <h3>Number of Guests</h3>
-                The number of guests attending and the size of the venue will
-                also be factored in. Another thing to be included in the price
-                is how much work it will take to pull your display off and the
-                items required as well.
-              </li>
-              <li>
-                <h3>Complexity of Decorations</h3>
-                The complexity of the decorations you want, how elaborate they
-                may be, and how hard it would be to find them.
-              </li>
-            </ol> */}
+            <section>
+              <div className="service-content get-started">
+                <h2>How To Get Started</h2>
+                <Simple>
+                  <li>
+                    <h4>Contact Us</h4>
+                    <p>Talk to Monica about your ideas for wedding decor.</p>
+                  </li>
+                  <li>
+                    <h4>Create Your Budget</h4>
+                    <p>
+                      Work out your wedding decorations budget and plan the
+                      details
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Enjoy Your Wedding</h4>
+                    <p>
+                      We'll set up and break down everything. You just enjoy
+                      your big day.
+                    </p>
+                  </li>
+                </Simple>
+                <div className="center">
+                  <a href={calendly}>
+                    <Button>Book a call</Button>
+                  </a>
+                </div>
+              </div>
+            </section>
             <h2>
               What Will Monica Browne Weddings Do as Your Wedding Decorator?
             </h2>

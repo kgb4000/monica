@@ -33,7 +33,7 @@ const Testimonials = () => {
       <HeroSection
         heroText="Testimonials"
         subText="From Happy Clients"
-        backgroundImage="/images/wedding-planner.webp"
+        backgroundImage="/images/flowers-and-bride-shoes.webp"
         buttonText="Book a Call"
         buttonLink={calendly}
         backgroundHeight="80vh"

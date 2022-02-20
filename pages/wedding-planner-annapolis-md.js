@@ -148,6 +148,8 @@ export default function Home({ data }) {
                   alt="Happily Married Couple"
                   rel="noreferrer"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Planning</h3>
               </div>
@@ -157,6 +159,8 @@ export default function Home({ data }) {
                   alt="Wedding Decorations and Design"
                   rel="noreferrer"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Wedding Decorations</h3>
               </div>
@@ -166,6 +170,8 @@ export default function Home({ data }) {
                   alt="Wedding Floral Design"
                   rel="noreferrer"
                   loading="lazy"
+                  width="472"
+                  height="708"
                 />
                 <h3 className="title">Floral & Event Design</h3>
               </div>
@@ -180,7 +186,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="container">
-          <div className="service-content">
+          <div className="service-content get-started">
             <h2 className="title">
               We Make Wedding Planning For Annapolis Couples Simple
             </h2>
@@ -280,18 +286,24 @@ export default function Home({ data }) {
               alt="Bride with flowers"
               rel="noreferrer"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-groom-happy_xr217b.webp"
               alt="Bride and Groom"
               rel="noreferrer"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
               alt="Wedding table centerpiece"
               rel="noreferrer"
               loading="lazy"
+              width="472"
+              height="708"
             />
           </Gallery>
           <div className="center">
@@ -336,9 +348,9 @@ const Main = styled('div')`
       }
 
       display: block;
-      max-width: 30rem;
+      max-width: 60rem;
       margin: 0 auto;
-      text-aling: left;
+      text-align: left;
 
       @media (min-width: 768px) {
 
@@ -346,7 +358,6 @@ const Main = styled('div')`
         display: block;
       }
 
-      max-width: 50rem;
 
       h2 {
         margin: 4rem auto;

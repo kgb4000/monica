@@ -82,7 +82,7 @@ export default function Home() {
               who prefer a coordinator to take care of all the details.
             </p>
             <p className="intro">
-              Or{' '}
+              Our{' '}
               <Link href="/day-of-wedding-coordinator">
                 <a>day-of wedding coordinator</a>
               </Link>{' '}
@@ -224,7 +224,7 @@ export default function Home() {
           </div>
         </section>
         <section className="container">
-          <div className="service-content">
+          <div className="service-content get-started">
             <h2 className="title">
               We Make Wedding Planning for DC Couples Much Easier
             </h2>
@@ -319,16 +319,22 @@ export default function Home() {
               src="/images/bride-with-flowers.webp"
               alt="Bride with flowers"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="/images/bride-groom-happy.webp"
               alt="Bride and Groom"
               loading="lazy"
+              width="472"
+              height="708"
             />
             <img
               src="/images/wedding-cake.webp"
-              alt="Bride and Groom"
+              alt="Brown wedding cake"
               loading="lazy"
+              width="472"
+              height="708"
             />
           </Gallery>
           <div className="center">
@@ -396,17 +402,16 @@ const Main = styled('div')`
       }
 
       display: block;
-      max-width: 30rem;
+      max-width: 60rem;
       margin: 0 auto;
-      text-aling: left;
+      text-align: left;
+      
 
       @media (min-width: 768px) {
 
         img {
         display: block;
       }
-
-      max-width: 50rem;
 
       h2 {
         margin: 0 auto;

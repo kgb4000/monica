@@ -70,172 +70,180 @@ const Footer = () => {
           },
         ]}
       />
-      <div className="footer-container">
-        <Decription>
-          <h3>Monica Browne Weddings</h3>
-          <p>
-            Monica Browne Weddings is one of the best wedding planners in
-            Maryland, serving couples in DC and Northern Virginia. We offer
-            full-service event planning, partial service event planning, day-of
-            coordination, wedding decroation services, and floral design
-            services. If you are a busy couple and need help, or if you need
-            some help and guidance, please don't hesitate to reach out to us.
-            You can book a call with us when you are ready.
-          </p>
-        </Decription>
-        <FooterFoot>
-          <FooterHours>
-            <h3>Hours</h3>
-            <div className="office-hours">
-              <span>Monday: 9:00am - 5:00pm</span>
-            </div>
-            <div className="office-hours">
-              <span>Tuesday: 9:00am - 5:00pm</span>
-            </div>
-            <div className="office-hours">
-              <span>Wednesday: 9:00am - 5:00pm</span>
-            </div>
-            <div className="office-hours">
-              <span>Thursday: 9:00am - 5:00pm</span>
-            </div>
-            <div className="office-hours">
-              <span>Friday: 9:00am - 5:00pm</span>
-            </div>
-            <div className="office-hours">
-              <span>Saturday: 9:00am - 5:00pm</span>
-            </div>
-            <div className="office-hours">
-              <span>Sunday: Closed</span>
-            </div>
-          </FooterHours>
-          <FooterMenu>
-            <h3>Menu</h3>
-            <nav>
+      <footer>
+        <div className="footer-container">
+          <Decription>
+            <h3>Monica Browne Weddings</h3>
+            <p>
+              Monica Browne Weddings is one of the best wedding planners in
+              Maryland, serving couples in DC and Northern Virginia. We offer
+              full-service event planning, partial service event planning,
+              day-of coordination, wedding decroation services, and floral
+              design services. If you are a busy couple and need help, or if you
+              need some help and guidance, please don't hesitate to reach out to
+              us. You can book a call with us when you are ready.
+            </p>
+          </Decription>
+          <FooterFoot>
+            <FooterHours>
+              <h3>Hours</h3>
+              <div className="office-hours">
+                <span>Monday: 9:00am - 5:00pm</span>
+              </div>
+              <div className="office-hours">
+                <span>Tuesday: 9:00am - 5:00pm</span>
+              </div>
+              <div className="office-hours">
+                <span>Wednesday: 9:00am - 5:00pm</span>
+              </div>
+              <div className="office-hours">
+                <span>Thursday: 9:00am - 5:00pm</span>
+              </div>
+              <div className="office-hours">
+                <span>Friday: 9:00am - 5:00pm</span>
+              </div>
+              <div className="office-hours">
+                <span>Saturday: 9:00am - 5:00pm</span>
+              </div>
+              <div className="office-hours">
+                <span>Sunday: Closed</span>
+              </div>
+            </FooterHours>
+            <FooterMenu>
+              <h3>Menu</h3>
+              <nav>
+                <ul>
+                  <li>
+                    <Link href="/">
+                      <a>Home</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about-wedding-planner" passHref>
+                      <a>About</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/wedding-services" passHref>
+                      <a>Wedding Services</a>
+                    </Link>
+                    <ul className="ul-footer">
+                      <li>
+                        <Link
+                          href="/wedding-services/full-service-wedding-planning"
+                          passHref
+                        >
+                          <a>Wedding Planning</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/wedding-services/wedding-flowers" passHref>
+                          <a>Wedding Flowers</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/wedding-decoration-services" passHref>
+                          <a>Wedding Decorations</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/day-of-wedding-coordinator" passHref>
+                          <a>Day of Wedding Coordinator</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link href="/wedding-gallery" passHref>
+                      <a>Wedding Gallery</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/testimonials" passHref>
+                      <a>Testimonials</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog" passHref>
+                      <a>Blog</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" passHref>
+                      <a>Contact us</a>
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            </FooterMenu>
+            <Locations>
+              <h3>Locations</h3>
               <ul>
                 <li>
-                  <Link href="/">
-                    <a>Home</a>
+                  <Link href="/wedding-planner-annapolis-md" passHref>
+                    <a>Annapolis, MD</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about-wedding-planner" passHref>
-                    <a>About</a>
+                  <Link href="/bethesda" passHref>
+                    <a>Bethesda, MD</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/wedding-services" passHref>
-                    <a>Wedding Services</a>
-                  </Link>
-                  <ul className="ul-footer">
-                    <li>
-                      <Link href="/wedding-services/wedding-planning" passHref>
-                        <a>Wedding Planning</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/wedding-services/wedding-flowers" passHref>
-                        <a>Wedding Flowers</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/wedding-decoration-services" passHref>
-                        <a>Wedding Decorations</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/day-of-wedding-coordinator" passHref>
-                        <a>Day of Wedding Coordinator</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/wedding-gallery" passHref>
-                    <a>Wedding Gallery</a>
+                  <Link href="/chevy-chase" passHref>
+                    <a>Chevy Chase, MD</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/testimonials" passHref>
-                    <a>Testimonials</a>
+                  <Link href="/wedding-planner-potomac-md" passHref>
+                    <a>Potomac, MD</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog" passHref>
-                    <a>Blog</a>
+                  <Link href="/rockville" passHref>
+                    <a>Rockville, MD</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" passHref>
-                    <a>Contact us</a>
+                  <Link href="/silver-spring" passHref>
+                    <a>Silver Spring, MD</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/wedding-planner-washington-dc" passHref>
+                    <a>Washington, DC</a>
                   </Link>
                 </li>
               </ul>
-            </nav>
-          </FooterMenu>
-          <Locations>
-            <h3>Locations</h3>
-            <ul>
-              <li>
-                <Link href="/wedding-planner-annapolis-md" passHref>
-                  <a>Annapolis, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/bethesda" passHref>
-                  <a>Bethesda, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/chevy-chase" passHref>
-                  <a>Chevy Chase, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/potomac" passHref>
-                  <a>Potomac, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/rockville" passHref>
-                  <a>Rockville, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/silver-spring" passHref>
-                  <a>Silver Spring, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/wedding-planner-washington-dc" passHref>
-                  <a>Washington, DC</a>
-                </Link>
-              </li>
-            </ul>
-          </Locations>
+            </Locations>
 
-          <FooterContact>
-            <h3>Contact</h3>
-            <p>
-              <a href={calendly}>Book A Call</a>
-            </p>
-            <p>
-              <a href="mailto:monica@monicabrowneweddings.com" itemProp="email">
-                Email Monica Browne Weddings
-              </a>
-            </p>
-            <p>
-              <a>Call (240) 665-3350</a>
-            </p>
-            <p>
-              <span>Bowie, MD</span>
-              <span> 20720</span>
-            </p>
-          </FooterContact>
-        </FooterFoot>
-        <LowerFooter>
-          <p>Monica Browne Weddings &copy; {new Date().getFullYear()}</p>
-        </LowerFooter>
-      </div>
+            <FooterContact>
+              <h3>Contact</h3>
+              <p>
+                <a href={calendly}>Book A Call</a>
+              </p>
+              <p>
+                <a
+                  href="mailto:monica@monicabrowneweddings.com"
+                  itemProp="email"
+                >
+                  Email Monica Browne Weddings
+                </a>
+              </p>
+              <p>
+                <a>Call (240) 665-3350</a>
+              </p>
+              <p>
+                <span>Bowie, MD</span>
+                <span> 20720</span>
+              </p>
+            </FooterContact>
+          </FooterFoot>
+          <LowerFooter>
+            <p>Monica Browne Weddings &copy; {new Date().getFullYear()}</p>
+          </LowerFooter>
+        </div>
+      </footer>
     </>
   )
 }

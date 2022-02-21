@@ -27,15 +27,7 @@ export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   return (
     <div>
-      <NextSeo
-        robotsProps={{
-          notranslate: true,
-          noimageindex: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo />
       <HeroSection
         heroText="Wedding Planning For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
@@ -47,7 +39,7 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Maryland Wedding Planner</h1>
+            <h1 className="title">Wedding Planner in Maryland</h1>
             <p className="intro">
               Monica Browne Weddings is a wedding planner and event design
               company based in Bowie, Maryland.

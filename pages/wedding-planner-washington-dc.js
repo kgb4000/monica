@@ -142,6 +142,7 @@ export default function Home() {
               <img
                 src="images/dc-wedding-planner.webp"
                 alt="Wedding table designed by DC wedding planner Monica Browne"
+                loading="lazy"
                 width="472"
                 height="708"
                 title="Wedding table designed by DC wedding planner Monica Browne"

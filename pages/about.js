@@ -8,14 +8,14 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function About() {
   const SEO = {
-    title: 'About Wedding Planner | Monica Browne Weddings',
+    title: 'About Monica Browne Weddings',
     description:
       'Monica Browne Weddings is a wedding planning company dedicated to hepling busy couples plan their dream wedding.',
-    canonical: 'https://monicabrowneweddings.com/about-wedding-planner',
+    canonical: 'https://monicabrowneweddings.com/about',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/about-wedding-planner',
+      url: 'https://monicabrowneweddings.com/about',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -48,8 +48,8 @@ export default function About() {
             </h1>
             <p className="intro" itemProp="description">
               Monica Browne Weddings is a{' '}
-              <Link href="/wedding-services/wedding-planning">
-                <a>wedding planning</a>
+              <Link href="/wedding-services/full-service-wedding-planner">
+                <a>full service wedding planning</a>
               </Link>{' '}
               company focused on delivering the best and most memorable weddings
               and events. If you're a busy couple and don't have a lot of time,

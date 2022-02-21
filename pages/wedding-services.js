@@ -67,7 +67,7 @@ const Services = () => {
                   Give us a call to learn more about our full-service or ala
                   carte packages.
                 </p>
-                <Link href="/wedding-services/full-service-wedding-planning">
+                <Link href="/wedding-services/full-service-wedding-planner">
                   <a>Read more</a>
                 </Link>
               </div>

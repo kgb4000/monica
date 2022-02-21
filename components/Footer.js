@@ -119,7 +119,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about-wedding-planner" passHref>
+                    <Link href="/about" passHref>
                       <a>About</a>
                     </Link>
                   </li>

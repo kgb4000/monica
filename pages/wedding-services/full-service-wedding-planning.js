@@ -93,7 +93,7 @@ export default function WeddingPlanning() {
                 </div>
               </div>
             </section>
-            <h2>Our Wedding Planning Services </h2>
+            <h2>Before Your Wedding Day</h2>
             <p>
               We're proud to offer couples complete wedding planning services
               and{' '}
@@ -155,7 +155,7 @@ export default function WeddingPlanning() {
               it with you in detail to ensure it's to your specifications.
             </p>
 
-            <h3>Wedding Vendors</h3>
+            <h3>Vendor Management</h3>
             <p>
               Wedding vendors play a huge part in your big day. From florists to
               photographers to caterers, we'll provide you with vetted vendor
@@ -216,7 +216,7 @@ export default function WeddingPlanning() {
               there's no confusion.
             </p>
 
-            <h3>Facilitate and Management of Wedding Day</h3>
+            <h3>On Your Wedding Day</h3>
             <p>
               Your big day is here! We'll give the bride and groom a wedding
               morning wake-up call at a pre-determined agreed-upon time. We'll

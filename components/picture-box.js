@@ -36,10 +36,13 @@ const Picture = styled.div`
   .picture-box-img {
     margin: 0.5rem auto;
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 413px) {
     display: flex;
+    flex-direction: wrap;
 
     img {
       width: 100%;

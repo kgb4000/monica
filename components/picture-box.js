@@ -39,7 +39,7 @@ const Picture = styled.div`
     display: block;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 640px) {
     display: flex;
     flex-direction: wrap;
 

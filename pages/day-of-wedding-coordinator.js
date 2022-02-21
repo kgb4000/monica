@@ -243,7 +243,7 @@ export default function DayOfWeddingCoordinator() {
               src="images/happy-wedding-couple.webp"
               alt="Newly married couple"
               width="1000"
-              heiight="667"
+              height="667"
             />
             <h2>Is a Day of Wedding Coordinator Worth It?</h2>
             <p>Yes</p>

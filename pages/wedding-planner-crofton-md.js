@@ -18,11 +18,11 @@ export default function Rockville() {
     title: 'Crofton Wedding Planner | Monica Browne Weddings',
     description:
       'Looking for a wedding planner in Crofton because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
-    canonical: 'https://monicabrowneweddings.com/crofton',
+    canonical: 'https://monicabrowneweddings.com/wedding-planner-crofton-md',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/crofton',
+      url: 'https://monicabrowneweddings.com/wedding-planner-crofton-md',
       site_name: 'Monica Browne Weddings',
       images: [
         {

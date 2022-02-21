@@ -18,11 +18,11 @@ export default function Potomac() {
     title: 'Wedding Planner Potomac Maryland | Monica Browne Weddings',
     description:
       'Looking for a wedding planner in Potomac because you need some help? Call Monica Browne Weddings. We can help you plan the wedding of your dreams.',
-    canonical: 'https://monicabrowneweddings.com/potomac',
+    canonical: 'https://monicabrowneweddings.com/wedding-planner-potomac-md',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/potomac',
+      url: 'https://monicabrowneweddings.com/wedding-planner-potomac-md',
       site_name: 'Monica Browne Weddings',
       images: [
         {

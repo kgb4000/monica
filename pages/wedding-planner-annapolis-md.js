@@ -55,7 +55,7 @@ export default function Home({ data }) {
         heroText="Wedding Planning For Couples in Annapolis MD"
         subText="We Create Beautiful Weddings For Couples in Annapolis MD"
         buttonText="Book A Call"
-        backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/walking-down-aisle_o4wklu.webp"
+        backgroundImage="/images/happy-wedding-couple.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />

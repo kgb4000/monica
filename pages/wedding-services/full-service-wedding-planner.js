@@ -12,11 +12,11 @@ export default function WeddingPlanning() {
     description:
       "Monica Browne Weddings provides full-service wedding planning in Maryland and DC. Don't stress over your big day. Let us help you. Call us today!",
     canonical:
-      'https://monicabrowneweddings.com/wedding-services/full-service-wedding-planning',
+      'https://monicabrowneweddings.com/wedding-services/full-service-wedding-planner',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/wedding-services/full-service-wedding-planning',
+      url: 'https://monicabrowneweddings.com/wedding-services/full-service-wedding-planner',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -32,7 +32,7 @@ export default function WeddingPlanning() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Full-Service Wedding Planning for Busy Couples"
+        heroText="Full-Service Wedding Planner for Busy Couples"
         subText="Full-service wedding planning for couples in Maryland & DC"
         buttonText="Book a Call"
         backgroundImage="/images/wedding-reception-decor.webp"
@@ -42,7 +42,7 @@ export default function WeddingPlanning() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Full-Service Wedding Planning</h1>
+            <h1>Full-Service Wedding Planner</h1>
             <p>
               Monica Browne Weddings offers wedding planning services for
               couples in Maryland and DC. Planning a wedding can be
@@ -121,7 +121,7 @@ export default function WeddingPlanning() {
               Determining the{' '}
               <Link href="/wedding-decoration-services">
                 <a>theme and decor</a>
-              </Link>
+              </Link>{' '}
               of your wedding is one of the most fun and exciting parts of
               wedding planning. We'll discuss all of the ideas and visions you
               have for your wedding, melding them together into a truly unique
@@ -248,8 +248,8 @@ export default function WeddingPlanning() {
             </p>
             <p>
               Our goal is to make your wedding as beautiful and stress-free as
-              possible. Give us a call to discuss how we can help you with
-              wedding planning in Maryland.
+              possible. Give us a call to discuss how we can help you as your
+              full service wedding planner.
             </p>
 
             <h3>We Care About Our Couples</h3>
@@ -258,16 +258,24 @@ export default function WeddingPlanning() {
               family. We want our couples to have the most special day, so we
               will make every effort to make it happen. It always amazes us how
               kind and generous our clients are with their feedback and
-              experiences. See our gallery of wedding photos from some of our
-              happy couples{' '}
+              experiences.
+            </p>
+            <p>
+              See our gallery of wedding photos from some of our happy couples{' '}
               <Link href="/wedding-gallery">
                 <a>here</a>
               </Link>
-              . Read testimonials from some of our valued clients{' '}
+              .
+            </p>
+            <p>
+              Read testimonials from some of our valued clients{' '}
               <Link href="/testimonials">
                 <a>here</a>
               </Link>
-              . Also, see our{' '}
+              .
+            </p>
+            <p>
+              Also, see our{' '}
               <a
                 href="https://www.google.com/search?client=firefox-b-1-d&q=monicabrowneweddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
                 target="_blank"

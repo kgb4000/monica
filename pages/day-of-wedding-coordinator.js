@@ -37,7 +37,7 @@ export default function DayOfWeddingCoordinator() {
         heroText="Day of Wedding Coordinator Services"
         subText="When You Need a Day of Wedding Coordinator Just For Your Wedding Day."
         buttonText="Book a Call Today"
-        backgroundImage="/wedding-table-at-vineyard.jpg"
+        backgroundImage="/wedding-table-at-vineyard.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />
@@ -192,7 +192,7 @@ export default function DayOfWeddingCoordinator() {
             </ul>
 
             <p>
-              <Link href="/wedding-services/full-service-wedding-planning">
+              <Link href="/wedding-services/full-service-wedding-planner">
                 <a>Full-service planning</a>
               </Link>{' '}
               is an excellent service for busy couples who don't have the time

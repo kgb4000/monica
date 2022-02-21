@@ -130,7 +130,7 @@ const Footer = () => {
                     <ul className="ul-footer">
                       <li>
                         <Link
-                          href="/wedding-services/full-service-wedding-planning"
+                          href="/wedding-services/full-service-wedding-planner"
                           passHref
                         >
                           <a>Full Service Planning</a>

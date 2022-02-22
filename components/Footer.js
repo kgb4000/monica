@@ -59,7 +59,7 @@ const Footer = () => {
               latitude: '38.89511',
               longitude: '-77.03637',
             },
-            geoRadius: '1000',
+            geoRadius: '100000',
           },
           {
             geoMidpoint: {

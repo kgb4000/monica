@@ -71,7 +71,7 @@ export default function Home({ data }) {
             <p className="intro">
               Monica Browne Weddings is a Maryland wedding planning company
               providing{' '}
-              <Link href="/wedding-services/wedding-planning">
+              <Link href="/wedding-services/full-service-wedding-planner">
                 <a>full-service planning</a>
               </Link>{' '}
               , partial planning, and{' '}

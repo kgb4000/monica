@@ -92,7 +92,7 @@ export default function Blog({ post, data }) {
           <div className="content">
             <h1>{post.title}</h1>
             <div className="author-info">
-              <Link href="/about-wedding-planner">
+              <Link href="/about">
                 <a>
                   <img
                     src={post.author.image.url}
@@ -102,7 +102,7 @@ export default function Blog({ post, data }) {
                   />
                 </a>
               </Link>
-              <Link href="/about-wedding-planner">
+              <Link href="/about">
                 <a>
                   <span className="author-name">{post.author.name}</span>
                 </a>

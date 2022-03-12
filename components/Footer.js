@@ -142,7 +142,10 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/wedding-decoration-services" passHref>
+                        <Link
+                          href="/wedding-services/wedding-decoration-services"
+                          passHref
+                        >
                           <a>Wedding Decorations</a>
                         </Link>
                       </li>
@@ -180,7 +183,7 @@ const Footer = () => {
               <h3>Locations</h3>
               <ul>
                 <li>
-                  <Link href="/wedding-planner-annapolis-md" passHref>
+                  <Link href="/wedding-planner-annapolis" passHref>
                     <a>Annapolis, MD</a>
                   </Link>
                 </li>

@@ -48,7 +48,7 @@ export default function Home() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner Washington DC</h1>
+            <h1 className="title">Wedding Planner Washington DC </h1>
             <p className="intro">
               Monica Browne Weddings is a wedding planner helping Washington DC
               couples with wedding and event planning.

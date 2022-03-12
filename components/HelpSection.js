@@ -21,13 +21,6 @@ export default function PainSection({
       <Service>
         <h2 className="title">{title}</h2>
         <Painpoint>
-          <img
-            src={src}
-            alt={alt}
-            loading="lazy"
-            width={width}
-            height={height}
-          />
           <div className="painpoints--content">
             <PainPoints>
               <li>{pain1}</li>
@@ -38,6 +31,13 @@ export default function PainSection({
               <li>{pain6}</li>
             </PainPoints>
           </div>
+          <img
+            src={src}
+            alt={alt}
+            loading="lazy"
+            width={width}
+            height={height}
+          />
         </Painpoint>
       </Service>
       <h3 className="center-text">
@@ -65,7 +65,7 @@ const Painpoint = styled.div`
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 60rem;
+    max-width: 1500px;
     margin: 0 auto;
     justify-content: flex-end;
     justify-items: end;

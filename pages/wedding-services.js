@@ -87,7 +87,7 @@ const Services = () => {
                   transform any venue into a beautiful place with gorgeous
                   floral designs...
                 </p>
-                <Link href="/wedding-decoration-services">
+                <Link href="/wedding-services/wedding-decoration-services">
                   <a>Read more</a>
                 </Link>
               </div>

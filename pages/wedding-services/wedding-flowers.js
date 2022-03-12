@@ -183,38 +183,41 @@ export default function WeddingFlowers() {
               arrangements can be tricky, so we are always more than happy to
               help with this.
             </p>
+            <section>
+              <div className="service-content get-started">
+                <h2>How To Get Started With Monica</h2>
+                <Simple>
+                  <li>
+                    <h4>Talk To Monica</h4>
+                    <p>
+                      Book your first call with Monica and see how she can help
+                      you pick out the flowers for your wedding.
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Budget And Plan</h4>
+                    <p>
+                      Determine your budget and start finalizing your wedding
+                      details.{' '}
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Enjoy Your Wedding Day</h4>
+                    <p>
+                      We will handle the designs, delivery, arrangement-
+                      everything- for you. Just enjoy your wedding day and
+                      celebrate.
+                    </p>
+                  </li>
+                </Simple>
 
-            <h2>We Make Planning Your Wedding Flowers Simple</h2>
-            <Simple>
-              <li>
-                <h4>Talk To Monica</h4>
-                <p>
-                  Book your first call with Monica and see how she can help you
-                  pick out the flowers for your wedding.
-                </p>
-              </li>
-              <li>
-                <h4>Budget And Plan</h4>
-                <p>
-                  Work out your budget and decide which floral designs are right
-                  for you.
-                </p>
-              </li>
-              <li>
-                <h4>Enjoy Your Big Day</h4>
-                <p>
-                  We will handle the designs, delivery, arrangement- everything-
-                  for you. Just enjoy your wedding day and celebrate.
-                </p>
-              </li>
-            </Simple>
-
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
-              </a>
-            </div>
-
+                <div className="center">
+                  <a href={calendly}>
+                    <Button>Book a call</Button>
+                  </a>
+                </div>
+              </div>
+            </section>
             <h2>We Care About Your Big Day</h2>
             <p>
               Here in Maryland and DC, we consider our wonderful couples as
@@ -225,11 +228,17 @@ export default function WeddingFlowers() {
               <Link href="/wedding-gallery">
                 <a>here</a>
               </Link>
-              . Read testimonials from some of our valued clients{' '}
+              .
+            </p>
+            <p>
+              Read testimonials from some of our valued clients{' '}
               <Link href="/testimonials">
                 <a>here</a>
               </Link>
-              . Also, see our{' '}
+              .
+            </p>
+            <p>
+              Also, see our{' '}
               <a
                 href="https://www.google.com/search?client=firefox-b-1-d&q=monicabrowneweddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
                 target="_blank"

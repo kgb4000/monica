@@ -29,7 +29,7 @@ export const getStaticProps = async () => {
 export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Annapolis Wedding Planner | Monica Browne Weddings',
+    title: 'Wedding Planner in Annapolis | Monica Browne Weddings',
     description:
       'As a top wedding planner in Annapolis, we give the best services to our clients including planning and coordination for any wedding. Contact us today!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis-md',
@@ -52,7 +52,7 @@ export default function Home({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Planning For Couples in Annapolis MD"
+        heroText="Wedding Planning For Couples in Annapolis"
         subText="We Create Beautiful Weddings For Couples in Annapolis MD"
         buttonText="Book A Call"
         backgroundImage="/images/happy-wedding-couple.webp"
@@ -62,13 +62,13 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner Annapolis MD</h1>
-            <p className="intro">
+            <h1 className="title">Wedding Planner Annapolis</h1>
+            <p>
               When planning a wedding, you often look to other people for
               advice. The best place to start is to find the best Annapolis
               wedding planners.
             </p>
-            <p className="intro">
+            <p>
               Monica Browne Weddings is a Maryland wedding planning company
               providing{' '}
               <Link href="/wedding-services/full-service-wedding-planner">
@@ -80,37 +80,37 @@ export default function Home({ data }) {
               </Link>{' '}
               services in Annapolis, MD.
             </p>
-            <p className="intro">
+            <p>
               We are professional wedding planners to help you plan one of the
               most memorable events.
             </p>
-            <p className="intro">
+            <p>
               We help guide you through the planning process and help alleviate
               the frustration and stress of wedding planning.
             </p>
-            <p className="intro">
+            <p>
               As a professional wedding coordinator and event planner, Monica
               and her team will manage your entire wedding day and make sure it
               goes off without a hitch. If there are any unexpected problems,
               you will not have to worry, because we have already taken care of
               them.
             </p>
-            <p className="intro">
+            <p>
               We are experts at event management and creating enchanting events
               with over 15 years of experience in wedding and event management.
               You tell us your vision, and we'll take care of all the details.
             </p>
-            <p className="intro">
+            <p>
               Many couples trust us to bring their wedding dreams to life, and
               we do.
             </p>
-            <p className="intro">
+            <p>
               We always do our best to create enchanting, unique, and fun
               events. As one of the top Annapolis wedding planners, you can
               count on us to be there from the beginning of the planning process
               to the end.
             </p>
-            <p className="intro">
+            <p>
               We stay with you to make sure your big day is beautiful and
               stress-free.
             </p>
@@ -139,7 +139,7 @@ export default function Home({ data }) {
           pain6="Figuring out new Covid-19 protocols for events in Annapolis MD"
         />
         <section className="container">
-          <div className="content">
+          <div>
             <h2 className="title">Our Wedding Services</h2>
             <Services>
               <div className="wedding-service">
@@ -229,7 +229,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="container">
-          <div className="content">
+          <div>
             <h2 className="title">
               Watch This Romantic Wedding Video From One Of Our Happy Couples
             </h2>
@@ -257,7 +257,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="container">
-          <div className="content">
+          <div>
             <h2 className="title">Testimonials</h2>
             <Testimonial>
               I am so thankful that I used Monica Browne Weddings for my rooftop
@@ -336,9 +336,9 @@ const Main = styled('div')`
   @media (min-width: 768px) {
 
     .content {
-      display: block;
+      text-align: left;
+      max-width: 60rem;
       margin: 0 auto;
-
     }
 
     .service-content {

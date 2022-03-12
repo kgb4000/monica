@@ -35,7 +35,7 @@ export default function About() {
       <HeroSection
         heroText="About us"
         subText="Monica Browne Weddings"
-        buttonText="Book a Call"
+        buttonText="Book a Call Today!"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
         buttonLink={calendly}
         backgroundHeight="80vh"
@@ -44,21 +44,21 @@ export default function About() {
         <section className="container">
           <div className="content">
             <h1 className="title" itemProp="name">
-              About Monica Browne Weddings
+              Monica Browne Weddings
             </h1>
             <p className="intro" itemProp="description">
               Monica Browne Weddings is a{' '}
               <Link href="/wedding-services/full-service-wedding-planner">
-                <a>full service wedding planning</a>
+                <a>full-service wedding planning</a>
               </Link>{' '}
-              company focused on delivering the best and most memorable weddings
-              and events. If you're a busy couple and don't have a lot of time,
-              we understand. We can help you plan the wedding of your dreams and
-              give you more free time to do the essential things you need to do.
+              company that delivers the best and most memorable weddings and
+              events. We understand if you're a busy couple and don't have a lot
+              of time. We can help you plan the wedding of your dreams and give
+              you more free time to do the essential things you need to do.
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call today!</Button>
               </a>
             </div>
           </div>
@@ -68,15 +68,18 @@ export default function About() {
             <h2 className="title">How We Can Help You</h2>
             <PainPoints>
               <ul>
-                <li>Helping you get your budget together and managing it</li>
-                <li>Keep you organized to alleviate unnecessary stress</li>
-                <li>Help to research and select wedding venues and vendors</li>
-                <li>Managing your wedding rehearsal, ceremony and reception</li>
+                <li>Help prepare a budget and manage it</li>
+                <li>Keep you organized to cut stress</li>
+                <li>Help research and choose venues and vendors</li>
+                <li>
+                  Organize your wedding rehearsal and communicate with your
+                  wedding party
+                </li>
               </ul>
               <ul>
-                <li>Reading and negotiating vendor contracts</li>
-                <li>Coomunicating with your wedding party and guests</li>
-                <li>Dealing with problems that may come up</li>
+                <li>Read and negotiate vendor contracts</li>
+                <li>Communicate with your wedding party and guests</li>
+                <li>Handle problems that may come up</li>
                 <li>
                   Be a dependable resource with 15+ years of experience, so we
                   know what to do
@@ -115,7 +118,7 @@ export default function About() {
 
               <p>
                 My family is my everything to me! I am a wife, mother,
-                confidant, and friend. I should also add, I am a massive fan of
+                confidant, and friend. I should also add I am a massive fan of
                 chocolate, and I love to enjoy a glass of red wine while
                 binge-watching horror films!
               </p>
@@ -126,30 +129,26 @@ export default function About() {
                   <a>creating floral designs</a>
                 </Link>
                 , I like traveling, exploring different cultures, and trying
-                different foods. Big emphasis on the food!
+                other foods. Big emphasis on the food!
               </p>
 
               <p>
                 What about my love for events? My desire to enter the event
-                planning industry goes back to when I was a little girl and
-                witnessed fabulous events put on by my parents and grandparents.
-                From there, that desire grew into me working with wonderful
-                clients like you.
+                planning industry was when I was a little girl and witnessed
+                fabulous events by my parents and grandparents. That desire grew
+                into me working with wonderful clients like you.
               </p>
               <p>
                 Over this past decade and a half, I've shared heartfelt memories
                 and created bonds with clients that will last a lifetime. I am
                 excited and looking forward to hearing more about your vision
-                and working with you too.{' '}
-                <a href={calendly} className="underline">
-                  Book a call
-                </a>{' '}
-                and let's talk soon.
+                and working with you.
               </p>
+              <p>Book a call and let's talk soon.</p>
             </Team>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a 15 min call</Button>
+                <Button>Book a call today!</Button>
               </a>
             </div>
           </div>

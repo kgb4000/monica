@@ -1,5 +1,5 @@
 export default {
-  title: 'Wedding Planner in Maryland | Monica Browne Weddings',
+  title: 'Wedding Planner | Maryland | Monica Browne Weddings',
   description:
     'Top-rated wedding planner in Maryland, Monica Browne Weddings is here to help you plan your dream wedding. Contact us today to get started!',
   canonical: 'https://monicabrowneweddings.com',

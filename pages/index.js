@@ -29,7 +29,7 @@ export default function Home({ data }) {
     <div>
       <NextSeo />
       <HeroSection
-        heroText="Wedding Planning For Maryland Couples"
+        heroText="Planning Weddings For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         buttonText="Book A Call"
         backgroundImage="/images/bride-groom-night-photo.jpg"
@@ -39,56 +39,47 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Maryland</h1>
-            <p className="intro">
-              Monica Browne Weddings is a wedding planner and event design
-              company based in Bowie, Maryland.
+            <h1 className="title">Wedding Planner Maryland</h1>
+            <p>
+              Monica Browne Weddings is a wedding and event planner in Bowie,
+              MD.
             </p>
-            <p className="intro">
-              We provide full service wedding planning, partial service wedding
-              planning, and{' '}
+            <p>We help you plan the perfect wedding for you too enjoy.</p>
+            <p>
+              We provide full service wedding planning, partial planning, and{' '}
               <Link href="/day-of-wedding-coordinator">
-                <a>day-of wedding coordination</a>
+                <a>day-of coordination</a>
               </Link>{' '}
               services.
             </p>
-            <p className="intro">
-              We help guide you with style and decor ideas, selecting other
-              vendors, ceremony design, and of course, the celebration at the
-              end.
+            <p>
+              We help brides and grooms eliminate stress, so you don't have to
+              worry about anything.
             </p>
-            <p className="intro">
-              We take the stress out of the <b>wedding planning process</b>, so
-              you don't have to worry about anything.
+            <p>
+              We help make this momentous occasion a happy, fun experience, not
+              a stressful one.
             </p>
-            <p className="intro">
-              We help you make the planning process a fun experience, not a
-              stressful one.{' '}
+            <p>
+              Your wedding day must be a day that you'll cherish for the rest of
+              your life, and that is our goal.
             </p>
-            <p className="intro">
-              Your wedding event must be an event that you'll cherish for the
-              rest of your life, and as your event planner, that is our goal.
+            <p>
+              Your dream wedding should be fun, but for some couples can become
+              stressful. It can leave some couples frustrated and tired. That's
+              where we can help.
             </p>
-            <p className="intro">
-              As one of the top Maryland wedding planners and event planners,
-              our job is to guide you through the wedding planning process.
+            <p>That's where we come in.</p>
+            <p>
+              We guide you through the process with helpful tips and
+              suggestions, which will also save you time and money.
             </p>
-            <p className="intro">
-              Planning your wedding should be fun, but often times can become
-              stressful, leaving some couples frustrated and tired.
-            </p>
-            <p className="intro">That's where we can help.</p>
-            <p className="intro">
-              We guide you through the process with helpful tips, suggestions
-              and our vetted professional services, which also save you time and
-              money.
-            </p>
-            <p className="intro">
+            <p>
               With our 15 years of experience as wedding planners in Maryland we
               are definitely one of the top wedding planners in Maryland that
               can truly bring your vision to life.
             </p>
-            <p className="intro">
+            <p>
               Check out some of our{' '}
               <a
                 href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
@@ -141,8 +132,7 @@ export default function Home({ data }) {
             </div>
           </div>
           <h3 className="center-text">
-            Book a 15 minute call with Monica and see how she can help you as
-            your wedding planner
+            Book a 15 minute call with Monica and see how she can help you
           </h3>
           <div className="center">
             <a href={calendly}>
@@ -160,27 +150,26 @@ export default function Home({ data }) {
                 <li>
                   <h4>Call Monica</h4>
                   <p>
-                    Talk with Monica and see how her wedding planning company
-                    can help you with full service, partial service, or day of
-                    coordination, and bring your vision to life.
+                    Talk with Monica and see how her company can help you bring
+                    your vision to life.
                   </p>
                 </li>
                 <li>
                   <h4>Create Your Budget</h4>
                   <p>
-                    Work out a budget and start planning your wedding details,
-                    like decor, ceremony details, reception details.
+                    Work out a budget and start planning the details, like
+                    decor, ceremony details, reception details, guest list, etc.
                   </p>
                 </li>
                 <li>
                   <h4>Enjoy Your Special Day</h4>
-                  <p>Enjoy cherish the moment and enjoy the big day.</p>
+                  <p>Cherish the moment and enjoy your special day.</p>
                 </li>
               </Simple>
             </div>
             <h3 className="center-text">
-              Book a 15 minute call with Monica and see how she can help you as
-              your wedding planner
+              Book a 15 minute call with Monica and see how she can help you
+              plan your wedding
             </h3>
             <div className="center">
               <a href={calendly}>
@@ -190,7 +179,37 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="container">
-          <div className="content">
+          <div className="service-content">
+            <h2 className="title">How Monica Can Help You</h2>
+            <PainPoints>
+              <ul>
+                <li>Help you get your budget together and manage it</li>
+                <li>Keep you organized to ease unnecessary stress</li>
+                <li>Help to research and select wedding venues and vendors</li>
+                <li>
+                  Organize your wedding rehearsal and communicate with your
+                  wedding party
+                </li>
+              </ul>
+              <ul>
+                <li>Read and negotiate vendor contracts</li>
+                <li>Communicate with your wedding party and guests</li>
+                <li>Handle any problems that may come up</li>
+                <li>Be your personal resource</li>
+                <li>Plus more</li>
+              </ul>
+            </PainPoints>
+            <div className="center">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact Monica</Button>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </section>
+        <section className="container">
+          <div>
             <h2 className="title">Our Wedding Services</h2>
             <Services>
               <div className="wedding-service">
@@ -233,7 +252,7 @@ export default function Home({ data }) {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Floral & Event Design</h3>
+                <h3 className="title">Wedding Flowers</h3>
               </div>
             </Services>
             <div className="center">
@@ -247,7 +266,7 @@ export default function Home({ data }) {
         </section>
 
         <section className="container">
-          <div className="content">
+          <div>
             <h2 className="title">
               Watch This Beautiful Wedding Video From One Of Our Happy Couples
             </h2>
@@ -339,7 +358,20 @@ export default function Home({ data }) {
 }
 
 const Main = styled('div')`
-  .content {
+    .service-content {
+    padding: 2rem;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+
+  @media (min-width: 768px) {
+    .content {
+      text-align: left;
+      max-width: 60rem;
+      margin: 0 auto;
+    }
   }
 
   .center-text {
@@ -360,7 +392,7 @@ const Main = styled('div')`
   .painpoints img {
     display: block;
     margin: 0 auto;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   @media (min-width: 768px) {

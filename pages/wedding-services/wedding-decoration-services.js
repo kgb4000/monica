@@ -1,18 +1,18 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-import HeroSection from '../components/HeroSection'
-import Button from '../components/Button'
+import HeroSection from '../../components/HeroSection'
+import Button from '../../components/Button'
 import { NextSeo } from 'next-seo'
-import Simple from '../components/Simple'
-import PictureBox from '../components/picture-box'
+import Simple from '../../components/Simple'
+import PictureBox from '../../components/picture-box'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function WeddingDecorations() {
   const SEO = {
-    title: 'Wedding Decoration Services to Create Your Dream Wedding',
+    title: 'Best Wedding Decoration Services for Busy Couples.',
     description:
-      'Looking for the best wedding decoration services to create your dream wedding? Monica Browne Weddings can get it done! Contact Monica today!',
+      'Looking for the best wedding decoration services for your dream wedding? Monica Browne Weddings can get it done! Contact Monica today!',
     canonical: 'https://monicabrowneweddings.com/wedding-decoration-services',
     openGraph: {
       type: 'website',
@@ -33,7 +33,7 @@ export default function WeddingDecorations() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Decoration Services for Busy Couples"
+        heroText="Wedding Decorations for Busy Couples"
         subText="The Best Wedding Decorators and Event Design Services in Maryland"
         buttonText="Book a Call"
         backgroundImage="/images/wedding-reception-decor.webp"
@@ -82,9 +82,19 @@ export default function WeddingDecorations() {
                 <Button>Book a call</Button>
               </a>
             </div>
+            <PictureBox
+              Image1="/images/dc-wedding-planner.webp"
+              alt1="Gold tree wedding centerpiece"
+              width="472"
+              height="708"
+              Image2="/images/tall-wedding-flowers-centerpiece.webp"
+              alt="Tall wedding flowers centerpiece"
+              width="472"
+              height="708"
+            />
             <img
-              src="/images/wedding-reception-table-decor.webp"
-              alt="Wedding decoration services"
+              src="/images/black-red-wedding-decor.webp"
+              alt="Wedding decoration services from Monica Browne"
               loading="lazy"
             />
             <h2>Wedding Decorations</h2>
@@ -149,7 +159,7 @@ export default function WeddingDecorations() {
               before. Here are the main benefits of hiring a wedding decorator:
             </p>
             <PictureBox
-              Image1="images/dc-wedding-planner.webp"
+              Image1="/images/tea-lights.webp"
               alt1="Gold tree wedding centerpiece"
               width="472"
               height="708"
@@ -229,6 +239,11 @@ export default function WeddingDecorations() {
                   </li>
                 </ul>
               </li>
+              <img
+                src="/images/flowers-in-pavillion.webp"
+                alt="Flowers in pavillion - Wedding decoration services by Monica Browne"
+                loading="lazy"
+              />
               <li>
                 <h3>We Take Care of Getting the Decorations</h3>
                 <p>
@@ -257,7 +272,7 @@ export default function WeddingDecorations() {
               </a>
             </div>
             <PictureBox
-              Image1="images/beautiful-bride-flowers.webp"
+              Image1="/images/beautiful-bride-flowers.webp"
               alt1="Bride holding beutiful flowers"
               width="472"
               height="708"
@@ -345,11 +360,11 @@ export default function WeddingDecorations() {
                 specialty linens, staging, etc. if necessary)
               </li>
             </ul>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
-              </a>
-            </div>
+            <img
+              src="/images/wedding-table-setting-with-flowers.webp"
+              alt="Wedding decoration services from Monica Browne"
+              loading="lazy"
+            />
             <h2>What Our Clients Say About Our Services</h2>
             <p>
               We were fortunate to work with clients that loved what we did for
@@ -359,6 +374,11 @@ export default function WeddingDecorations() {
               </Link>{' '}
               on our website.
             </p>
+            <div className="center">
+              <a href={calendly}>
+                <Button>Book a call</Button>
+              </a>
+            </div>
           </div>
         </section>
       </Main>

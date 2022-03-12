@@ -33,6 +33,7 @@ const PictureBox = ({
 }
 
 const Picture = styled.div`
+  margin-top: 2rem;
   .picture-box-img {
     margin: 0.5rem auto;
     width: 100%;
@@ -45,7 +46,7 @@ const Picture = styled.div`
 
     img {
       width: 100%;
-      margin: 0.5rem auto;
+      margin: 1rem auto;
     }
     .left {
       margin-right: 0.5%;

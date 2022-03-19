@@ -97,7 +97,7 @@ export default function WeddingPlanning() {
             <p>
               We're proud to offer couples complete wedding planning services
               and{' '}
-              <Link href="/day-of-wedding-coordinator">
+              <Link href="wedding-services/wedding-decoration-services">
                 <a>day-of coordination</a>
               </Link>
               . Whatever you need, we're happy to create a customized package

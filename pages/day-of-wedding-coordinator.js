@@ -62,7 +62,7 @@ export default function DayOfWeddingCoordinator() {
               <li>Confirm the tables and chairs from your rental company</li>
               <li>
                 Your{' '}
-                <Link href="/wedding-decoration-services">
+                <Link href="wedding-services/wedding-decoration-services">
                   <a>wedding decorations</a>
                 </Link>{' '}
               </li>

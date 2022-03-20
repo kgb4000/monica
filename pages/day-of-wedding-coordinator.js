@@ -246,7 +246,7 @@ export default function DayOfWeddingCoordinator() {
               height="667"
             />
             <h2>Is a Day of Wedding Coordinator Worth It?</h2>
-            <p>Yes</p>
+            <p>The simple answer is yes.</p>
             <p>
               A day of wedding coordinator is priceless if you want peace of
               mind and someone you can trust to manage the biggest day in your
@@ -368,7 +368,7 @@ export default function DayOfWeddingCoordinator() {
               possible.
             </p>
             <h2>
-              Why Choose Monica Browne Wedding as Your Day of Wedding
+              Why Choose Monica Browne Weddings as Your Day of Wedding
               Coordinator?
             </h2>
             <p>

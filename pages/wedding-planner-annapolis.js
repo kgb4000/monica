@@ -32,11 +32,11 @@ export default function Home({ data }) {
     title: 'Wedding Planner in Annapolis | Monica Browne Weddings',
     description:
       'As a top wedding planner in Annapolis, we give the best services to our clients including planning and coordination for any wedding. Contact us today!',
-    canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis-md',
+    canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/wedding-planner-annapolis-md',
+      url: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
       site_name: 'Monica Browne Weddings',
       images: [
         {

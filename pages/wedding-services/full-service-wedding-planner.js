@@ -119,7 +119,7 @@ export default function WeddingPlanning() {
             <h3>Theme and Decor Development and Design</h3>
             <p>
               Determining the{' '}
-              <Link href="wedding-services/wedding-decorations">
+              <Link href="wedding-services/wedding-decoration-services">
                 <a>theme and decor</a>
               </Link>{' '}
               of your wedding is one of the most fun and exciting parts of

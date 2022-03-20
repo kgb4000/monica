@@ -13,11 +13,12 @@ export default function WeddingDecorations() {
     title: 'Best Wedding Decoration Services for Busy Couples.',
     description:
       'Looking for the best wedding decoration services for your dream wedding? Monica Browne Weddings can get it done! Contact Monica today!',
-    canonical: 'https://monicabrowneweddings.com/wedding-decoration-services',
+    canonical:
+      'https://monicabrowneweddings.com/wedding-services/wedding-decoration-services',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/wedding-decoration-services',
+      url: 'https://monicabrowneweddings.com/wedding-services/wedding-decoration-services',
       site_name: 'Monica Browne Weddings',
       images: [
         {

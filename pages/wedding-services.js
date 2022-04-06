@@ -125,8 +125,7 @@ const Services = () => {
                   someone to help you coordinate eveything on the day of your
                   wedding, call Monica browne Weddings. With Monica Browne
                   Weddings there as your day of wedding coordinator, you will
-                  not have to worry about anything, because everything has
-                  already been taken care of...
+                  not...
                 </p>
                 <Link href="/day-of-wedding-coordinator">
                   <a>Read more</a>

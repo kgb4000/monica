@@ -127,34 +127,6 @@ const Footer = () => {
                     <Link href="/wedding-services" passHref>
                       <a>Wedding Services</a>
                     </Link>
-                    <ul className="ul-footer">
-                      <li>
-                        <Link
-                          href="/wedding-services/full-service-wedding-planner"
-                          passHref
-                        >
-                          <a>Full Service Planning</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/wedding-services/wedding-flowers" passHref>
-                          <a>Wedding Flowers</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/wedding-services/wedding-decoration-services"
-                          passHref
-                        >
-                          <a>Wedding Decorations</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/day-of-wedding-coordinator" passHref>
-                          <a>Day of Wedding Coordinator</a>
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
                   <li>
                     <Link href="/wedding-gallery" passHref>
@@ -200,16 +172,6 @@ const Footer = () => {
                 <li>
                   <Link href="/wedding-planner-potomac-md" passHref>
                     <a>Potomac, MD</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/rockville" passHref>
-                    <a>Rockville, MD</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/silver-spring" passHref>
-                    <a>Silver Spring, MD</a>
                   </Link>
                 </li>
                 <li>

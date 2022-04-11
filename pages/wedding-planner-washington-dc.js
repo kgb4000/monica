@@ -40,7 +40,7 @@ export default function Home() {
       <HeroSection
         heroText="Wedding Planning for Washington DC Couples"
         subText="We Create Beautiful Weddings For Busy Couples in DC"
-        buttonText="Book a call"
+        buttonText="Book a call Today!"
         backgroundImage="/images/flowers-in-pavillion.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -128,7 +128,7 @@ export default function Home() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call Today!</Button>
               </a>
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function Home() {
           </h3>
           <div className="center">
             <a href={calendly}>
-              <Button>Book a call</Button>
+              <Button>Book a call Today!</Button>
             </a>
           </div>
         </section>
@@ -259,7 +259,7 @@ export default function Home() {
             </h3>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call Today!</Button>
               </a>
             </div>
           </div>
@@ -287,7 +287,7 @@ export default function Home() {
             </section>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a 15 min call</Button>
+                <Button>Book a 15 min call today</Button>
               </a>
             </div>
           </div>

@@ -9,6 +9,8 @@ import BlogPosts from '../components/BlogPosts'
 import { NextSeo } from 'next-seo'
 import { getPosts } from '../lib/data'
 
+import Navbar from '../components/Navbar'
+
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -29,9 +31,9 @@ export default function Home({ data }) {
     <div>
       <NextSeo />
       <HeroSection
-        heroText="Planning Weddings For Maryland Couples"
+        heroText="Wedding Planning For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
-        buttonText="Book A Call"
+        buttonText="Book A Call Today!"
         backgroundImage="/images/bride-groom-night-photo.jpg"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -48,12 +50,12 @@ export default function Home({ data }) {
             <p>
               We provide full service wedding planning, partial planning, and{' '}
               <Link href="/day-of-wedding-coordinator">
-                <a>day-of coordination</a>
+                <a>day-of coordinator</a>
               </Link>{' '}
-              services.
+              ,and planning for destination weddings.
             </p>
             <p>
-              We help brides and grooms eliminate stress, so you don't have to
+              We help brides and grooms eliminate stress, so they don't have to
               worry about anything.
             </p>
             <p>
@@ -65,19 +67,19 @@ export default function Home({ data }) {
               your life, and that is our goal.
             </p>
             <p>
-              Your dream wedding should be fun, but for some couples can become
-              stressful. It can leave some couples frustrated and tired. That's
-              where we can help.
+              Planning your dream wedding should be fun, but for some couples it
+              can be stressful.
             </p>
+            <p>It can leave some couples frustrated and tired.</p>
             <p>That's where we come in.</p>
             <p>
-              We guide you through the process with helpful tips and
-              suggestions, which will also save you time and money.
+              We guide you through the wedding planning process with helpful
+              tips and suggestions, which will also save you time and money.
             </p>
             <p>
-              With our 15 years of experience as wedding planners in Maryland we
-              are definitely one of the top wedding planners in Maryland that
-              can truly bring your vision to life.
+              With our 15 years of experience as wedding planners, we are
+              definitely one of the top event planners in the DMV area that can
+              bring your vision to life.
             </p>
             <p>
               Check out some of our{' '}
@@ -95,7 +97,7 @@ export default function Home({ data }) {
             </h3>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call today!</Button>
               </a>
             </div>
           </div>
@@ -136,7 +138,7 @@ export default function Home({ data }) {
           </h3>
           <div className="center">
             <a href={calendly}>
-              <Button>Book a call</Button>
+              <Button>Book a call Today!</Button>
             </a>
           </div>
         </section>
@@ -289,7 +291,7 @@ export default function Home({ data }) {
             </section>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call Today!</Button>
               </a>
             </div>
           </div>

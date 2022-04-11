@@ -97,7 +97,7 @@ export default function WeddingPlanning() {
             <p>
               We're proud to offer couples complete wedding planning services
               and{' '}
-              <Link href="wedding-services/wedding-decoration-services">
+              <Link href="wedding-services/wedding-decor-services">
                 <a>day-of coordination</a>
               </Link>
               . Whatever you need, we're happy to create a customized package
@@ -119,7 +119,7 @@ export default function WeddingPlanning() {
             <h3>Theme and Decor Development and Design</h3>
             <p>
               Determining the{' '}
-              <Link href="wedding-services/wedding-decoration-services">
+              <Link href="wedding-services/wedding-decor-services">
                 <a>theme and decor</a>
               </Link>{' '}
               of your wedding is one of the most fun and exciting parts of

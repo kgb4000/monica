@@ -61,11 +61,10 @@ const Services = () => {
               <div className="service-info">
                 <h3 className="title">Full-Service Wedding Planning</h3>
                 <p>
-                  We're proud to offer couples complete wedding planning
-                  services or day-of coordination. Whatever you need, we're
-                  happy to create a customized package that fits your needs.
-                  Give us a call to learn more about our full-service or ala
-                  carte packages.
+                  We're proud to offer couples full-service wedding planning.
+                  Whatever you need, we're happy to create a customized package
+                  that fits your needs. Give us a call to learn more about our
+                  full-service or or partial planning service.
                 </p>
                 <Link href="/wedding-services/full-service-wedding-planner">
                   <a>Read more</a>
@@ -79,7 +78,7 @@ const Services = () => {
                 loading="lazy"
               />
               <div className="service-info">
-                <h3 className="title">Wedding Decoration Services</h3>
+                <h3 className="title">Wedding Décor Services</h3>
                 <p>
                   The overall look of your wedding will last a lifetime for you
                   and your guests. With Monica Browne Weddings there as your
@@ -87,7 +86,7 @@ const Services = () => {
                   transform any venue into a beautiful place with gorgeous
                   floral designs...
                 </p>
-                <Link href="/wedding-services/wedding-decoration-services">
+                <Link href="/wedding-services/wedding-decor-services">
                   <a>Read more</a>
                 </Link>
               </div>

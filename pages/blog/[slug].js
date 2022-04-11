@@ -82,11 +82,7 @@ export default function Blog({ post, data }) {
           maxImagePreview: 'none',
         }}
       />
-      <HeroSection
-        heroText="Blog Post"
-        backgroundImage={post.coverImage.url}
-        backgroundHeight="70vh"
-      />
+
       <Main>
         <div className="container">
           <div className="content">
@@ -241,8 +237,8 @@ const Main = styled.main`
     }
 
     h3 {
-      font-size: 1rem;
-      width: 45%;
+      font-size: 0.8rem;
+      width: 50%;
     }
   }
 
@@ -263,7 +259,7 @@ const Main = styled.main`
     }
 
     .blog-posts {
-      margin-top: 2rem;
+      margin-top: 4rem;
 
       h3 {
         font-size: 1.6rem;

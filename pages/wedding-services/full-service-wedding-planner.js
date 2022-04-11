@@ -8,7 +8,7 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function WeddingPlanning() {
   const SEO = {
-    title: 'Full-Service Wedding Planning | Monica Browne Weddings',
+    title: 'Full-Service Wedding Planner | Monica Browne Weddings',
     description:
       "Monica Browne Weddings provides full-service wedding planning in Maryland and DC. Don't stress over your big day. Let us help you. Call us today!",
     canonical:
@@ -97,7 +97,7 @@ export default function WeddingPlanning() {
             <p>
               We're proud to offer couples complete wedding planning services
               and{' '}
-              <Link href="wedding-services/wedding-decor-services">
+              <Link href="/day-of-wedding-coordinator">
                 <a>day-of coordination</a>
               </Link>
               . Whatever you need, we're happy to create a customized package
@@ -119,7 +119,7 @@ export default function WeddingPlanning() {
             <h3>Theme and Decor Development and Design</h3>
             <p>
               Determining the{' '}
-              <Link href="wedding-services/wedding-decor-services">
+              <Link href="/wedding-services/wedding-decor-services">
                 <a>theme and decor</a>
               </Link>{' '}
               of your wedding is one of the most fun and exciting parts of

@@ -63,7 +63,7 @@ export default function WeddingDecorations() {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call Today!</Button>
               </a>
             </div>
             <h2>We Make Your Wedding Day Your Special Event</h2>

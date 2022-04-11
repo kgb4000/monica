@@ -44,7 +44,7 @@ export default function WeddingDecorations() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Wedding Decor Services</h1>
+            <h1>Wedding Décor Services</h1>
             <p>
               If you're looking for wedding design and need a professional
               wedding decorator near you, then Monica Browne Weddings are the

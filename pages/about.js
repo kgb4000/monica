@@ -38,7 +38,7 @@ export default function About() {
         buttonText="Book a Call Today!"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
         buttonLink={calendly}
-        backgroundHeight="80vh"
+        backgroundHeight="70vh"
       />
       <Main itemscope itemType="https://schema.org/LocalBusiness">
         <section className="container">

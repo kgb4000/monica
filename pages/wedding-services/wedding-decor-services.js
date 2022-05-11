@@ -245,11 +245,11 @@ export default function WeddingDecorations() {
                   </li>
                 </ul>
               </li>
-              <img
+              {/* <img
                 src="/images/flowers-in-pavillion.webp"
                 alt="Flowers in pavillion - Wedding decoration services by Monica Browne"
                 loading="lazy"
-              />
+              /> */}
               <li>
                 <h3>We Take Care of Getting the Decorations</h3>
                 <p>

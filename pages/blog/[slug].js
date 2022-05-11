@@ -135,21 +135,9 @@ export default function Blog({ post, data }) {
                 </EmailShareButton>
               </div>
             </div>
-            <RichText
-              content={post.content.json}
-              // renders={{
-              //   img: ({ src, altText, height, width }) => (
-              //     <Img
-              //       loader={GraphCMSImageLoader}
-              //       src={post.coverImage.url}
-              //       alt={post.title}
-              //       height={post.coverImage.height}
-              //       width={post.coverImage.width}
-              //       objectFit="cover"
-              //     />
-              //   ),
-              // }}
-            />
+            <div className="graphCms-blog">
+              <RichText content={post.content.json} />
+            </div>
           </div>
           <div className="content">
             <div className="blog-posts">
@@ -239,6 +227,12 @@ const Main = styled.main`
     h3 {
       font-size: 0.8rem;
       width: 50%;
+    }
+  }
+
+  .graphCms-blog {
+    img {
+      margin: 1rem 0;
     }
   }
 

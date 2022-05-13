@@ -17,7 +17,7 @@ export default function Home() {
   const SEO = {
     title: 'Wedding Planner in Washington DC | Monica Browne Weddings.',
     description:
-      'Monica Browne Weddings is a premier wedding planner in DC specializing in helping you plan the most important day of your life. Call us today!',
+      'Monica Browne Weddings is a wedding planner in DC who will make your dream wedding a reality. Call us today!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-washington-dc',
     openGraph: {
       type: 'website',

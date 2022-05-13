@@ -31,7 +31,7 @@ export default function Home({ data }) {
   const SEO = {
     title: 'Wedding Planner in Annapolis | Monica Browne Weddings',
     description:
-      'As a top wedding planner in Annapolis, we give the best services to our clients including planning and coordination for any wedding. Contact us today!',
+      'Monica Browne provides wedding planning services for brides and grooms in the Annapolis area. Learn more about our full-service or day-of coordination services today!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
     openGraph: {
       type: 'website',
@@ -55,7 +55,7 @@ export default function Home({ data }) {
         heroText="Wedding Planning For Couples in Annapolis"
         subText="We Create Beautiful Weddings For Couples in Annapolis MD"
         buttonText="Book A Call"
-        backgroundImage="/images/happy-wedding-couple.webp"
+        backgroundImage="/images/william-paca-house-stairs-facing-house.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
       />

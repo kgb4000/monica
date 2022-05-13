@@ -138,6 +138,15 @@ export default function Blog({ post, data }) {
             <div className="graphCms-blog">
               <RichText content={post.content.json} />
             </div>
+            <div className="authorbio">
+              <img
+                src={post.author.image.url}
+                className="author-img"
+                alt={post.author.name}
+                title={post.author.name}
+              />
+              <p>{post.author.biography}</p>
+            </div>
           </div>
           <div className="content">
             <div className="blog-posts">
@@ -206,12 +215,24 @@ const Main = styled.main`
   .author-img {
     border: 3px solid #a29bfe;
     border-radius: 50%;
-    max-width: 3rem;
+    max-width: 5rem;
     margin-right: 1rem;
   }
 
   .author-name {
     margin-right: 1rem;
+  }
+
+  .authorbio {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem 0;
+
+    img {
+      margin: 0;
+      margin-bottom: 1rem;
+    }
   }
 
   .blog-post {

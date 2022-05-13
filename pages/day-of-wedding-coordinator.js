@@ -13,7 +13,7 @@ export default function DayOfWeddingCoordinator() {
     title:
       'Day of Wedding Coordinator in Maryland and DC | Monica Browne Weddings',
     description:
-      'Monica Browne Weddings is proud to be a day of wedding coordinator for couples who want a stress-free and fun wedding day. Contact us today!',
+      'Monica Browne Weddings is a day of wedding coordinator serving Maryland and DC. We offer full coordination and planning services to make your wedding day perfect.',
     canonical: 'https://monicabrowneweddings.com/day-of-wedding-coordinator',
     openGraph: {
       type: 'website',

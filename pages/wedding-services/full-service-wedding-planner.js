@@ -10,7 +10,7 @@ export default function WeddingPlanning() {
   const SEO = {
     title: 'Full-Service Wedding Planner | Monica Browne Weddings',
     description:
-      "Monica Browne Weddings provides full-service wedding planning in Maryland and DC. Don't stress over your big day. Let us help you. Call us today!",
+      'Monica Browne Weddings is a full-service wedding planner that will take care of every detail of your wedding. We offer services for weddings of all sizes and styles.',
     canonical:
       'https://monicabrowneweddings.com/wedding-services/full-service-wedding-planner',
     openGraph: {

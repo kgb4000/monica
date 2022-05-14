@@ -283,3 +283,10 @@ ol {
 .address h4 {
   margin: 1rem 0;
 }
+
+.contact-us {
+  background-color: #f5f6fa;
+  padding: 1rem;
+  border: 5px solid rgba(117, 19, 93, 0.53);
+  margin-bottom: 2rem;
+}

@@ -15,7 +15,7 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Wedding Planner in Washington DC | Monica Browne Weddings.',
+    title: 'Best Wedding Planner in Washington DC | Monica Browne Weddings.',
     description:
       'Monica Browne Weddings is a wedding planner in DC who will make your dream wedding a reality. Call us today!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-washington-dc',

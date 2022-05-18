@@ -31,7 +31,7 @@ export default function Home({ data }) {
     <div>
       <NextSeo />
       <HeroSection
-        heroText="Wedding Planning For Maryland Couples"
+        heroText="Wedding Planner For Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         buttonText="Book A Call Today!"
         backgroundImage="/images/bride-groom-night-photo.jpg"
@@ -41,7 +41,7 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner Maryland</h1>
+            <h1 className="title">Maryland Wedding Planner</h1>
             <p>
               Monica Browne Weddings is a wedding and event planner in Bowie,
               MD.

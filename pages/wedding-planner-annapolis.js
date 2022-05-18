@@ -29,7 +29,7 @@ export const getStaticProps = async () => {
 export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Wedding Planner in Annapolis | Monica Browne Weddings',
+    title: 'Best Wedding Planner in Annapolis | Monica Browne Weddings',
     description:
       'Monica Browne provides wedding planning services for brides and grooms in the Annapolis area. Learn more about our full-service or day-of coordination services today!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',

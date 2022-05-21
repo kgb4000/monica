@@ -226,7 +226,7 @@ export default function Home() {
             </Testimonial>
             <TestimonialAuthor>Aleta</TestimonialAuthor>
             <div className="center">
-              <Link href="/testimonials">
+              <Link href="/testimonials" passHref>
                 <a>
                   <Button>More Testimonials</Button>
                 </a>
@@ -254,7 +254,7 @@ export default function Home() {
             />
           </Gallery>
           <div className="center">
-            <Link href="/wedding-gallery">
+            <Link href="/wedding-gallery" passHref>
               <a>
                 <Button>See More Pictures</Button>
               </a>

@@ -31,7 +31,7 @@ export default function Home({ data }) {
   const SEO = {
     title: 'Wedding Planner Annapolis Maryland | Monica Browne Weddings',
     description:
-      'Monica Browne provides full-service wedding planning and day-of coordination for couples in the Annapolis. Contact us today to see how Monica can help you!',
+      'Monica Browne provides full-service wedding planning and day-of coordination for couples in the Annapolis. Contact us today to see how we can help you!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
     openGraph: {
       type: 'website',

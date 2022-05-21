@@ -75,7 +75,7 @@ export default function Blog({ data }) {
             <div className="blog-posts">
               {data.posts.map((post) => (
                 <div key={post.slug}>
-                  <Link href={`/blog/${post.slug}`}>
+                  <Link href={`/blog/${post.slug}`} passHref>
                     <a>
                       <div className="blog-post">
                         <img
@@ -114,7 +114,7 @@ export default function Blog({ data }) {
               ))}
               <p>
                 Hi, I'm Monica with{' '}
-                <Link href="/">
+                <Link href="/" passHref>
                   <a>Monica Browne Weddings</a>
                 </Link>
                 . I help busy couples in Maryland and DC plan their dream

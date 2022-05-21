@@ -51,7 +51,7 @@ export default function WeddingDecorations() {
               professional for you.
             </p>
             <p>
-              <Link href="/">
+              <Link href="/" passHref>
                 <a>Monica Browne Weddings</a>
               </Link>{' '}
               is a wedding planner in the DMV area and specialize in wedding
@@ -62,7 +62,7 @@ export default function WeddingDecorations() {
               beautiful and stylish events for modern busy couples in DMV.
             </p>
             <div className="center">
-              <a href={calendly}>
+              <a href={calendly} rel="noreferrer">
                 <Button>Book a call Today!</Button>
               </a>
             </div>
@@ -82,7 +82,7 @@ export default function WeddingDecorations() {
             </p>
             <p>Let us help make your big day a beautiful one.</p>
             <div className="center">
-              <a href={calendly}>
+              <a href={calendly} rel="noreferrer">
                 <Button>Book a call</Button>
               </a>
             </div>
@@ -92,7 +92,7 @@ export default function WeddingDecorations() {
               width="472"
               height="708"
               Image2="/images/tall-wedding-flowers-centerpiece.webp"
-              alt="Tall wedding flowers centerpiece"
+              alt2="Tall wedding flowers centerpiece"
               width="472"
               height="708"
             />
@@ -138,7 +138,7 @@ export default function WeddingDecorations() {
               how you want it to look.
             </p>
             <div className="center">
-              <a href={calendly}>
+              <a href={calendly} rel="noreferrer">
                 <Button>Book a call today!</Button>
               </a>
             </div>
@@ -170,7 +170,7 @@ export default function WeddingDecorations() {
               width="472"
               height="708"
               Image2="/images/tall-wedding-flowers-centerpiece.webp"
-              alt="Tall wedding flowers centerpiece"
+              alt2="Tall wedding flowers centerpiece"
               width="472"
               height="708"
             />
@@ -283,7 +283,7 @@ export default function WeddingDecorations() {
               width="472"
               height="708"
               Image2="/images/maryland-wedding-planner-472w.webp"
-              alt="Tall wedding flowers centerpiece"
+              alt2="Outside table setup for outdoor wedding."
               width="472"
               height="708"
             />
@@ -311,7 +311,7 @@ export default function WeddingDecorations() {
                   </li>
                 </Simple>
                 <div className="center">
-                  <a href={calendly}>
+                  <a href={calendly} rel="noreferrer">
                     <Button>Book a call today!</Button>
                   </a>
                 </div>
@@ -375,13 +375,13 @@ export default function WeddingDecorations() {
             <p>
               We were fortunate to work with clients that loved what we did for
               them. We're sure you will too. Read some of our{' '}
-              <Link href="/testimonials">
+              <Link href="/testimonials" passHref>
                 <a>testimonials</a>
               </Link>{' '}
               on our website.
             </p>
             <div className="center">
-              <a href={calendly}>
+              <a href={calendly} rel="noreferrer">
                 <Button>Book a call today!</Button>
               </a>
             </div>

@@ -88,7 +88,7 @@ export default function Blog({ post, data }) {
           <div className="content">
             <h1>{post.title}</h1>
             <div className="author-info">
-              <Link href="/about">
+              <Link href="/about" passHref>
                 <a>
                   <img
                     src={post.author.image.url}
@@ -98,7 +98,7 @@ export default function Blog({ post, data }) {
                   />
                 </a>
               </Link>
-              <Link href="/about">
+              <Link href="/about" passHref>
                 <a>
                   <span className="author-name">{post.author.name}</span>
                 </a>
@@ -153,7 +153,7 @@ export default function Blog({ post, data }) {
               <h2>More posts you may like:</h2>
               {data.posts.slice(0, 3).map((post) => (
                 <li key={post.slug}>
-                  <Link href={`/blog/${post.slug}`}>
+                  <Link href={`/blog/${post.slug}`} passHref>
                     <a>
                       <div className="blog-post">
                         <img
@@ -168,7 +168,7 @@ export default function Blog({ post, data }) {
                 </li>
               ))}
             </div>
-            <Link href="/blog">
+            <Link href="/blog" passHref>
               <a>
                 <p>&#8592; Back to Blog</p>
               </a>

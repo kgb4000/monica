@@ -8,9 +8,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function WeddingFlowers() {
   const SEO = {
-    title: 'Floral and Event Design in Mayland | Monica Browne Weddings',
+    title: 'Wedding Florist and in Maryland and DC | Monica Browne',
     description:
-      'The most stunning wedding flowers design services for your dream wedding. 5 star customer reviews. Effortless and affordable. Book a 15min call today.',
+      'The most stunning wedding flowers design services for your dream wedding. 5 star customer reviews. Effortless and affordable. Book a call today!',
     canonical:
       'https://monicabrowneweddings.com/wedding-services/wedding-flowers',
     openGraph: {
@@ -225,14 +225,14 @@ export default function WeddingFlowers() {
               what we can to help. It always amazes us how kind and generous our
               clients are with their feedback and experiences. See our gallery
               of wedding photos from some of our happy couples{' '}
-              <Link href="/wedding-gallery">
+              <Link href="/wedding-gallery" passHref>
                 <a>here</a>
               </Link>
               .
             </p>
             <p>
               Read testimonials from some of our valued clients{' '}
-              <Link href="/testimonials">
+              <Link href="/testimonials" passHref>
                 <a>here</a>
               </Link>
               .

@@ -97,7 +97,7 @@ export default function WeddingPlanning() {
             <p>
               We're proud to offer couples complete wedding planning services
               and{' '}
-              <Link href="/day-of-wedding-coordinator">
+              <Link href="/day-of-wedding-coordinator" passHref>
                 <a>day-of coordination</a>
               </Link>
               . Whatever you need, we're happy to create a customized package
@@ -119,7 +119,7 @@ export default function WeddingPlanning() {
             <h3>Theme and Decor Development and Design</h3>
             <p>
               Determining the{' '}
-              <Link href="/wedding-services/wedding-decor-services">
+              <Link href="/wedding-services/wedding-decor-services" passHref>
                 <a>theme and decor</a>
               </Link>{' '}
               of your wedding is one of the most fun and exciting parts of
@@ -228,7 +228,7 @@ export default function WeddingPlanning() {
 
             <p>
               Our wedding planning services include one lead{' '}
-              <Link href="/day-of-wedding-coordinator">
+              <Link href="/day-of-wedding-coordinator" passHref>
                 <a>coordinator</a>
               </Link>{' '}
               and two event assistants. You can feel confident that every aspect
@@ -262,14 +262,14 @@ export default function WeddingPlanning() {
             </p>
             <p>
               See our gallery of wedding photos from some of our happy couples{' '}
-              <Link href="/wedding-gallery">
+              <Link href="/wedding-gallery" passHref>
                 <a>here</a>
               </Link>
               .
             </p>
             <p>
               Read testimonials from some of our valued clients{' '}
-              <Link href="/testimonials">
+              <Link href="/testimonials" passHref>
                 <a>here</a>
               </Link>
               .

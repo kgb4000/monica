@@ -49,7 +49,7 @@ export default function Home({ data }) {
             <p>We help you plan the perfect wedding for you too enjoy.</p>
             <p>
               We provide full service wedding planning, partial planning, and{' '}
-              <Link href="/day-of-wedding-coordinator">
+              <Link href="/day-of-wedding-coordinator" passHref>
                 <a>day-of coordinator</a>
               </Link>{' '}
               ,and planning for destination weddings.
@@ -230,20 +230,6 @@ export default function Home({ data }) {
               </div>
               <div className="wedding-service">
                 <img
-                  srcSet="images/wedding-table-setting-design-311w.webp 480w,
-                            images/wedding-table-setting-design-472w.webp 800w"
-                  sizes="(max-width: 480px) 480px,
-                            800px"
-                  src="images/wedding-table-setting-design-472w.webp"
-                  alt="Wedding table setting design"
-                  loading="lazy"
-                  width="472"
-                  height="708"
-                />
-                <h3 className="title">Wedding Decorations</h3>
-              </div>
-              <div className="wedding-service">
-                <img
                   srcSet="images/wedding-floral-design-472.webp 480w,
                             images/wedding-floral-design-472.webp 800w"
                   sizes="(max-width: 480px) 480px,
@@ -254,11 +240,25 @@ export default function Home({ data }) {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Wedding Flowers</h3>
+                <h3 className="title">Wedding Decorations</h3>
+              </div>
+              <div className="wedding-service">
+                <img
+                  srcSet="images/wedding-table-setting-design-311w.webp 480w,
+                            images/wedding-table-setting-design-472w.webp 800w"
+                  sizes="(max-width: 480px) 480px,
+                            800px"
+                  src="images/wedding-table-setting-design-472w.webp"
+                  alt="Wedding table setting design"
+                  loading="lazy"
+                  width="472"
+                  height="708"
+                />
+                <h3 className="title">Day of Coordination</h3>
               </div>
             </Services>
             <div className="center">
-              <Link href="/wedding-services">
+              <Link href="/wedding-services" passHref>
                 <a>
                   <Button>More Services</Button>
                 </a>
@@ -308,7 +308,7 @@ export default function Home({ data }) {
             </Testimonial>
             <TestimonialAuthor>Diane</TestimonialAuthor>
             <div className="center">
-              <Link href="/testimonials">
+              <Link href="/testimonials" passHref>
                 <a>
                   <Button>More Testimonials</Button>
                 </a>
@@ -347,7 +347,7 @@ export default function Home({ data }) {
             />
           </Gallery>
           <div className="center">
-            <Link href="/wedding-gallery">
+            <Link href="/wedding-gallery" passHref>
               <a>
                 <Button>See More Pictures</Button>
               </a>

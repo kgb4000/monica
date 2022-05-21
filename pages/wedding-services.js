@@ -55,7 +55,7 @@ const Services = () => {
             <div className="services">
               <img
                 src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495885/happy-bride-and-groom_bwyebx.webp"
-                alt="Happy bride and groom"
+                alt="Full service wedding planning from Monica Browne Weddings."
                 loading="lazy"
               />
               <div className="service-info">
@@ -66,15 +66,47 @@ const Services = () => {
                   that fits your needs. Give us a call to learn more about our
                   full-service or or partial planning service.
                 </p>
-                <Link href="/wedding-services/full-service-wedding-planner">
-                  <a>Read more</a>
+                <Link
+                  href="/wedding-services/full-service-wedding-planner"
+                  passHref
+                >
+                  <a>
+                    <p>Read more</p>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="services">
+              {/* <img
+                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
+                alt="Wedding decorations"
+                loading="lazy"
+              /> */}
+              <img
+                src="/images/happy-bride.webp"
+                loading="lazy"
+                alt="Day of wedding planning services from Monica Browne Weddings."
+              />
+              <div className="service-info">
+                <h3 className="title">Day of Wedding Coordination</h3>
+                <p>
+                  When you have everything else planned and you just need
+                  someone to help you coordinate eveything on the day of your
+                  wedding, call Monica browne Weddings. With Monica Browne
+                  Weddings there as your day of wedding coordinator, you will
+                  not...
+                </p>
+                <Link href="/day-of-wedding-coordinator" passHref>
+                  <a>
+                    <p>Read more</p>
+                  </a>
                 </Link>
               </div>
             </div>
             <div className="services">
               <img
                 src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
-                alt="Wedding decorations"
+                alt="Wedding decoration services from Monica Browne Weddings."
                 loading="lazy"
               />
               <div className="service-info">
@@ -86,15 +118,17 @@ const Services = () => {
                   transform any venue into a beautiful place with gorgeous
                   floral designs...
                 </p>
-                <Link href="/wedding-services/wedding-decor-services">
-                  <a>Read more</a>
+                <Link href="/wedding-services/wedding-decor-services" passHref>
+                  <a>
+                    <p>Read more</p>
+                  </a>
                 </Link>
               </div>
             </div>
             <div className="services">
               <img
                 src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
-                alt="Wedding floral design"
+                alt="Wedding floral design services from Monica Browne Weddings."
                 loading="lazy"
               />
               <div className="service-info">
@@ -106,28 +140,10 @@ const Services = () => {
                   choose designs around what you like while offering new wedding
                   flower ideas. If you need us to plan...
                 </p>
-                <Link href="/wedding-services/wedding-flowers">
-                  <a>Read more</a>
-                </Link>
-              </div>
-            </div>
-            <div className="services">
-              <img
-                src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
-                alt="Wedding decorations"
-                loading="lazy"
-              />
-              <div className="service-info">
-                <h3 className="title">Day of Wedding Coordination</h3>
-                <p>
-                  When you have everything else planned and you just need
-                  someone to help you coordinate eveything on the day of your
-                  wedding, call Monica browne Weddings. With Monica Browne
-                  Weddings there as your day of wedding coordinator, you will
-                  not...
-                </p>
-                <Link href="/day-of-wedding-coordinator">
-                  <a>Read more</a>
+                <Link href="/wedding-services/wedding-flowers" passHref>
+                  <a>
+                    <p>Read more</p>
+                  </a>
                 </Link>
               </div>
             </div>

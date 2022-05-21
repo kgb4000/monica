@@ -88,7 +88,7 @@ export default function About() {
               </ul>
             </PainPoints>
             <div className="center">
-              <Link href="/wedding-services">
+              <Link href="/wedding-services" passHref>
                 <a>
                   <Button>See Our Services</Button>
                 </a>
@@ -125,7 +125,7 @@ export default function About() {
 
               <p>
                 When I am not planning weddings or{' '}
-                <Link href="/wedding-services/wedding-flowers">
+                <Link href="/wedding-services/wedding-flowers" passHref>
                   <a>creating floral designs</a>
                 </Link>
                 , I like traveling, exploring different cultures, and trying

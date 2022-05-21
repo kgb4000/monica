@@ -8,9 +8,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function WeddingPlanning() {
   const SEO = {
-    title: 'Full-Service Wedding Planner | Monica Browne Weddings',
+    title: 'Full-Service Wedding Planner in the DMV | Monica Browne',
     description:
-      'Monica Browne Weddings is a full-service wedding planner that will take care of every detail of your wedding. We offer services for weddings of all sizes and styles.',
+      'Monica Browne Weddings is a full-service wedding planner in the DMV. We take the stress out of wedding planning and make it enjoyable. Book a call with us!',
     canonical:
       'https://monicabrowneweddings.com/wedding-services/full-service-wedding-planner',
     openGraph: {

@@ -29,9 +29,9 @@ export const getStaticProps = async () => {
 export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Best Wedding Planner in Annapolis | Monica Browne Weddings',
+    title: 'Wedding Planner Annapolis Maryland | Monica Browne Weddings',
     description:
-      'Monica Browne provides wedding planning services for brides and grooms in the Annapolis area. Learn more about our full-service or day-of coordination services today!',
+      'Monica Browne provides full-service wedding planning and day-of coordination for couples in the Annapolis. Contact us today to see how Monica can help you!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
     openGraph: {
       type: 'website',
@@ -52,7 +52,7 @@ export default function Home({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Planning For Couples in Annapolis"
+        heroText="Wedding Planner For Couples in Annapolis"
         subText="We Create Beautiful Weddings For Couples in Annapolis MD"
         buttonText="Book A Call"
         backgroundImage="/images/william-paca-house-stairs-facing-house.webp"

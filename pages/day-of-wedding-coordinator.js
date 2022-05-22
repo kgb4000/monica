@@ -10,7 +10,7 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function DayOfWeddingCoordinator() {
   const SEO = {
-    title: 'Day of Wedding Coordinator in Maryland and near DC',
+    title: 'Day of Wedding Coordinator in Maryland, DC, and Virginia',
     description:
       'Monica Browne Weddings is a day of wedding coordinator serving Maryland and DC. If you want someone you can trust to coordinate your wedding, book a call!',
     canonical: 'https://monicabrowneweddings.com/day-of-wedding-coordinator',
@@ -43,10 +43,10 @@ export default function DayOfWeddingCoordinator() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Day of Wedding Coordinator in the DMV</h1>
+            <h1>Day of Wedding Coordinator in Maryland, DC, and Virginia</h1>
             <p>
               Monica Browne Weddings offers day-of wedding coordinator services
-              to couples in Washington DC, Maryland, and Virginia.
+              to couples in Maryland, Washington DC, and Virginia.
             </p>
             <p>
               When all you need is someone to manage the wedding day for you,
@@ -120,14 +120,14 @@ export default function DayOfWeddingCoordinator() {
                   </p>
                 </li>
                 <li>
-                  <h4>Give Us Your Info</h4>
+                  <h4>Let's talk about your event</h4>
                   <p>
                     Let us create a detailed timeline for you, contact your
                     vendors, and oversee the details of your wedding day.
                   </p>
                 </li>
                 <li>
-                  <h4>Enjoy Your Wedding Day</h4>
+                  <h4>Enjoy your Wedding Day</h4>
                   <p>Enjoy your wedding and cherish the moment!</p>
                 </li>
               </Simple>

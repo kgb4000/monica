@@ -354,6 +354,69 @@ export default function Home({ data }) {
             </Link>
           </div>
         </section>
+        <section className="container">
+          <div className="content">
+            <h2 className="title">FAQs</h2>
+            <h3>#1. How Much Does a Wedding Cost in the Washington DC Area?</h3>
+            <p>
+              Getting married in the Washington DC area (Maryland, DC, and
+              Virginia), can cost $30,000 and up. Most of your cost be
+              determined by how much you spend on your venue, the caterer, and
+              how many guests you invite.
+            </p>
+            <p>
+              Other cost may include your photographer, ceremony and reception
+              decorations, flowers, transportation, your attire, and the rings.
+              Other cost may include a wedding planner, a photographer, ceremony
+              and reception decorations, flowers, transportation, your attire,
+              and the rings.
+            </p>
+            <h3>#2. Can I Plan My Wedding Myself?</h3>
+            <p>You can definitely plan your own wedding.</p>
+            <p>
+              Many brides choose to take on planning their big day on their own,
+              thinking they would save money. If you think you have the time to
+              plan your wedding, go for it. It's a lot of work and a lot of
+              time, and you will need some help. You will need the help of
+              family and friends you can trust.
+            </p>
+            <p>
+              If you think you are too busy and may not have the time, consider
+              hiring a full service wedding planner or a day of wedding
+              coordinator. Read this blog post to see which professional can
+              assist you the best.
+            </p>
+            <h3>
+              #3. What is the Difference Between a Wedding Planner and a Day-of
+              Coordinator?
+            </h3>
+            <p>
+              Wedding planners are professionals that can help you plan every
+              piece of the planning process. This would include planning your
+              ceremony, cocktail hour, and reception.
+            </p>
+            <p>
+              They will help you select the best vendor like DJ, caterer,
+              decorators, transportation providers, and more.
+            </p>
+            <p>
+              A day-of coordinator is a professional that will manage the actual
+              day of your wedding. They become the point of contact for all your
+              vendors, the venue, and all your guests.
+            </p>
+            <p>
+              They keep you out of the loop so that you can enjoy the day
+              without being any stress.
+            </p>
+            <p>
+              Read{' '}
+              <Link href="/blog/wedding-planner-vs-coordinator" passHref>
+                <a>Wedding Planner vs Coordinator [What's the Difference]</a>
+              </Link>{' '}
+              to learn more.
+            </p>
+          </div>
+        </section>
       </Main>
     </div>
   )

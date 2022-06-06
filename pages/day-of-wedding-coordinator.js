@@ -188,74 +188,6 @@ export default function DayOfWeddingCoordinator() {
               They may start working with you a year or six months before your
               big day and help you with the initial wedding planning stages.
             </p>
-            {/* <p>A Wedding planner will help you:</p>
-            <ul>
-              <li>Develop and manage your wedding budget</li>
-              <li>Coordinate with your bridal party</li>
-              <li>Choose a wedding theme</li>
-              <li>Choose the best venue</li>
-              <li>Choose the best place for your ceremony and reception</li>
-              <li>Set up your gift registry</li>
-              <li>Form your guest list</li>
-              <li>Design your floor plan</li>
-              <li>Refer vetted vendors</li>
-              <li>Read all vendor contracts</li>
-              <li>Provide progress updates and status reports</li>
-              <li>Choose and send out your wedding invitations</li>
-              <li>
-                Set up hotels and lodging for your family members and guests
-              </li>
-              <li>Set up and coordinate your wedding rehearsal</li>
-              <li>Prepare a detailed timeline of your special event</li>
-              <li>Coordinate the big day</li>
-            </ul>
-
-            <p>
-              <Link
-                href="/wedding-services/full-service-wedding-planner"
-                passHref
-              >
-                <a>Full-service planning</a>
-              </Link>{' '}
-              is an excellent service for busy couples who don't have the time
-              to plan their wedding or need a professional wedding planner to do
-              most of the work.
-            </p> */}
-            {/* <p>
-              A <b>day of wedding coordinator</b> will manage your wedding after
-              you have secured your vendors, selected your venue, and signed all
-              your vendor contracts.
-            </p>
-            <p>A day of coordinator will:</p>
-            <ul>
-              <li>Oversee the entire wedding day for you</li>
-              <li>Coordinate and supervise your wedding rehearsal</li>
-              <li>Review your wedding vendor contracts</li>
-              <li>Perform a ceremony and reception site walk-through</li>
-              <li>Coordinate the wedding day decoration setup</li>
-              <li>Confirm final fittings for bride and groom</li>
-              <li>Provide progress updates leading up to the wedding day</li>
-              <li>Be the point of contact for all vendor communication</li>
-              <li>Prepare a day of wedding timeline for the wedding couple</li>
-              <li>
-                Prepare a day of wedding timeline for the wedding party and
-                family members
-              </li>
-            </ul>
-            <p>
-              A good day of wedding coordinator will still make sure you didn't
-              forget anything while planning your wedding. They will review your
-              contracts and make sure that every detail.
-            </p>
-            <p>
-              On the day of your wedding, your wedding coordinator will be the
-              first to call you and make sure you are ready for the big day.
-            </p>
-            <p>
-              They will be the first person to arrive at the ceremony venue or
-              the reception venue to ensure the other vendors have access, are
-              on their way, and have no issues.
-            </p> */}
             <div className="center">
               <a href={calendly} rel="noreferrer">
                 <Button>Book a call</Button>
@@ -277,7 +209,7 @@ export default function DayOfWeddingCoordinator() {
             <p>
               Many couples choose to plan their weddings themselves, and they
               plan their weddings only thinking about the money they will save
-              by not hiring a full-service wedding planner.{' '}
+              by not hiring a full-service wedding planner.
             </p>
             <p>
               Although planning a wedding yourself allows you to save money,
@@ -290,15 +222,16 @@ export default function DayOfWeddingCoordinator() {
               coordinator can give you, the amount of stress they can save you
               is worth the price of hiring one.
             </p>
-            {/* <div className="center">
-              <a href={calendly} rel="noreferrer">
-                <Button>Book a call</Button>
-              </a>
-            </div> */}
             <p>Here's an example.</p>
             <p>
-              Imagine you're getting married and you and your fiance decide to
-              plan your wedding.{' '}
+              You're getting married and you and your fiance{' '}
+              <Link
+                href="/blog/wedding-planning-what-to-consider-before-planning-a-wedding"
+                passHref
+              >
+                <a>decide on planning your wedding</a>
+              </Link>{' '}
+              yourselves.
             </p>
             <p>
               Instead of hiring a wedding coordinator, you ask one of your
@@ -330,9 +263,11 @@ export default function DayOfWeddingCoordinator() {
             </p>
             <p>You try to remain calm, but you are still worried.</p>
             <p>
-              Instead of trusting your friend to handle anything, you decide to
-              do it yourself and the next thing you know,{' '}
-              <b>you're coordinating your wedding.</b>{' '}
+              Instead of trusting your friend to handle everything, you decide
+              help.
+            </p>
+            <p>
+              The next thing you know, <b>you're coordinating your wedding.</b>{' '}
             </p>
             <p>
               You're directing vendors on where to set up, calling the
@@ -343,8 +278,12 @@ export default function DayOfWeddingCoordinator() {
             <p>Is this what you want to do on your wedding day?</p>
             <p>We hope not.</p>
             <p>
-              This is just one example of why you should hire a wedding
-              coordinator.
+              This is just one example of why you should hire a professional
+              wedding coordinator like{' '}
+              <Link href="/" passHref>
+                <a>Monica Browne Weddings</a>
+              </Link>
+              .
             </p>
             <div className="center">
               <a href={calendly} rel="noreferrer">
@@ -473,11 +412,13 @@ export default function DayOfWeddingCoordinator() {
             <h2>When To Hire a Day of Wedding Coordinator?</h2>
             <p>
               The best time to hire a day of wedding coordinator is between six
-              to eight weeks before your wedding date. This leaves enough time
-              to read vendor contracts, do a walk-through of the different
-              sites, form a relationship with the other vendors, and sort out
-              any missing details that you may have missed while planning your
-              event.
+              to eight weeks before your wedding date.
+            </p>
+            <p>
+              This leaves enough time to read vendor contracts, do a
+              walk-through of the different sites, form a relationship with the
+              other vendors, and sort out any missing details that you may have
+              missed while planning your event.
             </p>
             <div className="center">
               <a href={calendly} rel="noreferrer">

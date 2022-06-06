@@ -119,13 +119,9 @@ export default function Blog({ data }) {
                 </Link>
                 . I help busy couples in Maryland and DC plan their dream
                 wedding. If you're a busy couple and need help planning your
-                wedding, please don't hesitiate to reach out to me.
+                wedding, please don't hesitiate to{' '}
+                <a href={calendly}>book a call</a>.
               </p>
-              <div className="center">
-                <a href={calendly}>
-                  <Button>Book a call</Button>
-                </a>
-              </div>
             </div>
           </div>
         </Main>

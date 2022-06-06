@@ -114,7 +114,7 @@ const Footer = () => {
               <nav>
                 <ul>
                   <li>
-                    <Link href="/">
+                    <Link href="/" passHref>
                       <a>Home</a>
                     </Link>
                   </li>
@@ -167,6 +167,11 @@ const Footer = () => {
                 <li>
                   <Link href="/chevy-chase" passHref>
                     <a>Chevy Chase, MD</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/wedding-planner-crofton-md" passHref>
+                    <a>Crofton, MD</a>
                   </Link>
                 </li>
                 <li>

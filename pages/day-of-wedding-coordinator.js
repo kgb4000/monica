@@ -358,7 +358,7 @@ export default function DayOfWeddingCoordinator() {
               </a>
             </div>
             <h2>FAQ</h2>
-            <h3>Why Should I Consider Hiring a Day-of Coordinator?</h3>
+            <h3>#1. Why Should I Consider Hiring a Day-of Coordinator?</h3>
             <p>
               You should consider hiring a day-of wedding coordinator if you're
               on a budget.
@@ -369,7 +369,7 @@ export default function DayOfWeddingCoordinator() {
               wedding day without worrying about anything, consider hiring
               Monica Browne Weddings.
             </p>
-            <h3>What Does a Day-of Coordinator Cost?</h3>
+            <h3>#2 What Does a Day-of Coordinator Cost?</h3>
             <p>
               The cost to hire a day-of coordinator for your wedding depends on
               many factors.
@@ -409,7 +409,7 @@ export default function DayOfWeddingCoordinator() {
               please give us a call. We'll give you a custom day-of coordination
               price for your event.
             </p>
-            <h2>When To Hire a Day of Wedding Coordinator?</h2>
+            <h3>#3 When To Hire a Day of Wedding Coordinator?</h3>
             <p>
               The best time to hire a day of wedding coordinator is between six
               to eight weeks before your wedding date.

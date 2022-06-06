@@ -31,7 +31,7 @@ export default function Home({ data }) {
     <div>
       <NextSeo />
       <HeroSection
-        heroText="Wedding Planner For Maryland Couples"
+        heroText="Wedding Planner For Busy Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         buttonText="Book A Call Today!"
         backgroundImage="/images/bride-groom-night-photo.jpg"
@@ -356,6 +356,59 @@ export default function Home({ data }) {
         </section>
         <section className="container">
           <div className="content">
+            <h2 className="title">
+              Why Hire Monica Browne Weddings as Your Event Planning Company?
+            </h2>
+            <p>
+              Monica Browne Weddings is one of the top wedding planners in the
+              DMV.
+            </p>
+            <p>
+              No we are not featured in the Washington Post or Martha Stewart
+              Weddings, and that's not our focus.
+            </p>
+            <p>
+              Our only focus is to provide our clients wedding planning services
+              that help you save time, money, and assist you in anyway possible
+              to ensure your wedding day is how you want it to be.
+            </p>
+            <p>
+              See our{' '}
+              <a
+                href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
+                target="_blank"
+                rel="nonreferrer"
+              >
+                5-star reviews
+              </a>
+              .
+            </p>
+            <p>
+              When you hire us, you hire an experienced planning company with
+              over 15 years in the event industry, and{' '}
+              <b>someone you can trust</b>.
+            </p>
+            <p>
+              You get a company with incredible knowledge to use at your
+              disposal, a very credible resource, and also a team that will do
+              whatever it takes to ensure your wedding goes off without any
+              issues.
+            </p>
+            <p>
+              We are here to help you plan one of the biggest days of your life,
+              and to make sure you enjoy every moment of it.
+            </p>
+            <p>You can count on us to be there every step of the way.</p>
+            <p>We look forward to working with you.</p>
+          </div>
+          <div className="center">
+            <a href={calendly}>
+              <Button>Book A Call</Button>
+            </a>
+          </div>
+        </section>
+        <section className="container">
+          <div className="content">
             <h2 className="title">FAQs</h2>
             <h3>#1. How Much Does a Wedding Cost in the Washington DC Area?</h3>
             <p>
@@ -415,6 +468,11 @@ export default function Home({ data }) {
               </Link>{' '}
               to learn more.
             </p>
+          </div>
+          <div className="center">
+            <a href={calendly}>
+              <Button>Book a call Today!</Button>
+            </a>
           </div>
         </section>
       </Main>

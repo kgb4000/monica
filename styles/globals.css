@@ -112,12 +112,12 @@ h4 {
 
   h3 {
     font-size: 1.8rem;
-    margin: 1.4rem 0;
+    margin: 1.5rem 0;
   }
 
   h4 {
     font-size: 1.4rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
   }
 }
 
@@ -307,4 +307,16 @@ th {
   border: 1px solid #999;
   padding: 0.5rem;
   width: 33.3%;
+}
+
+.timeline table {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.timeline table td,
+.timeline table th {
+  border: 1px solid #999;
+  width: 33.3%;
+  padding: 1rem;
 }

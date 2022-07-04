@@ -7,12 +7,24 @@ import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import { NextSeo } from 'next-seo'
+import BlogPosts from '../components/BlogPosts'
+import { getPosts } from '../lib/data'
 
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+export const getStaticProps = async () => {
+  const data = await getPosts()
+
+  return {
+    props: {
+      data,
+    },
+  }
+}
+
+export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Wedding Planner Washington DC | Monica Browne Weddings',
@@ -313,6 +325,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <BlogPosts data={data} />
         <section className="gallery container">
           <h2 className="title">Our Gallery</h2>
           <Gallery>

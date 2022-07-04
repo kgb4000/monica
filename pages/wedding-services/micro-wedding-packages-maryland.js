@@ -355,7 +355,7 @@ export default function Potomac() {
         <section className="container">
           <div className="service-content get-started">
             <h2 className="title">
-              We Make Planning Wedding Micro Weddings in Maryland Easy
+              We Make Planning Micro Weddings in Maryland Easy
             </h2>
             <div>
               <Simple>
@@ -533,69 +533,6 @@ const Main = styled('div')`
     }
   }
 
-`
-
-const PainPoints = styled('ul')`
-  margin-left: 2rem;
-  max-width: 20rem;
-  margin: 0 auto;
-  padding: 0 2rem;
-
-  li {
-    font-weight: 200;
-    margin: 1rem 0;
-  }
-
-  @media (min-width: 600px) {
-    h2 {
-      text-align: left;
-    }
-
-    li {
-      font-weight: 200;
-      margin: 1rem 0;
-    }
-
-    max-width: 100%;
-    margin-left: 2rem;
-  }
-`
-
-const Services = styled('div')`
-  margin: 0 auto;
-
-  .wedding-service {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  h3 {
-    display: inline-block;
-    padding: 0.5rem 0;
-  }
-  @media (min-width: 736px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 10px;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-`
-
-const WhiteButton = styled(Button)`
-  border: #fff;
-  color: #fff;
-  background-color: transparent;
-  border: 2px solid #fff;
-  font-weight: bold;
-
-  :hover {
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
-  }
 `
 
 const Gallery = styled('div')`

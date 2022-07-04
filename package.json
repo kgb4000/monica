@@ -19,7 +19,7 @@
     "react-icons": "^4.3.1",
     "react-modal-video": "^1.2.6",
     "react-share": "^4.4.0",
-    "sass": "^1.32.8",
+    "sass": "^1.53.0",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

@@ -298,7 +298,7 @@ export default function DayOfWeddingCoordinator() {
               Image2="images/wedding-decor.webp"
               alt2="Weeding decor by Monica Browne Weddings."
               width2="472"
-              height1="708"
+              height2="708"
             />
             <h2>
               Why Choose Monica Browne Weddings as Your Day of Wedding

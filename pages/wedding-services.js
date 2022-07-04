@@ -105,6 +105,31 @@ const Services = () => {
             </div>
             <div className="services">
               <img
+                src="/images/maryland-wedding-planner-472w.webp"
+                alt="Micro wedding packages."
+                loading="lazy"
+              />
+              <div className="service-info">
+                <h3 className="title">Micro Weddings</h3>
+                <p>
+                  Are you looking to have a small, intimate ceremony but don't
+                  want to sacrifice quality? If so, a micro wedding package may
+                  be just what you're looking for. A micro wedding package
+                  offers all the amenities of a traditional wedding but on a
+                  much smaller scale...
+                </p>
+                <Link
+                  href="/wedding-services/micro-wedding-packages-maryland"
+                  passHref
+                >
+                  <a>
+                    <p>Read more</p>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="services">
+              <img
                 src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
                 alt="Wedding decoration services from Monica Browne Weddings."
                 loading="lazy"

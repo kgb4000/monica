@@ -161,6 +161,7 @@ ol {
   text-align: center;
   margin: 2rem auto;
   font-size: 2rem;
+  margin-top: 0;
 }
 
 .blog-posts a {
@@ -319,4 +320,33 @@ th {
   border: 1px solid #999;
   width: 33.3%;
   padding: 1rem;
+}
+
+.micro-wedings-about {
+  margin-top: 1rem;
+}
+
+.micro-wedding-venues {
+  li {
+    margin-bottom: 2rem;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.about-micro-section {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 2rem;
+  }
+}
+
+hr {
+  margin: 2rem 0;
+  max-width: 40%;
 }

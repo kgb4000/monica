@@ -275,7 +275,6 @@ export default function Home({ data }) {
             <section className="video-section">
               <ModalVideo
                 channel="custom"
-                autoplay
                 isOpen={isOpen}
                 url="https://natashaweddingvideo.s3.amazonaws.com/wedding-video.mp4"
                 allowFullScreen={true}

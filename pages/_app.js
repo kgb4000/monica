@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import SEO from '../next-seo.config'
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import 'react-modal-video/scss/modal-video.scss'

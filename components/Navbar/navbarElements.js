@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   ${'' /* position: sticky; */}
   top: 0;
   z-index: 10;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
 
   @media screen and (max-width: 960px) {
@@ -23,7 +23,7 @@ export const NavbarContainer = styled.div`
   align-items: center;
   height: 80px;
   z-index: 1;
-  max-width: 1500px;
+  max-width: 1200px;
   padding: 1rem;
   width: 100%;
   margin: 0 auto;

@@ -1,7 +1,8 @@
 export default {
-  title: 'Maryland Wedding Planner | Monica Browne Weddings',
+  title:
+    'Wedding Planner Maryland | Exclusive Events by Monica Browne Weddings',
   description:
-    'Monica Browne is a top wedding planner in Maryland that can help plan your dream wedding. Get help from start to finish and relax on your wedding day.',
+    'Looking for a wedding planner in Maryland? Our professionals will take care of everything, from finding the perfect venue to finding the best caterers. Contact us today!',
   canonical: 'https://monicabrowneweddings.com',
   openGraph: {
     type: 'website',

@@ -66,7 +66,7 @@ export default function Potomac() {
               looking for.
             </p>
             <div className="center">
-              <a href={calendly}>
+              <a href={calendly} target="-blank">
                 <Button>Book a 15 min call</Button>
               </a>
             </div>
@@ -85,8 +85,8 @@ export default function Potomac() {
               />
               <div className="micro-wedings-about">
                 <p>
-                  Micro weddings are small weddings that typically have 50
-                  guests or less.
+                  <b>Micro weddings</b> are small weddings that typically have
+                  50 guests or less.
                 </p>
                 <p>
                   Unlike a big wedding, these weddings often focus on quality
@@ -104,17 +104,15 @@ export default function Potomac() {
             </div>
           </div>
           <div className="center">
-            <Link href="/contact" passHref>
-              <a>
-                <Button>Contact us to get started</Button>
-              </a>
-            </Link>
+            <a href={calendly} target="_blank">
+              <Button>Schedule a call!</Button>
+            </a>
           </div>
         </section>
         <section className="container">
           <div className="content">
             <h2 className="title">
-              The Benefits of Having a Micro Wedding in Maryland
+              The Advantages of Having a Micro Wedding in Maryland
             </h2>
             <p>
               In recent years, more and more couples have been opting for small
@@ -164,7 +162,7 @@ export default function Potomac() {
             <div className="center">
               <Link href="/contact" passHref>
                 <a>
-                  <Button>Contact us to get started</Button>
+                  <Button>Contact us!</Button>
                 </a>
               </Link>
             </div>
@@ -172,7 +170,7 @@ export default function Potomac() {
         </section>
         <section className="container">
           <div className="content">
-            <h2>Intimate Wedding Venues in Maryland</h2>
+            <h2 className="title">Intimate Wedding Venues in Maryland</h2>
             {/* <div className="micro-wedding-venues">
               <img
                 src="/images/william-paca-house-stairs-facing-house.jpg"
@@ -302,15 +300,15 @@ export default function Potomac() {
               </li>
             </ul>
             <div className="center">
-              <a href={calendly}>
-                <Button>Contact us</Button>
+              <a href={calendly} target="_blank">
+                <Button>Schedule a call!</Button>
               </a>
             </div>
           </div>
         </section>
         <section className="container">
           <div className="content">
-            <h2>Next Steps</h2>
+            <h2 className="title">Next Steps</h2>
             <p>
               Now that you know the benefits, it's time to start planning your
               own. Here are a few tips to help you get started:

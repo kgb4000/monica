@@ -9,8 +9,6 @@ import BlogPosts from '../components/BlogPosts'
 import { NextSeo } from 'next-seo'
 import { getPosts } from '../lib/data'
 
-import Navbar from '../components/Navbar'
-
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -41,45 +39,85 @@ export default function Home({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Maryland Wedding Planner</h1>
+            <h1 className="title">Wedding Planner - Maryland</h1>
             <p>
-              Monica Browne Weddings is a wedding and event planner in Bowie,
-              MD.
+              Monica Browne Weddings is one of the best wedding planners in
+              Maryland.
             </p>
-            <p>We help you plan the perfect wedding for you too enjoy.</p>
+            <p>We provide:</p>
+            <ul className="wedding-services">
+              <li>Full-service wedding planning</li>
+              <li>
+                <Link href="/day-of-wedding-coordinator" passHref>
+                  <a>Day-of coordination services</a>
+                </Link>{' '}
+                (Month of coordination)
+              </li>
+              <li>Partial planning packages (A La carte services)</li>
+              <li>
+                Planning for{' '}
+                <Link
+                  href="/wedding-services/micro-wedding-packages-maryland"
+                  passHref
+                >
+                  <a>Mico Weddings</a>
+                </Link>
+              </li>
+              <li>Planning for Destination weddings</li>
+              <li>Special event planning</li>
+            </ul>
             <p>
-              We provide full service wedding planning, partial planning, and{' '}
-              <Link href="/day-of-wedding-coordinator" passHref>
-                <a>day-of coordinator</a>
+              Planning your dream wedding should be fun and an enjoyable
+              experience.
+            </p>
+            <p>
+              But for some busy couples, it can be frustrating and stressful.
+            </p>
+            <p>
+              Some couples are too busy in their day-to-day lives to take the
+              time to plan the wedding they want.
+            </p>
+            <p>
+              That's where a professional wedding planner like Monica Browne
+              Weddings can help.
+            </p>
+            <p>
+              We're a full-service event planning company that will take care of
+              the entire wedding planning process for you.
+            </p>
+            <p>
+              Our{' '}
+              <Link
+                href="/wedding-services/full-service-wedding-planner"
+                passHref
+              >
+                <a>full-service planning</a>
               </Link>{' '}
-              ,and planning for destination weddings.
+              can give you the freedom and flexibility to plan your event and
+              maintain your busy lifestyle.
             </p>
             <p>
-              We help brides and grooms eliminate stress, so they don't have to
-              worry about anything.
+              We also give you helpful tips and suggestions, which will save you
+              from worrying about all the essential and unique details.
             </p>
             <p>
-              We help make this momentous occasion a happy, fun experience, not
-              a stressful one.
+              Our talented team of professionals will work closely with you to
+              create a custom plan that fits your vision and budget.
             </p>
             <p>
-              Your wedding day must be a day that you'll cherish for the rest of
-              your life, and that is our goal.
+              As professional event planners, we will help you choose the best
+              vendors, pick a theme and style your event, and also handle all
+              the small details so you can enjoy youself.
+            </p>
+            <p>We will help you plan the perfect wedding.</p>
+            <p>
+              We will help make it a meaningful and happy, fun experience, not a
+              stressful one.
             </p>
             <p>
-              Planning your dream wedding should be fun, but for some couples it
-              can be stressful.
-            </p>
-            <p>It can leave some couples frustrated and tired.</p>
-            <p>That's where we come in.</p>
-            <p>
-              We guide you through the wedding planning process with helpful
-              tips and suggestions, which will also save you time and money.
-            </p>
-            <p>
-              With our 15 years of experience as wedding planners, we are
-              definitely one of the top event planners in the DMV area that can
-              bring your vision to life.
+              With our 15 years of experience as event planners, we are one of
+              the top wedding planners in the Maryland area that can bring your
+              vision to life.
             </p>
             <p>
               Check out some of our{' '}
@@ -91,26 +129,30 @@ export default function Home({ data }) {
               </a>{' '}
               on Google.
             </p>
-            <h3 className="center-text">
-              Book a 15 minute call with us and see how we can help you as your
-              wedding planner
-            </h3>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call today!</Button>
-              </a>
-            </div>
+            <p>
+              If you are looking for a wedding event planner in Maryland, DC,
+              and Virginia, please contact us today to schedule a consultation.
+            </p>
+            <p>We are happy to help you make history.</p>
+            <p className="center-text">
+              Book a 15 minute call with us and see how we can help you
+            </p>
           </div>
         </section>
+        <div className="center">
+          <a href={calendly}>
+            <Button>Book a call today!</Button>
+          </a>
+        </div>
         <section className="container">
           <div className="service-content">
             <h2 className="title">
-              Wedding Planning Can Cost a Lot of Time & Energy
+              Planning Your Wedding Can Cost a Lot of Time & Energy
             </h2>
             <div className="painpoints">
               <img
                 src="images/maryland-wedding-planner-472w.webp"
-                alt="Maryland wedding planner"
+                alt="Wedding planner - Maryland"
                 loading="lazy"
                 width="472"
                 height="708"
@@ -118,24 +160,25 @@ export default function Home({ data }) {
               <div className="painpoints--content">
                 <PainPoints>
                   <li>
-                    Time finding a reliable wedding planner and other vendors
+                    Time finding a reliable company or person you can trust
                   </li>
-                  <li>Time searching for the right wedding venue</li>
+                  <li>Time searching for the right venue</li>
                   <li>Time reading and reviewing vendor contracts</li>
-                  <li>Time creating and managing your wedding budget</li>
+                  <li>Time creating and managing your budget</li>
                   <li>Keeping organized and making timely decisions</li>
                   <li>
-                    Time creating your wedding timeline, seating charts, and
-                    arranging hotels for guests
+                    Time creating your timeline, seating charts, and arranging
+                    hotels for guests
                   </li>
-                  <li>Navigating new Covid-19 protocols for Maryland events</li>
+                  <li>Navigating new safety protocols for Maryland events</li>
                 </PainPoints>
               </div>
             </div>
           </div>
-          <h3 className="center-text">
-            Book a 15 minute call with Monica and see how she can help you
-          </h3>
+          <p className="center-text">
+            Book a 15 minute call with Monica and see how she and her team can
+            help you
+          </p>
           <div className="center">
             <a href={calendly}>
               <Button>Book a call Today!</Button>
@@ -144,9 +187,7 @@ export default function Home({ data }) {
         </section>
         <section className="container">
           <div className="service-content get-started">
-            <h2 className="title">
-              Monica Makes Wedding Planning Simple For Maryland Couples
-            </h2>
+            <h2 className="title">Monica Makes the Planning Process Simple</h2>
             <div>
               <Simple>
                 <li>
@@ -169,10 +210,10 @@ export default function Home({ data }) {
                 </li>
               </Simple>
             </div>
-            <h3 className="center-text">
+            <p className="center-text">
               Book a 15 minute call with Monica and see how she can help you
               plan your wedding
-            </h3>
+            </p>
             <div className="center">
               <a href={calendly}>
                 <Button>Book A Call</Button>
@@ -197,7 +238,7 @@ export default function Home({ data }) {
                 <li>Read and negotiate vendor contracts</li>
                 <li>Communicate with your wedding party and guests</li>
                 <li>Handle any problems that may come up</li>
-                <li>Be your personal resource</li>
+                <li>Be your resource</li>
                 <li>Plus more</li>
               </ul>
             </PainPoints>
@@ -359,17 +400,17 @@ export default function Home({ data }) {
               Why Hire Monica Browne Weddings as Your Event Planning Company?
             </h2>
             <p>
-              Monica Browne Weddings is one of the top wedding planners in the
-              DMV.
+              Monica Browne Weddings is one of the top Maryland wedding
+              planners.
             </p>
             <p>
-              No we are not featured in the Washington Post or Martha Stewart
-              Weddings, and that's not our focus.
+              No, we are not in the Washington Post or Martha Stewart Weddings,
+              and that's not our focus.
             </p>
             <p>
-              Our only focus is to provide our clients wedding planning services
-              that help you save time, money, and assist you in anyway possible
-              to ensure your wedding day is how you want it to be.
+              Our only focus is to provide our clients with wedding planning
+              services that will help you save time and money and assist in any
+              way possible and create your dream wedding.
             </p>
             <p>
               See our{' '}
@@ -384,21 +425,22 @@ export default function Home({ data }) {
             </p>
             <p>
               When you hire us, you hire an experienced planning company with
-              over 15 years in the event industry, and{' '}
+              over 15 years in the event industry and{' '}
               <b>someone you can trust</b>.
             </p>
             <p>
-              You get a company with incredible knowledge to use at your
-              disposal, a very credible resource, and also a team that will do
-              whatever it takes to ensure your wedding goes off without any
-              issues.
+              You get a company with incredible knowledge at your disposal, a
+              credible resource, and a team that will do whatever it takes to
+              ensure your wedding goes off without any issues.
             </p>
             <p>
-              We are here to help you plan one of the biggest days of your life,
-              and to make sure you enjoy every moment of it.
+              We are here to help you plan one of the biggest days of your life
+              and make sure you enjoy every moment.
             </p>
-            <p>You can count on us to be there every step of the way.</p>
-            <p>We look forward to working with you.</p>
+            <p>
+              You can count on us to be there every step of the way, and we look
+              forward to working with you.
+            </p>
           </div>
           <div className="center">
             <a href={calendly}>
@@ -411,23 +453,23 @@ export default function Home({ data }) {
             <h2 className="title">FAQs</h2>
             <h3>#1. How Much Does a Wedding Cost in the Washington DC Area?</h3>
             <p>
-              Getting married in the Washington DC area (Maryland, DC, and
-              Virginia), can cost{' '}
+              Marrying in the Washington DC area (Maryland, DC, and Virginia)
+              can cost{' '}
               <Link
                 href="/blog/average-cost-of-a-wedding-in-washington-dc"
                 passHref
               >
                 <a>$28,000 - $37,000</a>
-              </Link>{' '}
-              and up. Most of your cost be determined by how much you spend on
-              your venue, the caterer, and how many guests you invite.
+              </Link>
+              . Most of your wedding budget will be on your venue, your caterer,
+              and how many guests you invite.
             </p>
             <p>
-              Other cost may include your photographer, ceremony and reception
-              decorations, flowers, transportation, your attire, and the rings.
-              Other cost may include a wedding planner, a photographer, ceremony
-              and reception decorations, flowers, transportation, your attire,
-              and the rings.
+              Other costs may include your photographer, ceremony and reception
+              decorations, flowers, transportation, attire, and the rings.
+              Additional costs may include a wedding planner, a photographer,
+              ceremony and reception decorations, flowers, transportation, your
+              dress, and the rings.
             </p>
             <h3>#2. Can I Plan My Wedding Myself?</h3>
             <p>You can definitely plan your own wedding.</p>
@@ -444,8 +486,17 @@ export default function Home({ data }) {
               coordinator. Read this blog post to see which professional can
               assist you the best.
             </p>
+            <h3>#3. Can a Wedding Planner Save You Money?</h3>
+            <p>
+              Some brides consider wedding planners a luxury, but they can save
+              you money in the long run. A good wedding planner will have
+              connections with vendors and be able to get you discounts that you
+              might not be able to get on your own. They will also be able to
+              help you stay within your budget and avoid any last-minute
+              financial surprises.
+            </p>
             <h3>
-              #3. What is the Difference Between a Wedding Planner and a Day-of
+              #4. What is the Difference Between a Wedding Planner and a Day-of
               Coordinator?
             </h3>
             <p>
@@ -473,6 +524,17 @@ export default function Home({ data }) {
               </Link>{' '}
               to learn more.
             </p>
+            <h3>#5. Do You Plan Weddings in Washington DC and Virginia?</h3>
+            <p>Yes.</p>
+            <p>
+              Even though we are Maryland wedding planners, we offer
+              full-service wedding planning to couples throughout the DMV area.
+            </p>
+            <p>
+              We have planned weddings in Washington DC and Northern Virginia
+              and can work with you regardless of location. Contact us today to
+              get started planning your dream wedding!
+            </p>
           </div>
           <div className="center">
             <a href={calendly}>
@@ -486,15 +548,23 @@ export default function Home({ data }) {
 }
 
 const Main = styled('div')`
-    .service-content {
-    padding: 2rem;
-  }
+
+   ul.wedding-services {
+          margin-left: 3rem;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+        }
 
   li {
     list-style-type: disc;
   }
 
   @media (min-width: 768px) {
+
+    .service-content {
+    padding: 2rem;
+  }
+
     .content {
       text-align: left;
       max-width: 60rem;
@@ -556,9 +626,13 @@ const Main = styled('div')`
         margin: 4rem auto;
       }
 
+     
+
       ul {
         max-width: 40rem;
         margin: 0 auto;
+
+        
       }
     }
 

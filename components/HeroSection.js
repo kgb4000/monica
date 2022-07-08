@@ -45,7 +45,7 @@ const Hero = styled('span')`
   background-size: cover;
   margin: 0 auto;
   margin-top: -100px;
-  max-width: 1500px;
+  max-width: 1200px;
 
   @media only screen and (min-device-width: 360px) {
     h2 {

@@ -27,9 +27,9 @@ export const getStaticProps = async () => {
 export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Wedding Planner Washington DC | Monica Browne Weddings',
+    title: 'Wedding Planner Washington DC | Monica Browne Weddings Specialists',
     description:
-      'Monica Browne is a wedding planner near Washington DC and one of the best full service wedding planners and day of coordinators in the DMV. Call us today!',
+      "Need a wedding planner in Washington, DC? We'll make your wedding a memorable and enjoyable celebration for everyone! Schedule a call with us today!",
     canonical: 'https://monicabrowneweddings.com/wedding-planner-washington-dc',
     openGraph: {
       type: 'website',

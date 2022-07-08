@@ -29,9 +29,9 @@ export const getStaticProps = async () => {
 export default function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Wedding Planner Annapolis Maryland | Monica Browne Weddings',
+    title: 'Wedding Planner Annapolis | Local Wedding Planning Specialists',
     description:
-      'Monica Browne provides full-service wedding planning and day-of coordination for couples in the Annapolis. Contact us today to see how we can help you!',
+      'Looking for a wedding planner in Annapolis? We are local wedding planning experts that can help plan your day perfect. Schedule a call with us today!',
     canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
     openGraph: {
       type: 'website',
@@ -63,64 +63,63 @@ export default function Home({ data }) {
         <section className="container">
           <div className="content">
             <h1 className="title">Wedding Planner Annapolis</h1>
+            <p>Are you looking for a wedding planner in Annapolis, MD?</p>
+            <p>Look no further than Monica Browne Weddings.</p>
             <p>
-              When planning a wedding, you often look to other people for
-              advice. The best place to start is to find the best Annapolis
-              wedding planners.
+              Monica Browne Weddings is a boutique wedding planning company and
+              event planning company serving couples in Annapolis and throughout
+              Maryland, and Washington, DC.
             </p>
             <p>
-              Monica Browne Weddings is a Maryland wedding planning company
-              providing{' '}
-              <Link href="/wedding-services/full-service-wedding-planner">
-                <a>full-service planning</a>
-              </Link>{' '}
-              , partial planning, and{' '}
-              <Link href="/day-of-wedding-coordinator">
-                <a>day-of coordination</a>
-              </Link>{' '}
-              services in Annapolis, MD.
-            </p>
-            <p>
-              We are professional wedding planners to help you plan one of the
+              We are special event planners here to help you plan one of the
               most memorable events.
             </p>
+            <p>Our services include:</p>
+            <ul>
+              <li>Full-service planning</li>
+              <li>Partial planning</li>
+              <li>Day-of coordination</li>
+              <li>Event coordination services</li>
+              <li>Special Event Planning</li>
+              <li>Wedding decorating services</li>
+            </ul>
             <p>
-              We help guide you through the planning process and help alleviate
-              the frustration and stress of wedding planning.
+              We help guide you through the wedding planning process and help
+              alleviate any frustration in preparing for one of the most
+              important events of your life.
             </p>
             <p>
-              As a professional wedding coordinator and event planner, Monica
-              and her team will manage your entire wedding day and make sure it
-              goes off without a hitch. If there are any unexpected problems,
-              you will not have to worry, because we have already taken care of
-              them.
+              As an event planner and professional coordinator, Monica and her
+              team will manage your entire day and make sure it goes off without
+              a hitch. You will not have to worry about any unexpected problems
+              because we have already taken care of them.
             </p>
             <p>
               We are experts at event management and creating enchanting events
-              with over 15 years of experience in wedding and event management.
-              You tell us your vision, and we'll take care of all the details.
+              with over 15 years in the industry. You tell us your vision, and
+              we'll cover all the details.
             </p>
             <p>
-              Many couples trust us to bring their wedding dreams to life, and
-              we do.
+              Wedding savvy couples trust us to bring their wedding dreams to
+              life, and we do.
             </p>
             <p>
-              We always do our best to create enchanting, unique, and fun
-              events. As one of the top Annapolis wedding planners, you can
-              count on us to be there from the beginning of the planning process
-              to the end.
+              We always do our best to create unique, fun events with your
+              personal style. As one of the top wedding planners in Maryland,
+              you can count on us to be there from the beginning to the end.
             </p>
             <p>
-              We stay with you to make sure your big day is beautiful and
+              We stay with you to ensure your big day is beautiful and
               stress-free.
             </p>
-            <h3 className="center-text">
-              Book a 15 minute call with us and see how we can help as your
-              Annapolis wedding planner
-            </h3>
+            <p>P.S.: Our owner Monica, was born and raised in Annapolis.</p>
+            <p className="center-text">
+              Book a 15-minute call with Monica and see how we can help plan
+              your wedding
+            </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Schedule a call today!</Button>
               </a>
             </div>
           </div>
@@ -138,6 +137,49 @@ export default function Home({ data }) {
           pain5="Making timely decisions and staying organized"
           pain6="Figuring out new Covid-19 protocols for events in Annapolis MD"
         />
+        <section className="container">
+          <div className="content">
+            <h2 className="title">
+              Why Choose Monica Browne Weddings as Your Wedding Planner?
+            </h2>
+            <p>
+              When you trust Monica Browne Weddings to plan your event, you can
+              be confident that everything will be taken care of – from the
+              smallest detail to the big picture. We have a proven track record
+              of delivering flawless events time and time again, and our clients
+              rave about our creative vision, calm demeanor, and impeccable
+              organizational skills.
+            </p>
+            <p>
+              Check out our{' '}
+              <a
+                href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
+                target="_blank"
+              >
+                5-star reviews
+              </a>{' '}
+              reviews on Google.
+            </p>
+            <p>
+              We love what we do, and it shows. We’re passionate about creating
+              beautiful celebrations that reflect each couple’s unique style and
+              personality, and we take great pride in our work.
+            </p>
+            <p>
+              You can be confident that your wedding or event will be in good
+              hands when you choose Monica Browne Weddings. We’re professional,
+              reliable ,and fun to work with – everything you could want in a
+              wedding planner!
+            </p>
+            <div className="center">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us today!</Button>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </section>
         <section className="container">
           <div>
             <h2 className="title">Our Wedding Services</h2>
@@ -217,10 +259,10 @@ export default function Home({ data }) {
                 </li>
               </Simple>
             </div>
-            <h3 className="center-text">
-              Book a 15 minute call with us and see how we can help as your
+            <p className="center-text">
+              Book a 15-minute call with us and see how we can help as your
               Annapolis wedding planner
-            </h3>
+            </p>
             <div className="center">
               <a href={calendly}>
                 <Button>Book a call</Button>
@@ -312,6 +354,65 @@ export default function Home({ data }) {
                 <Button>See More Pictures</Button>
               </a>
             </Link>
+          </div>
+        </section>
+        <section className="container">
+          <h2 className="title">FAQs</h2>
+          <h3>#1. How Long Before a Wedding Should You Start Planning?</h3>
+          <p>
+            It is never too early to start planning for your wedding. The sooner
+            you start, the better chance you have of making your dream wedding a
+            reality. That being said, most couples wait until about 12 months
+            before their wedding to really start getting into the nitty-gritty
+            details. This gives you plenty of time to research, book vendors,
+            and finalize all the details without feeling too overwhelmed.
+          </p>
+          <h3>#2. What is a Realistic Budget for a Wedding in Annapolis?</h3>
+          <p>
+            A realistic budget for a wedding in our area can vary greatly
+            depending on a number of factors, such as the size of the wedding,
+            the location, the type of ceremony and reception, and so on.
+          </p>
+          <p>
+            However, a reasonable budget for a wedding in the Washington, DC,
+            Annapolis, Baltimore area might be around{' '}
+            <Link
+              href="/blog/average-cost-of-a-wedding-in-washington-dc"
+              passHref
+            >
+              <a>$28,000-$40,000</a>
+            </Link>
+            . Of course, this is just a rough guide and you will need to tailor
+            your budget to your specific circumstances.{' '}
+          </p>
+          <h3>#3. What are the Three Largest Expenses With a Wedding?</h3>
+          <p>
+            The three largest expenses with a wedding are typically the venue,
+            the catering, and the number of guests. However, there are ways to
+            save on each of these expenses. For example, you can often get a
+            discount on the venue if you book it for a Friday or Sunday instead
+            of a Saturday. You can also save on catering by opting for a buffet
+            style meal instead of a sit-down dinner. And, finally, you can save
+            on the number of guests by having a{' '}
+            <Link href="/wedding-services/micro-wedding-packages-maryland">
+              <a>micro wedding</a>
+            </Link>{' '}
+            and inviting only close family and friends.
+          </p>
+          <h3>#4. What's the Best Month to Get Married?</h3>
+          <p>
+            There's no definitive answer to this question, as every couple's
+            circumstances are unique. However, we recommend getting married
+            between May and October. These months generally boast the best
+            weather for an outdoor wedding, and they're also popular wedding
+            months, so you'll have plenty of venue and vendor options to choose
+            from. Plus, getting married during the off-season can help you save
+            money on your wedding budget.
+          </p>
+          <div className="center">
+            <a href={calendly}>
+              <Button>Schedule a call today!</Button>
+            </a>
           </div>
         </section>
       </Main>

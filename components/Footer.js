@@ -78,7 +78,7 @@ const Footer = () => {
               Monica Browne Weddings is one of the best wedding planners in
               Maryland, serving couples in DC and Northern Virginia. We offer
               full-service event planning, partial service event planning,
-              day-of coordination, wedding decroation services, and floral
+              day-of coordination, wedding decoration services, and floral
               design services. If you are a busy couple and need help, or if you
               need some help and guidance, please don't hesitate to reach out to
               us. You can book a call with us when you are ready.

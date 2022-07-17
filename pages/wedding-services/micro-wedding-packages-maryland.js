@@ -457,20 +457,20 @@ export default function Potomac() {
                   {
                     questionName: 'How Can I Save Money on a Micro Wedding?',
                     acceptedAnswerText: `Some ways to save money on a micro wedding include: 
-                      1. Reducing the guest coun
-                      2. Choosing a less expensive wedding venue
-                      3. Asking friends and family to help with decor, food, and music
-                      4. Eliminating or reducing the wedding party
-                      5. Choosing simple decor and flowers
-                      6. Selecting a shorter menu
-                      7. Saving on the wedding dress and suit
-                      8. Opting for digital invitations
-                      9. Doing your makeup and hair
-                      10. Choosing a less expensive photographer`,
+                      Reducing the guest coun
+                      Choosing a less expensive wedding venue
+                      Asking friends and family to help with decor, food, and music
+                      Eliminating or reducing the wedding party
+                      Choosing simple decor and flowers
+                      Selecting a shorter menu
+                      Saving on the wedding dress and suit
+                      Opting for digital invitations
+                      Doing your makeup and hair
+                      Choosing a less expensive photographer`,
                   },
                 ]}
               />
-              <h2>FAQ</h2>
+              <h2>FAQs</h2>
               <h3>How Long Should a Micro Wedding Be?</h3>
               <p>
                 Micro weddings are just smaller than traditional weddings with a

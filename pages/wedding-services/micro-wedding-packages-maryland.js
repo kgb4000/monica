@@ -61,9 +61,8 @@ export default function Potomac() {
               beautiful and memorable wedding day.
             </p>
             <p>
-              So if you're looking to have a small, intimate wedding without
-              sacrificing quality, then a micro wedding may be just what you're
-              looking for.
+              So if you want a small, intimate wedding without sacrificing
+              quality, then a micro wedding may be just what you're looking for.
             </p>
             <div className="center">
               <a href={calendly} target="-blank">
@@ -85,18 +84,20 @@ export default function Potomac() {
               />
               <div className="micro-wedings-about">
                 <p>
-                  <b>Micro weddings</b> are small weddings that typically have
-                  50 guests or less.
+                  Micro weddings are smaller events that typically have 50
+                  guests or less.
                 </p>
                 <p>
-                  Unlike a big wedding, these weddings often focus on quality
-                  over quantity, and couples usually save money by having a
-                  smaller guest list, less food, and a smaller vendor team.
+                  Unlike a big wedding, these events often focus on quality over
+                  quantity, and couples usually save money by having a smaller
+                  guest list, less food, and a smaller vendor team.
                 </p>
                 <p>
                   Micro weddings can be held at various venues, from traditional
-                  venues to more unique locations like barns or wineries. Plus,
-                  micro packages typically include all the amenities of a
+                  venues to more unique locations like barns or wineries.
+                </p>
+                <p>
+                  Plus, micro packages typically include all the amenities of a
                   traditional wedding, from the ceremony space to the reception
                   hall and even your overnight accommodations.
                 </p>
@@ -115,35 +116,32 @@ export default function Potomac() {
               The Advantages of Having a Micro Wedding in Maryland
             </h2>
             <p>
-              In recent years, more and more couples have been opting for small
-              weddings over large, traditional weddings. And several benefits
-              come along with having a small wedding.
+              In recent years, more and more couples in Maryland have opted for
+              small weddings over large, traditional events. And several
+              benefits come along with having a smaller intimate event.
             </p>
-            <p>
-              Here are just a few of the many benefits of having a micro
-              wedding:
-            </p>
-            <h3>You'll save money</h3>
+            <p>Here are just a few of the many benefits:</p>
+            <h3>You'll Save Money</h3>
             <p>
               One of the biggest benefits of micro weddings is that you'll save
               money. You'll spend less on everything from your venue to your
               catering when you have a smaller guest list. Plus, you can often
-              get discounts on your wedding vendor services when you have a
-              smaller ceremony and reception.
+              get discounts on vendor services when you have a smaller ceremony
+              and reception.
             </p>
-            <h3>You'll save time</h3>
+            <h3>You'll Save Time</h3>
             <p>
               Planning a large traditional wedding can be extremely
-              time-consuming. But when you have a micro wedding, you'll have
-              more time to enjoy the planning process and focus on the essential
-              details. Plus, you won't have to spend as much time coordinating
-              with your wedding vendors or dealing with logistics.
+              time-consuming. But with a smaller event, you'll have more time to
+              enjoy the planning process and focus on the essential details.
+              Plus, you won't have to spend as much time coordinating with your
+              vendors or dealing with logistics.
             </p>
             <h3>You Can be More Creative</h3>
             <p>
-              When you have a small, intimate wedding, you have more freedom to
-              be creative with your wedding décor and details. Plus, you can get
-              discounts on your vendor services when you have a smaller event.
+              When you have a nano event, you have more freedom to be creative
+              with your decorations and details. Plus, you can get discounts on
+              your vendor services when you have a smaller event.
             </p>
             <h3>You Can Focus on Quality Over Quantity</h3>
             <p>
@@ -194,9 +192,7 @@ export default function Potomac() {
                 </p>
                 <addres>49 Spa Rd, Annapolis, MD 21401</addres>
                 <p>
-                  <small>
-                    <a href="tel:4102950104">(410) 295-0104</a>
-                  </small>
+                  <small>(410) 295-0104</small>
                 </p>
               </li>
               <li>
@@ -212,15 +208,13 @@ export default function Potomac() {
                 </p>
                 <addres> 723 Second St, Annapolis, MD 21403</addres>
                 <p>
-                  <small>
-                    <a href="tel:4102717271">(410) 271-7271</a>
-                  </small>
+                  <small>(410) 271-7271</small>
                 </p>
               </li>
               <li>
                 <p>
                   <a
-                    href="https://www.ccwoodmore.com/"
+                    href="https://thecountryclubatwoodmoreevents.com/weddings/"
                     target="_blank"
                     rel="noreferrer"
                     loading="lazy"
@@ -232,12 +226,9 @@ export default function Potomac() {
                   12320 Pleasant Prospect, Mitchellville, MD 20721
                 </addres>
                 <p>
-                  <small>
-                    <a href="tel:3102496100">(301) 249-6100</a>
-                  </small>
+                  <small>(301) 249-6100</small>
                 </p>
               </li>
-              <hr></hr>
               <li>
                 <p>
                   <a
@@ -251,12 +242,9 @@ export default function Potomac() {
                 </p>
                 <addres>5430 Vantage Point Rd, Columbia, MD 21044</addres>
                 <p>
-                  <small>
-                    <a href="tel:4107304801">(410) 730-4801</a>
-                  </small>
+                  <small>(410) 730-4801</small>
                 </p>
               </li>
-              <hr></hr>
               <li>The Blackwall Barn and Lodge</li>
               <li>
                 <p>
@@ -271,9 +259,7 @@ export default function Potomac() {
                 </p>
                 <addres>186 Prince George St, Annapolis, MD 21401</addres>
                 <p>
-                  <small>
-                    <a href="tel:4109904543">(410) 990-4543</a>
-                  </small>
+                  <small>(410) 990-4543</small>
                 </p>
               </li>
               <li>
@@ -289,9 +275,7 @@ export default function Potomac() {
                 </p>
                 <addres>213 N Talbot St, St Michaels, MD 21663</addres>
                 <p>
-                  <small>
-                    <a href="tel:4107452916">(410) 745-2916</a>
-                  </small>
+                  <small>(410) 745-2916</small>
                 </p>
               </li>
             </ul>
@@ -312,37 +296,34 @@ export default function Potomac() {
             <h3>#1. Set a Budget</h3>
             <p>
               The first thing you'll need to do when planning is to set a
-              budget. When you have a smaller guest list, you'll save money on
-              everything from your venue to your catering. Plus, you can often
+              budget. You'll save money on everything from your venue to
+              catering when you have a smaller guest list. Plus, you can often
               get discounts on your wedding vendor services when you have a
               smaller wedding.
             </p>
             <h3>#2. Choose Your Wedding Venue</h3>
             <p>
-              One of the best things about having a micro wedding in Maryland is
+              One of the best things about having a small wedding in Maryland is
               that you can be creative with your venue. You can choose to have
-              your ceremony and reception at the same location, or you can opt
+              your custom ceremony and reception at the exact location or opt
               for a unique setting like a park or an outdoor garden venue.
             </p>
             <h3>#3. Choose Your Guest List</h3>
             <p>
-              Another good thing about having a micro wedding is that you can
-              focus on quality over quantity. When you have a smaller guest
-              list, you can spend more time and money on making sure each guest
-              has a wonderful time. Plus, you'll be able to create a more
-              intimate setting that will make your wedding day even more
-              special.
+              Another good thing about having a micro wedding is focusing on
+              quality over quantity. When you have a smaller guest list, you can
+              spend more time and money on ensuring each guest has a wonderful
+              time. Plus, you'll be able to create a more custom, private
+              setting that will make your wedding day even more special.
             </p>
             <h3>#4. Start Planning</h3>
             <p>
               Now that you know what a micro wedding is and how to plan one,
-              it's time to start planning your dream day. With a bit of help
-              from{' '}
+              it's time to start planning your dream day. With some help from{' '}
               <Link href="/" passHref>
                 <a>Monica Browne Weddings</a>
-              </Link>{' '}
-              Monica Browne Weddings, you can have a small, unique, intimate
-              wedding that you'll love.
+              </Link>
+              , you can have a small, unique wedding that you'll love.
             </p>
           </div>
         </section>
@@ -363,8 +344,7 @@ export default function Potomac() {
                 <li>
                   <h4>Create A Budget</h4>
                   <p>
-                    Work out your budget and start planning your wedding
-                    details.
+                    Work out your costs and start planning your wedding details.
                   </p>
                 </li>
                 <li>
@@ -382,10 +362,12 @@ export default function Potomac() {
         </section>
         <section className="container">
           <div className="service-content">
-            <h2 className="title">What Do I Need for a Micro Wedding?</h2>
+            <h2 className="title">
+              Wedding Planning for a Micro Wedding: What Do I Need?
+            </h2>
             <Simple>
               <li>
-                <p>Wedding Planning</p>
+                <p>Wedding Planner</p>
               </li>
               <li>
                 <p>Your Closest family and friends</p>
@@ -394,7 +376,9 @@ export default function Potomac() {
                 <p>Small wedding venue</p>
               </li>
               <li>
-                <p>Officiant</p>
+                <Link href="/wedding-services/wedding-decor-services">
+                  <a>Decorations</a>
+                </Link>
               </li>
               <li>
                 <p>Small wedding ceremony</p>
@@ -403,23 +387,13 @@ export default function Potomac() {
                 <p>Small wedding reception</p>
               </li>
               <li>
+                <p>Officiant</p>
+              </li>
+              <li>
                 <p>Marriage license</p>
               </li>
               <li>
                 <p>Photographer</p>
-              </li>
-              <li>
-                <p>
-                  <Link href="/wedding-services/wedding-decor-services">
-                    <a>Decorations</a>
-                  </Link>
-                </p>
-              </li>
-              <li>
-                <p>Small Wedding ceremony</p>
-              </li>
-              <li>
-                <p>Small reception</p>
               </li>
             </Simple>
             <div className="center">
@@ -464,6 +438,46 @@ export default function Potomac() {
               </a>
             </Link>
           </div>
+          <section className="container">
+            <div className="content">
+              <h2>FAQ</h2>
+              <h3>How Long Should a Micro Wedding Be?</h3>
+              <p>
+                Micro weddings are just smaller than traditional weddings with a
+                smaller guest count, smaller ceremony, and smaller reception.
+                Reception length will depend on how long you want to celebrate!
+              </p>
+              <h3>How Much Should You Spend on a Micro Wedding?</h3>
+              <p>
+                There is no set amount that you must spend on a micro wedding.
+                However, a micro wedding is typically more low-key than a
+                traditional wedding and often costs less. Couples may want to
+                save approximately <b>$5,000 to $30,000</b> for their micro
+                wedding.
+              </p>
+              <h3>How Can I Save Money on a Micro Wedding?</h3>
+              <p>Some ways to save money on a micro wedding include:</p>
+              <ul className="wedding-saving-acts">
+                <li>Reducing the guest count</li>
+                <li>Choosing a less expensive wedding venue</li>
+                <li>
+                  Asking friends and family to help with decor, food, and music
+                </li>
+                <li>Eliminating or reducing the wedding party</li>
+                <li>Choosing simple decor and flowers</li>
+                <li>Selecting a shorter menu</li>
+                <li>Saving on the wedding dress and suit</li>
+                <li>Opting for digital invitations</li>
+                <li>Doing your makeup and hair</li>
+                <li>Choosing a less expensive photographer</li>
+              </ul>
+            </div>
+          </section>
+          <div className="center">
+            <a href={calendly}>
+              <Button>Book a call today</Button>
+            </a>
+          </div>
         </section>
       </Main>
     </div>
@@ -489,6 +503,11 @@ const Main = styled('div')`
 
   .gallery {
     padding-bottom: 4rem;
+  }
+
+  .wedding-saving-acts {
+    margin-left: 3rem;
+    margin-top: 1rem;
   }
 
   @media (min-width: 768px) {

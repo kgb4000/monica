@@ -76,22 +76,28 @@ export default function Home({ data }) {
             </p>
             <p>Our services include:</p>
             <ul className="wedding-services">
-              <li>Full-service planning</li>
+              <li>
+                <Link
+                  href="/wedding-services/full-service-wedding-planner"
+                  passHref
+                >
+                  <a>Full service planning</a>
+                </Link>
+              </li>
               <li>Partial planning</li>
               <li>
-                <li>
-                  <Link href="/day-of-wedding-coordinator" passHref>
-                    <a>Day of coordination</a>
-                  </Link>
-                </li>
+                <Link href="/day-of-wedding-coordinator" passHref>
+                  <a>Day of coordination</a>
+                </Link>
+              </li>
+              <li>
+                {' '}
+                <Link href="/micro-wedding-packages-maryland" passHref>
+                  <a> Micro Weddings</a>
+                </Link>
               </li>
               <li>Event coordination services</li>
               <li>Special Event Planning</li>
-              <li>
-                <Link href="/wedding-services/wedding-decor-services" passHref>
-                  <a>Wedding decorating services</a>
-                </Link>
-              </li>
             </ul>
             <p>
               We help guide you through the wedding planning process and help
@@ -101,8 +107,8 @@ export default function Home({ data }) {
             <p>
               As an event planner and professional coordinator, Monica and her
               team will manage your entire day and make sure it goes off without
-              a hitch. You will not have to worry about any unexpected problems
-              because we have already taken care of them.
+              a hitch. You will not have to worry if there are any unexpected
+              problems because we have already taken care of them.
             </p>
             <p>
               We are experts at event management and creating enchanting events
@@ -114,7 +120,7 @@ export default function Home({ data }) {
               life, and we do.
             </p>
             <p>
-              We always do our best to create unique, fun events with your
+              We always do our best to create unique and fun events with your
               personal style. As one of the top wedding planners in Maryland,
               you can count on us to be there from the beginning to the end.
             </p>
@@ -122,7 +128,7 @@ export default function Home({ data }) {
               We stay with you to ensure your big day is beautiful and
               stress-free.
             </p>
-            <p>P.S.: Our owner Monica, was born and raised in Annapolis.</p>
+            <p>P.S. Our owner Monica, was born and raised in Annapolis.</p>
             <p className="center-text">
               Book a 15-minute call with Monica and see how we can help plan
               your wedding
@@ -141,11 +147,11 @@ export default function Home({ data }) {
           width="472"
           height="708"
           pain1="Time looking on for the best wedding vendors"
-          pain2="Time finding the right wedding planner and coordinator"
+          pain2="Time finding the right event professionals to help you"
           pain3="Time trying to plan and style a wedding, something you've never done before"
           pain4="Time looking for a venue"
           pain5="Making timely decisions and staying organized"
-          pain6="Figuring out new Covid-19 protocols for events in Annapolis MD"
+          pain6="Figuring out new safety protocols for events in Annapolis, MD"
         />
         <section className="container">
           <div className="content">
@@ -171,14 +177,14 @@ export default function Home({ data }) {
               reviews on Google.
             </p>
             <p>
-              We love what we do, and it shows. We’re passionate about creating
-              beautiful celebrations that reflect each couple’s unique style and
+              We love what we do, and it shows. We're passionate about creating
+              beautiful celebrations that reflect each couple's unique style and
               personality, and we take great pride in our work.
             </p>
             <p>
               You can be confident that your wedding or event will be in good
-              hands when you choose Monica Browne Weddings. We’re professional,
-              reliable ,and fun to work with – everything you could want in a
+              hands when you choose Monica Browne Weddings. We're professional,
+              reliable, and fun to work with – everything you could want in a
               wedding planner!
             </p>
             <div className="center">
@@ -277,7 +283,7 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div>
             <h2 className="title">
               Watch This Romantic Wedding Video From One Of Our Happy Couples
@@ -304,7 +310,7 @@ export default function Home({ data }) {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div>
             <h2 className="title">Testimonials</h2>
@@ -368,26 +374,26 @@ export default function Home({ data }) {
           <h3>#1. How Long Before a Wedding Should You Start Planning?</h3>
           <p>
             It is never too early to start planning for your wedding. The sooner
-            you start, the better chance you have of making your dream wedding a
+            you start, the better your chance of making your dream wedding a
             reality. That being said, most couples wait until about 12 months
-            before their wedding to really start getting into the nitty-gritty
-            details. This gives you plenty of time to research, book vendors,
-            and finalize all the details without feeling too overwhelmed.
+            before their wedding to start getting into the nitty-gritty details.
+            This gives you plenty of time to research, book vendors, and
+            finalize all the details without feeling too overwhelmed.
           </p>
           <h3>#2. What is a Realistic Budget for a Wedding in Annapolis?</h3>
           <p>
             A realistic budget for a wedding in our area can vary greatly
-            depending on a number of factors, such as the size of the wedding,
-            the location, the type of ceremony and reception, and so on.
+            depending on several factors, such as the size of the wedding, the
+            location, the type of ceremony and reception, etc.
           </p>
           <p>
-            However, a reasonable budget for a wedding in the Washington, DC,
-            Annapolis, Baltimore area might be around{' '}
+            However, a reasonable budget for a wedding in the D.C., Annapolis,
+            and Baltimore area might be around{' '}
             <Link href="/blog/cost-of-a-wedding-in-washington-dc" passHref>
               <a>$28,000-$40,000</a>
             </Link>
-            . Of course, this is just a rough guide and you will need to tailor
-            your budget to your specific circumstances.{' '}
+            . Of course, this is just a rough guide, and you will need to tailor
+            your budget to your specific circumstances.
           </p>
           <h3>#3. What are the Three Largest Expenses With a Wedding?</h3>
           <p>
@@ -395,10 +401,13 @@ export default function Home({ data }) {
             the catering, and the number of guests. However, there are ways to
             save on each of these expenses. For example, you can often get a
             discount on the venue if you book it for a Friday or Sunday instead
-            of a Saturday. You can also save on catering by opting for a buffet
-            style meal instead of a sit-down dinner. And, finally, you can save
-            on the number of guests by having a{' '}
-            <Link href="/wedding-services/micro-wedding-packages-maryland">
+            of a Saturday. You can also save on catering by opting for a
+            buffet-style meal instead of a sit-down dinner. And finally, you can
+            save on the number of guests by having a{' '}
+            <Link
+              href="/wedding-services/micro-wedding-packages-maryland"
+              passHref
+            >
               <a>micro wedding</a>
             </Link>{' '}
             and inviting only close family and friends.
@@ -412,6 +421,16 @@ export default function Home({ data }) {
             months, so you'll have plenty of venue and vendor options to choose
             from. Plus, getting married during the off-season can help you save
             money on your wedding budget.
+          </p>
+          <h3>#5. #5. Can You Plan a Wedding in 3 Months?</h3>
+          <p>
+            While it is possible to plan a wedding in 3 months, doing everything
+            you want in such a short timeframe may be challenging. You may need
+            to be more flexible with your vendor choices and budget. It is also
+            important to remember that some vendors, such as photographers and
+            caterers, may book up several months in advance. If you're set on
+            having a specific vendor, you may need to plan your wedding closer
+            to the 6-month mark.
           </p>
           <div className="center">
             <a href={calendly}>

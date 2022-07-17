@@ -104,12 +104,12 @@ export default function Potomac() {
               </div>
             </div>
           </div>
-          <div className="center">
-            <a href={calendly} target="_blank">
-              <Button>Schedule a call!</Button>
-            </a>
-          </div>
         </section>
+        <div className="center">
+          <a href={calendly} target="_blank">
+            <Button>Schedule a call!</Button>
+          </a>
+        </div>
         <section className="container">
           <div className="content">
             <h2 className="title">

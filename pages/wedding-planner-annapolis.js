@@ -75,13 +75,23 @@ export default function Home({ data }) {
               most memorable events.
             </p>
             <p>Our services include:</p>
-            <ul>
+            <ul className="wedding-services">
               <li>Full-service planning</li>
               <li>Partial planning</li>
-              <li>Day-of coordination</li>
+              <li>
+                <li>
+                  <Link href="/day-of-wedding-coordinator" passHref>
+                    <a>Day of coordination</a>
+                  </Link>
+                </li>
+              </li>
               <li>Event coordination services</li>
               <li>Special Event Planning</li>
-              <li>Wedding decorating services</li>
+              <li>
+                <Link href="/wedding-services/wedding-decor-services" passHref>
+                  <a>Wedding decorating services</a>
+                </Link>
+              </li>
             </ul>
             <p>
               We help guide you through the wedding planning process and help
@@ -188,7 +198,6 @@ export default function Home({ data }) {
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/v1631495885/happy-bride-and-groom_bwyebx.webp"
                   alt="Happily Married Couple"
-                  rel="noreferrer"
                   loading="lazy"
                   width="472"
                   height="708"
@@ -199,7 +208,6 @@ export default function Home({ data }) {
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-with-flowers_xahpez.webp"
                   alt="Wedding Decorations and Design"
-                  rel="noreferrer"
                   loading="lazy"
                   width="472"
                   height="708"
@@ -208,14 +216,13 @@ export default function Home({ data }) {
               </div>
               <div className="wedding-service">
                 <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/wedding-flower-centerpiece-design_vq2ofj.webp"
-                  alt="Wedding Floral Design"
-                  rel="noreferrer"
+                  src="/images/maryland-wedding-planner-472w.webp"
+                  alt="Micro weddings by Monica Browne Weddings"
                   loading="lazy"
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Floral & Event Design</h3>
+                <h3 className="title">Micro Weddings</h3>
               </div>
             </Services>
             <div className="center">
@@ -376,10 +383,7 @@ export default function Home({ data }) {
           <p>
             However, a reasonable budget for a wedding in the Washington, DC,
             Annapolis, Baltimore area might be around{' '}
-            <Link
-              href="/blog/average-cost-of-a-wedding-in-washington-dc"
-              passHref
-            >
+            <Link href="/blog/cost-of-a-wedding-in-washington-dc" passHref>
               <a>$28,000-$40,000</a>
             </Link>
             . Of course, this is just a rough guide and you will need to tailor
@@ -421,6 +425,12 @@ export default function Home({ data }) {
 }
 
 const Main = styled('div')`
+
+ul.wedding-services {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
 
 .center-text {

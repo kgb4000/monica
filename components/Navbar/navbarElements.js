@@ -10,7 +10,6 @@ export const Nav = styled.nav`
   ${'' /* position: sticky; */}
   top: 0;
   z-index: 10;
-  max-width: 1200px;
   margin: 0 auto;
 
   @media screen and (max-width: 960px) {

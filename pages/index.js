@@ -60,7 +60,7 @@ export default function Home({ data }) {
                   href="/wedding-services/micro-wedding-packages-maryland"
                   passHref
                 >
-                  <a>Mico Weddings</a>
+                  <a>Micro Weddings</a>
                 </Link>
               </li>
               <li>Planning for Destination weddings</li>
@@ -83,7 +83,7 @@ export default function Home({ data }) {
             </p>
             <p>
               We're a full-service event planning company that will take care of
-              the entire wedding planning process for you.
+              your entire wedding planning process.
             </p>
             <p>
               Our{' '}
@@ -106,8 +106,8 @@ export default function Home({ data }) {
             </p>
             <p>
               As professional event planners, we will help you choose the best
-              vendors, pick a theme and style your event, and also handle all
-              the small details so you can enjoy youself.
+              vendors, pick a theme and style for your event, and handle all the
+              small details enjoy yourself.
             </p>
             <p>We will help you plan the perfect wedding.</p>
             <p>
@@ -453,16 +453,13 @@ export default function Home({ data }) {
             <h2 className="title">FAQs</h2>
             <h3>#1. How Much Does a Wedding Cost in the Washington DC Area?</h3>
             <p>
-              Marrying in the Washington DC area (Maryland, DC, and Virginia)
-              can cost{' '}
-              <Link
-                href="/blog/average-cost-of-a-wedding-in-washington-dc"
-                passHref
-              >
+              Getting married in the Washington DC area (Maryland, DC, and
+              Virginia) can cost{' '}
+              <Link href="/blog/cost-of-a-wedding-in-washington-dc" passHref>
                 <a>$28,000 - $37,000</a>
-              </Link>
-              . Most of your wedding budget will be on your venue, your caterer,
-              and how many guests you invite.
+              </Link>{' '}
+              and up. Most of your costs depend on how much your venue and
+              caterer charge, plus how many guests you invite.
             </p>
             <p>
               Other costs may include your photographer, ceremony and reception
@@ -486,7 +483,7 @@ export default function Home({ data }) {
               coordinator. Read this blog post to see which professional can
               assist you the best.
             </p>
-            <h3>#3. Can a Wedding Planner Save You Money?</h3>
+            <h3>#3. Can a Wedding Planner Save Me Money?</h3>
             <p>
               Some brides consider wedding planners a luxury, but they can save
               you money in the long run. A good wedding planner will have
@@ -505,7 +502,7 @@ export default function Home({ data }) {
               ceremony, cocktail hour, and reception.
             </p>
             <p>
-              They will help you select the best vendor like DJ, caterer,
+              They will help you select the best vendors like DJs, caterers,
               decorators, transportation providers, and more.
             </p>
             <p>
@@ -514,8 +511,7 @@ export default function Home({ data }) {
               vendors, the venue, and all your guests.
             </p>
             <p>
-              They keep you out of the loop so that you can enjoy the day
-              without being any stress.
+              They keep you out of the loop to have a stress-free wedding day.
             </p>
             <p>
               Read{' '}
@@ -528,7 +524,8 @@ export default function Home({ data }) {
             <p>Yes.</p>
             <p>
               Even though we are Maryland wedding planners, we offer
-              full-service wedding planning to couples throughout the DMV area.
+              full-service and partial-service event planning to couples
+              throughout the DMV area.
             </p>
             <p>
               We have planned weddings in Washington DC and Northern Virginia
@@ -549,11 +546,11 @@ export default function Home({ data }) {
 
 const Main = styled('div')`
 
-   ul.wedding-services {
-          margin-left: 3rem;
-          margin-top: 3rem;
-          margin-bottom: 3rem;
-        }
+  ul.wedding-services {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 
   li {
     list-style-type: disc;

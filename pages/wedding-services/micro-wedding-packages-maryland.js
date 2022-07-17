@@ -11,9 +11,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function Potomac() {
   const SEO = {
-    title: 'Micro Wedding Packages | Maryland',
+    title: 'Micro Wedding Packages | Maryland | Monica Browne Weddings',
     description:
-      'Want to have a Micro Wedding and need some guidance? Call Monica Browne Weddings. We specialize in planning intimate events.',
+      'Want a unique wedding experience? We specialize in micro wedding packages for Maryland couples looking for a stress-free intimate wedding. Call today!',
     canonical:
       'https://monicabrowneweddings.com/mirco-wedding-packages-maryland',
     openGraph: {
@@ -35,7 +35,7 @@ export default function Potomac() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Micro Wedding Packages"
+        heroText="Micro Wedding Packages for Maryland Couples"
         subText="We Help Couples Create Small Intimate Weddings and Events"
         buttonText="Book a call today"
         backgroundImage="/images/wedding-planner-vs-coordinator.webp"
@@ -45,7 +45,7 @@ export default function Potomac() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Micro Wedding Packages in Maryland</h1>
+            <h1 className="title">Micro Wedding Packages | Maryland</h1>
             <p>
               Are you looking to have a small, intimate ceremony but don't want
               to sacrifice quality?
@@ -199,7 +199,6 @@ export default function Potomac() {
                   </small>
                 </p>
               </li>
-              <hr></hr>
               <li>
                 <p>
                   <a
@@ -218,7 +217,6 @@ export default function Potomac() {
                   </small>
                 </p>
               </li>
-              <hr></hr>
               <li>
                 <p>
                   <a
@@ -260,7 +258,6 @@ export default function Potomac() {
               </li>
               <hr></hr>
               <li>The Blackwall Barn and Lodge</li>
-              <hr></hr>
               <li>
                 <p>
                   <a
@@ -279,7 +276,6 @@ export default function Potomac() {
                   </small>
                 </p>
               </li>
-              <hr></hr>
               <li>
                 <p>
                   <a
@@ -389,7 +385,7 @@ export default function Potomac() {
             <h2 className="title">What Do I Need for a Micro Wedding?</h2>
             <Simple>
               <li>
-                <p>Wedding Planner</p>
+                <p>Wedding Planning</p>
               </li>
               <li>
                 <p>Your Closest family and friends</p>
@@ -399,6 +395,12 @@ export default function Potomac() {
               </li>
               <li>
                 <p>Officiant</p>
+              </li>
+              <li>
+                <p>Small wedding ceremony</p>
+              </li>
+              <li>
+                <p>Small wedding reception</p>
               </li>
               <li>
                 <p>Marriage license</p>
@@ -456,9 +458,9 @@ export default function Potomac() {
             />
           </Gallery>
           <div className="center">
-            <Link href="/wedding-gallery">
+            <Link href="/contact">
               <a>
-                <Button>See More Pictures</Button>
+                <Button>Contact Monica</Button>
               </a>
             </Link>
           </div>

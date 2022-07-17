@@ -209,10 +209,10 @@ const Footer = () => {
               </p>
             </FooterContact>
           </FooterFoot>
-          <LowerFooter>
-            <p>Monica Browne Weddings &copy; {new Date().getFullYear()}</p>
-          </LowerFooter>
         </div>
+        <LowerFooter>
+          <p>Monica Browne Weddings &copy; {new Date().getFullYear()}</p>
+        </LowerFooter>
       </footer>
     </>
   )

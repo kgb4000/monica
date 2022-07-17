@@ -124,11 +124,17 @@ export default function Potomac() {
             <h3>You'll Save Money</h3>
             <p>
               One of the biggest benefits of micro weddings is that you'll save
-              money. With a wedding in the DC area costing $28,000 - $37,000,
-              you'll spend less on everything from your venue to your catering
-              when you have a smaller guest list. Plus, you can often get
-              discounts on vendor services when you have a smaller ceremony and
-              reception.
+              money.
+            </p>
+            <p>
+              With the{' '}
+              <Link href="/blog/how-much-does-a-100-person-wedding-cost">
+                <a>cost of a 100-person wedding</a>
+              </Link>{' '}
+              in the Washington, DC area at around $28,000 - $37,000, you'll
+              spend less on everything from your venue to your catering when you
+              have a smaller guest list. Plus, you can often get discounts on
+              vendor services when you have a smaller ceremony and reception.
             </p>
             <h3>You'll Save Time</h3>
             <p>

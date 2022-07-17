@@ -107,8 +107,8 @@ export default function Home({ data }) {
             <p>
               As an event planner and professional coordinator, Monica and her
               team will manage your entire day and make sure it goes off without
-              a hitch. You will not have to worry if there are any unexpected
-              problems because we have already taken care of them.
+              a hitch. You will not have to worry about any unexpected problems
+              because we have already taken care of them.
             </p>
             <p>
               We are experts at event management and creating enchanting events
@@ -162,8 +162,8 @@ export default function Home({ data }) {
               When you trust Monica Browne Weddings to plan your event, you can
               be confident that everything will be taken care of – from the
               smallest detail to the big picture. We have a proven track record
-              of delivering flawless events time and time again, and our clients
-              rave about our creative vision, calm demeanor, and impeccable
+              of delivering flawless events repeatedly, and our clients rave
+              about our creative vision, calm demeanor, and impeccable
               organizational skills.
             </p>
             <p>

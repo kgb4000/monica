@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import HeroSection from '../../components/HeroSection'
 import Button from '../../components/Button'
 import Simple from '../../components/Simple'
-import { NextSeo } from 'next-seo'
+import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -124,10 +124,11 @@ export default function Potomac() {
             <h3>You'll Save Money</h3>
             <p>
               One of the biggest benefits of micro weddings is that you'll save
-              money. You'll spend less on everything from your venue to your
-              catering when you have a smaller guest list. Plus, you can often
-              get discounts on vendor services when you have a smaller ceremony
-              and reception.
+              money. With a wedding in the DC area costing $28,000 - $37,000,
+              you'll spend less on everything from your venue to your catering
+              when you have a smaller guest list. Plus, you can often get
+              discounts on vendor services when you have a smaller ceremony and
+              reception.
             </p>
             <h3>You'll Save Time</h3>
             <p>
@@ -319,11 +320,9 @@ export default function Potomac() {
             <h3>#4. Start Planning</h3>
             <p>
               Now that you know what a micro wedding is and how to plan one,
-              it's time to start planning your dream day. With some help from{' '}
-              <Link href="/" passHref>
-                <a>Monica Browne Weddings</a>
-              </Link>
-              , you can have a small, unique wedding that you'll love.
+              it's time to start planning your dream day. With some help from
+              Monica Browne Weddings, you can have a small, unique wedding that
+              you'll love.
             </p>
           </div>
         </section>
@@ -367,7 +366,9 @@ export default function Potomac() {
             </h2>
             <Simple>
               <li>
-                <p>Wedding Planner</p>
+                <Link href="/">
+                  <a>Wedding planner</a>
+                </Link>
               </li>
               <li>
                 <p>Your Closest family and friends</p>
@@ -377,7 +378,7 @@ export default function Potomac() {
               </li>
               <li>
                 <Link href="/wedding-services/wedding-decor-services">
-                  <a>Decorations</a>
+                  <a>Wedding Decor</a>
                 </Link>
               </li>
               <li>
@@ -440,6 +441,35 @@ export default function Potomac() {
           </div>
           <section className="container">
             <div className="content">
+              <FAQPageJsonLd
+                mainEntity={[
+                  {
+                    questionName: 'How Long Should a Micro Wedding Be?',
+                    acceptedAnswerText:
+                      'Micro weddings are just smaller than traditional weddings with a smaller guest count, smaller ceremony, and smaller reception. Reception length will depend on how long you want to celebrate!',
+                  },
+                  {
+                    questionName:
+                      'How Much Should You Spend on a Micro Wedding?',
+                    acceptedAnswerText:
+                      'There is no set amount that you must spend on a micro wedding. However, a micro wedding is typically more low-key than a traditional wedding and often costs less. Couples may want to save wedding.',
+                  },
+                  {
+                    questionName: 'How Can I Save Money on a Micro Wedding?',
+                    acceptedAnswerText: `Some ways to save money on a micro wedding include: 
+                      1. Reducing the guest coun
+                      2. Choosing a less expensive wedding venue
+                      3. Asking friends and family to help with decor, food, and music
+                      4. Eliminating or reducing the wedding party
+                      5. Choosing simple decor and flowers
+                      6. Selecting a shorter menu
+                      7. Saving on the wedding dress and suit
+                      8. Opting for digital invitations
+                      9. Doing your makeup and hair
+                      10. Choosing a less expensive photographer`,
+                  },
+                ]}
+              />
               <h2>FAQ</h2>
               <h3>How Long Should a Micro Wedding Be?</h3>
               <p>

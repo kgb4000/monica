@@ -174,7 +174,7 @@ export default function Home({ data }) {
               >
                 5-star reviews
               </a>{' '}
-              reviews on Google.
+              on Google.
             </p>
             <p>
               We love what we do, and it shows. We're passionate about creating

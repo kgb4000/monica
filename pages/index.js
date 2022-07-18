@@ -455,7 +455,10 @@ export default function Home({ data }) {
             <p>
               Getting married in the Washington DC area (Maryland, DC, and
               Virginia) can cost{' '}
-              <Link href="/blog/cost-of-a-wedding-in-washington-dc" passHref>
+              <Link
+                href="/blog/how-much-does-a-100-person-wedding-cost"
+                passHref
+              >
                 <a>$28,000 - $37,000</a>
               </Link>{' '}
               and up. Most of your costs depend on how much your venue and

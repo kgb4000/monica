@@ -15,11 +15,11 @@ export default function Potomac() {
     description:
       'Want a unique wedding experience? We specialize in micro wedding packages for Maryland couples looking for a stress-free intimate wedding. Call today!',
     canonical:
-      'https://monicabrowneweddings.com/mirco-wedding-packages-maryland',
+      'https://monicabrowneweddings.com/wedding-services/micro-wedding-packages-maryland',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/mirco-wedding-packages-maryland',
+      url: 'https://monicabrowneweddings.com/wedding-services/micro-wedding-packages-maryland',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -477,13 +477,13 @@ export default function Potomac() {
                 ]}
               />
               <h2>FAQs</h2>
-              <h3>How Long Should a Micro Wedding Be?</h3>
+              <h3>#1. How Long Should a Micro Wedding Be?</h3>
               <p>
                 Micro weddings are just smaller than traditional weddings with a
                 smaller guest count, smaller ceremony, and smaller reception.
                 Reception length will depend on how long you want to celebrate!
               </p>
-              <h3>How Much Should You Spend on a Micro Wedding?</h3>
+              <h3>#2. How Much Should You Spend on a Micro Wedding?</h3>
               <p>
                 There is no set amount that you must spend on a micro wedding.
                 However, a micro wedding is typically more low-key than a
@@ -491,7 +491,7 @@ export default function Potomac() {
                 save approximately <b>$5,000 to $30,000</b> for their micro
                 wedding.
               </p>
-              <h3>How Can I Save Money on a Micro Wedding?</h3>
+              <h3>#3. How Can I Save Money on a Micro Wedding?</h3>
               <p>Some ways to save money on a micro wedding include:</p>
               <ul className="wedding-saving-acts">
                 <li>Reducing the guest count</li>

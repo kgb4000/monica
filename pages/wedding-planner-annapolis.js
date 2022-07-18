@@ -128,7 +128,7 @@ export default function Home({ data }) {
               We stay with you to ensure your big day is beautiful and
               stress-free.
             </p>
-            <p>P.S. Our owner Monica, was born and raised in Annapolis.</p>
+            <p>P.S. Our owner Monica, was born and raised in Annapolis, MD.</p>
             <p className="center-text">
               Book a 15-minute call with Monica and see how we can help plan
               your wedding
@@ -186,6 +186,11 @@ export default function Home({ data }) {
               hands when you choose Monica Browne Weddings. We're professional,
               reliable, and fun to work with – everything you could want in a
               wedding planner!
+            </p>
+            <p>
+              Contact us today to learn more about our services or to schedule a
+              free consultation. We can't wait to start planning your perfect
+              event!
             </p>
             <div className="center">
               <Link href="/contact">
@@ -382,18 +387,18 @@ export default function Home({ data }) {
           </p>
           <h3>#2. What is a Realistic Budget for a Wedding in Annapolis?</h3>
           <p>
-            A realistic budget for a wedding in our area can vary greatly
+            A realistic budget for a wedding in Annapolis, MD, can vary greatly
             depending on several factors, such as the size of the wedding, the
             location, the type of ceremony and reception, etc.
           </p>
           <p>
             However, a reasonable budget for a wedding in the D.C., Annapolis,
-            and Baltimore area might be around{' '}
+            and Baltimore area can be around{' '}
             <Link href="/blog/cost-of-a-wedding-in-washington-dc" passHref>
               <a>$28,000-$40,000</a>
             </Link>
-            . Of course, this is just a rough guide, and you will need to tailor
-            your budget to your specific circumstances.
+            . Of course, this is just a rough estimate, and you will need to
+            tailor your budget to your specific needs.
           </p>
           <h3>#3. What are the Three Largest Expenses With a Wedding?</h3>
           <p>

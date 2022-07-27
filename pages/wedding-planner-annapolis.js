@@ -92,7 +92,10 @@ export default function Home({ data }) {
               </li>
               <li>
                 {' '}
-                <Link href="/micro-wedding-packages-maryland" passHref>
+                <Link
+                  href="/wedding-services/micro-wedding-packages-maryland"
+                  passHref
+                >
                   <a> Micro Weddings</a>
                 </Link>
               </li>
@@ -394,7 +397,7 @@ export default function Home({ data }) {
           <p>
             However, a reasonable budget for a wedding in the D.C., Annapolis,
             and Baltimore area can be around{' '}
-            <Link href="/blog/cost-of-a-wedding-in-washington-dc" passHref>
+            <Link href="/blog/how-much-does-a-100-person-wedding-cost" passHref>
               <a>$28,000-$40,000</a>
             </Link>
             . Of course, this is just a rough estimate, and you will need to

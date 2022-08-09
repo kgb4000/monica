@@ -200,7 +200,7 @@ export default function DayOfWeddingCoordinator() {
             </p>
             <div className="center">
               <a href={calendly} rel="noreferrer">
-                <Button>Book a call with us!</Button>
+                <Button>Book a call with Monica!</Button>
               </a>
             </div>
             <img
@@ -311,8 +311,7 @@ export default function DayOfWeddingCoordinator() {
               height2="708"
             />
             <h2>
-              Why Choose Monica Browne Weddings as Your Day of Wedding
-              Coordinator?
+              Why Choose Monica Browne Weddings as Your DMV Wedding Coordinator?
             </h2>
             <p>
               Monica Browne Weddings is one of the top day of wedding

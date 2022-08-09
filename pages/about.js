@@ -35,10 +35,10 @@ export default function About() {
       <HeroSection
         heroText="About us"
         subText="Monica Browne Weddings"
-        buttonText="Book a Call Today!"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
-        buttonLink={calendly}
         backgroundHeight="70vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main itemscope itemType="https://schema.org/LocalBusiness">
         <section className="container">
@@ -57,8 +57,8 @@ export default function About() {
               you more free time to do the essential things you need to do.
             </p>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call today!</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -147,8 +147,8 @@ export default function About() {
               <p>Book a call and let's talk soon.</p>
             </Team>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call today!</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>

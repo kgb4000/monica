@@ -54,10 +54,10 @@ export default function Crofton({ data }) {
       <HeroSection
         heroText="Wedding Planning for Crofton Couples"
         subText="We Create Initmate Weddings For Couples in Crofton MD"
-        buttonText="Book A Call"
         backgroundImage="/images/happy-couple.webp"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">
@@ -83,12 +83,12 @@ export default function Crofton({ data }) {
               your life.
             </p>
             <h3 className="center-text">
-              Book a 15 minute call and see how we can help you plan your dream
+              Call today and see how Monica can help you plan your dream
               wedding.
             </h3>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -186,12 +186,12 @@ export default function Crofton({ data }) {
               </Simple>
             </div>
             <h3 className="center-text">
-              Book a 15 minute call with us and see how we can help as your
+              Book a 15 minute call with Monica and see how she can help as your
               Crofton wedding planner
             </h3>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -219,7 +219,7 @@ export default function Crofton({ data }) {
             </section>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call with Monica</Button>
               </a>
             </div>
           </div>

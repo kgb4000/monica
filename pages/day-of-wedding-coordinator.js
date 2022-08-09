@@ -35,8 +35,8 @@ export default function DayOfWeddingCoordinator() {
       <HeroSection
         heroText="Day of Wedding Coordinator for DMV Couples"
         subText="When You Need a Day of Wedding Coordinator Just For Your Wedding Day."
-        buttonText="Book a Call today!"
-        buttonLink={calendly}
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
         backgroundHeight="100vh"
         backgroundImage="/wedding-table-at-vineyard.webp"
       />

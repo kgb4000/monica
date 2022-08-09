@@ -36,7 +36,8 @@ export default function WeddingPlanning() {
         subText="Full-service wedding planning for couples in Maryland & DC"
         backgroundImage="/images/wedding-reception-decor.webp"
         backgroundHeight="100vh"
-        buttonText="Book a call today"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">
@@ -92,7 +93,7 @@ export default function WeddingPlanning() {
 
                 <div className="center">
                   <a href={calendly}>
-                    <Button>Book a call</Button>
+                    <Button>Book a call with Monica!</Button>
                   </a>
                 </div>
               </div>

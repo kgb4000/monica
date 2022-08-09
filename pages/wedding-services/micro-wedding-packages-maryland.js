@@ -37,10 +37,10 @@ export default function Potomac() {
       <HeroSection
         heroText="Micro Wedding Packages for Maryland Couples"
         subText="We Help Couples Create Small Intimate Weddings and Events"
-        buttonText="Book a call today"
         backgroundImage="/images/wedding-planner-vs-coordinator.webp"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">
@@ -65,8 +65,8 @@ export default function Potomac() {
               quality, then a micro wedding may be just what you're looking for.
             </p>
             <div className="center">
-              <a href={calendly} target="-blank">
-                <Button>Book a 15 min call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -165,11 +165,9 @@ export default function Potomac() {
               with one of Maryland's unique micro wedding packages.
             </p>
             <div className="center">
-              <Link href="/contact" passHref>
-                <a>
-                  <Button>Contact us!</Button>
-                </a>
-              </Link>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
             </div>
           </div>
         </section>
@@ -332,6 +330,11 @@ export default function Potomac() {
             </p>
           </div>
         </section>
+        <div className="center">
+          <a href="tel:+2402660588">
+            <Button>Call (240) 665-3350</Button>
+          </a>
+        </div>
         <section className="container">
           <div className="service-content get-started">
             <h2 className="title">
@@ -439,11 +442,9 @@ export default function Potomac() {
             />
           </Gallery>
           <div className="center">
-            <Link href="/contact">
-              <a>
-                <Button>Contact Monica</Button>
-              </a>
-            </Link>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 665-3350</Button>
+            </a>
           </div>
           <section className="container">
             <div className="content">

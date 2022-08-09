@@ -2,6 +2,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { NextSeo } from 'next-seo'
+import Button from '../components/Button'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -28,18 +29,7 @@ const Services = () => {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Wedding Services"
         subText="Services We Provide To Our Wonderful Couples"
@@ -171,6 +161,11 @@ const Services = () => {
                   </a>
                 </Link>
               </div>
+            </div>
+            <div className="center">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
             </div>
           </div>
         </div>

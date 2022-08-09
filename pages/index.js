@@ -31,10 +31,10 @@ export default function Home({ data }) {
       <HeroSection
         heroText="Wedding Planner For Busy Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
-        buttonText="Book A Call Today!"
         backgroundImage="/images/bride-groom-night-photo.jpg"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">
@@ -211,12 +211,12 @@ export default function Home({ data }) {
               </Simple>
             </div>
             <p className="center-text">
-              Book a 15 minute call with Monica and see how she can help you
-              plan your wedding
+              Call Monica and see how she can help make your wedding day a
+              success.
             </p>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book A Call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -243,11 +243,9 @@ export default function Home({ data }) {
               </ul>
             </PainPoints>
             <div className="center">
-              <Link href="/contact">
-                <a>
-                  <Button>Contact Monica</Button>
-                </a>
-              </Link>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
             </div>
           </div>
         </section>
@@ -443,8 +441,8 @@ export default function Home({ data }) {
             </p>
           </div>
           <div className="center">
-            <a href={calendly}>
-              <Button>Book A Call</Button>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 665-3350</Button>
             </a>
           </div>
         </section>
@@ -537,8 +535,8 @@ export default function Home({ data }) {
             </p>
           </div>
           <div className="center">
-            <a href={calendly}>
-              <Button>Book a call Today!</Button>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 665-3350</Button>
             </a>
           </div>
         </section>

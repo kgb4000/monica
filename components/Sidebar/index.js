@@ -48,8 +48,8 @@ const Sibebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           <SidebarBtnWrap>
             <SidebarBtnLink>
-              <SidebarBtnLinkA href={calendly}>
-                Book a Call Today!
+              <SidebarBtnLinkA href="tel:+2402660588">
+                Call (240) 665-3350
               </SidebarBtnLinkA>
             </SidebarBtnLink>
           </SidebarBtnWrap>

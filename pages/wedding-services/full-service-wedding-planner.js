@@ -34,10 +34,9 @@ export default function WeddingPlanning() {
       <HeroSection
         heroText="Full-Service Wedding Planner for Busy Couples"
         subText="Full-service wedding planning for couples in Maryland & DC"
-        buttonText="Book a Call"
         backgroundImage="/images/wedding-reception-decor.webp"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Book a call today"
       />
       <Main>
         <section className="container">
@@ -62,6 +61,11 @@ export default function WeddingPlanning() {
               Annapolis, Bethesda, Chevy Chase, Rockville, Silver Spring, and
               other Washington DC areas.
             </p>
+            <div className="center">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
+            </div>
             <section>
               <div className="service-content get-started">
                 <h2>How To Get Started</h2>
@@ -140,13 +144,11 @@ export default function WeddingPlanning() {
               another location. No matter what your needs are, we'll work with
               you to select the best locations possible within your budget.
             </p>
-
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
-
             <h3>Wedding Invitation and Accessory Selection Assistance</h3>
             <p>
               We'll work with you to create your wedding guest list and send out
@@ -225,7 +227,6 @@ export default function WeddingPlanning() {
               We'll also decorate the room, adding in any extra details that'll
               make your night even more special.
             </p>
-
             <p>
               Our wedding planning services include one lead{' '}
               <Link href="/day-of-wedding-coordinator" passHref>
@@ -234,7 +235,11 @@ export default function WeddingPlanning() {
               and two event assistants. You can feel confident that every aspect
               of your wedding will be handled flawlessly.{' '}
             </p>
-
+            <div className="center">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
+            </div>
             <h3>Why Choose Monica Browne Weddings?</h3>
             <p>
               You don't want to be so stressed and busy that you don't have the
@@ -285,31 +290,45 @@ export default function WeddingPlanning() {
               on Google here.
             </p>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
-            {/* <h2>FAQ</h2>
-            <h3>Why Should I Choose Full Service Planning?</h3>
+            <h2>FAQ</h2>
+            <h3>Is it worth it to hire a full-service wedding planner?</h3>
             <p>
-              You should choose full-service planning if you don't have the
-              time, or you don't know where to start.
+              Whether or not you should hire a full-service wedding planner
+              depends on your specific needs. If you have a large, complicated
+              wedding, it may be worth it to hire a full-service planner.
+              However, if you have a smaller, simpler wedding, you may not need
+              all the services a full-service planner offers. In that case, you
+              can save money by using a wedding planner who offers à la carte
+              services or by using a{' '}
+              <Link href="/day-of-wedding-coordinator" passHref>
+                <a>day of coordinator</a>
+              </Link>
+              .
             </p>
+            <h3>What can I expect from a full-service wedding planner?</h3>
             <p>
-              You could be an extremely busy person and you want a nice wedding,
-              but you just don't have the time and you know you will need some
-              help.
+              When you hire a full-service wedding planner, you can expect them
+              to be involved in every aspect of your wedding planning. They will
+              help you choose your venue, select your vendors, and create a
+              timeline for your big day. On your wedding day, they will ensure
+              everything runs smoothly, so you can relax and enjoy yourself.
             </p>
-            <h3>Why Should I Choose Partial Planning?</h3>
+            <h3>What is the average cost of a full-service wedding planner?</h3>
             <p>
-              You can choose partial planning if you want to plan some parts of
-              your wedding.{' '}
+              The average cost of a full-service wedding planner is
+              $2,000-$8,000. The exact cost will depend on the size and
+              complexity of your wedding, as well as the location and services
+              you require.
             </p>
-            <p>
-              Maybe you've selected your venue, but need to find a licenced
-              caterer and make sure they are insured.
-            </p>
-            <h3>What is the Cost of Full-Service Planning?</h3> */}
+          </div>
+          <div className="center">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 665-3350</Button>
+            </a>
           </div>
         </section>
       </Main>

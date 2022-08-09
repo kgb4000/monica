@@ -100,5 +100,6 @@ export const SidebarBtnLinkA = styled.a`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #000;
+    border-radius: 5px;
   }
 `

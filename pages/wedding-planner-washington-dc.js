@@ -52,10 +52,10 @@ export default function Home({ data }) {
       <HeroSection
         heroText="Wedding Planning for Washington DC Couples"
         subText="We Create Beautiful Weddings For Busy Couples in DC"
-        buttonText="Book a call Today!"
         backgroundImage="/images/flowers-in-pavillion.webp"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">

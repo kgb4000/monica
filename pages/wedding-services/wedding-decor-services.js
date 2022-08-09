@@ -36,10 +36,10 @@ export default function WeddingDecorations() {
       <HeroSection
         heroText="Wedding Decorations for Busy Couples"
         subText="The Best Wedding Decorators and Event Design Services in Maryland"
-        buttonText="Book a Call Today!"
         backgroundImage="/images/wedding-reception-decor.webp"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">
@@ -93,8 +93,8 @@ export default function WeddingDecorations() {
               height="708"
               Image2="/images/tall-wedding-flowers-centerpiece.webp"
               alt2="Tall wedding flowers centerpiece"
-              width="472"
-              height="708"
+              width2="472"
+              height2="708"
             />
             <img
               src="/images/black-red-wedding-decor.webp"
@@ -171,8 +171,8 @@ export default function WeddingDecorations() {
               height="708"
               Image2="/images/tall-wedding-flowers-centerpiece.webp"
               alt2="Tall wedding flowers centerpiece"
-              width="472"
-              height="708"
+              width2="472"
+              height2="708"
             />
             <ol>
               <li>
@@ -284,8 +284,8 @@ export default function WeddingDecorations() {
               height="708"
               Image2="/images/maryland-wedding-planner-472w.webp"
               alt2="Outside table setup for outdoor wedding."
-              width="472"
-              height="708"
+              width2="472"
+              height2="708"
             />
             <section>
               <div className="service-content get-started">

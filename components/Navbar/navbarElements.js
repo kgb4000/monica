@@ -98,6 +98,7 @@ export const NavLinksA = styled.a`
   padding: 0 1rem;
   height: 83px;
   cursor: pointer;
+  font-weight: 900;
 
   &:hover {
     border-bottom: 2px solid #fff;
@@ -120,6 +121,7 @@ export const NavBtnLink = styled.div`
   border: none;
   cursor: pointer;
   text-decoration: none;
+  font-weight: 700;
 
   &:hover {
     background-color: #fff;

@@ -30,25 +30,14 @@ export default function WeddingFlowers() {
   }
   return (
     <div>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Wedding Flowers Design"
         subText="The Best Custom Wedding Flowers Design Service In Maryland &amp; DC"
-        buttonText="Book a Call"
         backgroundImage="/images/wedding-reception-decor.webp"
-        buttonLink={calendly}
         backgroundHeight="100vh"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
       />
       <Main>
         <section className="container">

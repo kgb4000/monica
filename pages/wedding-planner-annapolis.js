@@ -54,10 +54,10 @@ export default function Home({ data }) {
       <HeroSection
         heroText="Wedding Planner For Couples in Annapolis"
         subText="We Create Beautiful Weddings For Couples in Annapolis MD"
-        buttonText="Book A Call"
-        backgroundImage="/images/william-paca-house-stairs-facing-house.webp"
-        buttonLink={calendly}
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:+2402660588"
         backgroundHeight="100vh"
+        backgroundImage="/images/william-paca-house-stairs-facing-house.webp"
       />
       <Main>
         <section className="container">

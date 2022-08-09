@@ -10,9 +10,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function DayOfWeddingCoordinator() {
   const SEO = {
-    title: 'Day of Wedding Coordinator in Maryland, DC, and Virginia',
+    title: 'DMV Wedding Coordinator | Monica Browne Weddings',
     description:
-      'Monica Browne Weddings is a day of wedding coordinator serving Maryland and DC. If you want someone you can trust to coordinate your wedding, book a call!',
+      'Monica Browne Weddings is a day of wedding coordinator serving the DMV. If you want someone you can trust to coordinate your wedding, call us today!',
     canonical: 'https://monicabrowneweddings.com/day-of-wedding-coordinator',
     openGraph: {
       type: 'website',
@@ -33,12 +33,12 @@ export default function DayOfWeddingCoordinator() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Day of Wedding Coordinator Services in the DMV"
+        heroText="Day of Wedding Coordinator for DMV Couples"
         subText="When You Need a Day of Wedding Coordinator Just For Your Wedding Day."
-        buttonText="Book a Call Today"
-        backgroundImage="/wedding-table-at-vineyard.webp"
+        buttonText="Book a Call today!"
         buttonLink={calendly}
         backgroundHeight="100vh"
+        backgroundImage="/wedding-table-at-vineyard.webp"
       />
       <Main>
         <section className="container">
@@ -46,13 +46,18 @@ export default function DayOfWeddingCoordinator() {
             <h1>Day of Wedding Coordinator in Maryland, DC, and Virginia</h1>
             <p>
               Monica Browne Weddings offers day-of wedding coordinator services
-              to couples in Maryland, Washington DC, and Virginia.
+              to couples in the DMV.
             </p>
             <p>
               When all you need is someone to manage the wedding day for you,
               give us a call to see why we are one of the top day-of wedding
               coordinators in the DMV.
             </p>
+            <div className="center">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
+            </div>
             <p>When you have hired all your wedding vendors yourself like:</p>
             <ul>
               <li>The DJ </li>
@@ -99,6 +104,11 @@ export default function DayOfWeddingCoordinator() {
                 To take care of problems and keep your wedding running smoothly
               </li>
             </ul>
+            <div className="center">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
+              </a>
+            </div>
             <PictureBox
               Image1="images/tea-lights.webp"
               alt1="Tea lights for wedding ailse"
@@ -132,8 +142,8 @@ export default function DayOfWeddingCoordinator() {
                 </li>
               </Simple>
               <div className="center">
-                <a href={calendly}>
-                  <Button>Book a call</Button>
+                <a href="tel:+2402660588">
+                  <Button>Call (240) 665-3350</Button>
                 </a>
               </div>
             </div>
@@ -190,7 +200,7 @@ export default function DayOfWeddingCoordinator() {
             </p>
             <div className="center">
               <a href={calendly} rel="noreferrer">
-                <Button>Book a call</Button>
+                <Button>Book a call with us!</Button>
               </a>
             </div>
             <img
@@ -286,8 +296,8 @@ export default function DayOfWeddingCoordinator() {
               .
             </p>
             <div className="center">
-              <a href={calendly} rel="noreferrer">
-                <Button>Book a call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
             <PictureBox
@@ -421,8 +431,8 @@ export default function DayOfWeddingCoordinator() {
               missed while planning your event.
             </p>
             <div className="center">
-              <a href={calendly} rel="noreferrer">
-                <Button>Book a call</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>

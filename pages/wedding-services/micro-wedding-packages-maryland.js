@@ -77,7 +77,7 @@ export default function Potomac() {
             <div className="about-micro-section">
               <img
                 src="/images/maryland-wedding-planner-472w.webp"
-                alt="Bride and Groom"
+                alt="Micro wedding packages from Monica Browne Weddings."
                 loading="lazy"
                 width="472"
                 height="708"
@@ -187,15 +187,14 @@ export default function Potomac() {
               <li>
                 <p>
                   <a
-                    href="https://www.prismannapolis.com/"
+                    href="https://www.google.com/search?q=Prisms+Annapolis&client=firefox-b-1-d&ei=a53_Yr7xLP-viLMPxJ2ayAg&ved=0ahUKEwj-0rT-jdP5AhX_F2IAHcSOBokQ4dUDCA0&uact=5&oq=Prisms+Annapolis&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEB4QFjIGCAAQHhAWMgIIJjoHCAAQRxCwAzoKCAAQRxCwAxDJAzoHCAAQsAMQQzoSCC4QxwEQrwEQyAMQsAMQQxgBSgQIQRgASgQIRhgBUKMKWKMKYIkRaANwAXgAgAE1iAE1kgEBMZgBAKABAqABAcgBFMABAdoBBggBEAEYCA&sclient=gws-wiz"
                     target="_blank"
                     rel="noreferrer"
-                    loading="lazy"
                   >
                     Prisms Annapolis
                   </a>
                 </p>
-                <addres>49 Spa Rd, Annapolis, MD 21401</addres>
+                <address>49 Spa Rd, Annapolis, MD 21401</address>
                 <p>
                   <small>(410) 295-0104</small>
                 </p>
@@ -203,15 +202,14 @@ export default function Potomac() {
               <li>
                 <p>
                   <a
-                    href="https://amaritime.org/"
+                    href="https://www.google.com/search?q=Annapolis+Maritime+Museum&client=firefox-b-1-d&ei=Tp3_YoSWOtzm5NoP-M2A2Ag&ved=0ahUKEwiE9dfwjdP5AhVcM1kFHfgmAIsQ4dUDCA0&uact=5&oq=Annapolis+Maritime+Museum&gs_lcp=Cgdnd3Mtd2l6EAMyEQguEIAEELEDEIMBEMcBEK8BMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyCwguEIAEEMcBEK8BMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIABBHELADOgoIABBHELADEMkDOg0ILhDHARCvARCwAxBDSgQIQRgASgQIRhgAUIEMWIEMYOATaANwAXgAgAFFiAFFkgEBMZgBAKABAqABAcgBCcABAQ&sclient=gws-wiz"
                     target="_blank"
                     rel="noreferrer"
-                    loading="lazy"
                   >
                     Annapolis Maritime Museum
                   </a>
                 </p>
-                <addres> 723 Second St, Annapolis, MD 21403</addres>
+                <address> 723 Second St, Annapolis, MD 21403</address>
                 <p>
                   <small>(410) 271-7271</small>
                 </p>
@@ -219,17 +217,16 @@ export default function Potomac() {
               <li>
                 <p>
                   <a
-                    href="https://thecountryclubatwoodmoreevents.com/weddings/"
+                    href="https://www.google.com/search?q=The+Country+Club+at+Woodmore&client=firefox-b-1-d&ei=NJ3_Yt6FA7msiLMPqoSe4Aw&ved=0ahUKEwje7-3jjdP5AhU5FmIAHSqCB8wQ4dUDCA0&uact=5&oq=The+Country+Club+at+Woodmore&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEEMcBEK8BMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjICCCY6BwgAEEcQsAM6EgguEMcBEK8BEMgDELADEEMYAToSCC4QxwEQ0QMQyAMQsAMQQxgBSgQIQRgASgQIRhgAUOYKWOYKYOMTaANwAXgAgAFliAFlkgEDMC4xmAEAoAECoAEByAEMwAEB2gEECAEYCA&sclient=gws-wiz"
                     target="_blank"
                     rel="noreferrer"
-                    loading="lazy"
                   >
                     The Country Club at Woodmore
                   </a>
                 </p>
-                <addres>
+                <address>
                   12320 Pleasant Prospect, Mitchellville, MD 20721
-                </addres>
+                </address>
                 <p>
                   <small>(301) 249-6100</small>
                 </p>
@@ -237,32 +234,44 @@ export default function Potomac() {
               <li>
                 <p>
                   <a
-                    href="https://www.historic-oakland.com/"
+                    href="https://www.google.com/search?q=Historic+Oakland&client=firefox-b-1-d&ei=F53_YryoOsKq5NoPq9OQoA8&ved=0ahUKEwj8j7vWjdP5AhVCFVkFHaspBPQQ4dUDCA0&uact=5&oq=Historic+Oakland&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEEMcBEK8BMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEOgcIABBHELADOhIILhDHARCvARDIAxCwAxBDGAFKBAhBGABKBAhGGABQ7BJY7BJg8iFoBHABeACAAU6IAU6SAQExmAEAoAECoAEByAELwAEB2gEECAEYCA&sclient=gws-wiz"
                     target="_blank"
                     rel="noreferrer"
-                    loading="lazy"
                   >
                     Historic Oakland
                   </a>
                 </p>
-                <addres>5430 Vantage Point Rd, Columbia, MD 21044</addres>
+                <address>5430 Vantage Point Rd, Columbia, MD 21044</address>
                 <p>
                   <small>(410) 730-4801</small>
                 </p>
               </li>
-              <li>The Blackwall Barn and Lodge</li>
               <li>
                 <p>
                   <a
-                    href="https://www.annapolis.org/contact/william-paca-house-garden"
+                    href="https://www.google.com/search?q=The+Blackwall+Barn+and+Lodge&client=firefox-b-1-d&ei=_Zz_YsK2Dtew5NoPxKeKsA4&ved=0ahUKEwiCqdzJjdP5AhVXGFkFHcSTAuYQ4dUDCA0&uact=5&oq=The+Blackwall+Barn+and+Lodge&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEEMcBEK8BMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyCQgAEB4QyQMQFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWOgoIABBHELADEMkDOgcIABBHELADSgQIQRgASgQIRhgAUOEJWOEJYJYSaANwAXgAgAFDiAFDkgEBMZgBAKABAqABAcgBCMABAQ&sclient=gws-wiz"
                     target="_blank"
                     rel="noreferrer"
-                    loading="lazy"
+                  >
+                    The Blackwall Barn and Lodge
+                  </a>
+                </p>
+                <address>329 Gambrills Rd, Gambrills, MD 21054</address>
+                <p>
+                  <small>(410) 317-2276</small>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    href="https://www.google.com/search?q=William+Paca+House+and+Garden&client=firefox-b-1-d&ei=45z_YoCsE4uh5NoPqoymqA0&ved=0ahUKEwjAqa69jdP5AhWLEFkFHSqGCdUQ4dUDCA0&uact=5&oq=William+Paca+House+and+Garden&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEEMcBEK8BMgIIJjIFCAAQhgM6BwgAEEcQsAM6CggAEEcQsAMQyQM6BwgAELADEEM6EgguEMcBEK8BEMgDELADEEMYAUoECEEYAEoECEYYAVCDDFiDDGDpFmgDcAF4AIABU4gBU5IBATGYAQCgAQKgAQHIARTAAQHaAQYIARABGAg&sclient=gws-wiz"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     William Paca House and Garden
                   </a>
                 </p>
-                <addres>186 Prince George St, Annapolis, MD 21401</addres>
+                <address>186 Prince George St, Annapolis, MD 21401</address>
                 <p>
                   <small>(410) 990-4543</small>
                 </p>
@@ -270,15 +279,14 @@ export default function Potomac() {
               <li>
                 <p>
                   <a
-                    href="https://www.cbmmweddings.com/"
+                    href="https://www.google.com/search?q=Chesapeake+Bay+Maritime+Museum&client=firefox-b-1-d&ei=OZz_YvbzLcPn5NoP-rKuyA4&ved=0ahUKEwi29MDsjNP5AhXDM1kFHXqZC-kQ4dUDCA0&uact=5&oq=Chesapeake+Bay+Maritime+Museum&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEEMcBEK8BMggIABCABBDJAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEOgcIABBHELADOhIILhDHARCvARDIAxCwAxBDGAFKBAhBGABKBAhGGABQyglYyglggRJoA3ABeACAAUyIAUySAQExmAEAoAECoAEByAELwAEB2gEECAEYCA&sclient=gws-wiz"
                     target="_blank"
                     rel="noreferrer"
-                    loading="lazy"
                   >
                     Chesapeake Bay Maritime Museum
                   </a>
                 </p>
-                <addres>213 N Talbot St, St Michaels, MD 21663</addres>
+                <address>213 N Talbot St, St Michaels, MD 21663</address>
                 <p>
                   <small>(410) 745-2916</small>
                 </p>

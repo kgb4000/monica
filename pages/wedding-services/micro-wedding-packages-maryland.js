@@ -11,9 +11,10 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 export default function Potomac() {
   const SEO = {
-    title: 'Micro Wedding Packages | Maryland | Monica Browne Weddings',
+    title:
+      'Micro Wedding Packages for Maryland Couples | Monica Browne Weddings',
     description:
-      'Want a unique wedding experience? We specialize in micro wedding packages for Maryland couples looking for a stress-free intimate wedding. Call today!',
+      'Want a unique nano wedding experience? We have micro wedding packages for Maryland couples looking for stress-free, intimate weddings. Call us today!',
     canonical:
       'https://monicabrowneweddings.com/wedding-services/micro-wedding-packages-maryland',
     openGraph: {
@@ -39,16 +40,16 @@ export default function Potomac() {
         subText="We Help Couples Create Small Intimate Weddings and Events"
         backgroundImage="/images/wedding-planner-vs-coordinator.webp"
         backgroundHeight="100vh"
-        buttonText="Call (240) 665-3350"
-        buttonLink="tel:+2406653350"
+        buttonText="Book a Call toady!"
+        buttonLink={calendly}
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Micro Wedding Packages | Maryland</h1>
+            <h1 className="title">Micro Wedding Packages</h1>
             <p>
-              Are you looking to have a small, intimate ceremony but don't want
-              to sacrifice quality?
+              Are you looking to have a small, intimate ceremony somewhere in
+              Maryland but don't want to sacrifice quality?
             </p>
             <p>
               If so, a micro wedding package may be just what you're looking
@@ -174,6 +175,10 @@ export default function Potomac() {
         <section className="container">
           <div className="content">
             <h2 className="title">Intimate Wedding Venues in Maryland</h2>
+            <p className="center">
+              These are just some of the wedding venues in Maryland that will
+              host your micro wedding.
+            </p>
             {/* <div className="micro-wedding-venues">
               <img
                 src="/images/william-paca-house-stairs-facing-house.jpg"
@@ -294,7 +299,7 @@ export default function Potomac() {
             </ul>
             <div className="center">
               <a href={calendly} target="_blank">
-                <Button>Schedule a call!</Button>
+                <Button>Schedule a call with us today!</Button>
               </a>
             </div>
           </div>

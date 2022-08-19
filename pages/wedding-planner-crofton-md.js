@@ -56,8 +56,8 @@ export default function Crofton({ data }) {
         subText="We Create Initmate Weddings For Couples in Crofton MD"
         backgroundImage="/images/happy-couple.webp"
         backgroundHeight="100vh"
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
       />
       <Main>
         <section className="container">
@@ -87,7 +87,7 @@ export default function Crofton({ data }) {
               wedding.
             </h3>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -190,8 +190,8 @@ export default function Crofton({ data }) {
               Crofton wedding planner
             </h3>
             <div className="center">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 665-3350</Button>
+              <a href={calendly}>
+                <Button>Book a call</Button>
               </a>
             </div>
           </div>

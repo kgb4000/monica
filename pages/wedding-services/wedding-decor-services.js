@@ -38,8 +38,8 @@ export default function WeddingDecorations() {
         subText="The Best Wedding Decorators and Event Design Services in Maryland"
         backgroundImage="/images/wedding-reception-decor.webp"
         backgroundHeight="100vh"
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
       />
       <Main>
         <section className="container">

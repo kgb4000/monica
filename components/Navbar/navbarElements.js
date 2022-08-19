@@ -22,7 +22,7 @@ export const NavbarContainer = styled.div`
   align-items: center;
   height: 80px;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 80%;
   padding: 1rem;
   width: 100%;
   margin: 0 auto;

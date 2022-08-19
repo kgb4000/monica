@@ -36,8 +36,8 @@ export default function WeddingPlanning() {
         subText="Full-service wedding planning for couples in Maryland & DC"
         backgroundImage="/images/wedding-reception-decor.webp"
         backgroundHeight="100vh"
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
       />
       <Main>
         <section className="container">
@@ -63,7 +63,7 @@ export default function WeddingPlanning() {
               other Washington DC areas.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -146,7 +146,7 @@ export default function WeddingPlanning() {
               you to select the best locations possible within your budget.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -237,7 +237,7 @@ export default function WeddingPlanning() {
               of your wedding will be handled flawlessly.{' '}
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -291,7 +291,7 @@ export default function WeddingPlanning() {
               on Google here.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -327,7 +327,7 @@ export default function WeddingPlanning() {
             </p>
           </div>
           <div className="center">
-            <a href="tel:+2402660588">
+            <a href="tel:+2406653350">
               <Button>Call (240) 665-3350</Button>
             </a>
           </div>

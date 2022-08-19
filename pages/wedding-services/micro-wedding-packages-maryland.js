@@ -39,8 +39,8 @@ export default function Potomac() {
         subText="We Help Couples Create Small Intimate Weddings and Events"
         backgroundImage="/images/wedding-planner-vs-coordinator.webp"
         backgroundHeight="100vh"
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
       />
       <Main>
         <section className="container">
@@ -65,7 +65,7 @@ export default function Potomac() {
               quality, then a micro wedding may be just what you're looking for.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -165,7 +165,7 @@ export default function Potomac() {
               with one of Maryland's unique micro wedding packages.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -331,7 +331,7 @@ export default function Potomac() {
           </div>
         </section>
         <div className="center">
-          <a href="tel:+2402660588">
+          <a href="tel:+2406653350">
             <Button>Call (240) 665-3350</Button>
           </a>
         </div>
@@ -442,7 +442,7 @@ export default function Potomac() {
             />
           </Gallery>
           <div className="center">
-            <a href="tel:+2402660588">
+            <a href="tel:+2406653350">
               <Button>Call (240) 665-3350</Button>
             </a>
           </div>

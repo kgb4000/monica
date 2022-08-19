@@ -35,8 +35,8 @@ export default function DayOfWeddingCoordinator() {
       <HeroSection
         heroText="Day of Wedding Coordinator for DMV Couples"
         subText="When You Need a Day of Wedding Coordinator Just For Your Wedding Day."
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
         backgroundHeight="100vh"
         backgroundImage="/wedding-table-at-vineyard.webp"
       />
@@ -54,7 +54,7 @@ export default function DayOfWeddingCoordinator() {
               coordinators in the DMV.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -105,7 +105,7 @@ export default function DayOfWeddingCoordinator() {
               </li>
             </ul>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -142,7 +142,7 @@ export default function DayOfWeddingCoordinator() {
                 </li>
               </Simple>
               <div className="center">
-                <a href="tel:+2402660588">
+                <a href="tel:+2406653350">
                   <Button>Call (240) 665-3350</Button>
                 </a>
               </div>
@@ -296,7 +296,7 @@ export default function DayOfWeddingCoordinator() {
               .
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -430,7 +430,7 @@ export default function DayOfWeddingCoordinator() {
               missed while planning your event.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>

@@ -37,8 +37,8 @@ export default function About() {
         subText="Monica Browne Weddings"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495886/monica-browne-wedding-planner_qa1xcl.webp"
         backgroundHeight="70vh"
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
       />
       <Main itemscope itemType="https://schema.org/LocalBusiness">
         <section className="container">
@@ -57,7 +57,7 @@ export default function About() {
               you more free time to do the essential things you need to do.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -147,8 +147,8 @@ export default function About() {
               <p>Book a call and let's talk soon.</p>
             </Team>
             <div className="center">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 665-3350</Button>
+              <a href={calendly} rel="noreferrer">
+                <Button>Book a call today!</Button>
               </a>
             </div>
           </div>

@@ -33,8 +33,8 @@ export default function Home({ data }) {
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         backgroundImage="/images/bride-groom-night-photo.jpg"
         backgroundHeight="100vh"
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:+2402660588"
+        buttonText="Call (240) 665-3350"
+        buttonLink="tel:+2406653350"
       />
       <Main>
         <section className="container">
@@ -215,7 +215,7 @@ export default function Home({ data }) {
               success.
             </p>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -243,7 +243,7 @@ export default function Home({ data }) {
               </ul>
             </PainPoints>
             <div className="center">
-              <a href="tel:+2402660588">
+              <a href="tel:+2406653350">
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
@@ -441,7 +441,7 @@ export default function Home({ data }) {
             </p>
           </div>
           <div className="center">
-            <a href="tel:+2402660588">
+            <a href="tel:+2406653350">
               <Button>Call (240) 665-3350</Button>
             </a>
           </div>
@@ -535,8 +535,8 @@ export default function Home({ data }) {
             </p>
           </div>
           <div className="center">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 665-3350</Button>
+            <a href={calendly}>
+              <Button>Book a call Today!</Button>
             </a>
           </div>
         </section>

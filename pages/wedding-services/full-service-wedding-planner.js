@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function WeddingPlanning() {
+function WeddingPlanning() {
   const SEO = {
     title: 'Full-Service Wedding Planner in the DMV | Monica Browne',
     description:
@@ -336,6 +336,8 @@ export default function WeddingPlanning() {
     </div>
   )
 }
+
+export default WeddingPlanning
 
 const Main = styled('div')`
   @media (min-width: 768px) {

@@ -126,7 +126,7 @@ const Testimonials = () => {
 
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call today!</Button>
               </a>
             </div>
           </div>

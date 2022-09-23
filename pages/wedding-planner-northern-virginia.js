@@ -29,14 +29,15 @@ export const getStaticProps = async () => {
 function Annapolis({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Wedding Planner Annapolis | Local Wedding Planning Specialists',
+    title: 'Wedding Planner Northern Virginia | Monica Browne Wedings',
     description:
-      'Looking for a wedding planner in Annapolis? We are local wedding planning experts that can help plan your day perfect. Schedule a call with us today!',
-    canonical: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
+      'Looking for a wedding planner in Northern Virginia? We are local wedding planning experts that can help plan your day perfect. Schedule a call with us today!',
+    canonical:
+      'https://monicabrowneweddings.com/wedding-planner-northern-virginia',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/wedding-planner-annapolis',
+      url: 'https://monicabrowneweddings.com/wedding-planner-northern-virginia',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -52,111 +53,118 @@ function Annapolis({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Planner For Couples in Annapolis"
-        subText="We Create Beautiful Weddings For Couples in Annapolis MD"
+        heroText="Wedding Planner For Couples in Northern Virginia"
+        subText="We help couples in Alexandria, Fairfax, Chantilly, and Falls Church Plan the Perfect Day."
         buttonText="Book a Call today!"
         buttonLink={calendly}
         backgroundHeight="100vh"
-        backgroundImage="/images/william-paca-house-stairs-facing-house.webp"
+        backgroundImage="/images/wedding-ceremony.webp"
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner Annapolis</h1>
-            <p>Are you looking for a wedding planner in Annapolis, MD?</p>
-            <p>Look no further than Monica Browne Weddings.</p>
+            <h1 className="title">Wedding Planner in Northern Virginia</h1>
             <p>
-              Monica Browne Weddings is a boutique wedding planning company and
-              event planning company serving couples in Annapolis and throughout
-              Maryland, and Washington, DC.
+              Planning your wedding day should be a happy time and a fun
+              experience.
+            </p>
+            <p>But for some couples, it can be time-consuming and stressful.</p>
+            <p>
+              Unfortunately, some couples are too busy to plan the ceremony and
+              reception they want. They end up trying to plan the event
+              themselves and working on their wedding day.
+            </p>
+            <p>That's where we come in.</p>
+            <p>
+              We're an event management and wedding planning company that can
+              manage your entire wedding planning process for you.
             </p>
             <p>
-              We are special event planners here to help you plan one of the
-              most memorable events.
+              We make sure your wedding has the artfully curated details you
+              want and that it runs smoothly without any issues.
             </p>
-            <p>Our services include:</p>
+            <p>
+              Our{' '}
+              <Link href="/wedding-services/full-service-wedding-planner">
+                <a>full-service planning</a>
+              </Link>{' '}
+              gives you the freedom and flexibility to plan events and maintain
+              your busy lifestyle.
+            </p>
+            <p>
+              Our{' '}
+              <Link href="/day-of-wedding-coordinator">
+                <a>day-of coordination service</a>
+              </Link>{' '}
+              allows you to do some or all of the planning and let us manage the
+              big day for you.
+            </p>
+            <p>
+              We offer full-service, partial-service, and special event planning
+              in:
+            </p>
             <ul className="wedding-services">
-              <li>
-                <Link
-                  href="/wedding-services/full-service-wedding-planner"
-                  passHref
-                >
-                  <a>Full service planning</a>
-                </Link>
-              </li>
-              <li>Partial planning</li>
-              <li>
-                <Link href="/day-of-wedding-coordinator" passHref>
-                  <a>Day of coordination</a>
-                </Link>
-              </li>
-              <li>
-                {' '}
-                <Link
-                  href="/wedding-services/micro-wedding-packages-maryland"
-                  passHref
-                >
-                  <a> Micro Weddings</a>
-                </Link>
-              </li>
-              <li>Event coordination services</li>
-              <li>Special Event Planning</li>
+              <li>Alexandria, VA</li>
+              <li>Chantilly, VA</li>
+              <li>Fairfax, VA</li>
+              <li>Falls Church, VA</li>
+              <li>Loudoun County, VA</li>
             </ul>
             <p>
-              We help guide you through the wedding planning process and help
-              alleviate any frustration in preparing for one of the most
-              important events of your life.
+              We give you helpful tips and suggestions, which save you from
+              worrying about all the essential and unique details.
             </p>
             <p>
-              As an event planner and professional coordinator, Monica and her
-              team will manage your entire day and make sure it goes off without
-              a hitch. You will not have to worry about any unexpected problems
-              because we have already taken care of them.
+              Our talented professionals work closely with you to create a
+              custom plan that fits your vision.
             </p>
             <p>
-              We are experts at event management and creating enchanting events
-              with over 15 years in the industry. You tell us your vision, and
-              we'll cover all the details.
+              We help choose the best vendors, pick a theme and style for your
+              event, and handle all the small details.
             </p>
             <p>
-              Wedding savvy couples trust us to bring their wedding dreams to
-              life, and we do.
+              We will help make it a meaningful and happy experience, not a
+              stressful one.
             </p>
             <p>
-              We always do our best to create unique and fun events with your
-              personal style. As one of the top wedding planners in Maryland,
-              you can count on us to be there from the beginning to the end.
+              {' '}
+              Check out our{' '}
+              <a
+                href="https://www.google.com/search?client=firefox-b-1-d&q=monica+browne+weddings#lrd=0x89b7eb901b80745b:0x27f704e516f44ed0,1,,,"
+                target="_blank"
+              >
+                5-star reviews
+              </a>{' '}
+              on Google.
             </p>
             <p>
-              We stay with you to ensure your big day is beautiful and
-              stress-free.
+              If you are looking for wedding planners in Northern Virginia,
+              please get in touch with us today to schedule a consultation.
             </p>
-            <p>P.S. Our owner Monica, was born and raised in Annapolis, MD.</p>
             <p className="center-text">
-              Book a 15-minute call with Monica and see how we can help plan
-              your wedding
+              Book a 15-minute call with us and see how we can help you.
             </p>
             <div className="center">
-              <a href="tel:+2406653350">
-                <Button>Call (240) 665-3350</Button>
+              <a href={calendly}>
+                <Button>Book a call today!</Button>
               </a>
             </div>
           </div>
         </section>
         <PainSection
-          title="Wedding Planning Can Cost You A Lot of Time"
+          title="Planning the Details of Your Ceremony and Reception Can Be Time Consuming"
           src="/images/wedding-floral-design-472.webp"
-          alt="Flowers designed by Annapolis wedding planner Monica Browne"
+          alt="Flowers designed by wedding planner Monica Browne"
           width="472"
           height="708"
           pain1="Time looking on for the best wedding vendors"
-          pain2="Time finding the right event professionals to help you"
+          pain2="Time finding the right event professionals in Northern, VA to help you"
           pain3="Time trying to plan and style a wedding, something you've never done before"
           pain4="Time looking for a venue"
           pain5="Making timely decisions and staying organized"
-          pain6="Figuring out new safety protocols for events in Annapolis, MD"
+          pain6="Figuring out new safety protocols for events in VA"
         />
-        <section className="container">
+        {/* <section className="container">
           <div className="content">
             <h2 className="title">
               Why Choose Monica Browne Weddings as Your Wedding Planner?
@@ -203,7 +211,7 @@ function Annapolis({ data }) {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div>
             <h2 className="title">Our Wedding Services</h2>
@@ -220,8 +228,12 @@ function Annapolis({ data }) {
               </div>
               <div className="wedding-service">
                 <img
-                  src="https://res.cloudinary.com/browne-company/image/upload/v1631495884/bride-with-flowers_xahpez.webp"
-                  alt="Wedding Decorations and Design"
+                  srcSet="images/wedding-floral-design-472.webp 480w,
+                            images/wedding-floral-design-472.webp 800w"
+                  sizes="(max-width: 480px) 480px,
+                            800px"
+                  src="images/wedding-floral-design-472.webp"
+                  alt="Wedding table setting design"
                   loading="lazy"
                   width="472"
                   height="708"
@@ -230,13 +242,17 @@ function Annapolis({ data }) {
               </div>
               <div className="wedding-service">
                 <img
-                  src="/images/maryland-wedding-planner-472w.webp"
-                  alt="Micro weddings by Monica Browne Weddings"
+                  srcSet="images/wedding-table-setting-design-311w.webp 480w,
+                            images/wedding-table-setting-design-472w.webp 800w"
+                  sizes="(max-width: 480px) 480px,
+                            800px"
+                  src="images/wedding-table-setting-design-472w.webp"
+                  alt="Wedding table setting design"
                   loading="lazy"
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Micro Weddings</h3>
+                <h3 className="title">Day of Coordination</h3>
               </div>
             </Services>
             <div className="center">
@@ -251,42 +267,39 @@ function Annapolis({ data }) {
         <section className="container">
           <div className="service-content get-started">
             <h2 className="title">
-              We Make Wedding Planning For Annapolis Couples Simple
+              Monica Makes the Wedding Planning Process Simple
             </h2>
             <div>
               <Simple>
                 <li>
-                  <h4>Talk To Monica</h4>
+                  <h4>Call Monica</h4>
                   <p>
-                    Schedule your call with Monica and see how she can help with
-                    full-service planning, partial service, or event management.
+                    Talk with Monica and see how she can help you bring your
+                    vision to life.
                   </p>
                 </li>
                 <li>
-                  <h4>Plan & Budget</h4>
+                  <h4>Start Planning</h4>
                   <p>
-                    Let Monica help you with the planning process, your budget,
-                    finding reputable vendors, and help style your entire event,
-                    including the ceremony and reception.
+                    Work out a budget and start planning the details, like
+                    decor, food choices, attire, guest list, and more.
                   </p>
                 </li>
                 <li>
-                  <h4>Enjoy Your Special Day</h4>
+                  <h4>Enjoy Your Big Day</h4>
                   <p>
-                    Enjoy your wedding day with no worries, no stress, and
-                    problems. We'll take care of your event coordination and the
-                    details so your day is stress-free.
+                    Come, get married, and enjoy the moment, and create history.
                   </p>
                 </li>
               </Simple>
             </div>
             <p className="center-text">
-              Book a 15-minute call with us and see how we can help as your
-              Annapolis wedding planner
+              Call Monica and see how she can help make your wedding day a
+              success.
             </p>
             <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
+              <a href="tel:+2406653350">
+                <Button>Call (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -323,14 +336,14 @@ function Annapolis({ data }) {
           <div>
             <h2 className="title">Testimonials</h2>
             <Testimonial>
-              I am so thankful that I used Monica Browne Weddings for my rooftop
-              wedding in the summer of 2010. It has been 5 years, and I still
-              have family and friends tell me how beautiful my wedding day was.
-              I could not have been more pleased with their work. They listened
-              to all my wants and carried them out exactly how I asked them to.
-              They were friendly, understanding, and effortless to work with...
+              Choosing Monica Browne Weddings to meet my needs during one of the
+              most important events in my life was a decision that hosts no
+              regrets. True professionalism, at its best! While planning a
+              wedding can be very stressful and hectic, my experience with
+              Monica Browne Weddings was definitely one that was fun and
+              exciting! ...
             </Testimonial>
-            <TestimonialAuthor>Katrina</TestimonialAuthor>
+            <TestimonialAuthor>Teresa Thomas</TestimonialAuthor>
             <div className="center">
               <Link href="/testimonials">
                 <a>
@@ -361,9 +374,8 @@ function Annapolis({ data }) {
               height="708"
             />
             <img
-              src="https://res.cloudinary.com/browne-company/image/upload/v1631495887/tall-wedding-flowers-centerpiece_ql8yf6.webp"
-              alt="Wedding table centerpiece"
-              rel="noreferrer"
+              src="/images/wedding-cake.webp"
+              alt="Wedding cake picture"
               loading="lazy"
               width="472"
               height="708"
@@ -378,67 +390,64 @@ function Annapolis({ data }) {
           </div>
         </section>
         <section className="container">
-          <h2 className="title">FAQs</h2>
-          <h3>#1. How Long Before a Wedding Should You Start Planning?</h3>
+          <h2 className="title">Frequently Asked Questions</h2>
+          <h3>#1. How Much Does a Wedding Cost in Northern Virginia</h3>
           <p>
-            It is never too early to start planning for your wedding. The sooner
-            you start, the better your chance of making your dream wedding a
-            reality. That being said, most couples wait until about 12 months
-            before their wedding to start getting into the nitty-gritty details.
-            This gives you plenty of time to research, book vendors, and
-            finalize all the details without feeling too overwhelmed.
-          </p>
-          <h3>#2. What is a Realistic Budget for a Wedding in Annapolis?</h3>
-          <p>
-            A realistic budget for a wedding in Annapolis, MD, can vary greatly
-            depending on several factors, such as the size of the wedding, the
-            location, the type of ceremony and reception, etc.
+            In the DC metro area, at least, a wedding can cost anywhere between
+            $27,000 and $37,000, but it all depends on what you want to spend.
           </p>
           <p>
-            However, a reasonable budget for a wedding in the D.C., Annapolis,
-            and Baltimore area can be around{' '}
-            <Link href="/blog/how-much-does-a-100-person-wedding-cost" passHref>
-              <a>$28,000-$40,000</a>
-            </Link>
-            . Of course, this is just a rough estimate, and you will need to
-            tailor your budget to your specific needs.
+            You can have a small wedding and spend $5,000 to $10,000 or $50,000
+            to $200,000.
           </p>
-          <h3>#3. What are the Three Largest Expenses With a Wedding?</h3>
+          <p>It depends on what you want to spend.</p>
           <p>
-            The three largest expenses with a wedding are typically the venue,
-            the catering, and the number of guests. However, there are ways to
-            save on each of these expenses. For example, you can often get a
-            discount on the venue if you book it for a Friday or Sunday instead
-            of a Saturday. You can also save on catering by opting for a
-            buffet-style meal instead of a sit-down dinner. And finally, you can
-            save on the number of guests by having a{' '}
-            <Link
-              href="/wedding-services/micro-wedding-packages-maryland"
-              passHref
-            >
-              <a>micro wedding</a>
-            </Link>{' '}
-            and inviting only close family and friends.
+            Most of the cost depends on your guest count, caterer, and venue.
           </p>
-          <h3>#4. What's the Best Month to Get Married?</h3>
+          <h3>#2. How Much Does Wedding Planner Cost in Northern VA?</h3>
           <p>
-            There's no definitive answer to this question, as every couple's
-            circumstances are unique. However, we recommend getting married
-            between May and October. These months generally boast the best
-            weather for an outdoor wedding, and they're also popular wedding
-            months, so you'll have plenty of venue and vendor options to choose
-            from. Plus, getting married during the off-season can help you save
-            money on your wedding budget.
+            An experienced planner can cost $2,000 to $10,000 in our metro area.
           </p>
-          <h3>#5. Can You Plan a Wedding in 3 Months?</h3>
           <p>
-            While it is possible to plan a wedding in 3 months, doing everything
-            you want in such a short timeframe may be challenging. You may need
-            to be more flexible with your vendor choices and budget. It is also
-            important to remember that some vendors, such as photographers and
-            caterers, may book up several months in advance. If you're set on
-            having a specific vendor, you may need to plan your wedding closer
-            to the 6-month mark.
+            This price depends on the planner's experience and the size of the
+            event.
+          </p>
+          <p>
+            It also depends on whether it is day-of coordination or a
+            full-service package.
+          </p>
+          <p>
+            A day-of coordinator can cost $2,000 - $4,000, while full planning
+            can cost $4,000 - $10,000 plus.
+          </p>
+          <p>Call us to get a custom quote for your event.</p>
+          <h3>#3. Can I Plan My Wedding Myself?</h3>
+          <p>Yes, you can.</p>
+          <p>
+            Some clients want to be hands-on in the planning stage but want
+            someone to manage the day of the event.
+          </p>
+          <p>
+            Some clients are too busy and need a knowledgeable and trustworthy
+            professional to get things done.
+          </p>
+          <p>We can help you in both cases.</p>
+          <h3>#4. When Should I Start Planning My Wedding?</h3>
+          <p>It depends on when you want to get married.</p>
+          <p>
+            After you pick a date, you can start planning one year, six months,
+            or three months before your wedding.
+          </p>
+          <p>
+            Just know that some venues, caterers, and other vendors are usually
+            booked six months to a year in advance.
+          </p>
+          <h3>#5. How Can a Wedding Planner Save Me Money</h3>
+          <p>A planner can save you time and money.</p>
+          <p>
+            We can save you time by suggesting reputable vendors we worked with
+            in the past. We can also save you money by negotiating prices and
+            fees because of our relationships.
           </p>
           <div className="center">
             <a href="tel:+2406653350">

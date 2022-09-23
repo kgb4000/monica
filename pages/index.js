@@ -23,7 +23,7 @@ export const getStaticProps = async () => {
   }
 }
 
-export default function Home({ data }) {
+function Home({ data }) {
   const [isOpen, setOpen] = useState(false)
   return (
     <div>
@@ -544,6 +544,8 @@ export default function Home({ data }) {
     </div>
   )
 }
+
+export default Home
 
 const Main = styled('div')`
 

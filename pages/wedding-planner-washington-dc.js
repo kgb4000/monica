@@ -24,7 +24,7 @@ export const getStaticProps = async () => {
   }
 }
 
-export default function Home({ data }) {
+function Washington({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Wedding Planner Washington DC | Monica Browne Weddings Specialists',
@@ -363,6 +363,8 @@ export default function Home({ data }) {
     </div>
   )
 }
+
+export default Washington
 
 const Main = styled('div')`
 

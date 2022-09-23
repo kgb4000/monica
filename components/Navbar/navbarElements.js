@@ -22,10 +22,14 @@ export const NavbarContainer = styled.div`
   align-items: center;
   height: 80px;
   z-index: 1;
-  max-width: 80%;
+  max-width: 100%;
   padding: 1rem;
   width: 100%;
   margin: 0 auto;
+
+  @media screen and (min-width: 1440px) {
+    max-width: 80%;
+  }
 `
 // export const NavLogo = styled.div`
 //   color: #000;
@@ -61,6 +65,7 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     align-item: center;
     color: #fff;
+    line-height: 1rem;
   }
 `
 

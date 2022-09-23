@@ -8,7 +8,7 @@ import PictureBox from '../components/picture-box'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function DayOfWeddingCoordinator() {
+function DayOfWeddingCoordinator() {
   const SEO = {
     title: 'DMV Wedding Coordinator | Monica Browne Weddings',
     description:
@@ -440,6 +440,8 @@ export default function DayOfWeddingCoordinator() {
     </div>
   )
 }
+
+export default DayOfWeddingCoordinator
 
 const Main = styled('div')`
   h1 {

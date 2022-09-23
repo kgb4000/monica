@@ -8,7 +8,7 @@ import PictureBox from '../../components/picture-box'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function WeddingDecorations() {
+function WeddingDecorations() {
   const SEO = {
     title: 'Best Wedding Decor Services in DC, Maryland, and Virginia.',
     description:
@@ -391,6 +391,8 @@ export default function WeddingDecorations() {
     </div>
   )
 }
+
+export default WeddingDecorations
 
 const Main = styled('div')`
   h1 {

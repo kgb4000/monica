@@ -12,7 +12,7 @@ const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Potomac() {
+function Potomac() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Wedding Planner Potomac Maryland | Monica Browne Weddings',
@@ -268,6 +268,8 @@ export default function Potomac() {
     </div>
   )
 }
+
+export default Potomac
 
 const Main = styled('div')`
 

@@ -9,7 +9,7 @@ import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Potomac() {
+function Potomac() {
   const SEO = {
     title:
       'Micro Wedding Packages for Maryland Couples | Monica Browne Weddings',
@@ -173,21 +173,20 @@ export default function Potomac() {
           </div>
         </section>
         <section className="container">
+          <img
+            src="/images/wedding-venue-at-linganore-wines.webp"
+            alt="Micro wedding ceremony setup at Linanore Winery in Maryland."
+            title="Micro wedding ceremony setup at Linanore Winery in Maryland"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
           <div className="content">
             <h2 className="title">Intimate Wedding Venues in Maryland</h2>
             <p className="center">
               These are just some of the wedding venues in Maryland that will
               host your micro wedding.
             </p>
-            {/* <div className="micro-wedding-venues">
-              <img
-                src="/images/william-paca-house-stairs-facing-house.jpg"
-                width="300px"
-              />
-              <div className="venue-info">
-                <p>William Paca House</p>
-              </div>
-            </div> */}
             <ul className="micro-wedding-venues">
               <li>
                 <p>
@@ -533,6 +532,8 @@ export default function Potomac() {
     </div>
   )
 }
+
+export default Potomac
 
 const Main = styled('div')`
 

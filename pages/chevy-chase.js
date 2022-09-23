@@ -12,7 +12,7 @@ import ModalVideo from 'react-modal-video'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+function ChevyChase() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Chevy Chase Wedding Planner | Monica Browne Weddings',
@@ -244,6 +244,8 @@ export default function Home() {
     </div>
   )
 }
+
+export default ChevyChase
 
 const Main = styled('div')`
 

@@ -12,7 +12,7 @@ const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-export default function Home() {
+function Woodmore() {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Woodmore Wedding Planner | Monica Browne Weddings',
@@ -269,6 +269,8 @@ export default function Home() {
     </div>
   )
 }
+
+export default Woodmore
 
 const Main = styled('div')`
 

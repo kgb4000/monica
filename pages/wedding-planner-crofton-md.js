@@ -26,7 +26,7 @@ export const getStaticProps = async () => {
   }
 }
 
-export default function Crofton({ data }) {
+function Crofton({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Wedding Planner in Crofton MD | Monica Browne Weddings',
@@ -286,6 +286,8 @@ export default function Crofton({ data }) {
     </div>
   )
 }
+
+export default Crofton
 
 const Main = styled('div')`
 

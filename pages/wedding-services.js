@@ -33,7 +33,7 @@ const Services = () => {
       <HeroSection
         heroText="Wedding Services"
         subText="Services We Provide To Our Wonderful Couples"
-        buttonText="Book a Call"
+        buttonText="Book a Call today!"
         backgroundImage="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631495889/wedding-table-setting_opiqqu.webp"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -156,6 +156,27 @@ const Services = () => {
                   flower ideas. If you need us to plan...
                 </p>
                 <Link href="/wedding-services/wedding-flowers" passHref>
+                  <a>
+                    <p>Read more</p>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="services">
+              <img
+                src="/images/birthday-party-event-planner.jpg"
+                alt="Birhtday party event planner - Monica Browne."
+                loading="lazy"
+              />
+              <div className="service-info">
+                <h3 className="title">Birthday Party Planning</h3>
+                <p>
+                  A birthday party is held to recognize the lives of the people
+                  you care about and ensure that you have the best party
+                  possible. Celebrate yourself, your mother, father, spouse,
+                  child, or best friend ...
+                </p>
+                <Link href="/birthday-party-event-planner" passHref>
                   <a>
                     <p>Read more</p>
                   </a>

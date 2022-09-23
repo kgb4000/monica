@@ -175,6 +175,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/wedding-planner-northern-virginia" passHref>
+                    <a>Northern Virginia</a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/wedding-planner-potomac-md" passHref>
                     <a>Potomac, MD</a>
                   </Link>

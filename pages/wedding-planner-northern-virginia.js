@@ -53,7 +53,7 @@ function Annapolis({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Wedding Planner For Couples in Northern Virginia"
+        heroText="Wedding Planner For Busy Couples in Northern Virginia"
         subText="We help couples in Alexandria, Fairfax, Chantilly, and Falls Church Plan the Perfect Day."
         buttonText="Book a Call today!"
         buttonLink={calendly}
@@ -462,7 +462,7 @@ function Annapolis({ data }) {
 
 export default Annapolis
 
-const Main = styled('div')`
+const Main = styled('main')`
 
 ul.wedding-services {
   margin-left: 3rem;

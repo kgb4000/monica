@@ -176,7 +176,10 @@ const Services = () => {
                   possible. Celebrate yourself, your mother, father, spouse,
                   child, or best friend ...
                 </p>
-                <Link href="/birthday-party-event-planner" passHref>
+                <Link
+                  href="/special-events/birthday-party-event-planner"
+                  passHref
+                >
                   <a>
                     <p>Read more</p>
                   </a>

@@ -9,7 +9,7 @@ import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-function Potomac() {
+function MicroWeddingPackages() {
   const SEO = {
     title:
       'Micro Wedding Packages for Maryland Couples | Monica Browne Weddings',
@@ -33,12 +33,12 @@ function Potomac() {
     },
   }
   return (
-    <div>
+    <>
       <NextSeo {...SEO} />
       <HeroSection
         heroText="Micro Wedding Packages for Maryland Couples"
         subText="We Help Couples Create Small Intimate Weddings and Events"
-        backgroundImage="/images/wedding-planner-vs-coordinator.webp"
+        backgroundImage="/images/micro-wedding-cover-img.webp"
         backgroundHeight="100vh"
         buttonText="Book a Call toady!"
         buttonLink={calendly}
@@ -77,7 +77,7 @@ function Potomac() {
             <h2 className="title">What are Micro Weddings?</h2>
             <div className="about-micro-section">
               <img
-                src="/images/maryland-wedding-planner-472w.webp"
+                src="/images/micro-wedding-packages-maryland.webp"
                 alt="Micro wedding packages from Monica Browne Weddings."
                 loading="lazy"
                 width="472"
@@ -172,17 +172,44 @@ function Potomac() {
             </div>
           </div>
         </section>
+        <section className="gallery container">
+          <h2 className="title">Wedding Gallery</h2>
+          <Gallery>
+            <img
+              src="/images/wedding-table-centerpiece-design.webp"
+              alt="Wedding table centerpiece design for small wedding."
+              loading="lazy"
+              width="472"
+              height="708"
+            />
+            <img
+              src="/images/wedding-cake.webp"
+              alt="Wedding cake picture"
+              loading="lazy"
+              width="472"
+              height="708"
+            />
+            <img
+              src="/images/wedding-table-with-cork-centerpiece.webp"
+              alt="Wedding table decorations by Monica Browne Weddings"
+              loading="lazy"
+              width="472"
+              height="708"
+            />
+          </Gallery>
+          <div className="center">
+            <Link href="/gallery">
+              <a>
+                <Button>See More Photos</Button>
+              </a>
+            </Link>{' '}
+          </div>
+        </section>
         <section className="container">
-          <img
-            src="/images/wedding-venue-at-linganore-wines.webp"
-            alt="Micro wedding ceremony setup at Linanore Winery in Maryland."
-            title="Micro wedding ceremony setup at Linanore Winery in Maryland"
-            loading="lazy"
-            width="1000"
-            height="667"
-          />
           <div className="content">
-            <h2 className="title">Intimate Wedding Venues in Maryland</h2>
+            <h2 className="title">
+              Wedding Venues You May Want to Consider for a Small Wedding
+            </h2>
             <p className="center">
               These are just some of the wedding venues in Maryland that will
               host your micro wedding.
@@ -303,54 +330,54 @@ function Potomac() {
             </div>
           </div>
         </section>
-        <section className="container">
-          <div className="content">
-            <h2 className="title">Next Steps</h2>
-            <p>
-              Now that you know the benefits, it's time to start planning your
-              own. Here are a few tips to help you get started:
-            </p>
-            <h3>#1. Set a Budget</h3>
-            <p>
-              The first thing you'll need to do when planning is to set a
-              budget. You'll save money on everything from your venue to
-              catering when you have a smaller guest list. Plus, you can often
-              get discounts on your wedding vendor services when you have a
-              smaller wedding.
-            </p>
-            <h3>#2. Choose Your Wedding Venue</h3>
-            <p>
-              One of the best things about having a small wedding in Maryland is
-              that you can be creative with your venue. You can choose to have
-              your custom ceremony and reception at the exact location or opt
-              for a unique setting like a park or an outdoor garden venue.
-            </p>
-            <h3>#3. Choose Your Guest List</h3>
-            <p>
-              Another good thing about having a micro wedding is focusing on
-              quality over quantity. When you have a smaller guest list, you can
-              spend more time and money on ensuring each guest has a wonderful
-              time. Plus, you'll be able to create a more custom, private
-              setting that will make your wedding day even more special.
-            </p>
-            <h3>#4. Start Planning</h3>
-            <p>
-              Now that you know what a micro wedding is and how to plan one,
-              it's time to start planning your dream day. With some help from
-              Monica Browne Weddings, you can have a small, unique wedding that
-              you'll love.
-            </p>
+        <section>
+          <div className="next-steps medium-container">
+            <img src="/images/couple-at-winery-wedding-venue-in-maryland.webp" />
+            <div>
+              <h2 className="title">What are Your Next Steps</h2>
+              <h3>#1. Set a Budget</h3>
+              <p>
+                The first thing you'll need to do when planning is to set a
+                budget. You'll save money on everything from your venue to
+                catering when you have a smaller guest list. Plus, you can often
+                get discounts on your wedding vendor services when you have a
+                smaller wedding.
+              </p>
+              <h3>#2. Choose Your Wedding Venue</h3>
+              <p>
+                One of the best things about having a small wedding in Maryland
+                is that you can be creative with your venue. You can choose to
+                have your custom ceremony and reception at the exact location or
+                opt for a unique setting like a park or an outdoor garden venue.
+              </p>
+              <h3>#3. Choose Your Guest List</h3>
+              <p>
+                Another good thing about having a micro wedding is focusing on
+                quality over quantity. When you have a smaller guest list, you
+                can spend more time and money on ensuring each guest has a
+                wonderful time. Plus, you'll be able to create a more custom,
+                private setting that will make your wedding day even more
+                special.
+              </p>
+              <h3>#4. Start Planning</h3>
+              <p>
+                Now that you know what a micro wedding is and how to plan one,
+                it's time to start planning your dream day. With some help from
+                Monica Browne Weddings, you can have a small, unique wedding
+                that you'll love.
+              </p>
+            </div>
+          </div>
+          <div className="center">
+            <a href="tel:+2406653350">
+              <Button>Call (240) 665-3350</Button>
+            </a>
           </div>
         </section>
-        <div className="center">
-          <a href="tel:+2406653350">
-            <Button>Call (240) 665-3350</Button>
-          </a>
-        </div>
         <section className="container">
           <div className="service-content get-started">
             <h2 className="title">
-              We Make Planning Micro Weddings in Maryland Easy
+              We Make Planning Your Small Wedding Really Easy
             </h2>
             <div>
               <Simple>
@@ -375,16 +402,27 @@ function Potomac() {
             </div>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a call today!</Button>
               </a>
             </div>
+            <p className="center-text">
+              Book a 15-minute <i>no pressure call</i> with Monica and see she
+              can help you plan your wedding.
+            </p>
           </div>
         </section>
         <section className="container">
+          <img
+            src="/images/micro-wedding-table-setup-linganore-wineries-maryland.webp"
+            alt="Wedding table decorations by Monica Browne Weddings"
+            loading="lazy"
+            width="1500"
+            height="1000"
+          />
+        </section>
+        <section className="container">
           <div className="service-content">
-            <h2 className="title">
-              Wedding Planning for a Micro Wedding: What Do I Need?
-            </h2>
+            <h2 className="title">What Do I Need to have a Small Wedding?</h2>
             <Simple>
               <li>
                 <Link href="/">
@@ -425,57 +463,24 @@ function Potomac() {
             </div>
           </div>
         </section>
+
         <section className="container">
-          <div className="content"></div>
-        </section>
-        <section className="gallery container">
-          <h2 className="title">Wedding Gallery</h2>
-          <Gallery>
-            <img
-              src="/images/maryland-wedding-planner-472w.webp"
-              alt="Bride and Groom"
-              loading="lazy"
-              width="472"
-              height="708"
-            />
-            <img
-              src="/images/wedding-cake.webp"
-              alt="Wedding cake picture"
-              loading="lazy"
-              width="472"
-              height="708"
-            />
-            <img
-              src="/images/wedding-decor.webp"
-              alt="Wedding table decorations by Monica Browne Weddings"
-              loading="lazy"
-              width="472"
-              height="708"
-            />
-          </Gallery>
-          <div className="center">
-            <a href="tel:+2406653350">
-              <Button>Call (240) 665-3350</Button>
-            </a>
-          </div>
-          <section className="container">
-            <div className="content">
-              <FAQPageJsonLd
-                mainEntity={[
-                  {
-                    questionName: 'How Long Should a Micro Wedding Be?',
-                    acceptedAnswerText:
-                      'Micro weddings are just smaller than traditional weddings with a smaller guest count, smaller ceremony, and smaller reception. Reception length will depend on how long you want to celebrate!',
-                  },
-                  {
-                    questionName:
-                      'How Much Should You Spend on a Micro Wedding?',
-                    acceptedAnswerText:
-                      'There is no set amount that you must spend on a micro wedding. However, a micro wedding is typically more low-key than a traditional wedding and often costs less. Couples may want to save wedding.',
-                  },
-                  {
-                    questionName: 'How Can I Save Money on a Micro Wedding?',
-                    acceptedAnswerText: `Some ways to save money on a micro wedding include: 
+          <div className="content">
+            <FAQPageJsonLd
+              mainEntity={[
+                {
+                  questionName: 'How Long Should a Micro Wedding Be?',
+                  acceptedAnswerText:
+                    'Micro weddings are just smaller than traditional weddings with a smaller guest count, smaller ceremony, and smaller reception. Reception length will depend on how long you want to celebrate!',
+                },
+                {
+                  questionName: 'How Much Should You Spend on a Micro Wedding?',
+                  acceptedAnswerText:
+                    'There is no set amount that you must spend on a micro wedding. However, a micro wedding is typically more low-key than a traditional wedding and often costs less. Couples may want to save wedding.',
+                },
+                {
+                  questionName: 'How Can I Save Money on a Micro Wedding?',
+                  acceptedAnswerText: `Some ways to save money on a micro wedding include: 
                       Reducing the guest coun
                       Choosing a less expensive wedding venue
                       Asking friends and family to help with decor, food, and music
@@ -486,56 +491,68 @@ function Potomac() {
                       Opting for digital invitations
                       Doing your makeup and hair
                       Choosing a less expensive photographer`,
-                  },
-                ]}
-              />
-              <h2>FAQs</h2>
-              <h3>#1. How Long Should a Micro Wedding Be?</h3>
-              <p>
-                Micro weddings are just smaller than traditional weddings with a
-                smaller guest count, smaller ceremony, and smaller reception.
-                Reception length will depend on how long you want to celebrate!
-              </p>
-              <h3>#2. How Much Should You Spend on a Micro Wedding?</h3>
-              <p>
-                There is no set amount that you must spend on a micro wedding.
-                However, a micro wedding is typically more low-key than a
-                traditional wedding and often costs less. Couples may want to
-                save approximately <b>$5,000 to $30,000</b> for their micro
-                wedding.
-              </p>
-              <h3>#3. How Can I Save Money on a Micro Wedding?</h3>
-              <p>Some ways to save money on a micro wedding include:</p>
-              <ul className="wedding-saving-acts">
-                <li>Reducing the guest count</li>
-                <li>Choosing a less expensive wedding venue</li>
-                <li>
-                  Asking friends and family to help with decor, food, and music
-                </li>
-                <li>Eliminating or reducing the wedding party</li>
-                <li>Choosing simple decor and flowers</li>
-                <li>Selecting a shorter menu</li>
-                <li>Saving on the wedding dress and suit</li>
-                <li>Opting for digital invitations</li>
-                <li>Doing your makeup and hair</li>
-                <li>Choosing a less expensive photographer</li>
-              </ul>
-            </div>
-          </section>
-          <div className="center">
-            <a href={calendly}>
-              <Button>Book a call today</Button>
-            </a>
+                },
+              ]}
+            />
+            <h2>FAQs</h2>
+            <h3>#1. How Many People Count for a Small Wedding?</h3>
+            <p>
+              A small wedding has a guest count of 50 people or less. Any number
+              more than 50 guest will be considered a medium or large wedding.
+            </p>
+            <h3>#2. Who Do I Invite to My Small Wedding?</h3>
+            <p>
+              You want to invite your closest family and friends to your
+              wedding, and you don’t want the guest list to go over 50 people.
+            </p>
+            <h3>#3. How Long Should a Micro Wedding Be?</h3>
+            <p>
+              Micro weddings are just smaller than traditional weddings with a
+              smaller guest count, smaller ceremony, and smaller reception.
+              Reception length will depend on how long you want to celebrate!
+            </p>
+            <h3>#4. How Much Should You Spend on a Micro Wedding?</h3>
+            <p>
+              There is no set amount that you must spend on a micro wedding.
+              However, a micro wedding is typically more low-key than a
+              traditional wedding and often costs less. Couples may want to save
+              approximately <b>$5,000 to $30,000</b> for their micro wedding.
+            </p>
+            <h3>#5. How Can I Save Money on a Micro Wedding?</h3>
+            <p>Some ways to save money on a micro wedding include:</p>
+            <ul className="wedding-saving-acts">
+              <li>Reducing the guest count</li>
+              <li>Choosing a less expensive wedding venue</li>
+              <li>
+                Asking friends and family to help with decor, food, and music
+              </li>
+              <li>Eliminating or reducing the wedding party</li>
+              <li>Choosing simple decor and flowers</li>
+              <li>Selecting a shorter menu</li>
+              <li>Saving on the wedding dress and suit</li>
+              <li>Opting for digital invitations</li>
+              <li>Doing your makeup and hair</li>
+              <li>Choosing a less expensive photographer</li>
+            </ul>
           </div>
         </section>
+        <div className="center">
+          <a href={calendly}>
+            <Button>Book a call today</Button>
+          </a>
+        </div>
+        <p className="center-text">
+          Book a 15-minute <i>no pressure call</i> with Monica and see she can
+          help you plan your wedding.
+        </p>
       </Main>
-    </div>
+    </>
   )
 }
 
-export default Potomac
+export default MicroWeddingPackages
 
-const Main = styled('div')`
+const Main = styled('main')`
 
  @media (min-width: 768px) {
     .content {
@@ -544,6 +561,19 @@ const Main = styled('div')`
       margin: 0 auto;
     }
   }
+
+  .next-steps {
+    @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-gap: 40px;
+  }
+  }
+
+ 
 
 .center-text {
   max-width: 40rem;

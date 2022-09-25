@@ -33,13 +33,13 @@ function Home({ data }) {
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
         backgroundImage="/images/bride-groom-night-photo.jpg"
         backgroundHeight="100vh"
-        buttonText="Call (240) 665-3350"
-        buttonLink="tel:+2406653350"
+        buttonText="book a call today!"
+        buttonLink={calendly}
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner - Maryland</h1>
+            <h1 className="title">Professional Wedding Planner in Maryland</h1>
             <p>
               Monica Browne Weddings is one of the best wedding planners in
               Maryland.
@@ -134,16 +134,18 @@ function Home({ data }) {
               and Virginia, please contact us today to schedule a consultation.
             </p>
             <p>We are happy to help you make history.</p>
+            <div className="center">
+              <a href={calendly}>
+                <Button>Book a call today!</Button>
+              </a>
+            </div>
             <p className="center-text">
-              Book a 15 minute call with us and see how we can help you
+              Book a 15-minute no pressure call with Monica and see she can help
+              you with wedding planning.
             </p>
           </div>
         </section>
-        <div className="center">
-          <a href={calendly}>
-            <Button>Book a call today!</Button>
-          </a>
-        </div>
+
         <section className="container">
           <div className="service-content">
             <h2 className="title">
@@ -175,15 +177,15 @@ function Home({ data }) {
               </div>
             </div>
           </div>
-          <p className="center-text">
-            Book a 15 minute call with Monica and see how she and her team can
-            help you
-          </p>
           <div className="center">
             <a href={calendly}>
               <Button>Book a call Today!</Button>
             </a>
           </div>
+          <p className="center-text">
+            Book a 15 minute call with Monica and see how she and her team can
+            help you plan your wedding.
+          </p>
         </section>
         <section className="container">
           <div className="service-content get-started">
@@ -547,7 +549,7 @@ function Home({ data }) {
 
 export default Home
 
-const Main = styled('div')`
+const Main = styled('main')`
 
   ul.wedding-services {
     margin-left: 3rem;

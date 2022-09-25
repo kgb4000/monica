@@ -73,19 +73,18 @@ const Hero = styled('span')`
   }
 
   .content {
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
     font-weight: 700;
   }
 `
 
 const WhiteButton = styled(Button)`
-  border: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
+  border: #a29bfe;
+  background-color: #a29bfe;
   color: #fff;
   font-size: 0.8rem;
-  padding: 1.2rem 1.4rem;
+  padding: 1.4rem 1.8rem;
   margin: 1rem 0;
   font-weight: 700;
 

@@ -469,6 +469,16 @@ function MicroWeddingPackages() {
             <FAQPageJsonLd
               mainEntity={[
                 {
+                  questionName: 'How Many People Count for a Small Wedding?',
+                  acceptedAnswerText:
+                    'A small wedding has a guest count of 50 people or less. Any number more than 50 guest will be considered a medium or large wedding.',
+                },
+                {
+                  questionName: 'Who Do I Invite to My Small Wedding?',
+                  acceptedAnswerText:
+                    'You want to invite your closest family and friends to your wedding, and you don’t want the guest list to go over 50 people.',
+                },
+                {
                   questionName: 'How Long Should a Micro Wedding Be?',
                   acceptedAnswerText:
                     'Micro weddings are just smaller than traditional weddings with a smaller guest count, smaller ceremony, and smaller reception. Reception length will depend on how long you want to celebrate!',

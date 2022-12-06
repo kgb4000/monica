@@ -1,9 +1,8 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 import HeroSection from '../../components/HeroSection'
-import Button from '../../components/Button'
 import { NextSeo } from 'next-seo'
-import { BlogJsonLd } from 'next-seo'
+import { ArticleJsonLd } from 'next-seo'
 import { getPosts } from '../../lib/data'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -44,7 +43,7 @@ export default function Blog({ data }) {
   }
   return (
     <div>
-      <BlogJsonLd
+      <ArticleJsonLd
         url="https://monicabrowneweddings.com/blog"
         title="Thoughts & Ideas from Monica"
         images={[

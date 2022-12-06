@@ -8,22 +8,25 @@
     "start": "next start"
   },
   "dependencies": {
-    "@graphcms/rich-text-react-renderer": "^0.3.0",
-    "graphql": "^15.5.3",
-    "graphql-request": "^3.5.0",
-    "next": "^13.0.6",
-    "next-seo": "^4.26.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "@graphcms/rich-text-react-renderer": "^0.4.3",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.2.0",
+    "next": "^12.1.6",
+    "next-seo": "^5.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.3.1",
+    "react-is": "^18.0.0",
     "react-modal-video": "^1.2.10",
+    "react-player": "^2.10.0",
     "react-share": "^4.4.0",
-    "sass": "^1.53.0",
-    "styled-components": "^5.2.1"
+    "sass": "^1.50.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.12.0",
-    "prettier": "^2.4.0"
+    "babel-plugin-styled-components": "^2.0.6",
+    "eslint": "^8.14.0",
+    "prettier": "2.6.0"
   }
 }

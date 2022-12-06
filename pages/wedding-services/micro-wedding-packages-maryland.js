@@ -167,7 +167,7 @@ function MicroWeddingPackages() {
             </p>
             <div className="center">
               <a href="tel:+2406653350">
-                <Button>Call (240) 665-3350</Button>
+                <Button>Call (240) 665-3350 Today!</Button>
               </a>
             </div>
           </div>

@@ -11,11 +11,12 @@ const BirthdayPartyPlanner = () => {
     title: 'Birthday Party Planner | Monica Browne',
     description:
       'The most stunning wedding flowers design services for your dream wedding. 5 star customer reviews. Effortless and affordable. Book a call today!',
-    canonical: 'https://monicabrowneweddings.com/birhtday-party-event-planner',
+    canonical:
+      'https://monicabrowneweddings.com/special-events/birthday-party-event-planner',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/birhtday-party-event-planner',
+      url: 'https://monicabrowneweddings.com/special-events/birthday-party-event-planner',
       site_name: 'Monica Browne Weddings',
       images: [
         {

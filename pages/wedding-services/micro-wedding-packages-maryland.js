@@ -198,7 +198,7 @@ function MicroWeddingPackages() {
             />
           </Gallery>
           <div className="center">
-            <Link href="/gallery">
+            <Link href="/wedding-gallery">
               <a>
                 <Button>See More Photos</Button>
               </a>

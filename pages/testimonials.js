@@ -86,8 +86,7 @@ const Testimonials = () => {
               kept me on track and made the experience enjoyable. I am very
               particular and I like to be involved in everything however, I was
               able to let go and have them handle everything. I was not
-              disappointed at all and my day turned out perfect. I could go on
-              and on. I would recommend them over and over again.
+              disappointed at all and my day turned out perfect. I could go on and on. I would recommend them over and over again.
             </Testimonial>
             <TestimonialAuthor>Katrina Edmonds</TestimonialAuthor>
 

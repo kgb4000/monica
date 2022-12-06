@@ -13,7 +13,7 @@
     "graphql-request": "^3.5.0",
     "next": "^11.1.0",
     "next-seo": "^4.26.0",
-    "react": "16.14.0",
+    "react": "17.0.1",
     "react-dom": "^16.14.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.3.1",

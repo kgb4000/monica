@@ -52,13 +52,7 @@ export default function Blog({ data }) {
         authorName="Monica Browne"
         description="My blog for busy couples that want to have ."
       />
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          notranslate: true,
-          maxSnippet: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <HeroSection
         heroText="Monica's Blog"
         subText="My blog for engaged couples"

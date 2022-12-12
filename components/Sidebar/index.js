@@ -26,29 +26,31 @@ const Sibebar = ({ isOpen, toggle }) => {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarItem>
-              <SidebarLink href="/wedding-services">
+              <SidebarLink href="/wedding-services" passHref>
                 <SidebarLinkA>Services</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/blog">
+              <SidebarLink href="/blog" passHref>
                 <SidebarLinkA>Blog</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/about">
+              <SidebarLink href="/about" passHref>
                 <SidebarLinkA>About</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/contact">
+              <SidebarLink href="/contact" passHref>
                 <SidebarLinkA>Contact</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
           </SidebarMenu>
           <SidebarBtnWrap>
             <SidebarBtnLink>
-              <SidebarBtnLinkA href={calendly}>Book A Call</SidebarBtnLinkA>
+              <SidebarBtnLinkA href={calendly} passHref>
+                Book A Call
+              </SidebarBtnLinkA>
             </SidebarBtnLink>
           </SidebarBtnWrap>
         </SidebarWrapper>

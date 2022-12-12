@@ -129,7 +129,10 @@ function MicroWeddingPackages() {
             </p>
             <p>
               With the{' '}
-              <Link href="/blog/how-much-does-a-100-person-wedding-cost">
+              <Link
+                href="/blog/how-much-does-a-100-person-wedding-cost"
+                passHref
+              >
                 <a>cost of a 100-person wedding</a>
               </Link>{' '}
               in the Washington, DC area at around $28,000 - $37,000, you'll
@@ -198,7 +201,7 @@ function MicroWeddingPackages() {
             />
           </Gallery>
           <div className="center">
-            <Link href="/wedding-gallery">
+            <Link href="/wedding-gallery" passHref>
               <a>
                 <Button>See More Photos</Button>
               </a>
@@ -332,7 +335,10 @@ function MicroWeddingPackages() {
         </section>
         <section>
           <div className="next-steps medium-container">
-            <img src="/images/couple-at-winery-wedding-venue-in-maryland.webp" />
+            <img
+              src="/images/couple-at-winery-wedding-venue-in-maryland.webp"
+              alt="Couple at winery wedding venue in Maryland."
+            />
             <div>
               <h2 className="title">What are Your Next Steps</h2>
               <h3>#1. Set a Budget</h3>
@@ -425,7 +431,7 @@ function MicroWeddingPackages() {
             <h2 className="title">What Do I Need to have a Small Wedding?</h2>
             <Simple>
               <li>
-                <Link href="/">
+                <Link href="/" passHref>
                   <a>Wedding planner</a>
                 </Link>
               </li>
@@ -436,7 +442,7 @@ function MicroWeddingPackages() {
                 <p>Small wedding venue</p>
               </li>
               <li>
-                <Link href="/wedding-services/wedding-decor-services">
+                <Link href="/wedding-services/wedding-decor-services" passHref>
                   <a>Wedding Decor</a>
                 </Link>
               </li>

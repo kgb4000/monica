@@ -338,6 +338,7 @@ function MicroWeddingPackages() {
             <img
               src="/images/couple-at-winery-wedding-venue-in-maryland.webp"
               alt="Couple at winery wedding venue in Maryland."
+              loading="lazy"
             />
             <div>
               <h2 className="title">What are Your Next Steps</h2>
@@ -469,7 +470,6 @@ function MicroWeddingPackages() {
             </div>
           </div>
         </section>
-
         <section className="container">
           <div className="content">
             <FAQPageJsonLd

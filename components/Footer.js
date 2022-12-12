@@ -283,11 +283,11 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a>Call (240) 665-3350</a>
+                <a href="tel:2406653350">Call (240) 665-3350</a>
               </p>
               <p>
                 <span>Bowie, MD</span>
-                <span> 20720</span>
+                <span>20720</span>
               </p>
             </FooterContact>
           </FooterFoot>

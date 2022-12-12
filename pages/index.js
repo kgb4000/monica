@@ -31,7 +31,7 @@ function Home({ data }) {
       <HeroSection
         heroText="Wedding Planner For Busy Maryland Couples"
         subText="We Create Beautiful Weddings For Busy Couples in Maryland"
-        backgroundImage="/images/bride-groom-night-photo.jpg"
+        backgroundImage="/images/bride-groom-night-photo.webp"
         backgroundHeight="100vh"
         buttonText="book a call today!"
         buttonLink={calendly}

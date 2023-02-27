@@ -153,11 +153,11 @@ function Washington({ data }) {
             <div className="painpoints">
               <img
                 src="images/dc-wedding-planner.webp"
-                alt="Wedding table designed by DC wedding planner Monica Browne"
+                alt="Wedding table designed by Washington, DC wedding planner, Monica Browne."
                 loading="lazy"
                 width="472"
                 height="708"
-                title="Wedding table designed by DC wedding planner Monica Browne"
+                title="Wedding table designed by Washington, DC wedding planner, Monica Browne."
               />
               <div className="painpoints--content">
                 <PainPoints>

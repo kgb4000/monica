@@ -40,7 +40,7 @@ function MicroWeddingPackages() {
         subText="We Help Couples Create Small Intimate Weddings and Events"
         backgroundImage="/images/micro-wedding-cover-img.webp"
         backgroundHeight="100vh"
-        buttonText="Book a Call toady!"
+        buttonText="Book a Call With Monica Today!"
         buttonLink={calendly}
       />
       <Main>
@@ -52,8 +52,7 @@ function MicroWeddingPackages() {
               Maryland but don't want to sacrifice quality?
             </p>
             <p>
-              If so, a micro wedding package may be just what you're looking
-              for.
+              If so, a micro wedding package may be what you're looking for.
             </p>
             <p>
               A micro wedding package offers all the amenities of a traditional
@@ -63,11 +62,11 @@ function MicroWeddingPackages() {
             </p>
             <p>
               So if you want a small, intimate wedding without sacrificing
-              quality, then a micro wedding may be just what you're looking for.
+              quality, a micro wedding may be just what you want.
             </p>
             <div className="center">
               <a href="tel:+2406653350">
-                <Button>Call (240) 665-3350</Button>
+                <Button>Call Monica - (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -78,29 +77,25 @@ function MicroWeddingPackages() {
             <div className="about-micro-section">
               <img
                 src="/images/micro-wedding-packages-maryland.webp"
-                alt="Micro wedding packages from Monica Browne Weddings."
+                alt="Micro wedding packages in Maryland."
                 loading="lazy"
                 width="472"
                 height="708"
               />
               <div className="micro-wedings-about">
                 <p>
-                  Micro weddings are smaller events that typically have 50
+                  Micro weddings are smaller events that typically have 50
                   guests or less.
                 </p>
                 <p>
                   Unlike a big wedding, these events often focus on quality over
-                  quantity, and couples usually save money by having a smaller
-                  guest list, less food, and a smaller vendor team.
+                  quantity. Some couples save money with a smaller guest list,
+                  less food, and a smaller vendor team.
                 </p>
                 <p>
                   Micro weddings can be held at various venues, from traditional
-                  venues to more unique locations like barns or wineries.
-                </p>
-                <p>
-                  Plus, micro packages typically include all the amenities of a
-                  traditional wedding, from the ceremony space to the reception
-                  hall and even your overnight accommodations.
+                  venues to more unique locations like wineries or exotic beach
+                  locations.
                 </p>
               </div>
             </div>
@@ -108,7 +103,7 @@ function MicroWeddingPackages() {
         </section>
         <div className="center">
           <a href={calendly} target="_blank">
-            <Button>Schedule a call!</Button>
+            <Button>Schedule a call with Monica Today!</Button>
           </a>
         </div>
         <section className="container">
@@ -119,12 +114,12 @@ function MicroWeddingPackages() {
             <p>
               In recent years, more and more couples in Maryland have opted for
               small weddings over large, traditional events. And several
-              benefits come along with having a smaller intimate event.
+              benefits come along with having a smaller intimate affair.
             </p>
             <p>Here are just a few of the many benefits:</p>
-            <h3>You'll Save Money</h3>
+            <h3>You Can Save Money</h3>
             <p>
-              One of the biggest benefits of micro weddings is that you'll save
+              One of the biggest benefits of micro weddings is that you can save
               money.
             </p>
             <p>
@@ -133,26 +128,36 @@ function MicroWeddingPackages() {
                 href="/blog/how-much-does-a-100-person-wedding-cost"
                 passHref
               >
-                <a>cost of a 100-person wedding</a>
+                <a>cost of a wedding</a>
               </Link>{' '}
-              in the Washington, DC area at around $28,000 - $37,000, you'll
-              spend less on everything from your venue to your catering when you
-              have a smaller guest list. Plus, you can often get discounts on
-              vendor services when you have a smaller ceremony and reception.
+              in the Washington, DC area being where it is, you can spend less
+              by having a small wedding. You can spend less on catering,
+              ceremony and reception decorations, and your venue.
+            </p>
+            <p>But a micro wedding doesn't mean less money for every couple.</p>
+            <p>
+              You can have a micro wedding with 50 guests and still spend
+              between $25,000 and $40,000. It all depends on what you want to
+              spend money on.
             </p>
             <h3>You'll Save Time</h3>
             <p>
               Planning a large traditional wedding can be extremely
               time-consuming. But with a smaller event, you'll have more time to
               enjoy the planning process and focus on the essential details.
+            </p>
+            <p>
               Plus, you won't have to spend as much time coordinating with your
               vendors or dealing with logistics.
             </p>
             <h3>You Can be More Creative</h3>
             <p>
               When you have a nano event, you have more freedom to be creative
-              with your decorations and details. Plus, you can get discounts on
-              your vendor services when you have a smaller event.
+              with your decorations and details. You can choose to have a
+              daytime wedding or a {''}
+              <Link href="/blog/wedding-at-night">wedding at night</Link>. Plus,
+              you can get discounts on your vendor services during a smaller
+              event.
             </p>
             <h3>You Can Focus on Quality Over Quantity</h3>
             <p>
@@ -165,12 +170,12 @@ function MicroWeddingPackages() {
             </p>
             <p>
               Micro weddings are becoming increasingly popular, so if you're
-              considering having one, then start planning your dream day today
-              with one of Maryland's unique micro wedding packages.
+              considering having one, start planning your dream day today with
+              one of Maryland's unique micro wedding packages.
             </p>
             <div className="center">
               <a href="tel:+2406653350">
-                <Button>Call (240) 665-3350</Button>
+                <Button>Call Monica - (240) 665-3350</Button>
               </a>
             </div>
           </div>
@@ -210,12 +215,10 @@ function MicroWeddingPackages() {
         </section>
         <section className="container">
           <div className="content">
-            <h2 className="title">
-              Wedding Venues You May Want to Consider for a Small Wedding
-            </h2>
+            <h2 className="title">Small Wedding Venues in Maryland</h2>
             <p className="center">
-              These are just some of the wedding venues in Maryland that will
-              host your micro wedding.
+              These are just some of the small wedding venues in Maryland that
+              will host your nano wedding.
             </p>
             <ul className="micro-wedding-venues">
               <li>
@@ -328,7 +331,7 @@ function MicroWeddingPackages() {
             </ul>
             <div className="center">
               <a href={calendly} target="_blank">
-                <Button>Schedule a call with us today!</Button>
+                <Button>Schedule a call with Monica today!</Button>
               </a>
             </div>
           </div>
@@ -360,32 +363,29 @@ function MicroWeddingPackages() {
               <h3>#3. Choose Your Guest List</h3>
               <p>
                 Another good thing about having a micro wedding is focusing on
-                quality over quantity. When you have a smaller guest list, you
-                can spend more time and money on ensuring each guest has a
-                wonderful time. Plus, you'll be able to create a more custom,
-                private setting that will make your wedding day even more
-                special.
+                quality over quantity. With a smaller guest list, you can spend
+                more time and money ensuring each guest has a wonderful time.
+                Plus, you'll be able to create a more custom, private setting
+                that will make your wedding day even more special.
               </p>
               <h3>#4. Start Planning</h3>
               <p>
                 Now that you know what a micro wedding is and how to plan one,
                 it's time to start planning your dream day. With some help from
                 Monica Browne Weddings, you can have a small, unique wedding
-                that you'll love.
+                you'll love.
               </p>
             </div>
           </div>
           <div className="center">
             <a href="tel:+2406653350">
-              <Button>Call (240) 665-3350</Button>
+              <Button>Call Monica - (240) 665-3350</Button>
             </a>
           </div>
         </section>
         <section className="container">
           <div className="service-content get-started">
-            <h2 className="title">
-              We Make Planning Your Small Wedding Really Easy
-            </h2>
+            <h2 className="title">We Make Nano Weddings Easy</h2>
             <div>
               <Simple>
                 <li>
@@ -407,15 +407,12 @@ function MicroWeddingPackages() {
                 </li>
               </Simple>
             </div>
+
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call today!</Button>
+                <Button>Book a call with Monica today!</Button>
               </a>
             </div>
-            <p className="center-text">
-              Book a 15-minute <i>no pressure call</i> with Monica and see she
-              can help you plan your wedding.
-            </p>
           </div>
         </section>
         <section className="container">
@@ -429,38 +426,123 @@ function MicroWeddingPackages() {
         </section>
         <section className="container">
           <div className="service-content">
-            <h2 className="title">What Do I Need to have a Small Wedding?</h2>
+            <h2 className="title">What Do I Need to Plan a Micro Wedding?</h2>
             <Simple>
               <li>
-                <Link href="/" passHref>
-                  <a>Wedding planner</a>
-                </Link>
+                <p>
+                  <strong>Guest list</strong>
+                </p>
+                <p>
+                  Determine who you want to invite to your micro wedding. As
+                  it's a small event, consider inviting only your closest family
+                  and friends.
+                </p>
               </li>
               <li>
-                <p>Your Closest family and friends</p>
+                <p>
+                  <strong>Venue</strong>
+                </p>
+                <p>
+                  Choose a venue that can accommodate your guest count.It can be
+                  an outdoor location, a private residence, or a smaller event
+                  space.
+                </p>
               </li>
               <li>
-                <p>Small wedding venue</p>
+                <p>
+                  <strong>Vendors</strong>
+                </p>
+                <p>
+                  Research and book vendors essential to your micro weddings,
+                  such as a photographer, caterer,{' '}
+                  <Link href="/wedding-services/wedding-flowers" passHref>
+                    florist
+                  </Link>
+                  , and musician. You may also need to rent chairs, tables,
+                  linens, and other decor items.
+                </p>
               </li>
               <li>
-                <Link href="/wedding-services/wedding-decor-services" passHref>
-                  <a>Wedding Decor</a>
-                </Link>
+                <p>
+                  <strong>Ceremony</strong>
+                </p>
+                <p>
+                  Decide on the type of ceremony you want, whether a traditional
+                  religious ceremony or something more personalized. Remember
+                  the officiant.
+                </p>
               </li>
               <li>
-                <p>Small wedding ceremony</p>
+                <p>
+                  <strong>Reception</strong>
+                </p>
+                <p>
+                  Reception: Plan your reception, including dinner service,
+                  speeches, and any entertainment you want.
+                </p>
               </li>
               <li>
-                <p>Small wedding reception</p>
+                <p>
+                  <strong>Decor</strong>
+                </p>
+                <p>
+                  Decide on the type of{' '}
+                  <Link
+                    href="/wedding-services/wedding-decor-services"
+                    passHref
+                  >
+                    wedding decor
+                  </Link>{' '}
+                  you want, including flowers, lighting, and other decor
+                  elements that can help create the desired atmosphere.
+                </p>
               </li>
               <li>
-                <p>Officiant</p>
+                <p>
+                  <strong>Wedding attire</strong>
+                </p>
+                <p>
+                  Choose wedding attire that fits the size and style of your
+                  small wedding.
+                </p>
               </li>
               <li>
-                <p>Marriage license</p>
+                <p>
+                  <strong>Invitations</strong>
+                </p>
+                <p>
+                  Design and send out invitations to your guests, providing all
+                  the necessary details about the event.
+                </p>
               </li>
               <li>
-                <p>Photographer</p>
+                <p>
+                  <strong>Timeline</strong>
+                </p>
+                <p>
+                  Create a detailed{' '}
+                  <Link href="/blog/wedding-day-timeline-4pm-ceremony" passHref>
+                    timeline
+                  </Link>{' '}
+                  of your micro wedding, including the schedule for the day and
+                  any important events you want to include.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Wedding planner</strong>
+                </p>
+                <p>
+                  Hiring a wedding planner can be incredibly helpful, especially
+                  if you want to ensure your event runs smoothly and
+                  stress-free. A{' '}
+                  <Link href="/" passHref>
+                    (Maryland) wedding planner
+                  </Link>{' '}
+                  can assist with all aspects of the planning process, from
+                  creating a budget and timeline to sourcing vendors and
+                  coordinating the day-of logistics.
+                </p>
               </li>
             </Simple>
             <div className="center">
@@ -477,22 +559,21 @@ function MicroWeddingPackages() {
                 {
                   questionName: 'How Many People Count for a Small Wedding?',
                   acceptedAnswerText:
-                    'A small wedding has a guest count of 50 people or less. Any number more than 50 guest will be considered a medium or large wedding.',
+                    'A small wedding has a guest count of 50 people or less. Any number of more than 50 guests will be considered a medium or large wedding.',
                 },
                 {
                   questionName: 'Who Do I Invite to My Small Wedding?',
                   acceptedAnswerText:
-                    'You want to invite your closest family and friends to your wedding, and you don’t want the guest list to go over 50 people.',
+                    'You want to invite your closest family and friends to your wedding, and the guest list is to be at most 50 people.',
                 },
                 {
                   questionName: 'How Long Should a Micro Wedding Be?',
                   acceptedAnswerText:
-                    'Micro weddings are just smaller than traditional weddings with a smaller guest count, smaller ceremony, and smaller reception. Reception length will depend on how long you want to celebrate!',
+                    'Micro weddings are smaller than traditional weddings, with a smaller guest count, ceremony, and reception. Reception length will depend on how long you want to celebrate!',
                 },
                 {
                   questionName: 'How Much Should You Spend on a Micro Wedding?',
-                  acceptedAnswerText:
-                    'There is no set amount that you must spend on a micro wedding. However, a micro wedding is typically more low-key than a traditional wedding and often costs less. Couples may want to save wedding.',
+                  acceptedAnswerText: `You can save between $5,000 to $30,000 for your micro wedding. Remember, this is your wedding, and you can spend any amount you wish to. A micro wedding is not about how much money you spend. It's more about how many guests you invite.`,
                 },
                 {
                   questionName: 'How Can I Save Money on a Micro Wedding?',
@@ -506,7 +587,8 @@ function MicroWeddingPackages() {
                       Saving on the wedding dress and suit
                       Opting for digital invitations
                       Doing your makeup and hair
-                      Choosing a less expensive photographer`,
+                      Choosing a less expensive photographer
+                      Have a self-service bar instead of an open bar.`,
                 },
               ]}
             />
@@ -514,53 +596,56 @@ function MicroWeddingPackages() {
             <h3>#1. How Many People Count for a Small Wedding?</h3>
             <p>
               A small wedding has a guest count of 50 people or less. Any number
-              more than 50 guest will be considered a medium or large wedding.
+              of more than 50 guests will be considered a medium or large
+              wedding.
             </p>
             <h3>#2. Who Do I Invite to My Small Wedding?</h3>
             <p>
               You want to invite your closest family and friends to your
-              wedding, and you don’t want the guest list to go over 50 people.
+              wedding, and the guest list is to be at most 50 people.
             </p>
             <h3>#3. How Long Should a Micro Wedding Be?</h3>
             <p>
-              Micro weddings are just smaller than traditional weddings with a
-              smaller guest count, smaller ceremony, and smaller reception.
-              Reception length will depend on how long you want to celebrate!
+              Micro weddings are smaller than traditional weddings, with a
+              smaller guest count, ceremony, and reception. Reception length
+              will depend on how long you want to celebrate!
             </p>
-            <h3>#4. How Much Should You Spend on a Micro Wedding?</h3>
+            <h3>#4. How Much Should I Save For a Micro Wedding?</h3>
             <p>
-              There is no set amount that you must spend on a micro wedding.
-              However, a micro wedding is typically more low-key than a
-              traditional wedding and often costs less. Couples may want to save
-              approximately <b>$5,000 to $30,000</b> for their micro wedding.
+              You can save between $5,000 to $30,000 for your micro wedding.
+              Remember, this is your wedding, and you can spend any amount you
+              wish to. A micro wedding is not about how much money you spend.
+              It's more about how many guests you invite.
             </p>
             <h3>#5. How Can I Save Money on a Micro Wedding?</h3>
             <p>Some ways to save money on a micro wedding include:</p>
             <ul className="wedding-saving-acts">
-              <li>Reducing the guest count</li>
-              <li>Choosing a less expensive wedding venue</li>
+              <li>Reducing the guest count.</li>
+              <li>Choosing a less expensive wedding venue.</li>
               <li>
-                Asking friends and family to help with decor, food, and music
+                Asking friends and family to help with decor, food, and music.
               </li>
-              <li>Eliminating or reducing the wedding party</li>
-              <li>Choosing simple decor and flowers</li>
-              <li>Selecting a shorter menu</li>
-              <li>Saving on the wedding dress and suit</li>
-              <li>Opting for digital invitations</li>
-              <li>Doing your makeup and hair</li>
-              <li>Choosing a less expensive photographer</li>
+              <li>Eliminating or reducing the wedding party.</li>
+              <li>Choosing simple decor and flowers.</li>
+              <li>Selecting a shorter menu.</li>
+              <li>Saving on the wedding dress and suit.</li>
+              <li>Opting for digital invitations.</li>
+              <li>Having a friend or family member do your makeup and hair.</li>
+              <li>Choosing a less expensive photographer.</li>
+              <li>Have a self-service bar instead of an open bar.</li>
             </ul>
           </div>
         </section>
-        <div className="center">
-          <a href={calendly}>
-            <Button>Book a call today</Button>
-          </a>
-        </div>
+
         <p className="center-text">
           Book a 15-minute <i>no pressure call</i> with Monica and see she can
           help you plan your wedding.
         </p>
+        <div className="center">
+          <a href={calendly}>
+            <Button>Book a call with Monica today</Button>
+          </a>
+        </div>
       </Main>
     </>
   )

@@ -242,6 +242,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/wedding-planner-bowie-md" passHref>
+                    <a>Bowie, MD</a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/chevy-chase" passHref>
                     <a>Chevy Chase, MD</a>
                   </Link>
@@ -287,7 +292,7 @@ const Footer = () => {
               </p>
               <p>
                 <span>Bowie, MD</span>
-                <span>20720</span>
+                <span> 20720</span>
               </p>
             </FooterContact>
           </FooterFoot>

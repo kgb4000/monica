@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-import HeroSection from '../../components/HeroSection'
-import Button from '../../components/Button'
+import HeroSection from '../components/HeroSection'
+import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
@@ -11,12 +11,11 @@ const BirthdayPartyPlanner = () => {
     title: 'Birthday Party Planner | Monica Browne',
     description:
       'The most stunning wedding flowers design services for your dream wedding. 5 star customer reviews. Effortless and affordable. Book a call today!',
-    canonical:
-      'https://monicabrowneweddings.com/special-events/birthday-party-event-planner',
+    canonical: 'https://monicabrowneweddings.com/birthday-party-planning',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/special-events/birthday-party-event-planner',
+      url: 'https://monicabrowneweddings.com/birthday-party-planning',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -32,7 +31,7 @@ const BirthdayPartyPlanner = () => {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Birthday Party Event Planner in Maryland, DC, and Virginia"
+        heroText="Birthday Party Planning in Maryland, DC, and Virginia"
         subText="We plan unique, unforgetable, epic birthday parties for children and adults"
         backgroundImage="/images/birthday-party-event-planner.jpg"
         backgroundHeight="100vh"
@@ -42,7 +41,7 @@ const BirthdayPartyPlanner = () => {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Birthday Party Event Planner</h1>
+            <h1>Birthday Party Planning for Children and Adults</h1>
             <p>
               We help take the stress out of planning unique and fun birthday
               parties for adults, teenagers, and children.

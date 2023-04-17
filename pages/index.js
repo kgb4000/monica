@@ -397,7 +397,7 @@ function Home({ data }) {
         <section className="container">
           <div className="content">
             <h2 className="title">
-              Why Hire Monica Browne Weddings as Your Event Planning Company?
+              Why Hire Monica Browne Weddings as Your Maryland Wedding Planner?
             </h2>
             <p>
               Monica Browne Weddings is one of the top Maryland wedding

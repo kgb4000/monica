@@ -8,17 +8,17 @@ import PictureBox from '../components/picture-box'
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
-function DayOfWeddingCoordinator() {
+function DayOfWeddingCoordinatorBowie() {
   const SEO = {
-    title:
-      'Day of Wedding Coordinator in Washington DC | Monica Browne Weddings',
+    title: 'Day of Wedding Coordinator in Bowie | Monica Browne Weddings',
     description:
-      'Monica Browne Weddings is a day of wedding coordinator serving Washington, DC. If you want someone you can trust to coordinate your wedding, call us today!',
-    canonical: 'https://monicabrowneweddings.com/day-of-wedding-coordinator',
+      'Monica Browne Weddings is a day of wedding coordinator serving Bowie, MD. If you want someone you can trust to coordinate your wedding, call us today!',
+    canonical:
+      'https://monicabrowneweddings.com/day-of-wedding-coordinator-bowie-md',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/day-of-wedding-coordinator',
+      url: 'https://monicabrowneweddings.com/day-of-wedding-coordinator-bowie-md',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -34,7 +34,7 @@ function DayOfWeddingCoordinator() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Day of Wedding Coordinator in Washington, DC"
+        heroText="Day of Wedding Coordination in Bowie, Maryland"
         subText="We provide wedding coordination services and manage your special day for you."
         buttonText="Call (240) 665-3350"
         buttonLink="tel:+2406653350"
@@ -44,15 +44,15 @@ function DayOfWeddingCoordinator() {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Day of Wedding Coordinator in Washington, DC</h1>
+            <h1>Day of Wedding Coordinator in Bowie, Maryland</h1>
             <p>
               Monica Browne Weddings offers day-of wedding coordinator services
-              to couples in the District of Columbia.
+              to couples in Bowie.
             </p>
             <p>
               When all you need is someone to manage the wedding day for you,
               give us a call to see why we are one of the top day-of wedding
-              coordinators in the DC area.
+              coordinators in Bowie.
             </p>
             <div className="center">
               <a href="tel:+2406653350">
@@ -149,7 +149,7 @@ function DayOfWeddingCoordinator() {
               </div>
             </div>
             <h2>
-              What Does Monica Browne Weddings Do as Your DC Day-of Coordinator?
+              What Does Monica Browne Weddings Do as Your Day-of Coordinator?
             </h2>
             <p>
               A day of wedding coordinator is a professional responsible for
@@ -210,7 +210,7 @@ function DayOfWeddingCoordinator() {
               width="1000"
               height="667"
             />
-            <h2>Is a DC Day of Wedding Coordinator Worth It?</h2>
+            <h2>Is a Bowie Day of Wedding Coordinator Worth It?</h2>
             <p>The simple answer is yes.</p>
             <p>
               A day of wedding coordinator is priceless if you want peace of
@@ -312,11 +312,12 @@ function DayOfWeddingCoordinator() {
               height2="708"
             />
             <h2>
-              Why Choose Monica Browne Weddings as Your DC Wedding Coordinator?
+              Why Choose Monica Browne Weddings as Your Bowie Day of Wedding
+              Coordinator?
             </h2>
             <p>
               Monica Browne Weddings is one of the top day of wedding
-              coordinators in DC and Maryland. Monica and her team are industry
+              coordinators in Maryland. Monica and her team are industry
               professionals that will make sure you get exactly what you want
               and that your wedding goes off as you planned it.
             </p>
@@ -379,12 +380,12 @@ function DayOfWeddingCoordinator() {
               wedding day without worrying about anything, consider hiring
               Monica Browne Weddings.
             </p>
-            <h3>#2 How Much Does a Day-of Coordinator Cost in DC?</h3>
+            <h3>#2 How Much Does a Day-of Coordinator Cost in Bowie?</h3>
             <p>
               While the national average for a wedding coordinator is between
-              $800 and $1500, the cost of a wedding coordinator in DC is between{' '}
-              <strong>$1500 to $5000</strong> depending on the size of the
-              wedding.
+              $800 and $1500, the cost of a wedding coordinator in Bowie is
+              between <strong>$1500 to $5000</strong> depending on the size of
+              the wedding.
             </p>
             <h3>#3 When To Hire a Day of Wedding Coordinator?</h3>
             <p>
@@ -430,7 +431,7 @@ function DayOfWeddingCoordinator() {
   )
 }
 
-export default DayOfWeddingCoordinator
+export default DayOfWeddingCoordinatorBowie
 
 const Main = styled('div')`
   h1 {

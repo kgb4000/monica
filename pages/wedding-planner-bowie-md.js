@@ -63,7 +63,7 @@ function Bowie({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Wedding Planner in Bowie Maryland</h1>
+            <h1 className="title">Wedding Planner in Bowie, Maryland</h1>
             <p>
               Looking for an experienced and resourceful wedding planner in
               Bowie?

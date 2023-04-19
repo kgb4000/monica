@@ -8,7 +8,7 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 function WeddingPlanning() {
   const SEO = {
-    title: 'Full-Service Wedding Planner in the DMV | Monica Browne',
+    title: 'Wedding Planner in Bowie and DC | Monica Browne',
     description:
       'Monica Browne Weddings is a full-service wedding planner in the DMV. We take the stress out of wedding planning and make it enjoyable. Book a call with us!',
     canonical:
@@ -32,8 +32,8 @@ function WeddingPlanning() {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Full-Service Wedding Planner for Busy Couples"
-        subText="Full-service wedding planning for couples in Maryland & DC"
+        heroText="Wedding Planner for Busy Couples in Bowie and Washington, DC"
+        subText="Full-service wedding planning for couples in Bowie & DC"
         backgroundImage="/images/wedding-reception-decor.webp"
         backgroundHeight="100vh"
         buttonText="Call (240) 665-3350"
@@ -100,13 +100,17 @@ function WeddingPlanning() {
             </section>
             <h2>Before Your Wedding Day</h2>
             <p>
-              We're proud to offer couples complete wedding planning services
+              We're proud to offer couples complete wedding planning services in
+              addition to day-of coordination services in{' '}
+              <Link href="/day-of-wedding-coordinator-bowie-md" passHref>
+                <a>Bowie</a>
+              </Link>{' '}
               and{' '}
               <Link href="/day-of-wedding-coordinator" passHref>
-                <a>day-of coordination</a>
-              </Link>
-              . Whatever you need, we're happy to create a customized package
-              that fits your needs. Give us a call to learn more about our
+                <a>Washington, DC.</a>
+              </Link>{' '}
+              Whatever you need, we're happy to create a customized package that
+              fits your needs. Give us a call to learn more about our
               full-service or ala carte packages.
             </p>
 
@@ -305,7 +309,7 @@ function WeddingPlanning() {
               all the services a full-service planner offers. In that case, you
               can save money by using a wedding planner who offers à la carte
               services or by using a{' '}
-              <Link href="/day-of-wedding-coordinator" passHref>
+              <Link href="/day-of-wedding-coordinator-bowie-md" passHref>
                 <a>day of coordinator</a>
               </Link>
               .
@@ -321,7 +325,7 @@ function WeddingPlanning() {
             <h3>What is the average cost of a full-service wedding planner?</h3>
             <p>
               The average cost of a full-service wedding planner is
-              $2,000-$8,000. The exact cost will depend on the size and
+              $2,000-$10,000. The exact cost will depend on the size and
               complexity of your wedding, as well as the location and services
               you require.
             </p>

@@ -49,17 +49,14 @@ const Services = () => {
                 loading="lazy"
               />
               <div className="service-info">
-                <h3 className="title">Full-Service Wedding Planning</h3>
+                <h3 className="title">Wedding Planning</h3>
                 <p>
                   We're proud to offer couples full-service wedding planning.
                   Whatever you need, we're happy to create a customized package
                   that fits your needs. Give us a call to learn more about our
                   full-service or or partial planning service.
                 </p>
-                <Link
-                  href="/wedding-services/full-service-wedding-planner"
-                  passHref
-                >
+                <Link href="/wedding-services/wedding-planner" passHref>
                   <a>
                     <p>Read more</p>
                   </a>
@@ -86,9 +83,15 @@ const Services = () => {
                   Weddings there as your day of wedding coordinator, you will
                   not...
                 </p>
+                <Link href="/day-of-wedding-coordinator-bowie-md" passHref>
+                  <a>
+                    <p>Bowie</p>
+                  </a>
+                </Link>
+                <p>or</p>
                 <Link href="/day-of-wedding-coordinator" passHref>
                   <a>
-                    <p>Read more</p>
+                    <p>Washington, DC</p>
                   </a>
                 </Link>
               </div>

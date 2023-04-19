@@ -48,10 +48,14 @@ function Home({ data }) {
             <ul className="wedding-services">
               <li>Full-service wedding planning</li>
               <li>
-                <Link href="/day-of-wedding-coordinator" passHref>
-                  <a>Day-of coordination services</a>
+                Day-of wedding coordination services in{' '}
+                <Link href="/day-of-wedding-coordinator-bowie-md" passHref>
+                  Bowie
                 </Link>{' '}
-                (Month of coordination)
+                and{' '}
+                <Link href="/day-of-wedding-coordinator" passHref>
+                  Washington, DC
+                </Link>
               </li>
               <li>Partial planning packages (A La carte services)</li>
               <li>

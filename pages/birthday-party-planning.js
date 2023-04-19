@@ -8,9 +8,9 @@ const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
 const BirthdayPartyPlanner = () => {
   const SEO = {
-    title: 'Birthday Party Planner | Monica Browne',
+    title: 'Birthday Party Planner in Bowie, MD | Monica Browne',
     description:
-      'The most stunning wedding flowers design services for your dream wedding. 5 star customer reviews. Effortless and affordable. Book a call today!',
+      'Create the perfect birthday bash with our top-rated Bowie, MD party planners! Expertise in unforgettable celebrations for all ages. Get a quote now!',
     canonical: 'https://monicabrowneweddings.com/birthday-party-planning',
     openGraph: {
       type: 'website',
@@ -31,8 +31,8 @@ const BirthdayPartyPlanner = () => {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Birthday Party Planning in Maryland, DC, and Virginia"
-        subText="We plan unique, unforgetable, epic birthday parties for children and adults"
+        heroText="Birthday Party Planning in Bowie, Maryland"
+        subText="We plan unique, unforgetable, epic birthday parties for children and adults in Bowie."
         backgroundImage="/images/birthday-party-event-planner.jpg"
         backgroundHeight="100vh"
         buttonText="Call (240) 665-3350"
@@ -41,7 +41,7 @@ const BirthdayPartyPlanner = () => {
       <Main>
         <section className="container">
           <div className="content">
-            <h1>Birthday Party Planning for Children and Adults</h1>
+            <h1>Birthday Party Planning in Bowie for Children and Adults</h1>
             <p>
               We help take the stress out of planning unique and fun birthday
               parties for adults, teenagers, and children.
@@ -149,7 +149,7 @@ const BirthdayPartyPlanner = () => {
                 <Button>Call (240) 665-3350</Button>
               </a>
             </div>
-            <h2>Birthday Party We Specialize in Planning</h2>
+            <h2>Birthday Parties We Specialize in Planning</h2>
             <p>We specialize in planning all types of parties, including:</p>
             <h3>Children's birthday parties</h3>
             <p>
@@ -262,10 +262,10 @@ const BirthdayPartyPlanner = () => {
               <li>Videographers</li>
               <li>Photographers</li>
             </ul>
-            <h2>Looking for a Birthday Party Planner Near Me?</h2>
+            <h2>Looking for a Birthday Party Planner in Bowie, MD?</h2>
             <p>
-              Monica Browne Weddings is one of Maryland and DC's best birthday
-              party planners.
+              Monica Browne Weddings is one of Bowie's best birthday party
+              planners.
             </p>
             <p>
               Our goal is to make your birthday party planning experience as

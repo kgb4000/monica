@@ -103,6 +103,32 @@ const Services = () => {
                 loading="lazy"
               />
               <div className="service-info">
+                <h3 className="title">Indian Wedding Planner</h3>
+                <p>
+                  Monica Browne Weddings offers premier Indian wedding planning
+                  services that breathes life into your dream nuptial
+                  celebrations. With a keen understanding of the rich and
+                  diverse traditions of Indian weddings, we ensure every detail
+                  is meticulously planned, from the vibrant sangeet night to the
+                  grand baraat procession.
+                </p>
+                <Link
+                  href="/wedding-services/micro-wedding-packages-maryland"
+                  passHref
+                >
+                  <a>
+                    <p>Read more</p>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="services">
+              <img
+                src="/images/maryland-wedding-planner-472w.webp"
+                alt="Micro wedding packages."
+                loading="lazy"
+              />
+              <div className="service-info">
                 <h3 className="title">Micro Weddings</h3>
                 <p>
                   Are you looking to have a small, intimate ceremony but don't

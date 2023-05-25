@@ -463,7 +463,7 @@ function Home({ data }) {
                 href="/blog/how-much-does-a-100-person-wedding-cost"
                 passHref
               >
-                <a>$28,000 - $37,000</a>
+                <a>$28,000 - $45,000</a>
               </Link>{' '}
               and up. Most of your costs depend on how much your venue and
               caterer charge, plus how many guests you invite.

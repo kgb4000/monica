@@ -98,12 +98,12 @@ const Services = () => {
             </div>
             <div className="services">
               <img
-                src="/images/maryland-wedding-planner-472w.webp"
-                alt="Micro wedding packages."
+                src="/images/indian-wedding-planning-md.jpg"
+                alt="Indian wedding planner in Maryland and DC."
                 loading="lazy"
               />
               <div className="service-info">
-                <h3 className="title">Indian Wedding Planner</h3>
+                <h3 className="title">Indian Wedding Planning</h3>
                 <p>
                   Monica Browne Weddings offers premier Indian wedding planning
                   services that breathes life into your dream nuptial
@@ -112,10 +112,7 @@ const Services = () => {
                   is meticulously planned, from the vibrant sangeet night to the
                   grand baraat procession.
                 </p>
-                <Link
-                  href="/wedding-services/micro-wedding-packages-maryland"
-                  passHref
-                >
+                <Link href="/indian-wedding-planner" passHref>
                   <a>
                     <p>Read more</p>
                   </a>

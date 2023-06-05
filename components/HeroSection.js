@@ -36,8 +36,8 @@ const Hero = styled('span')`
   align-items: center;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.42),
-      rgba(162, 155, 254, 0.35)
+      rgba(0, 0, 0, 0.62),
+      rgba(0, 0, 0, 0.65)
     ),
     url(${(props) => props.backgroundImage});
   background-position: center;
@@ -49,9 +49,10 @@ const Hero = styled('span')`
 
   @media only screen and (min-device-width: 360px) {
     h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       font-weight: 900;
       margin-bottom: 1rem;
+      text-shadow: 1px 2px #000;
     }
 
     p {
@@ -73,7 +74,7 @@ const Hero = styled('span')`
   }
 
   .content {
-    max-width: 70%;
+    max-width: 80%;
     text-align: center;
     font-weight: 700;
   }

@@ -29,7 +29,7 @@ export const getStaticProps = async () => {
 function Annapolis({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Indian Wedding Planning In Maryland and Washington, DC',
+    title: 'Indian Wedding Planner in Maryland, DC, & Virginia',
     description:
       'We are exclusive full-service and partial-service Indian wedding planners in Maryalnd and DC. Contact us today to start planning you fabulous wedding!',
     canonical: 'https://monicabrowneweddings.com/indian-wedding-planner',
@@ -52,7 +52,7 @@ function Annapolis({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Indian Wedding Planning Services"
+        heroText="Indian Wedding Planner Services"
         subText="We create beautiful Indian weddings for busy South Asian couples in living in Maryland and DC."
         buttonText="Book a Call today!"
         buttonLink={calendly}
@@ -63,7 +63,7 @@ function Annapolis({ data }) {
         <section className="container">
           <div className="content">
             <h1 className="title">
-              Indian Wedding Planner in Maryland and Washington, DC
+              Indian Wedding Planner in Maryland, Washington, DC, and Virginia
             </h1>
             <p>
               We believe that your wedding is a reflection of your love story.

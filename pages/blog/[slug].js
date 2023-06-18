@@ -37,6 +37,16 @@ export const getStaticPaths = async () => {
   }
 }
 
+export const getRecentPosts = async () => {
+  const slugsRecent = await getRecentPosts()
+  const recentSlugs = slugsRecent.posts
+  console.log(recentSlugs)
+  return {
+    paths: recentSlugs.map((slug) => ({ params: { slug: slug.slug } })),
+    fallback: false,
+  }
+}
+
 export default function Blog({ post, data }) {
   const SEO = {
     title: post.title,
@@ -265,7 +275,7 @@ const Main = styled.main`
 
   @media (min-width: 768px) {
     .content {
-      max-width: 60rem;
+      max-width: 760px;
       margin: 0 auto;
     }
 

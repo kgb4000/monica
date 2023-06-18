@@ -84,15 +84,7 @@ export default function Blog({ post, data }) {
         authorName={[post.author.name]}
         description={post.description}
       />
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          notranslate: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-        }}
-      />
-
+      <NextSeo {...SEO} />
       <Main>
         <div className="container">
           <div className="content">

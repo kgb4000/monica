@@ -5,14 +5,12 @@ import styled from 'styled-components'
 import HeroSection from '../components/HeroSection'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import Button from '../components/Button'
-import { NextSeo } from 'next-seo'
+import { NextSeo, FAQPageJsonLd } from 'next-seo'
 import Simple from '../components/Simple'
 import BlogPosts from '../components/BlogPosts'
 import { getPosts } from '../lib/data'
 
 import PainSection from '../components/PainSection'
-
-const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
 
@@ -26,12 +24,12 @@ export const getStaticProps = async () => {
   }
 }
 
-function Annapolis({ data }) {
+function IndianWeddingPlanner({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Indian Wedding Planner in Maryland, DC, & Virginia',
+    title: 'Indian Wedding Planner in Washington, DC',
     description:
-      'We are exclusive full-service and partial-service Indian wedding planners in Maryalnd and DC. Contact us today to start planning you fabulous wedding!',
+      `We're an exclusive full-service and partial-service Indian wedding planners in Washington, DC. Contact us today to start planning you fabulous wedding!`,
     canonical: 'https://monicabrowneweddings.com/indian-wedding-planner',
     openGraph: {
       type: 'website',
@@ -53,8 +51,8 @@ function Annapolis({ data }) {
       <NextSeo {...SEO} />
       <HeroSection
         heroText="Indian Wedding Planner Services"
-        subText="We create beautiful Indian weddings for busy South Asian couples in living in Maryland and DC."
-        buttonText="Book a Call today!"
+        subText="We create beautiful Indian weddings for busy couples in living in Washington, DC."
+        buttonText="Book a Free Call today!"
         buttonLink={calendly}
         backgroundHeight="100vh"
         backgroundImage="/images/indian-wedding-background-stage.jpg"
@@ -62,9 +60,7 @@ function Annapolis({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">
-              Indian Wedding Planner in Maryland, Washington, DC, and Virginia
-            </h1>
+            <h1 className="title">Indian Wedding Planner in Washington, DC</h1>
             <p>
               We believe that your wedding is a reflection of your love story.
               That's why we infuse every Indian wedding with the richness of
@@ -148,7 +144,7 @@ function Annapolis({ data }) {
         </section>
         <section className="container">
           <div>
-            <h2 className="title">South Asian Wedding Planning Services</h2>
+            <h2 className="title">Indian Wedding Planning Services</h2>
             <Services>
               <div className="wedding-service">
                 <img
@@ -228,39 +224,11 @@ function Annapolis({ data }) {
             </p>
             <div className="center">
               <a href={calendly}>
-                <Button>Book a call</Button>
+                <Button>Book a free call</Button>
               </a>
             </div>
           </div>
         </section>
-        {/* <section className="container">
-          <div>
-            <h2 className="title">
-              Watch This Romantic Wedding Video From One Of Our Happy Couples
-            </h2>
-            <section className="video-section">
-              <ModalVideo
-                channel="custom"
-                autoplay
-                isOpen={isOpen}
-                url="https://natashaweddingvideo.s3.amazonaws.com/wedding-video.mp4"
-                allowFullScreen={true}
-                onClose={() => setOpen(false)}
-              />
-              <WhiteButton
-                className="btn-primary"
-                onClick={() => setOpen(true)}
-              >
-                Watch this video
-              </WhiteButton>
-            </section>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call</Button>
-              </a>
-            </div>
-          </div>
-        </section> */}
         <section className="container">
           <div>
             <h2 className="title">Testimonials</h2>
@@ -320,7 +288,69 @@ function Annapolis({ data }) {
           </div>
         </section>
         <section className="container">
-          <h2 className="title">FAQs</h2>
+          <FAQPageJsonLd
+            mainEntity={[
+              {
+                questionName:
+                  'What services do you provide as an Indian wedding planner?',
+                acceptedAnswerText:
+                  'As an Indian wedding planner, we provide a wide range of services. This includes venue selection, vendor coordination, event design and decor, menu selection and catering management, and detailed event timelines. We also offer consultation for various wedding traditions and rituals, day-of coordination, and post-wedding services.',
+              },
+              {
+                questionName:
+                  'Do you have experience planning weddings with specific Indian cultural traditions?',
+                acceptedAnswerText:
+                  'Absolutely! We have significant experience in planning weddings that honor a variety of Indian cultural traditions. This includes Punjabi, Gujarati, South Indian, Bengali, and Marathi traditions, among others. We pride ourselves on our ability to understand and respect the unique nuances of each culture.',
+              },
+              {
+                questionName:
+                  'Can you handle the unique needs of a destination wedding within the DC area?',
+                acceptedAnswerText:
+                  'Yes, we can definitely accommodate the special requirements of a destination wedding within the DC area. Our services extend to venue sourcing, arranging accommodations and transportation for guests, managing local vendors, and ensuring all logistics are taken care of for a smooth wedding experience.',
+              },
+              {
+                questionName:
+                  'Can you assist with pre-wedding ceremonies, such as Sangeet, Mehndi, and Haldi?',
+                acceptedAnswerText:
+                  'Yes, we can certainly assist with planning and organizing pre-wedding ceremonies, including Sangeet, Mehndi, and Haldi. These events are integral parts of an Indian wedding, and we understand the importance of each ceremony in the cultural context.',
+              },
+              {
+                questionName:
+                  'Do you provide decor and food catering services, or do we need to hire separate vendors for that?',
+                acceptedAnswerText: `We have a vast network of reliable vendors for catering, decor, and other services. While we can certainly arrange these for you, we're also more than happy to work with any preferred vendors you might have.`,
+              },
+              {
+                questionName:
+                  'What is your process for customizing a wedding to fit our unique needs and vision?',
+                acceptedAnswerText:
+                  'We begin with a detailed consultation to understand your vision, traditions, and preferences. Based on this, we tailor a wedding plan that encompasses all aspects of your event, ensuring each detail reflects your unique personality and love story.',
+              },
+              {
+                questionName:
+                  'How do you handle last-minute changes or emergencies?',
+                acceptedAnswerText:
+                  'We have a seasoned team that is skilled at managing unexpected changes or emergencies. We always have contingency plans in place to ensure your wedding runs smoothly, regardless of any last-minute alterations.',
+              },
+              {
+                questionName:
+                  'What is your pricing structure for Indian wedding planning?',
+                acceptedAnswerText:
+                  'Our pricing is flexible and depends on the scale and complexity of your wedding, as well as the services you require. After an initial consultation, we provide a custom quote tailored to your specific needs.',
+              },
+              {
+                questionName:
+                  'Can you help with managing the guest list and RSVPs?',
+                acceptedAnswerText:
+                  'Yes, we provide guest list and RSVP management services. This includes sending out invitations, tracking responses, and ensuring that all guest-related requirements are taken care of.',
+              },
+              {
+                questionName:
+                  'Do you have references from previous clients or a portfolio of past weddings?',
+                acceptedAnswerText: `Absolutely! We're proud of our past work and satisfied clients. We're more than happy to share references and a portfolio of weddings we've planned. This gives you a clear understanding of our capabilities and the quality of our services.`,
+              },
+            ]}
+          />
+          <h2 className="title">FAQs about Planning an Indian Wedding</h2>
           <h3>
             #1. What services do you provide as an Indian wedding planner?
           </h3>
@@ -419,7 +449,7 @@ function Annapolis({ data }) {
           </p>
           <div className="center">
             <a href={calendly}>
-              <Button>Book a 15 min call</Button>
+              <Button>Book a free 15 min call</Button>
             </a>
           </div>
         </section>
@@ -428,7 +458,7 @@ function Annapolis({ data }) {
   )
 }
 
-export default Annapolis
+export default IndianWeddingPlanner
 
 const Main = styled('div')`
 

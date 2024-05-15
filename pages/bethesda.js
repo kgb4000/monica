@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo'
 
 import ModalVideo from 'react-modal-video'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 function Bethesda() {
   const [isOpen, setOpen] = useState(false)

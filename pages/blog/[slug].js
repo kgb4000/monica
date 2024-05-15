@@ -106,7 +106,7 @@ export default function Blog({ post, data }) {
                 </a>
               </Link>
               <span>
-                {new Date(post.date).toLocaleDateString('en-us', {
+                {new Date(post.updatedAt).toLocaleDateString('en-us', {
                   year: 'numeric',
                   month: 'short',
                   day: 'numeric',

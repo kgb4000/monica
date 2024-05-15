@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { LocalBusinessJsonLd } from 'next-seo'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 const Footer = () => {
   return (

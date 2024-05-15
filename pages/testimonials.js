@@ -4,7 +4,7 @@ import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 const Testimonials = () => {
   const SEO = {
@@ -86,7 +86,8 @@ const Testimonials = () => {
               kept me on track and made the experience enjoyable. I am very
               particular and I like to be involved in everything however, I was
               able to let go and have them handle everything. I was not
-              disappointed at all and my day turned out perfect. I could go on and on. I would recommend them over and over again.
+              disappointed at all and my day turned out perfect. I could go on
+              and on. I would recommend them over and over again.
             </Testimonial>
             <TestimonialAuthor>Katrina Edmonds</TestimonialAuthor>
 

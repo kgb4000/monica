@@ -14,7 +14,7 @@ import {
   SidebarBtnLinkA,
 } from './SidebarElements'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 const Sibebar = ({ isOpen, toggle }) => {
   return (

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Button from './Button'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 const Nav = () => {
   return (

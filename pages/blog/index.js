@@ -5,7 +5,7 @@ import { NextSeo } from 'next-seo'
 import { ArticleJsonLd } from 'next-seo'
 import { getPosts } from '../../lib/data'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 const Monica =
   'https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631816208/monica_cqphqb.jpg'

@@ -12,7 +12,7 @@ import { getPosts } from '../lib/data'
 
 import PainSection from '../components/PainSection'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -28,8 +28,7 @@ function IndianWeddingPlanner({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
     title: 'Indian Wedding Planner in Washington, DC',
-    description:
-      `We're an exclusive full-service and partial-service Indian wedding planners in Washington, DC. Contact us today to start planning you fabulous wedding!`,
+    description: `We're an exclusive full-service and partial-service Indian wedding planners in Washington, DC. Contact us today to start planning you fabulous wedding!`,
     canonical: 'https://monicabrowneweddings.com/indian-wedding-planner',
     openGraph: {
       type: 'website',
@@ -50,17 +49,17 @@ function IndianWeddingPlanner({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Indian Wedding Planner Services"
+        heroText="Indian Wedding Planner in Washington, DC"
         subText="We create beautiful Indian weddings for busy couples in living in Washington, DC."
         buttonText="Book a Free Call today!"
         buttonLink={calendly}
         backgroundHeight="100vh"
-        backgroundImage="/images/indian-wedding-background-stage.jpg"
+        backgroundImage="/images/indian-wedding-ceremony-mgm.jpg"
       />
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">Indian Wedding Planner in Washington, DC</h1>
+            <h1 className="title">DC Indian Wedding Planner</h1>
             <p>
               We believe that your wedding is a reflection of your love story.
               That's why we infuse every Indian wedding with the richness of

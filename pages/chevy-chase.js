@@ -10,7 +10,7 @@ import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 
 import ModalVideo from 'react-modal-video'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 function ChevyChase() {
   const [isOpen, setOpen] = useState(false)

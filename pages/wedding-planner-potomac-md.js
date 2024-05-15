@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo'
 
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 function Potomac() {
   const [isOpen, setOpen] = useState(false)

@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo'
 import Simple from '../components/Simple'
 import PictureBox from '../components/picture-box'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 function DayOfWeddingCoordinator() {
   const SEO = {

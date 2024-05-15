@@ -3,8 +3,7 @@ import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { NextSeo } from 'next-seo'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
-
+const calendly = 'https://calendly.com/mbweddings/30min'
 const Gallery = () => {
   const SEO = {
     title: 'Wedding Gallery | Monica Browne Weddings',

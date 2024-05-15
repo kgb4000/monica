@@ -11,7 +11,7 @@ import { getPosts } from '../lib/data'
 
 const ModalVideo = dynamic(() => import('react-modal-video'))
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 export const getStaticProps = async () => {
   const data = await getPosts()

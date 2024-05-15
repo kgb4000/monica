@@ -4,7 +4,7 @@ import HeroSection from '../components/HeroSection'
 import { NextSeo } from 'next-seo'
 import Button from '../components/Button'
 
-const calendly = 'https://calendly.com/monica-17/monica-browne-weddings-call'
+const calendly = 'https://calendly.com/mbweddings/30min'
 
 const Services = () => {
   const SEO = {

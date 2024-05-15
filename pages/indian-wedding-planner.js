@@ -81,7 +81,7 @@ function IndianWeddingPlanner({ data }) {
           </div>
         </section>
         <PainSection
-          title="Planning Your Wedding Can Be Extremely Stressful "
+          title="Planning An Indian Wedding Can Be Stressful "
           src="/images/indian-wedding-ceremony.jpg"
           alt="Indian wedding ceremony."
           width="472"
@@ -96,7 +96,7 @@ function IndianWeddingPlanner({ data }) {
         <section className="container">
           <div className="content">
             <h2 className="title">
-              Why Choose Monica Browne as Your Indian Wedding Planner?
+              Why Choose Monica as Your Indian Wedding Planner?
             </h2>
             <p>
               When you trust Monica Browne Weddings to plan your event, you can

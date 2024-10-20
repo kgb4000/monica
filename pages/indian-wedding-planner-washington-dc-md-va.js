@@ -27,13 +27,15 @@ export const getStaticProps = async () => {
 function IndianWeddingPlanner({ data }) {
   const [isOpen, setOpen] = useState(false)
   const SEO = {
-    title: 'Indian Wedding Planner in Washington, DC',
-    description: `We're an exclusive full-service and partial-service Indian wedding planners in Washington, DC. Contact us today to start planning you fabulous wedding!`,
-    canonical: 'https://monicabrowneweddings.com/indian-wedding-planner',
+    title:
+      'Indian Wedding Planner in Washington, DC, Maryland, & Northern Virginia',
+    description: `We're exclusive full-service and partial-service Indian wedding planners in Washington, DC, Maryland and Northern Virginia. Contact us today to start planning your wedding!`,
+    canonical:
+      'https://monicabrowneweddings.com/indian-wedding-planner-washington-dc-md-va',
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://monicabrowneweddings.com/indian-wedding-planner',
+      url: 'https://monicabrowneweddings.com/indian-wedding-planner-washington-dc-md-va',
       site_name: 'Monica Browne Weddings',
       images: [
         {
@@ -49,8 +51,8 @@ function IndianWeddingPlanner({ data }) {
     <div>
       <NextSeo {...SEO} />
       <HeroSection
-        heroText="Indian Wedding Planner in Washington, DC"
-        subText="We create beautiful Indian weddings for busy couples in living in Washington, DC."
+        heroText="Indian Wedding Planner in Washington, DC, Mayland & Northern Virginia"
+        subText="We create beautiful weddings for busy Indian couples in living in the DMV."
         buttonText="Book a Free Call today!"
         buttonLink={calendly}
         backgroundHeight="100vh"
@@ -59,7 +61,7 @@ function IndianWeddingPlanner({ data }) {
       <Main>
         <section className="container">
           <div className="content">
-            <h1 className="title">DC Indian Wedding Planner</h1>
+            <h1 className="title">Indian Wedding Planner</h1>
             <p>
               We believe that your wedding is a reflection of your love story.
               That's why we infuse every Indian wedding with the richness of

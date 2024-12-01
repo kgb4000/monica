@@ -49,7 +49,7 @@ function About() {
             <p className="intro" itemProp="description">
               Monica Browne Weddings is a{' '}
               <Link href="/wedding-services/full-service-wedding-planner">
-                <a>full-service wedding planning</a>
+                full-service wedding planning
               </Link>{' '}
               company that delivers the best and most memorable weddings and
               events. We understand if you're a busy couple and don't have a lot
@@ -89,9 +89,7 @@ function About() {
             </PainPoints>
             <div className="center">
               <Link href="/wedding-services" passHref>
-                <a>
-                  <Button>See Our Services</Button>
-                </a>
+                <Button>See Our Services</Button>
               </Link>
             </div>
           </div>
@@ -126,7 +124,7 @@ function About() {
               <p>
                 When I am not planning weddings or{' '}
                 <Link href="/wedding-services/wedding-flowers" passHref>
-                  <a>creating floral designs</a>
+                  creating floral designs
                 </Link>
                 , I like traveling, exploring different cultures, and trying
                 other foods. Big emphasis on the food!

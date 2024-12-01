@@ -8,8 +8,6 @@ import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 function Potomac() {
@@ -182,7 +180,7 @@ function Potomac() {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div className="content">
             <h2 className="title">
               Watch This Wedding Video From One Of Our Favorite Couples
@@ -209,7 +207,7 @@ function Potomac() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div className="content">
             <h2 className="title">Testimonials</h2>

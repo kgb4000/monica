@@ -34,25 +34,43 @@ const PictureBox = ({
 
 const Picture = styled.div`
   margin-top: 2rem;
-  .picture-box-img {
-    margin: 0.5rem auto;
+  display: flex;
+  flex-direction: wrap;
+  max-width: 100%;
+
+  img {
     width: 100%;
-    display: block;
+    margin: 1rem auto;
+  }
+   {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
-  @media (min-width: 640px) {
-    display: flex;
-    flex-direction: wrap;
+   {
+    ${
+      '' /* {
+      @media (min-width: 640px) {
+        display: flex;
+        flex-direction: wrap;
 
-    img {
-      width: 100%;
-      margin: 1rem auto;
-    }
-    .left {
-      margin-right: 0.5%;
-    }
-    .right {
-      margin-left: 0.5%;
+        img {
+          width: 100%;
+          margin: 1rem auto;
+        }
+        .left {
+          margin-right: 0.5%;
+        }
+        .right {
+          margin-left: 0.5%;
+        }
+      }
+    } */
     }
   }
 `

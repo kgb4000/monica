@@ -12,8 +12,6 @@ import { getPosts } from '../lib/data'
 
 import PainSection from '../components/PainSection'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 export const getStaticProps = async () => {
@@ -147,9 +145,7 @@ function Bowie({ data }) {
             </Services>
             <div className="center">
               <Link href="/wedding-services" passHref>
-                <a>
-                  <Button>More Services</Button>
-                </a>
+                <Button>More Services</Button>
               </Link>
             </div>
           </div>
@@ -197,7 +193,7 @@ function Bowie({ data }) {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div>
             <h2 className="title">
               Watch This Wedding Video From One Of Our Happy Couples
@@ -224,7 +220,7 @@ function Bowie({ data }) {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div>
             <h2 className="title">Testimonials</h2>
@@ -239,9 +235,7 @@ function Bowie({ data }) {
             <TestimonialAuthor>Katrina</TestimonialAuthor>
             <div className="center">
               <Link href="/testimonials" passHref>
-                <a>
-                  <Button>More Testimonials</Button>
-                </a>
+                <Button>More Testimonials</Button>
               </Link>
             </div>
           </div>
@@ -277,9 +271,7 @@ function Bowie({ data }) {
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery" passHref>
-              <a>
-                <Button>See More Pictures</Button>
-              </a>
+              <Button>See More Pictures</Button>
             </Link>
           </div>
         </section>

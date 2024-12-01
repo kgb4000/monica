@@ -10,8 +10,6 @@ import { NextSeo } from 'next-seo'
 import BlogPosts from '../components/BlogPosts'
 import { getPosts } from '../lib/data'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 export const getStaticProps = async () => {
@@ -96,7 +94,7 @@ function Washington({ data }) {
             <p className="intro">
               Our{' '}
               <Link href="/day-of-wedding-coordinator">
-                <a>day-of wedding coordinator</a>
+                day-of wedding coordinator
               </Link>{' '}
               services for those couples that want to plan their wedding
               themselves but want someone to manage and facilitate the event.
@@ -229,9 +227,7 @@ function Washington({ data }) {
             </Services>
             <div className="center">
               <Link href="/wedding-services">
-                <a>
-                  <Button>More Services</Button>
-                </a>
+                <Button>More Services</Button>
               </Link>
             </div>
           </div>
@@ -276,7 +272,7 @@ function Washington({ data }) {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div className="content">
             <h2 className="title">
               Watch This Beautiful Wedding Video From One Of Our Happy Couples
@@ -303,7 +299,7 @@ function Washington({ data }) {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div className="content">
             <h2 className="title">Testimonials</h2>
@@ -318,9 +314,7 @@ function Washington({ data }) {
             <TestimonialAuthor>Katrina</TestimonialAuthor>
             <div className="center">
               <Link href="/testimonials">
-                <a>
-                  <Button>More Testimonials</Button>
-                </a>
+                <Button>More Testimonials</Button>
               </Link>
             </div>
           </div>
@@ -353,9 +347,7 @@ function Washington({ data }) {
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery">
-              <a>
-                <Button>See More Pictures</Button>
-              </a>
+              <Button>See More Pictures</Button>
             </Link>
           </div>
         </section>

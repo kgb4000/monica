@@ -136,9 +136,7 @@ function IndianWeddingPlanner({ data }) {
             </p>
             <div className="center">
               <Link href="/contact">
-                <a>
-                  <Button>Contact us today!</Button>
-                </a>
+                <Button>Contact us today!</Button>
               </Link>
             </div>
           </div>
@@ -175,14 +173,12 @@ function IndianWeddingPlanner({ data }) {
                   width="472"
                   height="708"
                 />
-                <h3 className="title">Special Events Planning</h3>
+                <h3 className="title">Special Events</h3>
               </div>
             </Services>
             <div className="center">
               <Link href="/wedding-services">
-                <a>
-                  <Button>More Services</Button>
-                </a>
+                <Button>More Services</Button>
               </Link>
             </div>
           </div>
@@ -244,9 +240,7 @@ function IndianWeddingPlanner({ data }) {
             <TestimonialAuthor>Katrina</TestimonialAuthor>
             <div className="center">
               <Link href="/testimonials">
-                <a>
-                  <Button>More Testimonials</Button>
-                </a>
+                <Button>More Testimonials</Button>
               </Link>
             </div>
           </div>
@@ -282,9 +276,7 @@ function IndianWeddingPlanner({ data }) {
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery">
-              <a>
-                <Button>See More Pictures</Button>
-              </a>
+              <Button>See More Pictures</Button>
             </Link>
           </div>
         </section>

@@ -12,8 +12,6 @@ import { getPosts } from '../lib/data'
 
 import PainSection from '../components/PainSection'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 export const getStaticProps = async () => {
@@ -196,7 +194,7 @@ function Crofton({ data }) {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div>
             <h2 className="title">
               Watch This Wedding Video From One Of Our Happy Couples
@@ -223,7 +221,7 @@ function Crofton({ data }) {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div>
             <h2 className="title">Testimonials</h2>

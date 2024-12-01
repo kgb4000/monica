@@ -11,7 +11,7 @@ padding: 5rem;
   @media (min-width: 768px) {
       font-size: 1.6rem;
       line-height: 1.8;
-      margin-top: 5rem;
+      margin-top: 2rem;
     }
   }
 

@@ -9,7 +9,7 @@ import BlogPosts from '../components/BlogPosts'
 import { NextSeo } from 'next-seo'
 import { getPosts } from '../lib/data'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
+// const ModalVideo = dynamic(() => import('react-modal-video'))
 
 const calendly = 'https://calendly.com/mbweddings/30min'
 
@@ -64,7 +64,7 @@ function Home({ data }) {
                   href="/wedding-services/micro-wedding-packages-maryland"
                   passHref
                 >
-                  <a>Micro Weddings</a>
+                  Micro Weddings
                 </Link>
               </li>
               <li>Planning for Destination weddings</li>
@@ -95,7 +95,7 @@ function Home({ data }) {
                 href="/wedding-services/full-service-wedding-planner"
                 passHref
               >
-                <a>full-service planning</a>
+                full-service planning
               </Link>{' '}
               can give you the freedom and flexibility to plan your event and
               maintain your busy lifestyle.
@@ -304,15 +304,12 @@ function Home({ data }) {
             </Services>
             <div className="center">
               <Link href="/wedding-services" passHref>
-                <a>
-                  <Button>More Services</Button>
-                </a>
+                <Button>More Services</Button>
               </Link>
             </div>
           </div>
         </section>
-
-        <section className="container">
+        {/* <section className="container">
           <div>
             <h2 className="title">
               Watch This Beautiful Wedding Video From One Of Our Happy Couples
@@ -339,7 +336,7 @@ function Home({ data }) {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div className="content">
             <h2 className="title">Testimonials</h2>
@@ -353,9 +350,7 @@ function Home({ data }) {
             <TestimonialAuthor>Diane</TestimonialAuthor>
             <div className="center">
               <Link href="/testimonials" passHref>
-                <a>
-                  <Button>More Testimonials</Button>
-                </a>
+                <Button>More Testimonials</Button>
               </Link>
             </div>
           </div>
@@ -392,9 +387,7 @@ function Home({ data }) {
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery" passHref>
-              <a>
-                <Button>See More Pictures</Button>
-              </a>
+              <Button>See More Pictures</Button>
             </Link>
           </div>
         </section>
@@ -463,7 +456,7 @@ function Home({ data }) {
                 href="/blog/how-much-does-a-100-person-wedding-cost"
                 passHref
               >
-                <a>$28,000 - $45,000</a>
+                $28,000 - $45,000
               </Link>{' '}
               and up. Most of your costs depend on how much your venue and
               caterer charge, plus how many guests you invite.
@@ -523,7 +516,7 @@ function Home({ data }) {
             <p>
               Read{' '}
               <Link href="/blog/wedding-planner-vs-coordinator" passHref>
-                <a>this</a>
+                this
               </Link>{' '}
               to learn more.
             </p>

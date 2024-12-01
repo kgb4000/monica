@@ -69,30 +69,28 @@ export default function Blog({ data }) {
               {data.posts.map((post) => (
                 <div key={post.slug}>
                   <Link href={`/blog/${post.slug}`} passHref>
-                    <a>
-                      <div className="blog-post">
-                        <img
-                          className="blog-img"
-                          src={post.coverImage.url}
-                          alt={post.title}
-                          title={post.title}
-                          loading="lazy"
-                          width={post.coverImage.width}
-                          height={post.coverImage.height}
-                        />
-                        <div className="blog-info">
-                          <p>
-                            {new Date(post.date).toLocaleDateString('en-us', {
-                              year: 'numeric',
-                              month: 'short',
-                              day: 'numeric',
-                            })}
-                          </p>
-                          <h3>{post.title}</h3>
-                          <p>Read more</p>
-                        </div>
+                    <div className="blog-post">
+                      <img
+                        className="blog-img"
+                        src={post.coverImage.url}
+                        alt={post.title}
+                        title={post.title}
+                        loading="lazy"
+                        width={post.coverImage.width}
+                        height={post.coverImage.height}
+                      />
+                      <div className="blog-info">
+                        <p>
+                          {new Date(post.date).toLocaleDateString('en-us', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric',
+                          })}
+                        </p>
+                        <h3>{post.title}</h3>
+                        <p>Read more</p>
                       </div>
-                    </a>
+                    </div>
                   </Link>
                 </div>
               ))}
@@ -108,7 +106,7 @@ export default function Blog({ data }) {
               <p>
                 Hi, I'm Monica with{' '}
                 <Link href="/" passHref>
-                  <a>Monica Browne Weddings</a>
+                  Monica Browne Weddings
                 </Link>
                 . I help busy couples in Maryland and DC plan their dream
                 wedding. If you're a busy couple and need help planning your

@@ -192,37 +192,37 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link href="/" passHref>
-                      <a>Home</a>
+                      Home
                     </Link>
                   </li>
                   <li>
                     <Link href="/about" passHref>
-                      <a>About</a>
+                      About
                     </Link>
                   </li>
                   <li>
                     <Link href="/wedding-services" passHref>
-                      <a>Wedding Services</a>
+                      Wedding Services
                     </Link>
                   </li>
                   <li>
                     <Link href="/wedding-gallery" passHref>
-                      <a>Wedding Gallery</a>
+                      Wedding Gallery
                     </Link>
                   </li>
                   <li>
                     <Link href="/testimonials" passHref>
-                      <a>Testimonials</a>
+                      Testimonials
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog" passHref>
-                      <a>Blog</a>
+                      Blog
                     </Link>
                   </li>
                   <li>
                     <Link href="/contact" passHref>
-                      <a>Contact us</a>
+                      Contact us
                     </Link>
                   </li>
                 </ul>
@@ -233,42 +233,42 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link href="/wedding-planner-annapolis" passHref>
-                    <a>Annapolis, MD</a>
+                    Annapolis, MD
                   </Link>
                 </li>
                 <li>
                   <Link href="/bethesda" passHref>
-                    <a>Bethesda, MD</a>
+                    Bethesda, MD
                   </Link>
                 </li>
                 <li>
                   <Link href="/wedding-planner-bowie-md" passHref>
-                    <a>Bowie, MD</a>
+                    Bowie, MD
                   </Link>
                 </li>
                 <li>
                   <Link href="/chevy-chase" passHref>
-                    <a>Chevy Chase, MD</a>
+                    Chevy Chase, MD
                   </Link>
                 </li>
                 <li>
                   <Link href="/wedding-planner-crofton-md" passHref>
-                    <a>Crofton, MD</a>
+                    Crofton, MD
                   </Link>
                 </li>
                 <li>
                   <Link href="/wedding-planner-northern-virginia" passHref>
-                    <a>Northern Virginia</a>
+                    Northern Virginia
                   </Link>
                 </li>
                 <li>
                   <Link href="/wedding-planner-potomac-md" passHref>
-                    <a>Potomac, MD</a>
+                    Potomac, MD
                   </Link>
                 </li>
                 <li>
                   <Link href="/wedding-planner-washington-dc" passHref>
-                    <a>Washington, DC</a>
+                    Washington, DC
                   </Link>
                 </li>
               </ul>

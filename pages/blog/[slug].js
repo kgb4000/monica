@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 import { getPost, getPosts, getPostsSlugs } from '../../lib/data'
-import HeroSection from '../../components/HeroSection'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo } from 'next-seo'
 import { ArticleJsonLd } from 'next-seo'
@@ -91,19 +90,15 @@ export default function Blog({ post, data }) {
             <h1>{post.title}</h1>
             <div className="author-info">
               <Link href="/about" passHref>
-                <a>
-                  <img
-                    src={post.author.image.url}
-                    className="author-img"
-                    alt={post.author.name}
-                    title={post.author.name}
-                  />
-                </a>
+                <img
+                  src={post.author.image.url}
+                  className="author-img"
+                  alt={post.author.name}
+                  title={post.author.name}
+                />
               </Link>
               <Link href="/about" passHref>
-                <a>
-                  <span className="author-name">{post.author.name}</span>
-                </a>
+                <span className="author-name">{post.author.name}</span>
               </Link>
               <span>
                 {new Date(post.updatedAt).toLocaleDateString('en-us', {
@@ -156,24 +151,20 @@ export default function Blog({ post, data }) {
               {data.posts.slice(0, 3).map((post) => (
                 <li key={post.slug}>
                   <Link href={`/blog/${post.slug}`} passHref>
-                    <a>
-                      <div className="blog-post">
-                        <img
-                          src={post.coverImage.url}
-                          alt={post.title}
-                          title={post.title}
-                        />
-                        <h3>{post.title}</h3>
-                      </div>
-                    </a>
+                    <div className="blog-post">
+                      <img
+                        src={post.coverImage.url}
+                        alt={post.title}
+                        title={post.title}
+                      />
+                      <h3>{post.title}</h3>
+                    </div>
                   </Link>
                 </li>
               ))}
             </div>
             <Link href="/blog" passHref>
-              <a>
-                <p>&#8592; Back to Blog</p>
-              </a>
+              <p>&#8592; Back to Blog</p>
             </Link>
           </div>
         </div>

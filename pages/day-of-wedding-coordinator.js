@@ -70,7 +70,7 @@ function DayOfWeddingCoordinator() {
               <li>
                 Your{' '}
                 <Link href="/wedding-services/wedding-decor-services" passHref>
-                  <a>wedding decorations</a>
+                  wedding decorations
                 </Link>{' '}
               </li>
               <li>Your dance floor</li>
@@ -88,7 +88,7 @@ function DayOfWeddingCoordinator() {
             <p>
               You want to hire a wedding professional like{' '}
               <Link href="/about" passHref>
-                <a>Monica Browne</a>
+                Monica Browne
               </Link>{' '}
               who is a wedding planner and coordinator:
             </p>
@@ -187,7 +187,7 @@ function DayOfWeddingCoordinator() {
                 href="/wedding-services/full-service-wedding-planner"
                 passHref
               >
-                <a>full service wedding planner</a>
+                full service wedding planner
               </Link>
               .
             </p>
@@ -240,7 +240,7 @@ function DayOfWeddingCoordinator() {
                 href="/blog/wedding-planning-what-to-consider-before-planning-a-wedding"
                 passHref
               >
-                <a>decide on planning your wedding</a>
+                decide on planning your wedding
               </Link>{' '}
               yourselves.
             </p>
@@ -292,7 +292,7 @@ function DayOfWeddingCoordinator() {
               This is just one example of why you should hire a professional
               wedding coordinator like{' '}
               <Link href="/" passHref>
-                <a>Monica Browne Weddings</a>
+                Monica Browne Weddings
               </Link>
               .
             </p>

@@ -128,7 +128,7 @@ function MicroWeddingPackages() {
                 href="/blog/how-much-does-a-100-person-wedding-cost"
                 passHref
               >
-                <a>cost of a wedding</a>
+                cost of a wedding
               </Link>{' '}
               in the Washington, DC area being where it is, you can spend less
               by having a small wedding. You can spend less on catering,
@@ -207,9 +207,7 @@ function MicroWeddingPackages() {
           </Gallery>
           <div className="center">
             <Link href="/wedding-gallery" passHref>
-              <a>
-                <Button>See More Photos</Button>
-              </a>
+              <Button>See More Photos</Button>
             </Link>{' '}
           </div>
         </section>

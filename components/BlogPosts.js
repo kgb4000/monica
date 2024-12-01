@@ -11,36 +11,32 @@ export default function Blog({ data }) {
           {data.posts.slice(0, 3).map((post) => (
             <div key={post.slug}>
               <Link href={`/blog/${post.slug}`}>
-                <a>
-                  <div className="blog-post">
-                    <img
-                      className="blog-img"
-                      src={post.coverImage.url}
-                      alt={post.title}
-                      loading="lazy"
-                    />
-                    <div className="blog-info">
-                      <p>
-                        {new Date(post.date).toLocaleDateString('en-us', {
-                          year: 'numeric',
-                          month: 'short',
-                          day: 'numeric',
-                        })}
-                      </p>
-                      <h3>{post.title}</h3>
-                      <p>Read more</p>
-                    </div>
+                <div className="blog-post">
+                  <img
+                    className="blog-img"
+                    src={post.coverImage.url}
+                    alt={post.title}
+                    loading="lazy"
+                  />
+                  <div className="blog-info">
+                    <p>
+                      {new Date(post.date).toLocaleDateString('en-us', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      })}
+                    </p>
+                    <h3>{post.title}</h3>
+                    <p>Read more</p>
                   </div>
-                </a>
+                </div>
               </Link>
             </div>
           ))}
         </div>
         <div className="center">
           <Link href="/blog">
-            <a>
-              <Button>Read More Posts</Button>
-            </a>
+            <Button>Read More Posts</Button>
           </Link>
         </div>
       </BlogContent>

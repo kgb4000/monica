@@ -8,8 +8,6 @@ import Button from '../components/Button'
 import Simple from '../components/Simple'
 import { NextSeo } from 'next-seo'
 
-import ModalVideo from 'react-modal-video'
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 function Bethesda() {
@@ -187,7 +185,7 @@ function Bethesda() {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div className="content">
             <h2 className="title">
               Watch This Beautiful Wedding Video From One Of Our Happy Couples
@@ -214,7 +212,7 @@ function Bethesda() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div className="content">
             <h2 className="title">Testimonials</h2>

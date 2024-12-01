@@ -12,8 +12,6 @@ import { getPosts } from '../lib/data'
 
 import PainSection from '../components/PainSection'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 export const getStaticProps = async () => {

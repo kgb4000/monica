@@ -57,9 +57,7 @@ const Services = () => {
                   full-service or or partial planning service.
                 </p>
                 <Link href="/wedding-services/wedding-planner" passHref>
-                  <a>
-                    <p>Read more</p>
-                  </a>
+                  <p>Read more</p>
                 </Link>
               </div>
             </div>
@@ -84,23 +82,21 @@ const Services = () => {
                   not...
                 </p>
                 <Link href="/day-of-wedding-coordinator-bowie-md" passHref>
-                  <a>
-                    <p>Bowie</p>
-                  </a>
+                  <p>Bowie</p>
                 </Link>
                 <p>or</p>
                 <Link href="/day-of-wedding-coordinator" passHref>
-                  <a>
-                    <p>Washington, DC</p>
-                  </a>
+                  <p>Washington, DC</p>
                 </Link>
               </div>
             </div>
             <div className="services">
               <img
-                src="/images/indian-wedding-planning-md.jpg"
-                alt="Indian wedding planner in Maryland and DC."
+                src="/images/indian-bride.jpg"
                 loading="lazy"
+                alt="Indian wedding planner in DC, Mayland, and Northern Virginia."
+                width="472"
+                height="708"
               />
               <div className="service-info">
                 <h3 className="title">Indian Wedding Planning</h3>
@@ -112,10 +108,11 @@ const Services = () => {
                   is meticulously planned, from the vibrant sangeet night to the
                   grand baraat procession.
                 </p>
-                <Link href="/indian-wedding-planner" passHref>
-                  <a>
-                    <p>Read more</p>
-                  </a>
+                <Link
+                  href="/indian-wedding-planner-washington-dc-md-va"
+                  passHref
+                >
+                  <p>Read more</p>
                 </Link>
               </div>
             </div>
@@ -138,9 +135,7 @@ const Services = () => {
                   href="/wedding-services/micro-wedding-packages-maryland"
                   passHref
                 >
-                  <a>
-                    <p>Read more</p>
-                  </a>
+                  <p>Read more</p>
                 </Link>
               </div>
             </div>
@@ -160,9 +155,7 @@ const Services = () => {
                   floral designs...
                 </p>
                 <Link href="/wedding-services/wedding-decor-services" passHref>
-                  <a>
-                    <p>Read more</p>
-                  </a>
+                  <p>Read more</p>
                 </Link>
               </div>
             </div>
@@ -182,9 +175,7 @@ const Services = () => {
                   flower ideas. If you need us to plan...
                 </p>
                 <Link href="/wedding-services/wedding-flowers" passHref>
-                  <a>
-                    <p>Read more</p>
-                  </a>
+                  <p>Read more</p>
                 </Link>
               </div>
             </div>
@@ -203,9 +194,7 @@ const Services = () => {
                   child, or best friend ...
                 </p>
                 <Link href="/birthday-party-planning" passHref>
-                  <a>
-                    <p>Read more</p>
-                  </a>
+                  <p>Read more</p>
                 </Link>
               </div>
             </div>

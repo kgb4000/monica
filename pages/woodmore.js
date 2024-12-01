@@ -8,8 +8,6 @@ import Simple from '../components/Simple'
 import { Testimonial, TestimonialAuthor } from '../components/Testimonials'
 import { NextSeo } from 'next-seo'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
-
 const calendly = 'https://calendly.com/mbweddings/30min'
 
 function Woodmore() {
@@ -189,7 +187,7 @@ function Woodmore() {
             </div>
           </div>
         </section>
-        <section className="container">
+        {/* <section className="container">
           <div className="content">
             <h2 className="title">
               Watch This Beautiful Wedding Video From One Of Our Happy Couples
@@ -216,7 +214,7 @@ function Woodmore() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="container">
           <div className="content">
             <h2 className="title">Testimonials</h2>

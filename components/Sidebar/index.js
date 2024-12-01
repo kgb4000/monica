@@ -27,22 +27,22 @@ const Sibebar = ({ isOpen, toggle }) => {
           <SidebarMenu>
             <SidebarItem>
               <SidebarLink href="/wedding-services" passHref>
-                <SidebarLinkA>Services</SidebarLinkA>
+                Services
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
               <SidebarLink href="/blog" passHref>
-                <SidebarLinkA>Blog</SidebarLinkA>
+                Blog
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
               <SidebarLink href="/about" passHref>
-                <SidebarLinkA>About</SidebarLinkA>
+                About
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
               <SidebarLink href="/contact" passHref>
-                <SidebarLinkA>Contact</SidebarLinkA>
+                Contact
               </SidebarLink>
             </SidebarItem>
           </SidebarMenu>

@@ -22,9 +22,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo>
-            <Link href="/">
-              <a>Monica Browne Weddings</a>
-            </Link>
+            <Link href="/">Monica Browne Weddings</Link>
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

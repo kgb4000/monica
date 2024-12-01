@@ -9,7 +9,7 @@ import BlogPosts from '../components/BlogPosts'
 import { NextSeo } from 'next-seo'
 import { getPosts } from '../lib/data'
 
-// const ModalVideo = dynamic(() => import('react-modal-video'))
+import ReactPlayer from 'react-player'
 
 const calendly = 'https://calendly.com/mbweddings/30min'
 
@@ -309,34 +309,24 @@ function Home({ data }) {
             </div>
           </div>
         </section>
-        {/* <section className="container">
-          <div>
-            <h2 className="title">
-              Watch This Beautiful Wedding Video From One Of Our Happy Couples
-            </h2>
-            <section className="video-section">
-              <ModalVideo
-                channel="custom"
-                isOpen={isOpen}
-                url="https://natashaweddingvideo.s3.amazonaws.com/wedding-video.mp4"
-                allowFullScreen={true}
-                autoplay={true}
-                onClose={() => setOpen(false)}
-              />
-              <WhiteButton
-                className="btn-primary"
-                onClick={() => setOpen(true)}
-              >
-                Watch this video
-              </WhiteButton>
-            </section>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book a call Today!</Button>
-              </a>
-            </div>
+        <section className="container">
+          <h2 className="title">
+            Watch This Beautiful Wedding Video From One Of Our Happy Couples
+          </h2>
+          <div className="">
+            <ReactPlayer
+              url="https://natashaweddingvideo.s3.amazonaws.com/wedding-video.mp4"
+              controls
+              width="100%"
+              height="auto"
+            />
           </div>
-        </section> */}
+          <div className="center">
+            <a href={calendly}>
+              <Button>Book a call Today!</Button>
+            </a>
+          </div>
+        </section>
         <section className="container">
           <div className="content">
             <h2 className="title">Testimonials</h2>
